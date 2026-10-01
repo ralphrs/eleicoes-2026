@@ -1,7 +1,7 @@
 {
  "meta": {
-  "ultimaRodada": "2026-10-01T21:26:46Z",
-  "novosNaUltima": 42
+  "ultimaRodada": "2026-10-01T22:25:39Z",
+  "novosNaUltima": 39
  },
  "itens": [
   {
@@ -1502,6 +1502,357 @@
    "publicado": "2026-10-01T03:05:00Z",
    "coletado": "2026-10-01T21:26:46Z",
    "rodada": "2026-10-01T21:26:46Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Datafolha, 2º turno: Lula, 48%; Flávio Bolsonaro, 45%",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNNUhQcU9ISUJYR0dUTEx4bHhyUm5qODM0MlJPdl9fUHNZVGhCOHl2UHFjekF5X2lDS05mWlVpdWljU3BSMXJIaUIySWhRdHBSR0JUeHRjY3ZueXQxYU5IWnZkdDhtNmMyOWZPTEVWTXB0LXBkOEFfYkVvaWoyZWM4NGJZOC01M1d1V2lWQnVabGRCb2NFd0s0Z3U5bVFvQXVqang3QnAtZmZSeG0zSXYtS1dtWnVpOTAzeGlpTGdIaFZfNkdsYlg2LVU5c3fSAdsBQVVfeXFMTWxRclF5eTYxRklOaVpXY21HSXNaMENPUzg1NW9qc0xSaTV4TnFOYk1xa0FnYllLVnp5WGpQWTI5Q1lyZ3J0T3NzWkhOMjhfUmxncUJWQ3Z5SjNXLTBuR3lzRFVuT18zeF9JZE5pZ19ZR25tYkNxS2dwcGNYT0hIb0Jjd2RySXZQU01fUFJoX2VocHUwVmtrYVR0THJxMVlZdHY0bXBhSUlqRGJkMXNLNXgzZzFZUTFaOU92RE5YSmFfZ1lJdG44VmFqeTVwcmR3Y21GdmN5cDZQNU9J?oc=5",
+   "fonte": "G1",
+   "publicado": "2026-10-01T22:05:22Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Datafolha: Lula tem 45% e Flávio Bolsonaro, 40% em votos válidos no 1º turno",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYV8tWnpmVjhWeW1ObEhfSVhrVFZlUW05Tnd1QU1VZEZQVUtESVN2bGpDdHRZNjZhVVNrZ3hXMGpSSDViMkxRYkgxQzgwWVZWWGZENVJmMFpiZWxlYWtJWUhiLWYtRl9hYUthUmxlUDltWUgxa21IOV9fT2JOUVFDbHRwc25UODF3MW81ajhoREQ4WGtERmhJYVNyOXpxZnNDUnpFOFlMajVkWnZyZllsVHpxeFdDZmdGVG9BNFdMOA?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "publicado": "2026-10-01T22:05:00Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Datafolha: Lula tem 42% no 1º turno; Flávio, 38%",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYWxGSE5YSDRybEU1WVRnSkZTNEh6WVdPS2c1NHhMRmJPMTBNVEcwQWdCWENBNzlob1dEajA1R0hTcWRzemFtRDE2VUNDQkhEV2pDVVUxMGRTYXB6dXVhSmdWcW5Hc0lOdHFxbi05R0t5M0U0RVZlUE5CVC05ZXpZYVktcTRhQXVucmc?oc=5",
+   "fonte": "CNN Brasil",
+   "publicado": "2026-10-01T22:07:04Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "flavio-bolsonaro",
+   "titulo": "Como Flávio Bolsonaro está nas pesquisas até hoje? Veja números recentes",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVVE5Rk1DRGQ5YlotN1hmYjFTbklRSThBMFo4N2NmendyaFBBRmFsMjlqcnVGMlhxa1A3YTB1RzhSQmpmMG1wYTV3OFQ4RlN2NWhhYVo4SV9NUkR1bUs0YjNZTVAxNW14MXRqeDl3M0FlV2ZvTkZ0S0s1ejJrY3RXWU9OWUNDSExQMFgzcm1pY3NaZ09MYmJ5aGNMSmNRQXJzNWlqQmxFYUFZNkdnZnJwN016bU5ZSVFCNUNxMjRfQlE3Zw?oc=5",
+   "fonte": "UOL Notícias",
+   "publicado": "2026-10-01T15:35:00Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "flavio-bolsonaro",
+   "titulo": "Debate sem Lula: o que pode ajudar e o que pode prejudicar Flávio Bolsonaro?",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5jNlM1ZmhZY1hFREVveVdCRmxzYlBvNGlSQzBkZ2hKeFk3ODcxZEVkNlZQRUtCRmxsa3hsRVZlZjE4OFNMaWlhck1RNzZtOGVILTFCb09JZnEwbFp4OUlReVo1Z9IBaEFVX3lxTE1CSXBIdmZXbHFfbVFoN0ctek9peDVrSzdzaXJsU3dKUDhxUHVRYk94UFlyRVZNYlBMeXdjTHcwNkFGREVUdnBRaDkzNDRJWF9BVU1wNWhGbVlVRFROVVBOS1g1YXY5T0JL?oc=5",
+   "fonte": "BBC",
+   "publicado": "2026-10-01T16:23:12Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "flavio-bolsonaro",
+   "titulo": "Datafolha: Lula, 42%; Flávio Bolsonaro, 38%; Cury, 4%; Caiado, 3%; Renan, 3%; Zema, 1%",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQl90MnFOVmNnWFRyZGFnUE4xeGRBd0lYc0g2a0ZIOW5mcF9LcXRsRlJZbDJRbmJLWkRBWHBIT3NNeWx1RGNIeHlIY1A5dkVqT2dwUUg3aDRxelpORjAtdmZKVGVOdHN0ZXpieXNnX3JxcDhCUnVLYjNnbGRmMEoxVXdadWl1N0xXbU1VTk1UMHA0VVNTdDVHdmxIVnh2bWdtRVhKM1VmVXJGUlBLOXZNZDVlNEVNXzZEb2fSAcgBQVVfeXFMT3l6YkE2QVNEbGJSeEtpZ09obDdPTnRkUVJzN0pHSHVCdEQ2RFdKZTl1RTEtTk5iS3p5RmY4WmI0NEwwSlVWR0ZNMzFSQXhNbFFITlNZM2NtdGlBLWoyNVRSU0U1WnZOX1VydzEyQ05LQTVoZnQ0UThnWWlpTkpmOTJiTXZidUVGMkhHRzBxczlyY2hvWDluS0FqMURFbXZaUnB2ZjY3Q21lRjNuRkhnaWtYaThTMl9MeXVESEtFeHZPR2k5ZFNhVTI?oc=5",
+   "fonte": "G1",
+   "publicado": "2026-10-01T22:05:06Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "augusto-cury",
+   "titulo": "Qual é o número de Augusto Cury para Presidência da República?",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbDdFSlRJMEhsZzNBUFV2SnJTY1ZVU3JjX3ZreDREbmVBcDhqMjZUWUVqd1ZBZXBDUkxJQjRlT0tEakg4d3F2WU1iYnMtaV8zZXB3dmd5UXRGa3VMSFV5MzhqdGZudzh0U01RT2FCdE5mZE5HNTcxRk9zOWlrTXFaRFpnZUZ3djZVUmNYTUlISlF5enk5MmhIY2NZcUVKQnZzR2hGdGRwMWtMV2lMUHowaXpCdUdlaEtIVXJTStIBywFBVV95cUxNaUJwZnpDOENITFdldjZYbmNEamp4LVNPa0cxS3FSeE5WYXlQMmR5VlZJeUhwMVFnYjhhMElTU0dOVXJyTlhJSk4wZWItNjBiSld6UGp3LUx1S2tHUUk1VWdfZ0JqdXVfN1VaOE54aWs4cWRoV3JKRl9VT05SWjVTNFQyYlBGdzRIZmNJS2J0OTh2eERYcHhDWlNIeGFLd0NSTnBjTnFaWEJqdjZhSkQ3UUVKUU5XMzl4VU9SZ3kxM21XbHZ4MzI4Wng3TQ?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-01T07:10:00Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "augusto-cury",
+   "titulo": "Saiba qual é o número de Augusto Cury, candidato do Avante à Presidência",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQemdhQ2YxdVhMRXN5NnlfU1JSb0k1Qkl3Z1FDY01XX2JoT18xcU5NQzdaYlU5aWVuMFZrNm9yWFhLb1Q3ZTFseTgxWGdwaUd2ODItYXdLVmNqRVg0U3ZJWDBRekYxYWM2cnlmN0RDVmd3a0hFNFNfSENnUVpuNFVaVVdJTFdjY3Rvbk9YOVBscW8xQU5Vb1V4eUVTN1NRT3lObjQ0V05zbUwweUs5eTlF?oc=5",
+   "fonte": "CNN Brasil",
+   "publicado": "2026-10-01T04:10:12Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "augusto-cury",
+   "titulo": "Meio/Ideia: No 2º turno, Lula herda 56,6% de Cury; Flávio, 82,2% de Renan",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQV83TERUZl9DOFZRZnlvU3FycV9Nbzh2RXpSbGtvOEhpRnZMT2dTbFpGc1RsWEo5U25yQjlVR0tDZjZ3ME13TTBhY0dqNThJT3dfaDBsaHdqaDczMVF0WWdBdkx4SXZZa3NSdTNtQnM1U2Ftb1JOQlVIaHh2VHhzLUtsMG1WLUpFTkhZWWhFVW9RMEZHc3gyN0RtRnVFek55Q052Q0lkSQ?oc=5",
+   "fonte": "CNN Brasil",
+   "publicado": "2026-09-30T11:53:11Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "ronaldo-caiado",
+   "titulo": "Qual é o número de Ronaldo Caiado para Presidência da República?",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPLXdxVDhRQWNQMkcwbGF2aDZ5UEFPTjJkMHdua0w3RWxPX0ZJb2FhZTVoWW4yVE40Y3pwTFVUQmZQdnA5cHZieDlpM3lOZDlxcTAtWFhMQnY2RjRybF93Wk9RX1k4OTNqZXRId2ZyVkVsTWpzMlJRN0FyRkdZZ1NRYmVHOUlkb00zVzVKNnZ5MTN3MWN1bkVGSllELU1yczFtM1pOTDAxR0U5czZsRVZRcVZTODFJYld1STFYUWhOONIBzgFBVV95cUxPd2tEazgxaTFiRDc1azNCT2I0QTgwLWJjVkkxVGFjS2V5amMyUkYwX3pqZThwYktXeGx6RlZhcGd6R0RhVVVOM3drNlBoLS1FVnlUV3dZT0p0R2hmZExZdzRhOHowWVl3dHd5SlZHRUk4eHFsNFZkczRtQ1FpX0Z6Mnp0OFlCcjFzMERHRFV3Wm15bTVpNlBBNk9UZXlPQk9oeEFkVFFUbDVxUnRDeWlZclhPVEs3aHhsanRsamhUdlBWXzlCdERpQ0V2cDl6Zw?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-01T07:14:01Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "ronaldo-caiado",
+   "titulo": "Saiba qual é o número de Ronaldo Caiado, candidato do PSD à Presidência",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZGhEaHVEQ0JoLW54RTZVRVI2dGExdk1OUzJxT1NqcHF4d1RPVUVnQXMzLU03akxaUWpIRjlqZ3dqWXBuMTNKVE9xZ2N0TGJMdGhJS3JvbjRHdDRWSU92dXE2b1lVWk01VXB2Qm82eGdiWWJBMEo1RW5qV29TLXZUYXN4MkNubDdrY0lTZm1zaUlyTHJJRTQyb3JpX0VmRXBXTU1DWW1PeEo4akxFdUE?oc=5",
+   "fonte": "CNN Brasil",
+   "publicado": "2026-10-01T04:12:20Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "renan-santos",
+   "titulo": "Nunes Marques nega pedido para obrigar Globo a incluir Renan Santos em debate, e Cármen rejeita ação no STF",
+   "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQak5nRGFSTGh2eGdPQ1dHQm9sU1NXeEIyN2VXbE1NeEtueXBsTUlEVTRkSlhMQmpEaEVkclpzUVlzRTVMVlhRanR5eUdGWC1kWUxfanBESkhiRkQ1ZHRMb01vWVdHN3ctV1ZHZmsxZU1XVnpKaFdNMVhtU1hJU0toUmNFaEQ3XzRjZ3pidXBCSkdlU21jQ0pkVkh6c2RVaU1yRnpkNUxJQmxScGtUbkZBTFdzM3JEWE15RUFod1RtakZYbkIzSXpaa0VmT1lxOHJZT3lrakIxUWlKYVdqQWZVdmhzVTJJX3NmZ0ZfVmNPQl8xcmxzUkduam9HOWlURjdNWU1YV2E0NmpoYjDSAZoCQVVfeXFMTTNzYXRPWFFRRE9FeXdDcEV6bTd2bVNGa3Vibjd4b2U2S3VJV3lQd2w1X3ZJTTB3amN1SnRUWElva0tmMFloZlQ2cWZJU0hNZmJvQUZWUWFaMENtdkotTzBMdzRjc0R4TEhfcjNkemRCOWUyN2s5QlYxSkNMbXJLUVhOd1ZKc2VaX2owd0JUek41aEJCbjRaV2NDQ1l0enBwR0JPcFltQ3cyOHlRVC03YWo2ZTlEVFEyVnMxaWowamNXY2dIWHNsZjA0WWhHdU5GY0Fsby1ZWWNpM1JmWGl2SkNLeS1ZRF9IUU4zVEtIYlFlenhiVDBPa21HTDdlcV83V3dCVjI4S1hnZDlyaU9uNVdabXRQOTlBcy1R?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-01T15:24:00Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "renan-santos",
+   "titulo": "Solidariedade pede a Gilmar que autorize ida de Renan Santos a debate",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMncxQ0wycHdrWTBXd29COHBCQXdqS3FkY0g0bHJYei0zb3BHcUtDSVVOQjA2dHZ6c0MyYVVfT29mNWpLMEV2NHUtRDV5eXlkUXhERlNtOFMtRUhlUnU1RHRrbktJZk9FWTlzc1RJZ2Uzby1Bb0luVWhjZHBjd2RkZnd5cGtNeFV2REpabVVCLXZ3QkdxS0p6eGtBVDhFVWRHVThHSVF3czV2cE83eWY4dTNxTDFPTGlqMXNXS2dGUkdzbzhXWEZXRQ?oc=5",
+   "fonte": "CNN Brasil",
+   "publicado": "2026-10-01T22:01:48Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "renan-santos",
+   "titulo": "Gilmar Mendes deve mandar incluir Renan Santos em debate da Globo, diz jornal",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaWtzV25CMkVRS3h6bWdEYkstZlhlSFBPZnpjNENNMGJxODhXVGJiRDlaWE9RN3IzVW1taExMMTdHeEdmek1qaktQTlBua2I3M3VLc2N3dEd2SFVZOEJmU0YtTTg2UDNXM0RTX0JuRkhsTkRsWGI0MGs2YVE0QVdXU0o5RWNGQVQ2eUFFaU12YWtCMU9YZHdfa1d6T1dQZlhCTkNXWGVuWGdGaGJzeHh4ZjNWa2Nvd9IBuwFBVV95cUxNaEZzNWs2Z29xZzNhOGVMQklpTG4wdjllODdkc1pMdjFxckNwX09zU2tla1kwWmFoeURVNWp6dlI1MHJ3dmVKd2RSYVlSNXNscUdJSUpHakFsY1R4M1V3bGFOd3hMRkF5TUpleUpHR1g3V0tRNkxTSkVnRFdpNkdtcnRIN3U5TVRSQlQ4N2F5UlF0dW1JSTdsVC1BZWhDR1FaaW55d1ZzRFRWNFVkZTRJeThJM0VpTkRQeF9B?oc=5",
+   "fonte": "InfoMoney",
+   "publicado": "2026-10-01T21:50:39Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "zema",
+   "titulo": "Qual é o número de Romeu Zema para Presidência da República?",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMjA4Y0ZxRHl5UjNOcWNlWnJwbGlMbzhjS0pvclpDeHFuc3JISklVV0Z2bzVmczFZbDNsV253UC1qNGlhMHQ2dzRncnRveDI0WXBac2ZVTVBibDYzdE9hbV9HSnpzSFVXck9nLTZkUDBONVZtQzRVY2hkb0ttWW8zR1dKUmtkTkl6aVZfbmt5TFBqTkEydWEtWVc0eDFNZXpYNHJJVTNDOGtNeFBLMnNDUW9DbFBwWnIybW9BZkhWNWFNN3U4cTgtVdIByAFBVV95cUxOMjA4Y0ZxRHl5UjNOcWNlWnJwbGlMbzhjS0pvclpDeHFuc3JISklVV0Z2bzVmczFZbDNsV253UC1qNGlhMHQ2dzRncnRveDI0WXBac2ZVTVBibDYzdE9hbV9HSnpzSFVXck9nLTZkUDBONVZtQzRVY2hkb0ttWW8zR1dKUmtkTkl6aVZfbmt5TFBqTkEydWEtWVc0eDFNZXpYNHJJVTNDOGtNeFBLMnNDUW9DbFBwWnIybW9BZkhWNWFNN3U4cTgtVQ?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-01T07:16:00Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "zema",
+   "titulo": "Saiba qual é o número de Romeu Zema, candidato do Novo à Presidência",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNclh1WXl2b2YzN3RZR0lxSEpnWm9pSV9kYVJQN2RCMGxNWVdnX0xCNlFtRG5rQWZyeWVDMWxfMlNQMi1ySkxCMmlsRlVlRndFRTFBaTR0SlBxY0ZteXBUdHZuazdVRUdyM1VQZzV6MVJKT0lDNjdiTXIwdUlUN21NWl9xbk1NVExxRldCWVhLNDZjSmJOMEJ5T2hPQmRSbEdVVW9oaUlQSWltdw?oc=5",
+   "fonte": "CNN Brasil",
+   "publicado": "2026-10-01T01:16:40Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "zema",
+   "titulo": "Nunes Marques determina que Novo, de Romeu Zema, tenha presença garantida em debates",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQVnI3SEszRURqTW1GcnRRNkxVdi1naElIR3YyLWl6ejhQRzQ1LW43U1VGSVA0V3VxbWtwX1M3YmIyTGRqVVVjTzROMFdORTN2UGRJYmJJNUlqbzBfNjBLTy1oUTRULUZ3cHRQSXNFSlg0M0pRUzlVWHBwLU9ZOWtBNW1Kc2tuYnBWSzdldUwxdGU2WHpXTHVhY0syZVA4dVhacWxPMld4b1g3ZkREc1lFYVhsaVk1QmtSRWpPTzkxbkswMno0WGZaTHVGYndDYWMxQnhKY2N2bWptRnh1cHVTMnhOc2tzOFd0eVHSAfgBQVVfeXFMTW44S205QVpZZDZBOVB0bFhhQTFodkduMGZuU1J3TlJsTDh6bTZ0ckwwSEh1dlo4WlBvcEhkT1REZk1ncjZCbEozWkNsLWxEcl9FT3BzaUh0NDVCUWVFMnBMWVZYWTd3aTZlVTUzQ19udHVBY05VcVp3TzRTcFRvYWYwSXA1TS10Mm45VzdHSFI1Ymo1SS1acFZHQ1dOS2xkQ0NMb3RTbEVEbHJCWWN1eVhsWnNSaWliXzQ2UlNMMmJ5ekF2QmJXa3MwVjhLZWVhbEZXR21vZTBiOUg5Z1BoYW84dkdxaVpCdHNkOHI2YTc5c3NvZmtuSkY?oc=5",
+   "fonte": "Valor Econômico",
+   "publicado": "2026-09-30T00:01:29Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "samara",
+   "titulo": "Qual é o número de Samara Martins para Presidência da República?",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSzNzRUdkWWxRYkRlN2pVc1REZXZkRkZqc2t4cTUyNzFES0JyN3poR1Z6U1A4clpwV1NvRkEzQTVWeU8ySHM2OTl0SlBEWjF0N0Q4SGd1ZktEd2RpeHpMU19nVDhVZHhZeDhuU0pheG0zTnBQWUl1OUVicm1IcFNjcGU1OWVlckVObFY2NHpvcFp5eGI3Ty1uUkViaVlXM0Nad0NXMXJUbW5jWDF4UUphZ3FQdktNcWh0WUhZRWh4bW1EeUVTWld0bDhoS2NmZ9IBzgFBVV95cUxPSzNzRUdkWWxRYkRlN2pVc1REZXZkRkZqc2t4cTUyNzFES0JyN3poR1Z6U1A4clpwV1NvRkEzQTVWeU8ySHM2OTl0SlBEWjF0N0Q4SGd1ZktEd2RpeHpMU19nVDhVZHhZeDhuU0pheG0zTnBQWUl1OUVicm1IcFNjcGU1OWVlckVObFY2NHpvcFp5eGI3Ty1uUkViaVlXM0Nad0NXMXJUbW5jWDF4UUphZ3FQdktNcWh0WUhZRWh4bW1EeUVTWld0bDhoS2NmZw?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-01T07:14:00Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "samara",
+   "titulo": "Saiba qual é o número de Samara Martins, candidata da UP à Presidência",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQa3lfTVhmaGN3X29YRGd2WldBTkVjU0o1OVpwbXBBMV9oUThaZEF6d2FSczlwSWQzRDA5NnlJck9DVFhFbzU3SFJFLW02c3ZvT25VQ0lfMnVPbmNnakhiMWgxdUlKZDlNcjFfQUtmU3lTVEF4U3ktSlJ5dVFtalVnZUNQN3BqZG4xd0Mzc3ZNM3g2eTBGVi0yczlvSDZUZ1RfbExQdk9QZ3NkelZq?oc=5",
+   "fonte": "CNN Brasil",
+   "publicado": "2026-10-01T04:13:06Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "clariana-barao",
+   "titulo": "Qual é o número de Clariana Barão para presidência da República?",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSWVYSnRLcUp0Tm12RWZCNjNSVk1QTWNNT0JmSU1OSzBZSXZJNEVQTWFtYW90RXJzOTNmVHhfbTRsam83TTNPZkdMS2Nzd3haV3N5blpiRFZhMng0VFlpSEFZdXVUMnAxUmZyc1VzUXQ0LWV6WW90a2lLLVpOSW5KUTdWMHc2TzA3ZGs0U2Vhbkg5cDRwdlBuUkdvYnFZbTZBTE9MM2Y4N0NMTUZVODJ6TnRwSW5QRnZZS0R6bGhlMkctSzJ4T1BzZHFZalJOQdIBzgFBVV95cUxNSWVYSnRLcUp0Tm12RWZCNjNSVk1QTWNNT0JmSU1OSzBZSXZJNEVQTWFtYW90RXJzOTNmVHhfbTRsam83TTNPZkdMS2Nzd3haV3N5blpiRFZhMng0VFlpSEFZdXVUMnAxUmZyc1VzUXQ0LWV6WW90a2lLLVpOSW5KUTdWMHc2TzA3ZGs0U2Vhbkg5cDRwdlBuUkdvYnFZbTZBTE9MM2Y4N0NMTUZVODJ6TnRwSW5QRnZZS0R6bGhlMkctSzJ4T1BzZHFZalJOQQ?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-01T07:10:00Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "clariana-barao",
+   "titulo": "Saiba qual é o número de Clariana Barão, candidata do DC à Presidência",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbGFEQWNqbi1Sdk9WZWNLLWcwU0VzRGdjTTNKYlhTYWh6Q3BFTkZIWTBpMHB3QVRqVjRUWlp3MUZEcVByRmp6V0N6TkQxQ056MGxoYVV2Q2t0VURNeXljMlY5VEd5a01admFVeUtGbjAyNkZkdVAyTHJrSElObWQxTU9waUtXN3J6WVFmb0prVWFrRVBvVzAwQ2RzaWxpNzFqRzBhR3hVVVF4TjBP?oc=5",
+   "fonte": "CNN Brasil",
+   "publicado": "2026-10-01T04:09:08Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "edmilson-costa",
+   "titulo": "Qual é o número de Edmilson Costa para Presidência da República?",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUGtOQTFBQ1FweTd1NXB6eFUzVTR3TUlmQ2V0NVBlSU5ubDlpUnZ1ZF9fWFZxdTdsbkFnQ3JuYlFsemZ5UFQtSmtHY05hOUV2UGYzeU1OM0E2RU9QVEl3YkFHSGRmbl80LUdNeHdyUFJXMVlHRHdQZjdwcmpqWkQ4enc5V1JPZW5qR2U5elZybjY0TVBLTmt2MnlWZEtmWlBrOHB6NWdxQU1sMVBQWnNveVRaYW9zYWVWRnFhTkdjRdIBzgFBVV95cUxPTUtUTzlIQWMxWncteVRDemhnc0pvTG14N1hoMmJkVUZwbUJYXzBXQmRabkIwVXRma2QtN2tyUkdfc2hvLTBjWk84YjBsZEpON2hJN3M5Q25zR0ZaNExmeHoxMlRXTWZRODVXSXFYRms1U2hpN2Z3T2gxYm15RkxWNmhBYWVWSHlJT0hMS2M5amhxdjd3UlF1UVlidW9KdDVQT2piazlvNTJVQ29IWGcxUFh2TVBkS1FDcVJTUVFKZ1R2OWpBRVVvS1RoZEQydw?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-01T07:14:00Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "edmilson-costa",
+   "titulo": "Saiba qual é o número de Edmilson Costa, candidato do PCB à Presidência",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQXhZWVNYblhONGxaMURoQXRFWlFWdldIYzljMS1STHlxRzdtYURCQnp3OXFpakstTW9iQUpBTHdpTjd0YkpmS3E2THpwZGV2Ulppa0x4Q0x2VUREcnl6bEZaZTI0MWUzVmhQWG53eGZUTW5oalRZSmN4c1FNcktQS2hyQldRT2hnWndKVER5b1BIcXl6RkxlcVlHcU9iTEJJdWliT1B5MHl3UWN2WkE?oc=5",
+   "fonte": "CNN Brasil",
+   "publicado": "2026-10-01T04:08:10Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "edmilson-costa",
+   "titulo": "Qual é o número de Rui Costa Pimenta para Presidência da República?",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQX3NESVlrQjBOdzU3c0pkZTloaXZjU3BTSzlaRFJtOG5XTzlzejNmeFl1X0FxOGppWnUxS3NHb2FNR1BTdDR0TjhHa0JLZHF5aHJuYlUzb3BRamxNMG5nZ0VicC0xcVFTbGlGSHNBZjRaSkxvU2xUVG40QVYzLWdOaVotUjR0eUJXQWhMSlViaUplbVM2RlcxeGNWT0FOb01xNE1lRXZ0bmpwRVZRNmpIMEpwWDhqWm8tNFVlazhNYldYWl9NX08ybmRtLVZ0UFFUQWfSAdIBQVVfeXFMUF9zRElZa0IwTnc1N3NKZGU5aGl2Y1NwU0s5WkRSbThuV085c3ozZnhZdV9BcThqaVp1MUtzR29hTUdQU3Q0dE44R2tCS2RxeWhybmJVM29wUWpsTTBuZ2dFYnAtMXFRU2xpRkhzQWY0WkpMb1NsVFRuNEFWMy1nTmlaLVI0dHlCV0FoTEpVYmlKZW1TNkZXMXhjVk9BTm9NcTRNZUV2dG5qcEVWUTZqSDBKcFg4alpvLTRVZWs4TWJXWFpfTV9PMm5kbS1WdFBRVEFn?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-01T07:14:00Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "hertz-dias",
+   "titulo": "Qual é o número de Hertz Dias para Presidência da República?",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTzhHcFZ0bjBJXzdBVTB3elc4UWVCNmFJSlJFc1V3dDFhOG1mSndTMmVnTzQ3enR2a0VFbWNXVnZZaFVDRmQ5c1lhaDBZbFRxQjBHamhqOXpSaEM2X3RZOE9OSDlXRUNualBBeXVmMXIzTEVQWUNyenR3R1VqZ1NSMVM1akQ2SlFWNmNtcTI2SkVpcGtkTlpobXdBTGJqSm9iaFBpR3JGNXpobldlX1NEcG9vVXdTUkNLUFdSMmJvNXJ0ZWp5QXhDONIByAFBVV95cUxQTzhHcFZ0bjBJXzdBVTB3elc4UWVCNmFJSlJFc1V3dDFhOG1mSndTMmVnTzQ3enR2a0VFbWNXVnZZaFVDRmQ5c1lhaDBZbFRxQjBHamhqOXpSaEM2X3RZOE9OSDlXRUNualBBeXVmMXIzTEVQWUNyenR3R1VqZ1NSMVM1akQ2SlFWNmNtcTI2SkVpcGtkTlpobXdBTGJqSm9iaFBpR3JGNXpobldlX1NEcG9vVXdTUkNLUFdSMmJvNXJ0ZWp5QXhDOA?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-01T07:13:00Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "hertz-dias",
+   "titulo": "Saiba qual é o número de Hertz Dias, candidato do PSTU à Presidência",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUzF5ajVoRHQwY0ZZMVZIWkRoMFRDWmJIVURPZnQ3ZGQ5SDNzX3Y5Rjg2OFN0WEhMZ1hWY2hyOHRYTWxnYmdGZFNDTU5OalZrN2o5QTRDMGFUSGM4a0hXSk9tZHJfckxkRm45cHcxNGFCbXZCUGxRZ3cxc01HSlg0d0lyOEMtWGtQVTVwUGl4RzdWV1pmdVRZM3NOUFJLcHotQVZxOTE3WndiUQ?oc=5",
+   "fonte": "CNN Brasil",
+   "publicado": "2026-10-01T04:11:10Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "rui-costa-pimenta",
+   "titulo": "Qual é o número de Rui Costa Pimenta para Presidência da República?",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMVdPX1hOeWRvcjY5TXFBVmpPbzNGNmRXU0tvYWJGQXVIU2FURE9uY1FpN01sOEJpdFNXcFlua0Y4M0ZMMDZCb01XOC1fT3hjQ21VZ1c1eWVvSHlYZm1hTmhEazdkd3Jyemx0LTlGanJpRE01Z1N5UDVaVV9pMXpvTk5SNkVjakF4ZElWeHpKc1pRU0RiNWVSSlp4ek5pRWJDMXJFN2lJUVI3SFRsTWxyc1dsejk3cmY1MTQ3X3B2ODNxN0nSAdIBQVVfeXFMUF9zRElZa0IwTnc1N3NKZGU5aGl2Y1NwU0s5WkRSbThuV085c3ozZnhZdV9BcThqaVp1MUtzR29hTUdQU3Q0dE44R2tCS2RxeWhybmJVM29wUWpsTTBuZ2dFYnAtMXFRU2xpRkhzQWY0WkpMb1NsVFRuNEFWMy1nTmlaLVI0dHlCV0FoTEpVYmlKZW1TNkZXMXhjVk9BTm9NcTRNZUV2dG5qcEVWUTZqSDBKcFg4alpvLTRVZWs4TWJXWFpfTV9PMm5kbS1WdFBRVEFn?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-01T07:14:00Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "rui-costa-pimenta",
+   "titulo": "Saiba qual é o número de Rui Costa Pimenta, candidato do PCO à Presidência",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOM2h2amUzSU15RWtWVHFhTVdfb1VWSDhQdDl6ZWJyU05yX3ZqcUl5bDFwc0lVd3NQODNWcWpaejNWYkdNMGM3ZVVRR21vVGwxNENGeG9TVG96dTJBVzFRWWpIWmIxYUZGdzJfNGxXR0thSHZXWHNWVXd1SnhlaG50YWdiVXBXYUhWMXlGSWZ0RFJ0UFpmblZaNDBFaVBmR3FkNWRsNkxSRGRrNGhEVjc5WjJR?oc=5",
+   "fonte": "CNN Brasil",
+   "publicado": "2026-10-01T04:13:58Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "wilson-grassi",
+   "titulo": "Qual é o número de Wilson Grassi para Presidência da República?",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTTcwcXFHY0duSHY3Q0tuLUZ6N1B6NzJBVC04WTQ1aktkRFNvRVMzTHcxeXNnN1ItTl9qSFdnM0VjUW9yaUxvME5KUk9lTFRLUG5zTk5fTXNyc2g3OWVub1hydmJHcWt0Y1dldnM0ZzVvOTNIM2tkT3BJNlZCQTZhQWNQQ3BYRW9TS2lzWGF0Ykh5Nzc4Sk1McTdKa0w4Rmd2ay05NmU2bHJldkQxbkhqa1ZpTFM3MzVhTnRLeXZnd3AzcFNQZ1g5ZHJsWjXSAcwBQVVfeXFMUE03MHFxR2NHbkh2N0NLbi1GejdQejcyQVQtOFk0NWpLZERTb0VTM0x3MXlzZzdSLU5fakhXZzNFY1FvcmlMbzBOSlJPZUxUS1Buc05OX01zcnNoNzllbm9YcnZiR3FrdGNXZXZzNGc1bzkzSDNrZE9wSTZWQkE2YUFjUENwWEVvU0tpc1hhdGJIeTc3OEpNTHE3SmtMOEZndmstOTZlNmxyZXZEMW5IamtWaUxTNzM1YU50S3l2Z3dwM3BTUGdYOWRybFo1?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-01T07:17:00Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "wilson-grassi",
+   "titulo": "Saiba o número de Wilson Grassi, candidato do Democrata à Presidência",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQU1ibk84bmJCaWFDSlJMbmNwc1EtY1J6bTRGZklWa2R6OEJsNm8tcElmcTBndGhiYW0zaXVldHJoOTh1OVJ4VC1aQ0ltUVJZbHg4c3M2NnBNcnlFczM3MFFZaTZPbzgzUXBjeXo4dnRMYktPaVQyTFIzSFB1STBkXzQyM0UtSk03YzNHYWFKb1N2ZFo4X0NoWDhCZTZkU0FTRnFoN2xULWJlRnM?oc=5",
+   "fonte": "CNN Brasil",
+   "publicado": "2026-10-01T04:15:29Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "marcel-van-hattem",
+   "titulo": "Qual é o número de Marcel Van Hattem para o Senado pelo Rio Grande do Sul?",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNOEp3ZF9KSV85LXhVZHpxUlFzVU1JMFNoXzhzTlA3ZnhLSXd0MVpHdzR2U3JuYVZUbGxia0JhZFo1RkRtbzByNjRwSk9iWFdGU2RWUWNYRkdwaUtSYThCV0ZkaHhTRWFUQ002UmRLUlRtLW1HUVBVVC1BMXVuZ01pUndYVVNPR2JnbkdmMVZiMmtXOUg0Q1NvRWphelVlSk5uN1lYZm1kVlFFUWk4c3BRLWxYem13dlB5S3owTFQ0NjI1YTRyWThrOW9pMkjSAdsBQVVfeXFMT2x2Z0JwTHI1TGpZWFJkMlYxaDBEMFF5eGtuQUNUTmdHaGloeDhoMk5lRW9oODd0YVRFOHNERFNINFktbHp1WDRSWDlaT0dFZ2hQMXNFNkZ2WFp2cE5RbTNETmpEMS03NmM2Rl8wQkc2c0pQdHBnWkluTmNGVGlnUGtjdk9fRnJQTTJsMEowNjcxZ25yaGFPb0JiaE1pR3o5WllkeFM4MHNadEJfZzRCZDdfTHdIRkVLMkFjMUp4TGFnZ21aTVVLT0RxazYzVk80c29kVGlaeVRHX1FZ?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-01T06:00:01Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "sanderson",
+   "titulo": "Qual é o número de Sanderson para o Senado pelo Rio Grande do Sul?",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWlk5SkVuSU91T3JjRlp4NUlnMUZIWGxmVHZvWEFVaFY0OEd2UHF5cE16VEFtLTBPak51dkY2bHVnMF9yMjBDMDI2bXFvN3BZVnZqNEZsYW5PVUpDNE9iSEFuUFVvQkhXNElBQWZCQjlUY2RkdlBJVE1PS0dWWmtWcnlRcHNHVi0zUWEyM2VXUUZqNVdpb2pMY0dVYTZyZHNuNmxzMllfRHlES3JuZ3lvZXhGTTJsVnllOFZ3VDI5dkZWQdIB0AFBVV95cUxQLXZCQUJpb1EtNzB3T19LUmYzOTVvMWI2X19henZONF9MOTJ4NjNUVGNQWXdmb2xBLWRTQ2JkdkQ1TEFQN21USFVraGQxZnVrVk52czdjWHI4TFNzYS10MUZvajVrcXJIbE5OS3VnWGlsemJ4ZlR1N1NPdE1wX3B0UV8xY0RFNFpMb1ZNaXd6dGI3UDhxT0hYX1dJdThmS1RmLVRmTVVNWVFDelJlU2tzd1V5Q2ltTjB3cHZER3VXdWxCTzZpbWMtZ00zVXh5N0lY?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-01T06:00:00Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "manuela-davila",
+   "titulo": "Qual é o número de Manuela D'Ávila para o Senado pelo Rio Grande do Sul?",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRjJlTmVuNzdpOG96RmtwNk1vN01QNmxlOTg4bXpKMXFjbzF1TGtVTUNqMXJEWmI5SnFpakRZSHQ3ck1WekF0SU5ZbFFDSG1ENVh6S3JXbGFxYlBjZlItZURMb0VDUkFHTlNPWXhXVndlWTBkMjBrZ2RPNGpyNU90RHFOZU10VUdaOWxFZGZSNlBObVZqSHN1c0dwSHpoQXF2bW1YYjZtVV90aTlYX1dZUXFiWGF3c0dGV3BaUkhIMVRwcDdFZmN6c9IB1wFBVV95cUxOTmVMSktRbkUyOGk4NS1Xb05ENTRuYXI5SlNlYUk0MEdwcmQ3OVZfNzY4ZDJyQ28zQy1nOUVtZ2xrd3N1c1EwZWVRYTUxM2VNeFlERFk5aGZ2ZnhJUkFEd1NycHNaUUVjODB5NWx1dTkzVjhTamJwb1JlVVNIYnd0Q1pwUEJ2Y1ZCNHdWbHlfVl9PbDZveGNUY3Bob2UtR2huZWdiaktHRmltTF9qODVoMUc4R1ZkUVllSl9Cc2Nyc1NvVERVbXpLR2dSMU5SbFBLUVJMSWdZVQ?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-01T06:00:00Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "pimenta",
+   "titulo": "Qual é o número de Paulo Pimenta para o Senado pelo Rio Grande do Sul?",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUEM2LWxXcTZIQno3MFJhcVNaMUk0UjYzTnFmOFQ3X2d1ZjhFZnJNRG8yM2FoZF84cmJIbHpJN3luVXY1bmhpSm14TjJOZlFvVzhJelNjaEQ5blAxZ3ZOYnpCS2VEcjNscFNEU3FRYVVELU9NLXZxRzU5bEVPd0o5XzBpRGg5VUxYRW83WWZkdlc1Qm1ORnpSS3p2eTNQVGp3TzZRX0dadkpvS1REQXlEb1ZLVHhqTU5WUHJHNm9mZk82akcyQU9jenQ0emdzSnEweGJGbjVR0gHWAUFVX3lxTFBQQzYtbFdxNkhCejcwUmFxU1oxSTRSNjNOcWY4VDdfZ3VmOEVmck1EbzIzYWhkXzhyYkhsekk3eW5VdjVuaGlKbXhOMk5mUW9XOEl6U2NoRDluUDFndk5iekJLZURyM2xwU0RTcVFhVUQtT00tdnFHNTlsRU93SjlfMGlEaDlVTFhFbzdZZmR2VzVCbU5GelJLenZ5M1BUandPNlFfR1p2Sm9LVERBeURvVktUeGpNTlZQckc2b2ZmTzZqRzJBT2N6dDR6Z3NKcTB4YkZuNVE?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-01T06:00:00Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "rigotto",
+   "titulo": "Qual é o número de Germano Rigotto para o Senado pelo Rio Grande do Sul?",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNM1VUSUQwdEJNMGVUSDBYRklEM3RZWkYtUS1xckMya0hfQnZvZTE1WnhYYVhQbER5UjJfWTZzYXEzSUtwWkRja1FaLTNyNm1rc044akMzS3dJeGtIUkh5UGkxZHVIMWNVMEpJRnhjYWdKNUozbGxvZ1NzQW5wOUZaQ0todThPeS1oSlNTUnVsNXFyVGpTcHFPREJ2WDFyUGFUT0c1cXQxUGJvOWZRbjY3RFZoQ3R1TzFzbnN6dmZKUkFRQzRKWTFkNUJR0gHYAUFVX3lxTE5UWHc2bThLTjFxLXZMM3BOOUVGbGQzTWkzeEhSWWw5aHBpOTdHZGhkTmg1VjBuTlQya2tmUENEczItQ2lJMWlELUFmUGJacExyaWwyN3FIeFdTdUs5QkdOYnJMU0ZtYW9oZWZ1bEpaY1ZvX1U4ZjRCVUV0N3R1MXdkNEtEcWlIUDQzWTBTY3RPUTRlQURpUkcyS0JtQUNfTUJHaHl6M1RZakJrQ2dxNm9oSXlQdDdfMzlHR2RDUjNmeFBZSkpWY2hBRWNZS3RVUUtZclRhcnYycw?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-01T06:00:00Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "frederico-antunes",
+   "titulo": "Qual é o número de Frederico Antunes para o Senado pelo Rio Grande do Sul?",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNNkllNnBMbFFWWXl4WEl3emNVbWZheHU0YzlfTVdfelB2cm1Od3BPcmV2VU9sUHdnZVlJUnRsQWQ0Z05LNlpSQjRuWDRqc3ZhM2RaRFQwR2dzUEFzbWhNSm9GQXVURHRFNk1VcG16R0YtUDN1WDdneHM0S1NST2psTW1wd01UeURDcEx2SnZWOVVKT0N3MmlPdWFnbUFHWV80MHQyT2tYTnBuSGczNURCTHNiT0xXWGFWYnpVcDQtX0t4Yjlpa1Q0WEYta1fSAdsBQVVfeXFMTXRtMEthQ3d0eDJnZHpGXy13YTU0Rnhfc0o5QkNLZ2syMW15NnJWMjVpUjFSYzRqNWUtYTFkWDd4c2lYMFpTd0luZXFIbTV4N1A1OFhZUHFLb29qTjhsb2hNNnQ5Y1BiNHp2dEdmaG84TFhiSnRBcGpnS0lqUlhoTjBGeFZWSlZya3F6clhVM1lHZ0ZBMGU0VkQzR2VBUC1xQ1BiOEc3RThUTU5YMC1zallyQTJ6dlRIa2tVM3h5OUFZUTFmMEstMjh0cmF4TzhLYXlHdmJuMFAwMFlz?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-01T06:00:00Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "renato-jaguarao",
+   "titulo": "Qual é o número de Renato Jaguarão para o Senado pelo Rio Grande do Sul?",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMklDV3p5NmU1eG5raWkxZzQyQXd5SGZVQnd1N2JFaVJzb1RPSUM5alJZZzZ5M3pkcy1zaGdxY2Z1Vi05cjRISUxCdkQ1ZHYzbUZBYXNXcG95LWJmXzhhZzA0QUswNmZIYzRSbmJxbmhwVmNfcWtrMkI1LVVVbFI4Zkl4OXBzUU5UOTVjQjhfVWpETU4zeklKMFpiSVV1MnZWbHVCMzFfZzJ5aUhKZFplQ2hjNEZ4VmpYeE5TYTlORHpIWmE1LXRkQ2V30gHYAUFVX3lxTE5yN1ZsSndKLS1jNHlpWFZHZFFYMk1oOERDTFZRTXNMMlZFQm1HZG1kamZTcVJvb203bzJpQ2VwMldXVmN0cXRWbTRrM1RsTGpvOWRzM05LbmQ1SDFwdVRiZVNGaEt5QW9zM3lwS0t5dGRKSlhyNnRBWmlRQzZvWjF6OVJXRUxrOEROTTdFbE1WcWM5Y05nMVREaDVZY3IwZ0hqa0VLX1U4U2o3U19ZQWlRT2dfcnlJRkFMcW9nbnk0dUtWLWJkYjlHZkc2aC1Ua3pCTHBVM1gxTQ?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-01T06:00:00Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "ric-jones",
+   "titulo": "Qual é o número de Ric Jones para o Senado pelo Rio Grande do Sul?",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTlFfMTdVQm9wNk5ReENmbVFCSTRCdE82Y09VeGlaVXExNTIxY3d2bXViWEctVVBpWFAtWW80OFhVZXlieHFEMzRabDVuTXQ3am0xRkU0MUVZcUpPXzd3cjVWSmdYVTl2UUlUSHpGRjFOUkM3elZkMDBjbTZTNlBldmhyejBzOXNEWGd4TWVwb2ZMMXROOHhWajJBSVp6Mm9yeHh4eWVsRFBaNnkzaV9hUWxDeUhzWnZLakdoUW9fN0lyd9IB0AFBVV95cUxOTk02cTZnNUdMYUg2OFJHc1dubUVZYmk3YVV6LVZKeEhKRFpOdHV6R1JkeWp5ZnFsMEVFQmtZUXQ4d0E0cVhSQVl2UEJaOXJidk5JZ0RVY1FhZnF4SkhZSnNTbktBUzRJUVpOS3NiSkdlaEE1RlktRy01RTdYRmk1ZzdzcVY3WW5MOEl2ZS1Jb1FvRXJabmt2b1dMY09CT2ltMTRaVlBPVWhhWVlXWTRxUWUtTHJKNnQ3QVg1ZUVNdU5JQklnVUxqaGpxX0xhTlZJ?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-01T06:00:00Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
+  },
+  {
+   "cand": "milton-cardoso",
+   "titulo": "Qual é o número de Milton Cardoso para o Senado pelo Rio Grande do Sul?",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWFZ3Mzk5UkFpcThCQS1vMkVMZjdQMmdJOElLX3cxX0Mxak9XYVJfQWtuaTUxbllOckpCXy04aWg0QTBGdkdNdm40bWxiRm9pTVFNclZQY29nQnVBTFJWeTNGM2w4YnZRQ0hJaGUtaEZXNGc0eWRXYWtxZTRVaV9TU0E3MmZIeUx3bjM4RjAtV2pKV1FVTjVLaDB2R1pQc0FlenlnMVV5dDB1QUNlV0o2cS1TRFR4VS0xOWFqYWZmV184cUFWbGR6ek9SWEVldnRlZms1a1RDONIB1wFBVV95cUxNWFZ3Mzk5UkFpcThCQS1vMkVMZjdQMmdJOElLX3cxX0Mxak9XYVJfQWtuaTUxbllOckpCXy04aWg0QTBGdkdNdm40bWxiRm9pTVFNclZQY29nQnVBTFJWeTNGM2w4YnZRQ0hJaGUtaEZXNGc0eWRXYWtxZTRVaV9TU0E3MmZIeUx3bjM4RjAtV2pKV1FVTjVLaDB2R1pQc0FlenlnMVV5dDB1QUNlV0o2cS1TRFR4VS0xOWFqYWZmV184cUFWbGR6ek9SWEVldnRlZms1a1RDOA?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-01T06:00:00Z",
+   "coletado": "2026-10-01T22:25:39Z",
+   "rodada": "2026-10-01T22:25:39Z"
   }
  ]
 }
