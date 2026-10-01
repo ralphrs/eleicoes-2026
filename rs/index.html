@@ -203,6 +203,13 @@ h2 { width: fit-content; padding-inline: 6px; margin-inline: -6px; background: v
 .cab > * { position: relative; }
 .vazio { background: var(--papel-elevado) var(--aq-papel); }
 .preview-aviso { font: 500 12px/16px var(--font-mono); background: var(--amarelo); color: var(--on-amarelo); text-align: center; padding: 6px var(--space-4); }
+
+/* Troca de estado no cabeçalho */
+.topo-dir { display: flex; align-items: center; gap: var(--space-2); flex-wrap: wrap; }
+.estados-nav a { flex: none; display: inline-flex; align-items: center; gap: 6px; height: 26px; padding: 0 10px; border-radius: 6px; font: 600 12.5px/1 var(--font-sans); color: var(--tinta-suave); text-decoration: none; }
+.estados-nav a:hover { color: var(--tinta); }
+.estados-nav a[aria-current="page"] { background: var(--azul); color: var(--on-azul); box-shadow: var(--sombra-sm); }
+.estados-nav .mini { width: 18px; height: 12px; border-radius: 1px; display: block; }
 </style>
 
 <div class="bandeirola" aria-hidden="true"></div>
@@ -213,7 +220,7 @@ h2 { width: fit-content; padding-inline: 6px; margin-inline: -6px; background: v
         <svg class="logo" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="11" fill="#009c3b"/><polygon points="4.5,24 24,8.5 43.5,24 24,39.5" fill="#ffdf00"/><circle cx="24" cy="24" r="11" fill="#002776"/><circle cx="20.0" cy="29.5" r="1.35" fill="#ffffff"/><circle cx="24.0" cy="25.5" r="1.35" fill="#ffffff"/><circle cx="28.0" cy="29.5" r="1.35" fill="#ffffff"/><circle cx="16.6" cy="29.5" r="1.35" fill="#ffffff"/><circle cx="18.77" cy="24.27" r="1.35" fill="#ffffff"/><circle cx="24.0" cy="22.1" r="1.35" fill="#ffdf00"/><circle cx="29.23" cy="24.27" r="1.35" fill="#ffffff"/><circle cx="31.4" cy="29.5" r="1.35" fill="#ffffff"/><rect x="15.5" y="31.8" width="17" height="1.4" rx=".7" fill="#ffffff"/></svg><svg class="uf" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 40" role="img" aria-label="Bandeira de Rio Grande do Sul (estilizada)"><title>Bandeira de Rio Grande do Sul (estilizada)</title><polygon points="0,0 40,0 0,26.67" fill="#00843d"/><polygon points="40,0 60,0 60,13.33 20,40 0,40 0,26.67" fill="#d52b1e"/><polygon points="60,13.33 60,40 20,40" fill="#fcd116"/><circle cx="30" cy="20" r="5.5" fill="#ffffff" stroke="#c9a227" stroke-width="1.6"/><rect x="0.5" y="0.5" width="59" height="39" fill="none" stroke="#000" stroke-opacity=".18"/></svg>
         <h1>Candidatos <em>RS</em> 2026</h1>
       </div>
-      <div class="seg seg--sm" id="aparencia" role="group" aria-label="Aparência"></div>
+      <div class="topo-dir"><nav class="seg seg--sm estados-nav" aria-label="Trocar de estado"><a href="../rs/" aria-current="page" data-uf="RS"><svg class="mini" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 40" role="img" aria-label="Bandeira de Rio Grande do Sul (estilizada)"><title>Bandeira de Rio Grande do Sul (estilizada)</title><polygon points="0,0 40,0 0,26.67" fill="#00843d"/><polygon points="40,0 60,0 60,13.33 20,40 0,40 0,26.67" fill="#d52b1e"/><polygon points="60,13.33 60,40 20,40" fill="#fcd116"/><circle cx="30" cy="20" r="5.5" fill="#ffffff" stroke="#c9a227" stroke-width="1.6"/><rect x="0.5" y="0.5" width="59" height="39" fill="none" stroke="#000" stroke-opacity=".18"/></svg>RS</a><a href="../sc/" data-uf="SC"><svg class="mini" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 40" role="img" aria-label="Bandeira de Santa Catarina (estilizada)"><title>Bandeira de Santa Catarina (estilizada)</title><rect x="0" y="0.0" width="60" height="13.353" fill="#d52b1e"/><rect x="0" y="13.333" width="60" height="13.353" fill="#ffffff"/><rect x="0" y="26.667" width="60" height="13.353" fill="#d52b1e"/><polygon points="16,20 30,8 44,20 30,32" fill="#00843d"/><circle cx="30" cy="20" r="3.5" fill="#ffffff" /><rect x="0.5" y="0.5" width="59" height="39" fill="none" stroke="#000" stroke-opacity=".18"/></svg>SC</a></nav><div class="seg seg--sm" id="aparencia" role="group" aria-label="Aparência"></div></div>
     </div>
     <div class="status" id="status"></div>
     <div class="faixa" id="faixa" aria-label="Líderes nas pesquisas"></div>
@@ -600,5 +607,6 @@ rota();
 })();
 </script>
 
+<script>document.querySelectorAll(".estados-nav a").forEach(function(a){a.addEventListener("click",function(e){var c=location.hash.slice(1);if(["presidente","governador","senador","federal","estadual","fontes"].indexOf(c)>=0){e.preventDefault();location.href=a.getAttribute("href")+"#"+c;}});});</script>
 </body>
 </html>
