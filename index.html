@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Candidatos 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@600;700&display=swap">
+<style>
+:root { --background: #eef1f8; --foreground: #141a2b; --card: #ffffff; --muted-foreground: #5b667f; --primary: #7c3aed; --brand-start: #8b5cf6; --brand-end: #4f8ff7; --border: rgba(30, 45, 80, 0.12); --shadow: 0 4px 14px rgba(30, 26, 39, 0.08); }
+@media (prefers-color-scheme: dark) { :root { --background: #080b16; --foreground: #f4f7ff; --card: #131a2b; --muted-foreground: #8592ab; --primary: #a78bfa; --border: rgba(140, 160, 210, 0.16); --shadow: 0 6px 18px rgba(0, 0, 0, 0.45); color-scheme: dark; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--background); color: var(--foreground); font: 400 15px/1.55 "Inter", ui-sans-serif, system-ui, sans-serif; }
+.wrap { max-width: 760px; margin: 0 auto; padding-inline: 16px; padding-block: 48px 64px; display: flex; flex-direction: column; gap: 24px; }
+h1 { font: 700 clamp(30px, 7vw, 44px)/1.05 "Space Grotesk", ui-sans-serif, system-ui, sans-serif; letter-spacing: -0.02em; margin: 0; }
+p { margin: 0; color: var(--muted-foreground); max-width: 60ch; }
+.estados { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+a.estado { position: relative; overflow: hidden; display: flex; flex-direction: column; gap: 6px; padding: 22px 20px 20px; border-radius: 18px; border: 1px solid var(--border); background: var(--card); box-shadow: var(--shadow); color: var(--foreground); text-decoration: none; }
+a.estado::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 4px; background-image: linear-gradient(135deg, var(--brand-start), var(--brand-end)); }
+a.estado:hover, a.estado:focus-visible { border-color: var(--primary); outline: none; }
+a.estado b { font: 700 26px/1.1 "Space Grotesk", ui-sans-serif, system-ui, sans-serif; letter-spacing: -0.02em; }
+a.estado span { font: 400 12px/16px "JetBrains Mono", ui-monospace, monospace; color: var(--muted-foreground); }
+footer { font-size: 12.5px; color: var(--muted-foreground); border-top: 1px solid var(--border); padding-top: 14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Candidatos 2026</h1>
+  <p>Quem disputa cada cargo no primeiro turno de 4 de outubro, pela ordem das pesquisas, com perfil, propostas, o que pesa a favor e contra e as últimas notícias. Escolha onde você vota.</p>
+  <div class="estados">
+    <a class="estado" href="rs/"><b>Rio Grande do Sul</b><span>presidente · governador · senado · deputados</span></a>
+    <a class="estado" href="sc/"><b>Santa Catarina</b><span>presidente · governador · senado · deputados</span></a>
+  </div>
+  <footer>Página informativa, sem vínculo com partido ou campanha. Números de urna e situação dos registros vêm do TSE.</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+name: Atualizar notícias
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: noticias
+  cancel-in-progress: false
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Coletar notícias
+        run: python scripts/coletar_noticias.py
+      - name: Gravar no repositório
+        run: |
+          if git diff --quiet; then
+            echo "Nada novo."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add rs/noticias.json sc/noticias.json
+          git commit -m "Atualiza notícias"
+          git push
