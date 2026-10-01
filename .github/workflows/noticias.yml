@@ -21,15 +21,21 @@ jobs:
         with:
           python-version: "3.12"
       - name: Coletar notícias
+        # Se a coleta falhar, a rodada ainda grava um registro (passo abaixo).
+        continue-on-error: true
         run: python scripts/coletar_noticias.py
       - name: Gravar no repositório
+        if: always()
         run: |
-          if git diff --quiet; then
-            echo "Nada novo."
-            exit 0
-          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add rs/noticias.json sc/noticias.json
+          # Toda rodada deixa um commit, mesmo sem notícia nova: o horário vai em .ultima-rodada.
+          date -u +%Y-%m-%dT%H:%M:%SZ > .ultima-rodada
+          git add rs/noticias.json sc/noticias.json .ultima-rodada
           git commit -m "Atualiza notícias"
-          git push
+          # O main pode ter andado durante a coleta (outro push): reaplica e tenta de novo.
+          for tentativa in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            sleep 5
+          done
+          exit 1
