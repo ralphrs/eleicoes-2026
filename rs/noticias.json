@@ -1,7 +1,7 @@
 {
  "meta": {
-  "ultimaRodada": "2026-10-02T16:30:29Z",
-  "novosNaUltima": 8
+  "ultimaRodada": "2026-10-02T17:27:00Z",
+  "novosNaUltima": 6
  },
  "itens": [
   {
@@ -3482,6 +3482,60 @@
    "publicado": "2026-10-02T15:40:00Z",
    "coletado": "2026-10-02T16:30:29Z",
    "rodada": "2026-10-02T16:30:29Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "\"Acho que esses debates não produzem nada\", diz Lula",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdno1TUt6dVVBZEhkWWZ4YkRqRUVXVG50LWZTTGcxZ3lmdFNRU01nRHVRTS1rZ2YxRjVmNUR6dTJsTmUwNTRLV2tXMUVmbTV2QkxIeVpaa3pTNHJYczFwM3QxTEVDaldQZVd4QjJnNF9kN0ZvTjRRN09OV1luQVRGNU00LVM5RkVzMl81Q3N3Ti1MQQ?oc=5",
+   "fonte": "CNN Brasil",
+   "publicado": "2026-10-02T16:29:33Z",
+   "coletado": "2026-10-02T17:27:00Z",
+   "rodada": "2026-10-02T17:27:00Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Quem é Lula hoje, o presidente que tenta chegar ao quarto mandato; assista vídeo especial",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPck5IY0dEakY5d1ZYVFBMc2tMempNZTBXMEJWOHBNazBVSmgzNE1qYkd0cWtmUEFvMnE0YVZxSkpqdkNjbnM4RmFCS0FaWjN2NUpzeGpPRy02QU95emhPVXpyQ2E3ekdOQmJpT0l3cVNVRFhnanNpR0xUcTh3MW9QNHllWUdRMmNQY0lRMVhJZmJBWHUxc0NxQUgwVW1vVmwwalJRN2drNDZOT0RIR2x5UmFPakhMZ09PYzZKaHBwVXBXZkM4aEdoeURJMkp2VW8?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "publicado": "2026-10-02T15:01:00Z",
+   "coletado": "2026-10-02T17:27:00Z",
+   "rodada": "2026-10-02T17:27:00Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Lula faz ato no Rio ao lado de Pedro Paulo e Benedita, mas sem Eduardo Paes",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNlRvRTRoYnFubGlsb3RROFVFZlMweDlhWDFuWWFacWhzUi03MDdORVJvRjFrWG1oeTJHck5sUjFMNjR3WTdYUG1RZkNhOXRlSV80bDdYSUQ1NXVJdWhmZFBvanJfUnVac01wSjZ6YVRWSHlQUnRlc2VyR3diaW1ncVBtT05BYVhFRkpYTXMxckJxSnVYb0tER2QzNDB4bXdUMzllbFBpMjVBNEg5bjAwNVhqMER0OWlud2lQeEFMWDRia2NDNGl0eWhSQnZZQdIB3AFBVV95cUxPemhITUtaVlp5QnJxWjFVcUt2MTJhYUdZanVLbkplMHQ5M1h2MVlQaGhFTXVnREdwVDhvWlhxbTJkbUNSd3NvVjRfTllfRElDaUhyQmVYc3A0R3VOcGpFSXV3UEFoQ3BoYnBQN0hnNGo5bTllYlFEVHVrZ2JfUXNDNWVzLWtKdWQ2TFU3QWlReW1EMUprejNvS0V0ZGo1NXJTMGRUS2ttSHBPRm5qSzQwanc0dnE2VFBpVzFXQU9ZQUowbHpvQU1IRjhTMUt0ai05UFJDMjdYN3FZbDFG?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-02T15:52:21Z",
+   "coletado": "2026-10-02T17:27:00Z",
+   "rodada": "2026-10-02T17:27:00Z"
+  },
+  {
+   "cand": "augusto-cury",
+   "titulo": "Cury avalia pedir adiamento da eleição e descarta apoiar Lula ou Flávio",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPa3hmQ2g5cEZWaHF1S3hjNWcwYW1tMkpacGdkSmJCcldiYXllQ0J6b2hxYUlOV0RreXBGS25LQnU2Y0p4Umd4OFhkZjFpancycEdLNE5BQ051QW02QzNyUGctc3ItMnVqa2dOeGN2dE5HcnRXcVB6dTE5MnY1b3ZQcEFfUFg1Wms2UTlYX0x6Smw4UDdySUpJaEtkZlRfdnVvcU9icVNOOTlFOEdPUlI0?oc=5",
+   "fonte": "CNN Brasil",
+   "publicado": "2026-10-02T16:58:53Z",
+   "coletado": "2026-10-02T17:27:00Z",
+   "rodada": "2026-10-02T17:27:00Z"
+  },
+  {
+   "cand": "renan-santos",
+   "titulo": "PT atribui desistência de Flávio à ida de Renan Santos; PL aponta \"censura\"",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMFNQc01MbjFkMVFJTk5BUUVZRG5PckxPYkRQUmgtM1pZRVJVX1FDbFVPdUhtbmxJMVFGeVI4SG90OC1SbHc2RlhrR1RqczJ1MUpSNXNfNXVPakcyVEwzMm11cHdCaGNHOG9VREtQcENlaHBPcTZhNnJMbHpQNEN2c1ZyOHF5VEdPaGhrVzR4eUczOHZqd20zVUpIMGtNaGItRE9GUThuTVFuMXlDXzQxWA?oc=5",
+   "fonte": "CNN Brasil",
+   "publicado": "2026-10-02T15:31:51Z",
+   "coletado": "2026-10-02T17:27:00Z",
+   "rodada": "2026-10-02T17:27:00Z"
+  },
+  {
+   "cand": "renan-santos",
+   "titulo": "Frejat repudia uso de ‘Bete Balanço’ por Renan Santos em campanha: ‘Total falta de respeito’",
+   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQMkx4WTBuUlI5Tkt3STZ2dFkwTklfWnBzNWRLOG43TTFXZXVlekpoNzYydnNwLUp2UnhNdk9IaXEtMUNqRDJOMXBDbmtzVHRJYnNadXB3TFBfbFFNb2ludF9zLUZsdGhFenFGdVVVTkZiV0t5ZEdReWl0ZTNOUjFfMjB0bHd1V2FfTjZXdHFwdWpNWEdlM0hZWkd0Sy14Zk1aNXVkc0FsbUlDakxiWDQwY1BqM19iekMyM3E4UWRod21peFludW96dWQ5WXhIODV4QkRDUVkzNHNXRHRDZ1JpbUwtMldpLV9jYXgxVWlUM21fQdIBgAJBVV95cUxNSDhSMG5IU0todFdqQzlxQzY4WXRsdDcwQS1IcURFXzFjNGRlY1N6cWtCbVYwbEpHbEw3UktmRVlCZ1dhVlVtcGxHd2U0VWR1R2VZWmlTZXVfVlAyQmFQMy1IdTYydkpkWWZIUW9iSXJWeEN2c1FqdUowUkV5VVJrdUE0dmo3OHQ1S2V0bFo0N0JjZFl4eExFTUhTbWNFRGxOem11anhXY1JRdEw4Z1N0cEdBQnhQTlZtUlZXUVFlS2Y0ZVR0SlB4OERaTTZEQ2UwUm5RUGlpbXp5N3IyU1VfdUtzLVFaNzg0SlVMUG43cmxqZEx1YmRJemIyVEUxcW9T?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-02T14:45:24Z",
+   "coletado": "2026-10-02T17:27:00Z",
+   "rodada": "2026-10-02T17:27:00Z"
   }
  ]
 }
