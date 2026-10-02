@@ -1,7 +1,7 @@
 {
  "meta": {
-  "ultimaRodada": "2026-10-02T21:26:10Z",
-  "novosNaUltima": 11
+  "ultimaRodada": "2026-10-02T22:26:58Z",
+  "novosNaUltima": 12
  },
  "itens": [
   {
@@ -3923,6 +3923,114 @@
    "publicado": "2026-10-02T20:18:09Z",
    "coletado": "2026-10-02T21:26:10Z",
    "rodada": "2026-10-02T21:26:10Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Lula cresce em MG e lidera com 42% ante 36% de Flávio, diz Datafolha",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMmxfdjJNX3lYNS1uTmpXdHhzYWM4T0tsWGlFLTFMTmxyMHRlUTFOU3NTUEhRLXhiV2hSMXNWQ1d5QXJDaENnYmNZcDlkZXRmV1BGeFNwZVdZbm12cUJxNWxmZzcwMGYtZERGQTZYekNmem92emxZUDdpcFRfNGVkOGJyVjYzdjFPVWYzclV2V3lqVXVjb0RfaTBEc0dDbk1kQVJzTFU5NXp6Sm82cEE?oc=5",
+   "fonte": "CartaCapital",
+   "publicado": "2026-10-02T21:34:00Z",
+   "coletado": "2026-10-02T22:26:58Z",
+   "rodada": "2026-10-02T22:26:58Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Pesquisa Datafolha mostra o desempenho de Lula e Flávio Bolsonaro em estado chave das eleições",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTHhmNjEtTlROWndROXZ6ZkhINTZLaG1fUTdwVV9Kc1VpeFZaWk1MNzlLQndxY2JrdE9Hb2JsYzhKVEpmdjlFbGZwOFpUTVU0X1VBa2cxXzZXS2lfOFRfVVpKZ2lrQzBSY2g4bXpnMlJmWGdDRU44RWl4X09HZ2Z4YTBQWmY3cVdXLUNOdE1sdDRRcEczNDVTR2Vzc182bHVMVGVYdEdDb3dyeTJvMnlveHRlTTBCeEkzX1VQLThR?oc=5",
+   "fonte": "VEJA",
+   "publicado": "2026-10-02T20:52:00Z",
+   "coletado": "2026-10-02T22:26:58Z",
+   "rodada": "2026-10-02T22:26:58Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Pesquisa mostra disputa entre Lula e Flávio no maior colégio eleitoral do país a dois dias da eleição",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQM1BMMGlaODJiWkUyaWFobl9faVpIOFFuVnczaHlwNGIzd0I5OG14OERpWE12NGZ5d0hmN3YzNThjSWdxdHJoZnhqcUhPdlJOakFqZUpnRnNUM0k3N1FTR3lOYlBEaW5oWlBCYUdOMHo4ZXV5LXRMRnVraGxMWVlITml5LWxtTnhDbGt4X1lGazdWMGJPU0FzUkVpdU1QZ3JKdXFYOGp2dWlnVF8wak9DS2hCNWxrcDMtWldGaEhGRjRxOS1MN3U3QzJrOGdKdw?oc=5",
+   "fonte": "VEJA",
+   "publicado": "2026-10-02T20:45:00Z",
+   "coletado": "2026-10-02T22:26:58Z",
+   "rodada": "2026-10-02T22:26:58Z"
+  },
+  {
+   "cand": "flavio-bolsonaro",
+   "titulo": "Flávio Bolsonaro na pesquisa para presidente no 1º turno: veja números do candidato",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdThyVENjRlRWQ3ZnNEhBSjdkYlN3YlhOWEU2X2QyUTVHQkdyX0NxZTNBbVdFcVJ1Vmk3UHhTemFGSF80YldaRG5tV3ZLSWJyOXRhVElBTkwyTmRWdWFRamRsVUhIX1dhbTBxc0k1Q2w2UktDYThpZ04ydHE3d2VCQy0tVGpURjlGWXgxdEU2aTdkZVFMM2ktd2hkUUt2cUVQSXU5c2xZaS1NSWFaeHo2cXQyU0g5dWd5cER5ZFlUWE1IMnczVWlVbUh0S2NILVk?oc=5",
+   "fonte": "UOL Notícias",
+   "publicado": "2026-10-02T21:48:00Z",
+   "coletado": "2026-10-02T22:26:58Z",
+   "rodada": "2026-10-02T22:26:58Z"
+  },
+  {
+   "cand": "flavio-bolsonaro",
+   "titulo": "Datafolha em MG: Lula, 42%; Flávio Bolsonaro, 36%",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdGlqTm5jNUFhaF9Vczhhd2FiX0hWNDY1RkZCb0hnRjBCVUlFcUlNMzFoMFNMWGlnYS1Dc1JZX3NmWXBlbF9VRXBBZzBuM0xCUC1hMjNBV3QtaC1tSDZLd214VzBwM1U4MVZjY2owYjMtMTdBQV8teF9DN3U1REZVdlo5Mm5lR2xlcmVISFhEUWFrM0JSN3U1TFpQdVgtT1RzYTd5WUpUN09RS01NTFHSAbwBQVVfeXFMTUpUa3hDWjdCZzZEcDNXakRKdWdVUUszbUNzTURyWEMySDZsOFFkLWZ4MjJSTXQ1NF9OVXdMSWdILV8yUGEtcjNIaVViaHJHM181UG42VEZrRGFEMS03b2pNLTdjd0taUmxXeWpBTl90SWZlbFVOUUNTVUYzV1FON195RFk5OWVFOC1ESHdGbENuR05EaTl0amk5akNUaGRReklHamRJclJFMGZNTGgyV0dOQ19nalBLQk5UbEI?oc=5",
+   "fonte": "g1.globo.com",
+   "publicado": "2026-10-02T20:31:46Z",
+   "coletado": "2026-10-02T22:26:58Z",
+   "rodada": "2026-10-02T22:26:58Z"
+  },
+  {
+   "cand": "flavio-bolsonaro",
+   "titulo": "Trump não responde se apoiará Flávio Bolsonaro",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMmlNdm1LOVZVQWFpaGxUNjB3RTVsY2lLTklnS2NHZUpPZEg5YlhlaC1zMGkxU0d0YjVSMS10c3BNLVNvOVBEbXFiYXByMkF0cmNaUWpuUjRVeFJId1VJN2YzV2FBRU16ZTQ0bjQ3U0JtNWg4UUdHOWg5S3V3WVRjcUhmTTdOSE9TTkNvNnVERmRzTGlwZDJNak5aVlBzV2J2N3NObzJNTG9Da1ZzaWxIRGNqWEFXZ9IBxAFBVV95cUxQMUlHMW9udlRsbFkzaEwxQ2xzOC1scVdJUzJ2cEs3ZC1VYm5xcDY1eE9oazhWRGVqVzZIRTVXQUdtVEFkUEdFQ3dxT1dydHh1RHo0VGRHbXlFRDF6ZXZQQnRvRXZJeUxMdTJUdFhEbDRCMW1oQUtaeVNDbTA5LTRXLXdtZ0NFTnYxdTlLSFc0QUlHNjRnS1JudlBBUEwzQlBvWDAzajVBQzJZVElCNm9BdnRJVVhDU1BYalg0c0dJNkFTaDdw?oc=5",
+   "fonte": "Valor Econômico",
+   "publicado": "2026-10-02T21:20:50Z",
+   "coletado": "2026-10-02T22:26:58Z",
+   "rodada": "2026-10-02T22:26:58Z"
+  },
+  {
+   "cand": "augusto-cury",
+   "titulo": "Propostas de Cury têm relação com atividades de 13 empresas que têm o candidato como sócio",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQRzdLR09ON01nNWE4NFlfZkZVUERLQmVTRlBtcldWZUdyNlVmYmgzN2ZJeDRUbFhxd2dfTnk2Q29PaGFjWnNzay1fZ3VaamRESWpIaHZnZHQ4SkNUVThCV1VSQ2w0Y3hLVHlfVXBqQkY0eURKYm8zTkd4RnpLVEg3T1dmQUJfb3NiNkYwMUdHeWhlN2xmTkVHZFF2d0EwSWhQTU41Y0plZ2VfeU1WQWE3d05kNVl5NVhkaEVzWXZ4ZFJacWowRC1vcGRlcmc3Smt1bFHSAdcBQVVfeXFMTU5QTjBUWHNFaUpzN2IzYzZRT2RFNnN6Q1lFWGxQeGIyN1N6TENadmlzV2hkV1l0QjFMQWh1U1ZEREdWdjRqS1FJcmdPYjgwOUlZdS1qXzZ5SHdGTGpqckJTQkNScUIzcTJfMFlCS1dfQkRKb3J6X0hPV004MUEtWVRXYkZEdVpYX1hNNnZGY1VhOFR1LWNIeHduU3RpYUN3dXRSTC1jSHd4OWdnSWhrSWJ5cVpkcUp0b2dEVlpQdTgxMGx1S3VaQTBHb0FQTG5Bd2hDV2R1MGc?oc=5",
+   "fonte": "Estadão",
+   "publicado": "2026-10-02T21:02:03Z",
+   "coletado": "2026-10-02T22:26:58Z",
+   "rodada": "2026-10-02T22:26:58Z"
+  },
+  {
+   "cand": "renan-santos",
+   "titulo": "Brasília Hoje: Renan Santos chama Flávio Bolsonaro para debate em troca de eventual apoio no 1º turno",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPN3JWS1Jndl9wbk9ocmZ4YVp2U1A0RGZZajZ0MGt6aEhUb25nUVREd2p1X01vN0ZUazV1b2tSVVhNclZsMGh4bkI1WG1YX2x2OC1UZHkycEtReVJVRWQ5TG54UlFNLVQ2bk5GUUVLQVVXVTJ5RTVGTld0S3VIeHpwTFVGS1FlMVpPenhyWUVkelY5RnFNdWRxMEljZWJZYklmRXNHbXFZTnpEdTFIMEVzMlVCSTF3eXl2aU42VFJYSnNEMFRuU0V4c1AzeDZwcmlsZkw4eFF0NnhpRlgyalNSNWE3OXk?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "publicado": "2026-10-02T20:48:00Z",
+   "coletado": "2026-10-02T22:26:58Z",
+   "rodada": "2026-10-02T22:26:58Z"
+  },
+  {
+   "cand": "renan-santos",
+   "titulo": "Nunes Marques nega pedido de Renan Santos para participar de debate da ‘Globo’",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZ0t5OWU5Q3V5ZGZBNW1rNDdfZV9WdVdxTEw5NlNkck5yRm1FV0c2cXdsOHA1YnFaT1Y5aklFdjNJUUpUVDJlTjJoRk9STkI2Tld0clNKdWdCcDBFWndwdnBHR0U5RE5jbmVtMGNqQzJJaGxCeFBMckFDczhpbVI4Y1NfYTZYV3d6VzRveDFmMFBYUW9fY0ljWElpREJxdHJncE01endveHJjNXlJWTU2Z3c0eXJuZ0xrTDFtVUhsOTg?oc=5",
+   "fonte": "CartaCapital",
+   "publicado": "2026-10-01T13:29:00Z",
+   "coletado": "2026-10-02T22:26:58Z",
+   "rodada": "2026-10-02T22:26:58Z"
+  },
+  {
+   "cand": "renan-santos",
+   "titulo": "TSE nega pedido para Renan Santos participar do debate da Globo",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdXBSUTVQbUJXbTBaSmNqWGRjNWQ0THlSYXhYMnpkczdpSDhKbDhRc3hFQW10YnVJSURldlV6blNTZzRKbXlvejllYkU3ZnZ2c05Pa2ZCTHZwdm9OYWhTOXhRMmM4NWZ2M3NlMk80OGltR050MVpxY1BXajFhck9zX3MzdHB1WHlWcHA0VE9sLW1YOGVyV0RqSXA4NEVBcjVPT2pNZ9IBqgFBVV95cUxNYndjQVVpeXIyWndJb19zSXdqUGFqOHhhdTlYNEQzMzktckhsRlkzUW9uUlZoeUNtdTdSTExhZGpIenJBcWNMbXd1UTRqeHBmLW96dWRnQXYteE9Xbm1PaXhTbDMwdjRmSEx3N0YyQ3JibjVsNW01VnB4bzhYMDNkd1RhSzVLSGlTQlJNSjJQQ3Blbm9jOWU0bzJYaXRWbG13NWNNM0pOdVlhZw?oc=5",
+   "fonte": "InfoMoney",
+   "publicado": "2026-10-01T12:06:00Z",
+   "coletado": "2026-10-02T22:26:58Z",
+   "rodada": "2026-10-02T22:26:58Z"
+  },
+  {
+   "cand": "zucco",
+   "titulo": "Zucco evita se comprometer com promessas que aumentam gastos ou reduzem receita",
+   "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNRkI4N3JpM2tWdVVRaUx3bzEwWjVwMi1oVDFsV2VNY01ISXJxdUZ4WjF4RGFoVENHR2p0ZDE5cVN2bVczNTZvRkFyWkhVNEdaQkxPLUhpLUVmeUx5dXJfQnZHWG1HQ0RUMzA0Sm5HY3ZnYkZranRsZ0dvTHExN2p5Z0wtWVhaTnY0Rl9PTkZUdWNaYWVlVlNrRm5QdXhYSFNwbE9FbGI2UXBtMW9leWN3cWU4Q2dWNFZ6NmEtNUVLSGo3VHVoX1h5TlhTUTl5NjVrZ3JtazZvbXBrT1pSSjQyY1JqN3poSHdPYm5rSW9obXlpcHBrbi1taG5kWDhtMkQyZ3RYNDQxN0M5TzBwUkkyU2l4T1EyaVU?oc=5",
+   "fonte": "GZH",
+   "publicado": "2026-09-30T22:29:56Z",
+   "coletado": "2026-10-02T22:26:58Z",
+   "rodada": "2026-10-02T22:26:58Z"
+  },
+  {
+   "cand": "gabriel-souza",
+   "titulo": "Com segundo turno na mira, Gabriel Souza, do MDB, aposta em diálogo com apoiadores",
+   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQeWppdWpMcjc1aC1mY3JGeU02VU52M3BRNE5ZMmVScHk2aUozLTdVUFJLMnhLYUJGUWUxMURnX1prNGZtbWxmb3JfRkxZMF9BZVNrbTNyM0Z1V2QtbDdXQjVTam02RXQ5UWp0bFNRUU5NQS01MzhNd0x1T09EYjBBUTY4UzFhbG5LSjhmdE1QVmxUYmN5UEQ5N1ZReFA2Vy16QXQxUzZod192b0p5ZWtveVQ3b3RMdDZPRExnNW1KZkpkcW9EZzd6bTlPbkJaV2R5VkQtVzVET2hvNUFTWDJheW5Lcmh5S2tQNlNSbHpHcUZHOHBoWmdUX2JMeXNxQQ?oc=5",
+   "fonte": "Correio do Povo",
+   "publicado": "2026-10-02T19:49:22Z",
+   "coletado": "2026-10-02T22:26:58Z",
+   "rodada": "2026-10-02T22:26:58Z"
   }
  ]
 }
