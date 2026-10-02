@@ -1,7 +1,7 @@
 {
  "meta": {
-  "ultimaRodada": "2026-10-02T01:42:30Z",
-  "novosNaUltima": 10
+  "ultimaRodada": "2026-10-02T02:39:12Z",
+  "novosNaUltima": 11
  },
  "itens": [
   {
@@ -2213,6 +2213,105 @@
    "publicado": "2026-10-01T13:06:37Z",
    "coletado": "2026-10-02T01:42:30Z",
    "rodada": "2026-10-02T01:42:30Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Presidente Lula, candidato à reeleição pelo PT, tem agenda em Brasília",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTFprc1hlM3pVOXh3RnozbURWNks2Q0IzY2dad2JxVHlhVjVvQ2RpemxtWHVkcU5LcWl6MlZnYmVlWHNZRXZvaWtxMmVnMmp4cU01ZG5iWjFEY0E1RzRhVnhoNmFzanJwdEI4ZmR6b2JxODlULVNMVlRpdE9tdmxnMWMyM1dYMTk0aFlmNlVRX1hBb2xqQ0tuUE80d2twcFVZTHlwZTJONEtUaFpxNEFUUnZWOW1DZE5QOGJQZ3VQSk14by1fUUhKSndR0gHYAUFVX3lxTFBGeDBTR1ZsOGc1NXdWYUpoNTJYZzNYWDY3cGNkZFZRdlhXQkJMWjdYSC1RcC02RVpqWGc3b3RyaUVzVWZHUVhxZzI5VlhHNzgzSjgwazlLOW9HUFIzRFk0WmFOcWhsUTlWclE5V2x2OG05bU5LR3U4dk9ITi0tV3VwUHRQbGtqTTBEQW4zdHFHaGQxTlZmSkNBZ1RlQjBkdk9aRG9nTG5pRFlxa2xnenJocnQ2YlpsMFFBUmxPVF9MazVQVDA3Z0xWQ2FJRVgtQVpSMDBSeFJIUw?oc=5",
+   "fonte": "G1",
+   "publicado": "2026-10-02T01:33:18Z",
+   "coletado": "2026-10-02T02:39:12Z",
+   "rodada": "2026-10-02T02:39:12Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Lula cobra Fachin e diz que STF não pode ficar se 'digladiando'",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOeFdfbzk3QUJENEthMlozeldoOHVCcUtSd0tza1dZNnBHb1lhanRSREx6M2hwendWSVJnakRLb0Q1Um1Fb2Nhd0xaM3BHUmN6aVhacjZXUFM5dFlEbkNKNkNCN1hsb2EweURMQTZxUHA2WEVSRlYtLUZqaDMzcUdKME5wQ09wUlRYSXI3R3FVVVNURk91LVhZdTl1WXhiNE9wZmFEV1hSZHd4cXhSN093c0wyeEFwNndDXzhhNl9rcnFmM3RjY3FLNjYwOTUzQdIB3AFBVV95cUxOSUd5YS1rRUtaZVV1cHFPUks0eG8wY1Z1X2pzd1V0aXFFRGczcWFoU3NYcWsyejNyRW1yWHVuR04tVGdQMTdtb3QzRk1qd0prM05LZlJnLWFqdEF4bmNvSkxuMUk0OWs1THp5M1puWVRObUF4Tk5zaTZnWkVUZU12T2twX2pmRGotS01OZ3NZRmd4ZVVsdHV0LUJ3OE9DRmltU0xhZjNnbWtKbVNaV0Z0MXJNQkZPRE1GdmR3dDlnRXVuV01xV29OSW52WTdtUlpWcGVWV0ZFeXc0Z2V0?oc=5",
+   "fonte": "Valor Econômico",
+   "publicado": "2026-10-02T00:53:10Z",
+   "coletado": "2026-10-02T02:39:12Z",
+   "rodada": "2026-10-02T02:39:12Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Lula diz discutir com BC proibir bancos de dar mais de um cartão de crédito por pessoa",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOV1FWcmhQVjFoQVZuY1Bob0JfTmRPTl9BcXgxYXdYNF9yaGduWTdGQzE4aGNyWUZVRlR4TDFleEVsak9LREd2WE1GRWE3MlZMYjNBNkZGSDVFRk5TdDhFS1EwTXVxRmF3akNyNVFhUVVuX2V0NHJ3XzJ3VC1OQXRhb01EVnhtV05LWEc3Tk0yLWdCOTlVcjhtR0tYcEFvQVNMcS1uOGxNWV9hb09lak52WnJmZFJOUkVHbGNGaHFNTjA4aFBBRldrT1A4b0JjeTVjY21mU3dtbnRfUV85NnI3UlFMV2daZEJkQmUydkFYc9IB_gFBVV95cUxNaTVscHQ0Vk1jNGY5eTIxYVkwNTRKN2I5d2lZSHNtTms0VTNqRS1lUzNPWUFMeWh4Qk8zMm1oMDJFWmRTeDNyN3ltVFk3NUJmZWNZcjJzODh6S1R5MVRhdGs0MXdvTE5XbXdGSUMweTEyWVV5OFVQQ29xbXFxOVJqLVFHVVBvZ0Nsa3llTXcyamJNak9STWozTWdGOFNGVGlUYU9oTm1EY0phemNaYXBPdjVZUWV3RTROa0hYZnRVZ3YyeHIyOFRlWWpFQTBXbjl4NHNieUk0V19qSnVfU3BFb1ZwRUxtZGx1b0VZQm5RejNibUtnMmNmVVdhZENidw?oc=5",
+   "fonte": "Valor Econômico",
+   "publicado": "2026-10-02T02:01:47Z",
+   "coletado": "2026-10-02T02:39:12Z",
+   "rodada": "2026-10-02T02:39:12Z"
+  },
+  {
+   "cand": "flavio-bolsonaro",
+   "titulo": "Ao vivo | Debate Globo, Lula no Flow e live de Flávio Bolsonaro; siga",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcGEwRWRUa0NWb0dYQ3NjMXpHTFJLZ2VuaC1SbS1tZ0Zpcjh2QThPMElHVUtRS2NVck5WWFhWbGtpUHJvMUFObTVqbnUta1FmODJlcDZmYXVFLVJnazhqMTFEM0t3cG1KTk0zUGJDTFZNV1ZMVkNlSVhsQmRIa1dNRl8wWEQzU1dHYTZpazBIR1EzeXVYUF9VWFB0ZEt4SGVLcm4zckZVaGdZQmJNWlhTVExlNDFvem1nTG1pWi1HbGdxNWxTWmZiMkRvSQ?oc=5",
+   "fonte": "estadao.com.br",
+   "publicado": "2026-10-01T23:36:00Z",
+   "coletado": "2026-10-02T02:39:12Z",
+   "rodada": "2026-10-02T02:39:12Z"
+  },
+  {
+   "cand": "flavio-bolsonaro",
+   "titulo": "Fachin rejeita afastar Dino de processos contra Flávio Bolsonaro",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOTDFSQ2hXQW51bjQzUWxGSzFrbjlqUHRSNVNBWV9WWG5EbFRmOGxZWVBmVEdEeXlRc1FoUXIxdS1SRHpxWkh3NmI4dzJLMUpMNnpLSjAwZ090Q1hYbGZsM0NNVG9aSm9DdnRVbTlFSW5wal95aU52ODBnUHNYLVNZU3NwNVZ4TVFLM3hWQjNGbnQ2T2VUR21EREVtRGQwaEplVVBldTBzWnJqV21IUF9uMTNKTlBUNE96TndHZ1Y3TUh5MFRKWHVXb0xxNmZQU1VIbUJPQjFhRVJubk5LQXBzOQ?oc=5",
+   "fonte": "Agência Brasil",
+   "publicado": "2026-10-01T23:09:00Z",
+   "coletado": "2026-10-02T02:39:12Z",
+   "rodada": "2026-10-02T02:39:12Z"
+  },
+  {
+   "cand": "flavio-bolsonaro",
+   "titulo": "Flávio Bolsonaro anuncia que não irá ao debate na ‘Globo’",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVzB0dXBPa2FudmQ5TzM2UEtfbFVzQVRtaWVuWjFDY19CZ2lrWDRHNk1rMVE5V2xNbkxVWWFDTmcxU29fYlR0TWl2V05sZVJGNFd4dGpOb1Nhb0lUeVItdTEyUTBMbmNpLWItdWxvZWNibDlLR1NLMzlHRnRpZjVvWThZRDczY2NFaTNOZWRMd21sUk5KZERGZU85bE95U1lxQ2l2T29UOA?oc=5",
+   "fonte": "CartaCapital",
+   "publicado": "2026-10-01T22:34:00Z",
+   "coletado": "2026-10-02T02:39:12Z",
+   "rodada": "2026-10-02T02:39:12Z"
+  },
+  {
+   "cand": "augusto-cury",
+   "titulo": "\"Essa insegurança jurídica tem que terminar\", diz Cury após cancelamento",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPOVhUN2syalZzTGloakxCTnR1TDFxUUtqWFZtTE1MNU5zd2lxODZSTUY2NF9mVkd6MXVVT0xyZWxocTFidXdocHdzemNUcUpsRFlkMldNUWFUVkliR21ZeHpwYXpFOEt6VW9CMmRMT3hBN2JpUXNWS2dwellOYTVaaVQ5MjVUQjA5ajAzbU9wY0dCZU4yT0EwUFpxeVp2d1lnMFlDU1Y0eWxFZ3ZQ?oc=5",
+   "fonte": "CNN Brasil",
+   "publicado": "2026-10-02T01:18:14Z",
+   "coletado": "2026-10-02T02:39:12Z",
+   "rodada": "2026-10-02T02:39:12Z"
+  },
+  {
+   "cand": "ronaldo-caiado",
+   "titulo": "\"Atentado à democracia brasileira\", diz Caiado após cancelamento de debate",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYy1XXzNWU0FnekUxUzFOOXB1aGRrS0tuaVVfR0NxQk9PU0t4RkFGMFZaMkl3Z1JzN0NpQTFFQjd1NWxMbnN5eTRuY3Z4MFdvSFdRMGc2WGV5djh0T29RXzFfdmxMVlRtaW1sZUJLVE13ZWtlQksyZzlmeG54dGpObnVKcXVWT1pGLTBOSnF5cGNoX2RxX2xQR2M1YVU2SE5mdGJtU0JVb1hFQzdRcE5r?oc=5",
+   "fonte": "CNN Brasil",
+   "publicado": "2026-10-02T00:47:32Z",
+   "coletado": "2026-10-02T02:39:12Z",
+   "rodada": "2026-10-02T02:39:12Z"
+  },
+  {
+   "cand": "renan-santos",
+   "titulo": "Flávio teve “medo” e fugiu de debate, diz Renan Santos",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQjQ4bDB6aTRmaXpXQ3JZRGc2R3dENVBLejdYRktJXzRpZXFmMExPelF0a3dSWW9tYUV1TXFZSWloRTBrMkdkUGxmRkxZXzBzaG0wa3YzRHFTQk5LMmw2RTFiWS1mRlI1b3pnTlVhS3pocmNFUk1GRGVUQXRPcFVmUUZ4Z1N1VzJpT0RmZFhoUWJfdjZGTzZzeG13cVdqUzBvS1E?oc=5",
+   "fonte": "Poder360",
+   "publicado": "2026-10-02T01:36:13Z",
+   "coletado": "2026-10-02T02:39:12Z",
+   "rodada": "2026-10-02T02:39:12Z"
+  },
+  {
+   "cand": "renan-santos",
+   "titulo": "Renan Santos, candidato do Missão à Presidência, cumpre agenda no RJ",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQTRPUTdqdGFLbThOSkxpWHdNaF9RSXBwbEoxLUJNdTBSY1VoMU1CWnp0RXRTQURLc19VNHVSa0hiWEhIMDJNRW9xcUFDdzYzMDlVZ1dEa2poYkhXQnRWaWpqZWxGWjgyeDlNNXJST1pKejVlX0tDa3JvV0gwUEJBN2tBRDc3QkpMSjF4bmw1aGhybm9IUkNyOG90WnpPa2NNNFo4OXdrSXo0bjRsWXQybWljY3R6Ym5MZkRRNzBjaHZsdGxmQk9z0gHWAUFVX3lxTE5MdGNiUTFudDBWcUV2bFdzclkwM3BNdjI5b2xidF9Lc0ZOSjc3d2ZCSnNNSHgtRVhZcXJVYnQ5OF9BaXlPeEE2a0xXVGY5ZFpOWmo3WmFoVXVYa1FBeVpHSmVJMDVDcXhfcXRMWklIN2tYa1J6MTFLNDhDVUNNZ19kX1JNYmRqQTFMWjU3ZUhpdFRGNFYxRWlCZUNVcDNZV2s0TG1oakoxT0RabExlelIycC1JeGEtQ3l5V0FySnZVeEVRUkRaeHJPeWMyRjc3UGFCMzV2cGc?oc=5",
+   "fonte": "G1",
+   "publicado": "2026-10-02T01:37:52Z",
+   "coletado": "2026-10-02T02:39:12Z",
+   "rodada": "2026-10-02T02:39:12Z"
+  },
+  {
+   "cand": "renan-santos",
+   "titulo": "Leia íntegra da determinação de Gilmar Mendes para que TV Globo inclua Renan Santos no debate",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeGxoQUdUYUswQnhZaU9aeFQ3WDJLOU1Ob1BoOWpvQXhMS21IaDlMRUJmTnprdGVGcHFpMEwwMnh1aTRiTlJmRll6MkJBNUpVQUlzRXBvQjVmQlFQRmd5YzZtX1RLSEFkdWg0YzhlVnlYcVl5YnNNbGtXZGFOR29ENHJRdHFkOFNGTUN4QWRzVkw0YW5mVXN1MFpWeHJMNktMelQ4VzZNSEFuZ1lpa1VWa1JrMldnLWJq?oc=5",
+   "fonte": "folha.uol.com.br",
+   "publicado": "2026-10-01T22:37:00Z",
+   "coletado": "2026-10-02T02:39:12Z",
+   "rodada": "2026-10-02T02:39:12Z"
   }
  ]
 }
