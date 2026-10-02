@@ -1,7 +1,7 @@
 {
  "meta": {
-  "ultimaRodada": "2026-10-02T01:04:14Z",
-  "novosNaUltima": 15
+  "ultimaRodada": "2026-10-02T01:42:30Z",
+  "novosNaUltima": 10
  },
  "itens": [
   {
@@ -2123,6 +2123,96 @@
    "publicado": "2026-10-02T00:32:43Z",
    "coletado": "2026-10-02T01:04:14Z",
    "rodada": "2026-10-02T01:04:14Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Ministra do TSE decide que Globo não pode mostrar púlpito de Lula vazio em debate",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPS2dlbDM5WE9oZGduQ042U1I2WTRlSnhzalQzZldhYWFadEw1Smg2TUs1X0VYaUlBZTFoQTV5TWd4T2twbGR4V2ZqdEdzOWdoNEctZVU3RHhXbWdvTG5na08xZ1lGWnFPNjVEc3l5MFBIbXdZYXNyb2RQQXlQdVNYd2dUUFk3ZllUakNOVW1Vd1hScURKTkQ1X25ScnFiRG5OMU01REROOEVxQm1UOS1kOXdUNGdoYWJVTnBWZnh5TVBfamdX?oc=5",
+   "fonte": "JOTA Jornalismo",
+   "publicado": "2026-10-01T21:54:27Z",
+   "coletado": "2026-10-02T01:42:30Z",
+   "rodada": "2026-10-02T01:42:30Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Flávio Bolsonaro diz que Lula 'vai ser expulso da Presidência no domingo'",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdFRYZnktQ0E0ODhXT0tFbzdUNHd6SG93aW51NV9qT0VnbEFlUUlBTjM2V0VBaGpjTlk3OUdJeDU3SC1nU1NFcmRVRTJvTVhmN21fbVg2dXFGdmhtTzhiUVFackJsY2JhdVd2T3BUWFRZWlcyYnpfOVJLQUhYRWxuQkdhc2h5c1hHN1BxMzVvOU9XYm1zb3ZwZmJHeTU4X3NiX3ROamVXMA?oc=5",
+   "fonte": "UOL Notícias",
+   "publicado": "2026-10-02T01:30:23Z",
+   "coletado": "2026-10-02T01:42:30Z",
+   "rodada": "2026-10-02T01:42:30Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "TV Globo cancela debate após desistência de Flávio Bolsonaro e ausência de Lula",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUUZKdnVYN3JyT1B0NERtQzRJYXAwRVBnQnkzQl9LSUEtUUs2bHV5VkQtS0lKTXFnRy1BNko0Ul9ob2Q5bndEcWd0czFlUWVSQXBaeXQzLVoycElOTkg4ZzRreDJNNlRqNnVFMElqbk9zbk9rRjlQemJtR2VuRG1MRnYyVnZpQ1JWMXJBZTU4WkhrWEhHYVhqLUp3VUN6YjVxWk5fenhoakZKcUlJQkJjTXlWczQ2X214dlRfTjlORng1YjhOSF9FZQ?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "publicado": "2026-10-01T23:42:00Z",
+   "coletado": "2026-10-02T01:42:30Z",
+   "rodada": "2026-10-02T01:42:30Z"
+  },
+  {
+   "cand": "flavio-bolsonaro",
+   "titulo": "Datafolha: 23% apontam Flávio Bolsonaro como segunda opção de voto, e 15% citam Lula",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN2hBb08yaFNrcy1Md1JhUnN5eDdyYUxWOHJyTHJXTUhqekJPdGxpQ2NkRXpMcWlqeE1EbmptRkxYelB3T0kzekRYSWlvM3pnc3BJN2FNZGZhbnFteG11LUFxcFdoLW5kQnBfRF9nZzhibFpuTUMteEJLOEpQU2JQb1ZLcjdsdlBLSDVrQkJrUDlXUjRCZ2pPRjY3M3ZHR2VGekHSAbABQVVfeXFMTUlyUDMzZ0c4cEdDMml5WHlzNmFDOG0xSlFIU1dpUTVSdktZWXZfOENCbktHeFdwUXAyLThSWGFaZFljNXJNWGVBOVBETHVILTlOaGMwc1lUUDhza1BDSUx6RVprOWl6V1BHcVJvWVpwTl9lM1pXU29CaDBORjJrTGswN2lpRFcwSU5vUGk1ZG15WkRYbG5lQmZlX0NBb3hVanBtWWFFQldSVFI3dDNTeWU?oc=5",
+   "fonte": "G1",
+   "publicado": "2026-10-01T22:31:11Z",
+   "coletado": "2026-10-02T01:42:30Z",
+   "rodada": "2026-10-02T01:42:30Z"
+  },
+  {
+   "cand": "flavio-bolsonaro",
+   "titulo": "Datafolha: Lula marca 48% e Flávio Bolsonaro aparece com 45% em simulação de segundo turno",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQbHhLNUVpLW15LTM2bUlQQzVyS1B2Y0tScHpXNG9iVTNrd2pPaERLWXM5RGJ5OEhiMkQ2R2NqTUR4cXNqME9ScDhrSFR6RF90MnlLalpCN0dTMTBwaGtxaUFSQk9oZzdQNmVFeFdwNEhYNHE5eVBzVEpVY2FjalFJRzM3UTZDMGdESWRaU05wVkViTGxSQjhhdmZvOXYwMEJJcEwyRFV4Zmo5bWdxNC1ZOUtnV1NkRVlwckVNUE1JMTJQR2E0R2Q5SnRXUTRCUjc5d080dFltTDNqdzBPYlFkcnpMM3hxUnRtM2Z5OXZB0gH8AUFVX3lxTFBoYm5CXzN4TTJqaFRsUTNzdGFKMHFqazVrMDAycVVCWGF4VEFleHR2UU1IalI3a1MySlBYcDRGTjR1eVFfWkxJY2huaDE0OEEtZFgyRXdHQWsxX0tYVTRYWlpFbzI0c0JwMGhjOExlUjdQNXJnU0R0R1JMSDkzbk5YSm9wM2h5M2h3Z0JkRW03cXJuY2RmdWVQOXpYNHR0VWZyMXJiTzdKazNtOVZabVJ2cmJGSllsX0dhM2JCNDFSSHRUc2JBVkoxWkpBdXY0LVp0WmlTekZZZjVzb2RpUVJjSThudkRzdzlGdGhrdUQ0UWYwa1ctbGJBUFIwUA?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-01T22:06:42Z",
+   "coletado": "2026-10-02T01:42:30Z",
+   "rodada": "2026-10-02T01:42:30Z"
+  },
+  {
+   "cand": "flavio-bolsonaro",
+   "titulo": "No último dia de campanha na TV, Lula usa religião e bets contra Flávio Bolsonaro; candidato do PL fala em mudar 'velho sistema'",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWWJFbURlajVvU3MzMEpScEVXREZRZFhJUHQzUUhmNEhBN1ZaeXRuWjUyMno2RHZMVHIxSkR6bGR2bktTVGcxeHJIRlJmd0FyRnAtejhMZGotYjZ5eFlfSzNzZDVIeF9LUGNSYW5BazhuRkJaNVZzN1BUb0NpZ0Q2SVlNWktIaG9ROW1DQi1STnBxNDVRbV93WEpUd2ZCRU51MEhPTnE4Y0t1TGo4UVHSAbwBQVVfeXFMTUZQOVlTRlE2WXUzeGdiLWUzSy13U3Z1WHlyMUVVUHpBUXg3cFAzWi1yNXBlcXVMZXNqclBZVHFGanNaNTkxVEJhR2RVb1p6Sm9wS0I5THBTSU5YUGd2ZlBoVUkyZERRb0ZRb05TWUtMZmlOYk1YUWRUUjFuRTk5VEtWeDNIQjBRa2RVaDhKdHpJRDhrRTF6X2hGZm1XQUJmRTByTmxtaXFPN3pxdzhGdUFJYm01dnRNTDBITVM?oc=5",
+   "fonte": "G1",
+   "publicado": "2026-10-01T18:26:06Z",
+   "coletado": "2026-10-02T01:42:30Z",
+   "rodada": "2026-10-02T01:42:30Z"
+  },
+  {
+   "cand": "renan-santos",
+   "titulo": "Gilmar Mendes determina que TV Globo inclua Renan Santos no debate",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQY1ZxelBRMU1xYjdmc2lMVENRNC1BN3VpVHRkSUhmdVlyaUU0anR4X2pzSEsxQngySS1vMzZNVEpQRno1MEFlWTVQMlhSZjZ3S001UmMxUFVvd2tmTVQ0V2NaOFc1dWhnaEhUUnNtcm4ydGxHMHdnNUk5MkExaERmbWtsVkdSaW8tY3JHNVIxU0RBYnk1aWxPaHdpa3BwSFkxZzlwOEFEZGNONi00OVhBT2xWRllXZ2FIZDlZS0NxMG5vb1kyX0owd25SOHhMNHY3ODJIY9IB4wFBVV95cUxQempnQmdqdXFzaDI2SWUyaEw5TjMzMDRsaXl1Z2ZuOU1XTVoxb29qTFVFckNYcjF3V2pUSUtzRF9BWGFYcW5PV25FZk16OEtIck9EeDZ1ZUo1MHlxd3pVZmRfZTE2dUlETWhOZFJmVFdLYnMyRUtpdHljU2REdFJQbTJZbWRHa0t1cS1VMEtsQ3pxeXBXM0RkWFo0WVM1ay1JQ3Q4c2FaUUE1d0VRMHlweGVwLUgzM2NhYnprUWpDZzVFYkVIZHBVcGsxUFJ3M0NiOFpwTnJtdjdPQTZVZExjMG1rWQ?oc=5",
+   "fonte": "Valor Econômico",
+   "publicado": "2026-10-01T23:11:41Z",
+   "coletado": "2026-10-02T01:42:30Z",
+   "rodada": "2026-10-02T01:42:30Z"
+  },
+  {
+   "cand": "renan-santos",
+   "titulo": "Renan Santos chama Flávio para um ‘debate de boa’ em bar após Globo cancelar debate presidencial",
+   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNc3I2SFc0d0NpcDFNLWxoODdmQVAxTFFUQ3I3dmRPRXBjRDVza1ZFRVV4SEpsWlV3ZS1BQktFVERNdGZsaXNuX05nWDNHSzdzZzNOU3RlbHhSMFNrX1pyQzhWNUEtb0pMOHYteTBNTkpLSUhSdVJNRnBiMGhKdUJrWFV0aXdJY3VqVC02Z1hUSEJZTU43djB6RXVnZG15SWstVDJoeW52TTBrX0ppeWNYZjVPbmhmN0hkdUJtTzNBaEgxbWc1RTFrbGRoNWdyRWZEa2Q3cFpGR1FPQ2U0cjZwZDI3Nkt2TmZwM1VHaWg2cmtCOUFBdVdjMkJETmdLd9IBjAJBVV95cUxQbjgxRVYzTlpyYzFFVnZsTWNOYzJQanBmREpja19ycHlxdktmR2lIUzhDUEUySktuOU1xcEpYOFVGTEEzaTZ5Vkx1aHR0NURYQWdmSTRWZkM3Z1d3UGV1WFFUTHR0X2tTR1dhZmoxTEkwajl3ZmZHbXFnV2VJSmJWaU1ZTVpTSTl4MFBfMjlLZFlUMXJ3eWZoNUo0cGVuazM4R1NWVEVlQ2Q5QnBDT2UteHZvTDdxVzBoUWh2c3FjYzNLbGFiTXJqUEpOQ0JxdkpQbThvUEFBRFRTLWs5YzVHME5ZbjJMSF9HQzZGNHpDWkJiZkhQd1BtcmR1UHZtRTZsMVEwaHRwcXZLMGc0?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-02T00:59:22Z",
+   "coletado": "2026-10-02T01:42:30Z",
+   "rodada": "2026-10-02T01:42:30Z"
+  },
+  {
+   "cand": "renan-santos",
+   "titulo": "Como Renan Santos está na pesquisa eleitoral? Veja números atualizados",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTHlDX01JbFI3LXVMT2taYUZGcWo5NF9kVlVCdHh4WmNNNnhQc0ozNV8yYVhvS3hiMVNVUGRBbkJLQnlVLUliZWo4WGxaSGk1bWRrTVo3a2I1RE1Vbmdqd0VQSlBFV2tNZFBuUDRTazd6SmNLS0l4V3pUQlkxNTFhMXZCb1VJVWdPZmtQdWhtdkcwYkdfcThIT1NjRHAzTGNJUDdEM0tQdFdLV3FVRVpGbG5DbXdWX2FzOXI0SXBKMA?oc=5",
+   "fonte": "UOL Notícias",
+   "publicado": "2026-10-01T15:55:00Z",
+   "coletado": "2026-10-02T01:42:30Z",
+   "rodada": "2026-10-02T01:42:30Z"
+  },
+  {
+   "cand": "gabriel-souza",
+   "titulo": "Sabatina da Gaúcha: Gabriel Souza promete zerar a fila do SUS em um ano e descarta aumento de impostos",
+   "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNVi1wRTBmVWZDdjhiUkJTSGpaMGNuLWVjbEN0blpMNXZWdzQta3p2RlFGVmtjeTFxVTNrUkQtdW56QVRSLW9xS2FLb2RSRlkwWW5HQ1FvemdoX0dQdFh5VzAyVmJOTkRiaHRjd3NmemxiQkd0UjlhSHd1OEswNTFOTHAxU3c4WkxWU2FQbVd3WVREWEVIVHAyZktjZnJ0TjE1NWZWUzVIbGo2TWdBQ1lRaW5lQ2RVMWtnWWpjakxJalJUSzRNSHNBWGN6emYybTZUa3R4M1hZbU5YYkl2Y3MyS0dvZy1vRWRNeXVTdjdPcGYyWmpMZDlHYjBTMGlDM2VCRE1LR2prdjYwdGZ5MDZGbU55aDMxZUhRcHFSbkd1UElZQUdp?oc=5",
+   "fonte": "GZH",
+   "publicado": "2026-10-01T13:06:37Z",
+   "coletado": "2026-10-02T01:42:30Z",
+   "rodada": "2026-10-02T01:42:30Z"
   }
  ]
 }
