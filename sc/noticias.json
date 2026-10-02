@@ -1,7 +1,7 @@
 {
  "meta": {
-  "ultimaRodada": "2026-10-02T11:27:34Z",
-  "novosNaUltima": 10
+  "ultimaRodada": "2026-10-02T12:41:11Z",
+  "novosNaUltima": 9
  },
  "itens": [
   {
@@ -2849,6 +2849,87 @@
    "publicado": "2026-10-01T13:57:49Z",
    "coletado": "2026-10-02T11:27:34Z",
    "rodada": "2026-10-02T11:27:34Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Pesquisas eleitorais mostram a distância entre Lula e Flávio após números desta semana",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMmJ6N0VDTmlDVzRnbVgtNzdRNEtWTjNVaERmOGxOXzBIZllncXk1OXVkWWxRaEpCUUtabDVnbG9WYVc1OG14dXN2c01YTW5ndzR2R2k4YXp5SFhrOUQ5M1gtQ1hKTkpMQ0dCV1VMbGg5N3ZzNWVvYk5leHVaOFdjRU5DODNxM1ppeGpRcUFmVGF1b3E0N3RuUmdKOU4wa2x2SjNVanktSlNGV3lxUEhPM05yS3htd2Z6dmZRbUdISQ?oc=5",
+   "fonte": "veja.abril.com.br",
+   "publicado": "2026-10-02T11:02:23Z",
+   "coletado": "2026-10-02T12:41:11Z",
+   "rodada": "2026-10-02T12:41:11Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Lula na pesquisa de 2º turno para presidente: veja números do candidato",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQT0twRHR4TjM0ZTFZcTZVbWZMTEIxOUYyN3BuMzkxZTZmeTVoQ3pCMHMwNDJWX0ZoRHpnSFNKSjhjQ2t2czh4b0FQTHNKdVlrd1pKWW9KbWRXcjV0UW9tNzNOY0NqOGdXY3pxRWgyeVZwWTlyWnRseUFKcng2ZFhUMVNlbnhEY2RzQkM4S0hockRlX3VMUVRnOXNpcTQ4VHJPZ0JIRk9KR0RxVzRkZnI5LVlLMGU1SWlNMDlreGNIcw?oc=5",
+   "fonte": "UOL Notícias",
+   "publicado": "2026-10-01T22:32:53Z",
+   "coletado": "2026-10-02T12:41:11Z",
+   "rodada": "2026-10-02T12:41:11Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Datafolha: Lula tem 50% entre católicos, e Flávio, 52% entre evangélicos no 1º turno",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdVg1RHpjQ0pWR1puZkdvQ3RlV1Z4UV91MU9rRk4xakZLTDdFaDJsS2dab3REUXEtcThXU05SVUZRbTlndXJWek5KV3VCQlRBQ1IyX0FWZk92NDNDZlpXd2tXZGpEQmlBeG43VDEyMXMxdThiRXNJZEVCbXNPdUE0YjRHS1JrWXgzTkhFckFnUWFXdEhPaFVwSUdDRVMzOTc2V0FnQ2pEakNTTUJfYjZEaFh1YkhkdFo5SE93TG1JWHRXUEtJTUg1RQ?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "publicado": "2026-10-02T00:52:00Z",
+   "coletado": "2026-10-02T12:41:11Z",
+   "rodada": "2026-10-02T12:41:11Z"
+  },
+  {
+   "cand": "flavio-bolsonaro",
+   "titulo": "Após desistir de debate na Globo, Flávio Bolsonaro faz live, critica TSE e pede voto útil em si",
+   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPaWlJT291elhMeWlyYUJVM0xEVDBNTmpZTlo3UXpvc2FNdHdtR01lU1RFNVR1VVF5UGJPa0VWYjNSY3ZUdlB3SU5sZE1EN3pFcTc1elMzbzJXQnNlVXhxR3VBdnlObkM4ck9HZFU1UjNPb2c0TzZhMEU5cmlxM2ZYVmFnUlVqckxJTDBmOHdtelRDREc3Z2RVWDJ4Sy1VTmhVdDFmczdIbG1vUmFmd0JTOF9yRlc4TEJjY3dUaTRSSnphX3E2NXFfMXFkVnB1cWxDc3E0cm1UeTc3VFNiSWtzU3h2dFBUOTN4ZktBMGF3YzJBU2FXaC1JSVA5WWM?oc=5",
+   "fonte": "UOL Notícias",
+   "publicado": "2026-10-02T11:56:00Z",
+   "coletado": "2026-10-02T12:41:11Z",
+   "rodada": "2026-10-02T12:41:11Z"
+  },
+  {
+   "cand": "flavio-bolsonaro",
+   "titulo": "Van Hattem, do Novo, troca Zema por Flávio Bolsonaro em busca de voto útil",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQbnlxX1lIcUk4Y2ZpQ1ZqUnRkRmRQYlZpMGVYX0hzN2FwUk50TXNUZW9QaUFZZ1BlZ2JLMzB4QWplQll1d2N0OWNnNTBobXhaYjhydGg5ZWhlR2JqVDFCTmlfN0pUUFZwR2JBOXBaNm04ZnFKN0IxZkQ4X0dHOFpaRHozUFVCaUJIcFVCTHJxMkpPRUxYbFVCWnZBTkdILWVfM3B0bUl1bjZ3X1ZycEJWRTltNFlvaDJ3Y2R4d2ZvTVNGMnJaSmJmVlVFWQ?oc=5",
+   "fonte": "CNN Brasil",
+   "publicado": "2026-10-02T12:07:44Z",
+   "coletado": "2026-10-02T12:41:11Z",
+   "rodada": "2026-10-02T12:41:11Z"
+  },
+  {
+   "cand": "flavio-bolsonaro",
+   "titulo": "Flávio Bolsonaro foge da raia para escapar aos ataques de Renan Santos",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRG1OeFFxUzBTajMyRllNamlRckJQTFVnTXY1cllhLXg1QXh0SzhqU21QWVBjb2tCWnNxNHUwdmhCOHUtTDNUbVlpMkdyX0doQk9sanFWX3h0YzdVbjFXWV83UHRGTkdoa2J1QmM1d3JTVENYRFZqT1VISm5jQVVjeDg2Y3JGN1FnX3BnOFA0WlRfcmpKcWRlWFEtaXExUmpYNWsxMzRpUnhQWmZpS0x4OW5OeURpTTg5NnJuTGFKT1I5NnlKQXc?oc=5",
+   "fonte": "Metrópoles",
+   "publicado": "2026-10-02T07:30:00Z",
+   "coletado": "2026-10-02T12:41:11Z",
+   "rodada": "2026-10-02T12:41:11Z"
+  },
+  {
+   "cand": "renan-santos",
+   "titulo": "Entenda o atalho de Gilmar Mendes para autorizar Renan Santos no debate",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNc0lUN1R4V1VMMFlhQjcxSHg2ZFFKR3NKOVRaQkhqMnk5a2NMem82dTJEN0FJcUxyRjhhXy1NZVFOaFd6LTlzdVpyT3kzWnhYRlkwUDUxazRJdmlpZldvV3dPWE0yZk5LeVFnSElDOWRydUk5cjBYTWJhVmlpVHp1OUthTTB5cmdBWjM0YUh2enphSWw2NnlldjVlZzFqYXZ4NzlXeWdDZTlBUGhHZnFz?oc=5",
+   "fonte": "CNN Brasil",
+   "publicado": "2026-10-02T12:10:18Z",
+   "coletado": "2026-10-02T12:41:11Z",
+   "rodada": "2026-10-02T12:41:11Z"
+  },
+  {
+   "cand": "renan-santos",
+   "titulo": "Gilmar Mendes determina que TV Globo assegure participação de Renan Santos em debate",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNNFl0YlltYXJKbjBJQzIzYUswQUxwMEZnUG5nLXNlT3ZfWVItYTBpMFlJb2hUVlBYY3kxVEV5MEVHYjVLaUJkMzU1bTNHeURIemVSV3hjZ25yUDJ1Uk5HMjBYNG93NUsySDlsSjlFSzUzWTdlSE9tUTBmVHVtME4tVmZ3RDJIcWxGN2JFbkJpaFJjTDVScS1Ga0tOOGZVVXVNU1d3T1llcVpMQ0NLRnl6SEN6bEJqcTg0bVRoenJtSGpIb0pRMjhhZWpGaTNlVnluM3ZqZVlFUTFsaWZGaU80SS1ZeVRpSk1Vb240TzBPU0k?oc=5",
+   "fonte": "UOL Notícias",
+   "publicado": "2026-10-01T23:06:00Z",
+   "coletado": "2026-10-02T12:41:11Z",
+   "rodada": "2026-10-02T12:41:11Z"
+  },
+  {
+   "cand": "renan-santos",
+   "titulo": "Renan Santos critica Globo e aponta medo após cancelamento de debate",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWUdHVG90YlFFd1NHVnRGd2F3RWR4Y2MxSVNiODJkYWg5c1dHUWdnd0Y5eXZkNElLNll5c0dYTW83RWJQRWZoWGxYcEExQm5hY0xqQjZoMUE5cXNGM2liTDhMLU5oNDJySWluVnh6RFlEZVB4dl92dGxXMDR6T2R6bG1BbFpsY2RmY2E5bXJkTENFbDVqc0lvWFFEYndHeUxTTTRr?oc=5",
+   "fonte": "band.com.br",
+   "publicado": "2026-10-01T23:59:29Z",
+   "coletado": "2026-10-02T12:41:11Z",
+   "rodada": "2026-10-02T12:41:11Z"
   }
  ]
 }
