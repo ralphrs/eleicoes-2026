@@ -1,7 +1,7 @@
 {
  "meta": {
-  "ultimaRodada": "2026-10-03T04:34:22Z",
-  "novosNaUltima": 6
+  "ultimaRodada": "2026-10-03T05:35:43Z",
+  "novosNaUltima": 4
  },
  "itens": [
   {
@@ -4382,6 +4382,42 @@
    "publicado": "2026-10-02T21:00:00Z",
    "coletado": "2026-10-03T04:34:22Z",
    "rodada": "2026-10-03T04:34:22Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Datafolha PE: Lula tem 61% no 1º turno; Flávio, 25%",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeEdaZldmTmtuVUpaR2ljNDhkNW5zNkFXZ1NBcnhscFBlenFDLU14d0FZRk1PSU03bUhoU3ZvUW1zYWFLeHhtbUx6ZDFRUlBXY1EwR3ZKVWhQWUsyaHFfOFo3cmtCbWU4NXlOU0hOTWFvYklPUmRyRmY3ZTlnOWl2Sy0zUHZzanVOQnN5SjR3?oc=5",
+   "fonte": "CNN Brasil",
+   "publicado": "2026-10-02T20:49:37Z",
+   "coletado": "2026-10-03T05:35:43Z",
+   "rodada": "2026-10-03T05:35:43Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Lula faz caminhada no Rio de Janeiro ao lado de Pedro Paulo e Benedita",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOWxVaWZZOU43eG5xekU4bUdMQ25WUTJxSy1MT2xvMUloM1ZQLXpIaWtGczF2SDlCWUFtRFNNSUtXN1ZxNml4YUZRZHhRcWxQSTlFQkJxbnpnVXRYUkpFM0dwZUZtanRlMldBRWtKN2k2aDlQcUpZRko5eGlpYlROeDV6RkFObVdUaVFUaXZvcmhkSU82bU5Qblk3enVZNmQ0b2RKbk9Ya0lLT3B4bnNwWlZ3?oc=5",
+   "fonte": "CartaCapital",
+   "publicado": "2026-10-02T21:24:00Z",
+   "coletado": "2026-10-03T05:35:43Z",
+   "rodada": "2026-10-03T05:35:43Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Lula e Flávio concentram disputa em reta final do 1º turno em SP, MG e RJ",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQakZ3M2tDaDlmellIT3ZkWnlKYnVqSHhDUWxyVlZyVi1ReURBQ2EweFlFcGxmMUZtQ1V2S2R3LUZCUV9xV1ZuWm5vMWdtYmZzelRwOVRzS0NBR2pBRWJ6T0hfMTZlR0RDdjh1Sl9NWUJ0X1dPc2MzTTRRd1l5NTc3ZllpVk1heC1xOG4ybXNnNFlGSEJ1NGJBX2p1eS1SY2V6dDZPenhDTGlZaVBWUGdQaQ?oc=5",
+   "fonte": "CNN Brasil",
+   "publicado": "2026-10-02T19:27:22Z",
+   "coletado": "2026-10-03T05:35:43Z",
+   "rodada": "2026-10-03T05:35:43Z"
+  },
+  {
+   "cand": "flavio-bolsonaro",
+   "titulo": "Maior região eleitoral do país, Sudeste tem disputa apertada entre Lula e Flávio Bolsonaro",
+   "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQbEl6X2FGY1BVRWZwWlNFeEdlTGFfNThDZkxOVDFzNU1SRG9iUDdVRGctaEE5T1FoZ0gwVVJ0YkE0MzROdlBINTR6bnFScXNZWnRaVkVFMURNOEczM253MHZWYnMtSE5QTmU1cXlaTk9YYTU5Q1dQVVc0UUlyLUFoVmxDbWlxUFduRXR2TkRhYkN3SHNHS1NfMy1YN0dMbEJicF8tWDBuRlpsTkVuSVRhNTRqd1Ztb0UxQ1hoTXZwZDU2bFdxTWpHYXZ4RXpldjgycTVqNEtua0Rjd05QNi1nQ0hsWFQ2MkZ1NnlLaUtLdVN2Y2JWTDllTDM0X3VfUl8yOGQ4UHp6N1rSAZcCQVVfeXFMTlJnd1dHY3lpUUhhRUlBZzFHdklWU19UWFdSRjhFZEhvWkJ4QkNON25TYkV0Vlo0eDNjbG01NXRTdFhOcnB2MnpmcDBzU0dscGc3ZUtXNnYtNUZiTTh3YUFLdUJxdUsyV2FxbzljbDMwVUhfa2h3TmkwUDZrNmd0NHVIT0h1SDE3UThlV0VSU1NWamR3ZjZ6UVN0NGtYTzFDZm84U0FUREdOeG00RHBKc3JmU20zMnFOeFAzQXRrS1c2aGpsekx3ZlN5NUdKLTlwQ0Y4VUw0MXdxVUotX2JTYTRMb2FfcC1IQTNDTXJDMWFwR0x2TmV1MzV5alBhckV6Q2NoYzBzRmpYTUhUU2otTEdqbXNwb0ZB?oc=5",
+   "fonte": "G1",
+   "publicado": "2026-10-03T03:00:00Z",
+   "coletado": "2026-10-03T05:35:43Z",
+   "rodada": "2026-10-03T05:35:43Z"
   }
  ]
 }
