@@ -1,7 +1,7 @@
 {
  "meta": {
-  "ultimaRodada": "2026-10-03T06:48:17Z",
-  "novosNaUltima": 4
+  "ultimaRodada": "2026-10-03T07:35:32Z",
+  "novosNaUltima": 6
  },
  "itens": [
   {
@@ -4454,6 +4454,60 @@
    "publicado": "2026-10-03T06:30:00Z",
    "coletado": "2026-10-03T06:48:17Z",
    "rodada": "2026-10-03T06:48:17Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "O presidente Lula, candidato à reeleição pelo PT, fez campanha no Rio de Janeiro e em Belo Horizonte",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPRFlZUFVRSG5GUzFnWk5sWjdJdHcyMGlSdDI2T1ltc2wxR25vLTNseFFxWG0zWER0WWt4OXJRdXNKMmFORUdwZmZJSzBuZmM5TkhwdGVkYXpwZVVBM0xjUlk4Nkg3Z1BhN3QzQVpGckhLMTRXcEZMTjhCMlN1WlpjbU5XV0JWeEM2TlVfUnNWQ2tmcVRSR1lSS01BSXVCRjZuZVpvajdta08tbXdldWk0ODFWTWZGMHRkaVE3N000QXdwc3BraWpUTWZsb08wOWFuLUlYXy1OdjRzSkVYUXpIR0swVXdvZVlhdDF1ZtIB-wFBVV95cUxNYjMxcWdyVzg4RXRGbWEtY29RY09RSXJOX1kxd01hZk9jQWZjTnM3N0ZLSTdjcS1XTDBvbFZYSDhSMjRDWWJDZVd4NlItMWp0OWhqQzhlal9WbnVUV3ZtcTJQMHBheUN4azBsQTk0XzQyRVJaYVBtZUIxY0ppQURnLXFFTW9hYU9MVTIwdHZOa3VGdkhRVno0cHJGdkREYnJLMUZoemJDRFBsNXNydG9kaExpTDN2QlFmRzhsMi15ZXBCYmx1Tzd2cnduUHFSWlpXSkM4OEljd3Q2UHhsUmJMNmpuLUhJUTVoM2N6NWpjeWl2STd0b2tiR2gxSQ?oc=5",
+   "fonte": "G1",
+   "publicado": "2026-10-02T23:51:30Z",
+   "coletado": "2026-10-03T07:35:32Z",
+   "rodada": "2026-10-03T07:35:32Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Datafolha no RJ: Flávio, 45%; Lula, 38%; Cury e Renan, 3%; Caiado, 2%",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQU0RDVVRMS1V2YTlJanlDTzZCSkcyTWl0TWhQOUlMdEdMRndyNmFKNVlTZEZBTWhHWGFEZnlRc3laZHpNUVh5am1GbTQtZ1RDcTducE1NeS1rX1N3MWc4VTlYTXpjTDBUYXhYcFVxNUUyU0Z5TlYyMmJJdjVFSFQ5Tm56TXRvdkJrb1JfTTlpSVI4MWdBdklpMTJLamM5QTY0cXN3c0VzMWJXN0pxd29ZU1RwV2xCUdIBxAFBVV95cUxPa0tnaXM2TWdqZjNXMXBqSktzTnltT2tpd1pHNktNNHhXTTZKTUw4Sm9YSmdEVHJOVU4wQWdhSkFQdXVJSnVtZ2JDTksxSkk5RXJHX1BHQWtJWmV4UHdVeUZMdHdFdEtzNHVFek95dkY4TENuUGc2Rk5NVy1hYUk4dUdQazdGWnNJU0QzNGtjQU5waEx5RHNGS25uZUNNMGlINXdnd3B1aGItTEJjYS1OVTB4Q002VHp6V2tXSF9qNFhtRlNY?oc=5",
+   "fonte": "G1",
+   "publicado": "2026-10-02T20:18:07Z",
+   "coletado": "2026-10-03T07:35:32Z",
+   "rodada": "2026-10-03T07:35:32Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Flávio tem 39% e Lula tem 38% em São Paulo, diz Datafolha",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRzlKRFgxTkp5alhoTHFUc19pRVBfR0ZURnN1VUdWMk1Hb3hDTHNRVEFkc3VvOU9kZU0xX21fdTcxYWI2OGlZWXJrM1NhbXRHWjVNcmVGWk9LN0hNTkZCWWRNZEFfa29ZZktGb1pVbi1WdXU1NENkMkRGNkowNXFhMXZaN1NySGNvaF9IWnQzaFBReTJ6?oc=5",
+   "fonte": "Poder360",
+   "publicado": "2026-10-02T20:52:47Z",
+   "coletado": "2026-10-03T07:35:32Z",
+   "rodada": "2026-10-03T07:35:32Z"
+  },
+  {
+   "cand": "flavio-bolsonaro",
+   "titulo": "Em nome do pai: Flávio Bolsonaro conta com o poder de articulação e a força do sobrenome para se tornar presidente",
+   "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxNMHpNS1dCeWdkQ1dEVDVfMTE2UDBLVDJBLURPRC1SY0tWRlF2V09oN19yQndsOG1GNVpQbWlFZHloSmxmRFkxa0cwQW95RlhiTkt2TmR0Q1NOMTd1VzRiZ1dGMG5FMGxPSFNLUXV5NnowdUh6Mlhjcl9Gd1VaWWNJY2txRTMxU1FQZ29xcmtBNTlrR09HUW9xbzlQT3VYYXNTcDZhODAyWm9SQ0Qxb0ZvZ3RMeHNiWm90aE5aa0c5WjV3a2lkNDBxRzhGSWlVdXRzaXlQN19ZZ2UzVjliang0WVFpOWR3NnBBazZjZnJUNUxNRGkyYjZnaEJZRlJpNTA3cXQ0R1B2bkxTNG5MdVZONVJoOHUtOVZxMGdJQmk0azBHSjBQeC1wMllMVURsbVNFR0hhTw?oc=5",
+   "fonte": "GZH",
+   "publicado": "2026-10-03T07:01:48Z",
+   "coletado": "2026-10-03T07:35:32Z",
+   "rodada": "2026-10-03T07:35:32Z"
+  },
+  {
+   "cand": "flavio-bolsonaro",
+   "titulo": "A conversa da campanha de Flávio Bolsonaro com um ministro do STF indicado por Lula",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPYWdCbUxFak14dmNrbDhnZzNmU1pvdmI1MFFsbjJVbTYtY0lyQWdqcm1IZ3hwQ2prd0d3VV95Wm12NVNmY1ZjZzNVR1hGSVFVWmxLaENLbEphb1F1LVRYWlBCR19iVHJwTHRRTXhleDMxaTJZNnJwSjV0M3BEUm9fQ2JNOG9HYl9TN0VOVnJzODhXQzl2bElEdjk5ZEdLd0ZFaUpxTTd0QzhJeTJzRWNLTk5RNXRDQWUzamtIT2hNVjVTeDhDTXI5UlgwbnEwcnRXRXUxbVNiQjAxdkRDREHSAewBQVVfeXFMUEJnTU5wcTBwRGFlS1J5b19RT2c2aGF6RWZhY18xc0xlUWx5QzZCTDVMMjQzeV9iMkxpNzNhbHEtR1B5bDAySTdXY2psMTMxQkJ0djBpMl9PWG5xRXVhcHhsb0tvZDFCS09HeE5kNlprS1NSd3gxbmJQWVdOWXpQdjlZaGJ0ZGN0Qk5kVExZbXZOWE14RTBGQnRZMXN0bHFFVTROOWpFd05MRFlkTm5mX2IwZkVXYWFGNHYtYWFfRl9FN20tWHRFSHdKUHZ5SDRMNGlUWjFPa3liZWlSdDR5N3dRcFJyOVRfU3pEaXI?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-03T07:00:00Z",
+   "coletado": "2026-10-03T07:35:32Z",
+   "rodada": "2026-10-03T07:35:32Z"
+  },
+  {
+   "cand": "zema",
+   "titulo": "Com presença autorizada pelo TSE, Zema ataca STF após cancelamento do debate da Globo: 'Enterraram a democracia'",
+   "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPcGVONzcwcmpHbmFXTjJ2ZVFZUE1oMjlUbTJJTWZqOExmUmNncVlST2NRV1Z0QWJybElLT0toOHR4d3RnUTM3RU9tLUExSmtGSnZOejZrUVZ2VEJlWi10N0RfNnVCeTRKSE9rVW5nLThrSk9UOUZBVVEzVGFOaVU2blpFUXNRVjk0VG9YSkI1d0dXY01DM3J3MWdYblJPNmIybFRXOU1jZTFDUElDU1NlSmJaUjlkdVZKQ1RQQ1V6eVExaERPZVdwM1RQNmp0R2N2V21xekpEQndCYTJfNXMxT0JrdmhvZWltRjBLdV92YTFEaDlpRUE2dE5qelhWVUlLUHN0MTJoS0d3ekNiV2JEcdIBnwJBVV95cUxQbkdKYVVjU1Uta3VNMWtqSXZ1NGJlZVFBMHlCTlJIYWNIVlRwelZydG9YSHVMWTR4amFEeWphZnhhSElReC15VW1VOHRIOFI5OEpYRWJFUm9SYkRpclFzV3J4aHpzbUpLaEF3cnl3VEhVLTN6aHZnOGtyM2FUa2Jac2hTX3JpenExUHJvWVRuaXozWDA4SXZ3b1BpbWctSDhORE8xcGZQTktmVDh5WEk0Z2VUZWI5cVBGRlZSWU9vbHRTNlNlNWJNUkVBYWw3SjY1Uk5wT2tPX21kWHB3WHBSWV9XdG0xa2EzcG9nZFFCQ0dlVjBUa3g0UmV6UDRJSG1zY0hqQXhwS1V2ZDJqN2g0ekxlSFkwTVN1TVFEdmxhVQ?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-02T00:41:47Z",
+   "coletado": "2026-10-03T07:35:32Z",
+   "rodada": "2026-10-03T07:35:32Z"
   }
  ]
 }
