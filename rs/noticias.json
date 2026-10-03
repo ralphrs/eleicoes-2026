@@ -1,6 +1,6 @@
 {
  "meta": {
-  "ultimaRodada": "2026-10-03T09:27:55Z",
+  "ultimaRodada": "2026-10-03T10:25:47Z",
   "novosNaUltima": 5
  },
  "itens": [
@@ -4598,6 +4598,51 @@
    "publicado": "2026-10-03T09:00:00Z",
    "coletado": "2026-10-03T09:27:55Z",
    "rodada": "2026-10-03T09:27:55Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Lula vai ser expulso da Presidência no domingo, diz Flávio",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQkhNV2JjbGs1SUJCSUNiSUt0VXBNTjlHS1NoWkJnRWVQdDU5bEp5YTZ1cTFaRGpYYXdlUkhVUlk4ZU45b290emJtaE04YmJQRDdRdkpEQ0lmNkFXNDFIXzczV0tIM0s3N1FOb3pXQ0thVmVaU09aWUIxa1M0bS04bzhwaHNCOEYzcHJ5NUdMMWRjSUJnT244c2prNzg?oc=5",
+   "fonte": "CNN Brasil",
+   "publicado": "2026-10-02T15:49:45Z",
+   "coletado": "2026-10-03T10:25:47Z",
+   "rodada": "2026-10-03T10:25:47Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Pesquisa Datafolha mostra a distância entre Lula e Flávio nos três maiores colégios eleitorais do Brasil",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZ1VXeXZSVHdCN3BueXAyRGpaQzVqX1NHZUhCX3o5ZWVmcXh1bzZlODFYaEhlZERxQlVVV2lHcDNrYm1yMjBER3V1dkRMNER5Yk1YbmJPWTlPV29hUk1fV0ZHTGp3NVgtT0lUQ2Z6eDhkZWVNU2VGSXlrQk5ndm43Q0I0TEpIZFF5aWtaTEFxNXRaUTJidEZWNTQ1cTI4MDJoTFQwOEtxajQwLU9jNlpkd2FvM1g3ZEwzTDNmY1VFcEVLU2VtQUVxODhuY3k5RzFWOVJ3cWRwcw?oc=5",
+   "fonte": "VEJA",
+   "publicado": "2026-10-02T22:35:00Z",
+   "coletado": "2026-10-03T10:25:47Z",
+   "rodada": "2026-10-03T10:25:47Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Lula diz estar \"convicto\" de que Senado vai aprovar PEC sobre fim da 6x1",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPS3hfdHpZUDZUbnR1RHF0eGFBZGVIX3A3RVZmNVNlY2NRYml2dU51WkliRHF5V2VjZTRRNlBMRm1mV0RyU2dxQVNWUHF5YjUteWc2b2lfTXJXR2JoMXdfTE9LMzJraU1UUG1DaDAwNEdVdkQtV0ltdGI5d2FxXzlDOFpPNFZTeWFUcTU0LUZRaUVJRVhpSzZhTlB3M1gxVGJ2VFh2ZHd4NmN1TW5id1E?oc=5",
+   "fonte": "CNN Brasil",
+   "publicado": "2026-10-02T22:31:55Z",
+   "coletado": "2026-10-03T10:25:47Z",
+   "rodada": "2026-10-03T10:25:47Z"
+  },
+  {
+   "cand": "flavio-bolsonaro",
+   "titulo": "Por que a Assembleia de Deus Madureira rejeita Flávio Bolsonaro",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBCcWJMbkk1YVJkLXlidDFmMWZCWTFEbmRENG9Fa05FV0YwbkRPck1SNklWbXd0WkMzRUl5OVdZOEh5NjhVQ3otaDUyVUVGU1pWQ2hYVjY5LV9kWVNiVHdzSGNLd9IBaEFVX3lxTE5yNFFrNnQ0QUFuQ1Jhb3BGUVBhbXRtTk04YjFNWThzcndwWUc0cmVjbnMzS0FZZGR2N09fclloLWtQbW85UmRrOW1Ib01QUlBJTU1leWRWYzZwSk5JZUdzUi1ibHB2Q1Za?oc=5",
+   "fonte": "bbc.com",
+   "publicado": "2026-10-03T10:03:32Z",
+   "coletado": "2026-10-03T10:25:47Z",
+   "rodada": "2026-10-03T10:25:47Z"
+  },
+  {
+   "cand": "juliana-brizola",
+   "titulo": "PT abre mão de disputar o governo gaúcho para apoiar neta de Brizola",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOVHB5dUVTdEpoRnZZMmhWcWRqS3VUODQ3aUhqa0Y3UlNoYkVqU3VlVjR5c0VUMUJvUm1NSUJhRG5EcVh2dTg1a3BMc0YxSFV2ZGRjRWRFLWNrS1NRdmI3MVk1VFpVSFJ4NDc2Mk5NUUVCRlRXRzY0MU5keTlYVDFkUmg4WmJDc2NKaERoMTNyVTFsbVZVNzExbm9CendnZGRERmRBMVI5RWFlMnBkdzJSZXJnbEJwc1MxTjBsanpFbFRqUmVJaTRQV00wSXdhMG5NZy1WNnRQR0FibUtabEFzTFBKYlg0TXc?oc=5",
+   "fonte": "Gazeta do Povo",
+   "publicado": "2026-10-03T07:21:02Z",
+   "coletado": "2026-10-03T10:25:47Z",
+   "rodada": "2026-10-03T10:25:47Z"
   }
  ]
 }
