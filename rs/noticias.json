@@ -1,7 +1,7 @@
 {
  "meta": {
-  "ultimaRodada": "2026-10-04T21:05:08Z",
-  "novosNaUltima": 20
+  "ultimaRodada": "2026-10-04T21:34:49Z",
+  "novosNaUltima": 12
  },
  "itens": [
   {
@@ -6596,6 +6596,114 @@
    "publicado": "2026-10-04T20:15:05Z",
    "coletado": "2026-10-04T21:05:08Z",
    "rodada": "2026-10-04T21:05:08Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Pesquisas eleitorais mostram a distância entre Lula e Flávio após últimos números da semana",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVHlQWERQa3lhczJ4UWVzS0lWNTlWa1YzSHZiYk44UDQ1cE9zYVRoMFY1bjVHYVVBUjBZNjRlQlp6QjZOc1l6V0wwRHFNQlNPQlRVZmJjcnFCS0Fzb2hlS2h1WDhSd3pQX3llU3lUMF9HWnUzb0RRRDBMUFNQVjJqYWFhLUxtcFJ2VFF4VFY1QzNoTnM0YUZRdnZEakc3YzY2UGFXQzN1UmtHV25ILS1TVFo2Tl9HYm5rZ0QzODdOZkgwYjlKR3c?oc=5",
+   "fonte": "VEJA",
+   "publicado": "2026-10-04T19:54:50Z",
+   "coletado": "2026-10-04T21:34:49Z",
+   "rodada": "2026-10-04T21:34:49Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Após votar, Lula minimiza empate técnico com Flávio e diz que pesquisa que vale é a de hoje",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNM0F3RWZYMk5RUFpvR0hwQ193Tmk2QTI2MWtKZTB0QVlaejJSQVN6d2pMR2V0anhkUkVTWkp2SEMtbVZCN09nanVLN1dVaWFYYjRkOVJaOE81eW9RRVNTemFQX1o5clBydF80X0hPMXdSSDBfM1BTellPdWEtTTgyVTVrOTBsTmlrTGdQTDhMVHh4bE9iaXZDNEhFR3FadVlOLS1TWC1XanBVNEFmS0N2X3JRTUdFT05FaEdkTkxhMG5KaFhGajg3cjRmWW13ZG1LRlVlREoydVg0TEZJOWFkVVdYVmJvcXAtTzVrSFhB0gH8AUFVX3lxTE9OanFMNDJZdTN2OXVFMXgxQUwya3NocURCNlZYZGR4eEVzaDJPUXJRaVRGVlVSZEU4S3ZFMXdFQ3RubG9ldnVFWWVRZHpUYkUydllITTN0TmtVM2dUdTVydU9mNEw1UzNXZ0FuWUpkZnNmNVE1RXRSSFJ0eWtmSEFjd2c4MVNWTWh2Y19lendPWUtVZVd0NmRlOUo1SWdsVTdhRUNoaE1yaThmRFVMRzkwa2hDYkNxcDNIbDcxcEU1OEJhUkNKMlJJMFFlSlpET2Z1T1EtaHFVMFRXZFFxa1dDVVd0c1JRSmJ4NmY5M0xRQlMwWURYVEplTDJKbA?oc=5",
+   "fonte": "Valor Econômico",
+   "publicado": "2026-10-04T13:21:53Z",
+   "coletado": "2026-10-04T21:34:49Z",
+   "rodada": "2026-10-04T21:34:49Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Lula lidera no exterior na Itália, na China e em Berlim; Flávio vence no Japão",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUWFoZThOZ0JCYmsyQ2ZuQTZHN1VNYkI1UVh6a1B0QzliZE5wZjZkM1ZGN3lmcE1tLUlZc0EwOGs0dVprNFNaSWZnMWFkbllocV9Rb0RTVUdCV2ZDT2JWbEtGdHFwb2tEc3FzSEpCYUVfaTZFenUyTHhSeHVzekI2SFlEUDRzNG9LOEt0VDBxaV9oMmdQcldKQ3pHS01udTZXc0JCRmI3d0lIS0VGeWgyc00yc3FiQUF2eFQ4?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "publicado": "2026-10-04T17:16:00Z",
+   "coletado": "2026-10-04T21:34:49Z",
+   "rodada": "2026-10-04T21:34:49Z"
+  },
+  {
+   "cand": "flavio-bolsonaro",
+   "titulo": "Flávio Bolsonaro vota no Rio de Janeiro",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1tdEplMnpNXzZfUmdJZUsza0hmdUdWR0dCUUxibE1HS3VNVE50c2xWTHJkQzNSMlh6NEl4MjFUbHktZFBrMWw0V2c5ekM4YjNIMFFyaExZekZYc252X1JieTMya9IBaEFVX3lxTE84aUVubVdxanE1V1MwREVZTDcwUW9GOVRJa09RVmx4YWkzZ3laMnZmQWpoYVpxSUQ1enV5allncFU4dU9MUm9JOFVlODQ4d2ZPNkpTWkRJNGJIU3lGTDF6eUNzTTZLMXdj?oc=5",
+   "fonte": "BBC",
+   "publicado": "2026-10-04T21:07:36Z",
+   "coletado": "2026-10-04T21:34:49Z",
+   "rodada": "2026-10-04T21:34:49Z"
+  },
+  {
+   "cand": "flavio-bolsonaro",
+   "titulo": "‘Espero que o brasileiro ponha fim a essa era do atraso’, diz Flávio Bolsonaro após votar na Zona Norte do Rio",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOYU56RzRYT1htd1lqX1R6ellXRWkyaVpKdkhjbXlmOXFmOEVtNTdWNm5ueDlwQlhSOW9NMGlwd2NIRExYeUNkcGhpZHVvalFaUG4tYkpfM3lUUUdOWkdYeWRTQ2RrY0wwbWlZbHB2ancxcUN2WlFaWFNaR2V2Q3VxQ0hhN09qN1ppaC1TY1Bmdk5BNUxKNW5mTDlyWFJidEdCWDBiRUFmZllaQ2NjX0pjdWpaMThDcHR3VXE4dGo3OXF1UUVyNFN4cXNRNThjT2Rm0gHfAUFVX3lxTE9DeVhzNElkWXdGZmZ5eHh1Rkw3Smg2LUFCMmRKVkZNeDltb1BFdXl0Z25xODFQZl9sVGZBUXNVd0xERFgwUGhET1VJNWZrMk9LN3Fac3cxcXk0eEUtdTRXRUVUcTZ4eDRrbTZtTXJ6dlo3bmwtY1NySURsZXVRZHBNdHZIRTZnWFpwX0ZKa1RHbFk5TzZaR1Q1V2ZSTDI0Qk5NWTBCNmpEbUVLbHRrWENfQTlwQmFYRm1yM3h4dzFTYzlHU1MySjlpdXI5bWJmNmJhMkRaVzVuMHJXTlBxaW8?oc=5",
+   "fonte": "G1",
+   "publicado": "2026-10-04T11:15:49Z",
+   "coletado": "2026-10-04T21:34:49Z",
+   "rodada": "2026-10-04T21:34:49Z"
+  },
+  {
+   "cand": "flavio-bolsonaro",
+   "titulo": "Votos Flávio Bolsonaro: acompanhe apuração e resultados para presidente",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcGJCUzQ3d2RFb2l3b252SUwzMjJvWkFwdEFqREdhWVJaVmFBd1ByVlh6Mnp5emtwejJZSkVPQUhxX1NZOGZFbmJYcXc4TWx5LTRuWHZPb1NWZ1M5b0NxQUNPZ3B5bTdiZUVOLWJldGRfb0V0Rjh2V1Bjbmx1Ty1YY3hUeFBXWG1KdjE3SG5YRkVQR21Qcmc2YndRbENBOEFQM1ZNVjJsdGpZRUFSeXloRE16NDBaN25PcmhMaGNwUWI?oc=5",
+   "fonte": "UOL Notícias",
+   "publicado": "2026-10-04T20:09:50Z",
+   "coletado": "2026-10-04T21:34:49Z",
+   "rodada": "2026-10-04T21:34:49Z"
+  },
+  {
+   "cand": "renan-santos",
+   "titulo": "Kim promete deixar mandato se Renan Santos tiver 3% na eleição",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTVFlR1B6R3d2YlBXa01kUF82MDVQZU9LSE5sWVgxUUpfVEJ3ZmhrZG1XX2ZvQjhUdXZKWlRJUkxjU2ljeURjNUw5QktxTWt3M09iVjhndVhkMnR6c2FjMUJCUno0TV9jOEZ3OTZNOWU2X3BfS0stcjMyb2E1aUdqLVVDS2VaTW9adUNpSTd0ejdUOE1zVENHNGFlVWtZVHFWOUlEdldGRTYwbUR6UkRLbVo4cGc?oc=5",
+   "fonte": "UOL Notícias",
+   "publicado": "2026-10-04T10:23:39Z",
+   "coletado": "2026-10-04T21:34:49Z",
+   "rodada": "2026-10-04T21:34:49Z"
+  },
+  {
+   "cand": "renan-santos",
+   "titulo": "Nunes Marques nega pedido de Renan Santos para participar de debate presidencial da Globo",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNMHdfWFV0YVJvcUlYU2dKMXdQRFNHQmxCWUd4ZTY5OHE2WVJMbjl4aWlpZ09hWmVmN2ZiQlN0dU80YTBHS3U2MTIxOHVad0xMQUlMd0xSb3NyR1RDT3poRDFtWFVGTWliTlpzcVpOTEFWRVJQRTZHWThyeDFGME9VSWN6YzNIa01WdXl0T0FNRVhZUTFZQXpDb3NYQS1aR3ZCUDhoNDZaem9KbmF3bmxnMFBPRGpETlhVYmtCeS1jSnFRWHdpeU9UQnNTRjVYSHJDSDhhUk85OUtUVExNLVU0c0R3?oc=5",
+   "fonte": "Estadão",
+   "publicado": "2026-10-04T11:54:01Z",
+   "coletado": "2026-10-04T21:34:49Z",
+   "rodada": "2026-10-04T21:34:49Z"
+  },
+  {
+   "cand": "zema",
+   "titulo": "TRE de Minas Gerais vai investigar voto de Romeu Zema após candidato à presidência usar o celular na urna eletrônica",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1HdXVpaVNBNldWTjdxUHlMcGNYMHZCaU51YzRXZlBvM3QwdEF2c0cwMjI1MVA4UDRqWkZTMnRRckhQbU9TT2t2YlZCSHRpUmh4aWY4Q29XMmx1MTVVbGhKcEZUdWNELVFpbURTR18xZktyNzQwTXlYYXJR?oc=5",
+   "fonte": "ND Mais",
+   "publicado": "2026-10-04T15:04:19Z",
+   "coletado": "2026-10-04T21:34:49Z",
+   "rodada": "2026-10-04T21:34:49Z"
+  },
+  {
+   "cand": "zema",
+   "titulo": "TRE-MG vai apurar uso de celular por Zema em cabine de votação: “Sucessão de equívocos”, diz presidente do tribunal",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNX1BQd2ZJMlE4UllwU3RESW4tdGVWanZEZnlvWHFmbExDSlF3VmxYVGRZUC1pMlc2TGNxWXg1OXpaMjNhZlNoODdzWE9Vc1loUFF4ZjV4eTQ2QmFIa0IzSUJ6emJ0ZmNjR2pEOG9qLUVHanQ4NHV6aFlWOHZBUnk3b1A3SFFiMW5LMUNRRVRBdWJZcThwNU9EOGliWmJ5dHVBaDctcENUNm1oX2laa3fSAbMBQVVfeXFMUG9vN0t1NDFmdEwxWlRHV1FyVERZcjRDa1ZodG05WEQzSWtCS3ZiR2tjQkNDbGdOMnVWTnNKcm9KOEVNS2dQNW1GYUItTnFYaEVpS2tjSUlqbjFJbVdRUTlraklwdzJDSE41X01DWmstTkpEZG1GS2Z6cWpWZXA0MFFKem1pU1B2REdHS2Fwd0hZd0psckFaeThGVHFuOVM3ZWUxZGdwNTI5Zmc2X2pWNzUyVU0?oc=5",
+   "fonte": "Banda B",
+   "publicado": "2026-10-04T16:59:00Z",
+   "coletado": "2026-10-04T21:34:49Z",
+   "rodada": "2026-10-04T21:34:49Z"
+  },
+  {
+   "cand": "zema",
+   "titulo": "Vídeo: Candidato à presidência, Romeu Zema entra com celular na cabine de votação",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcXptMkZ0dlNEcll0bUdKTk9RdnJldTVOVkZTRDRPYXo0aVV2anRyc0tsNjM1SXJDUFRhb2UyUV9WdnZBNXdqNmVyOFFocHRjOEdRUEo3cUpBa2JSd09uUjYwNXFIcnFKa0Izb25wLTRTSWdVY1I0Qi1UQTRLQkdoUXVnNVVoRHlTdFZTSmZ2emJTTTZuVmc40gGcAUFVX3lxTE05SUliZnVSLTloaDZPTmZKUW9ZVS1ldTY0ZnlhSjBJY3FaYTc0OEY3R2NkS2FsTzhPZGZONGNIYWgyWnUyeXVPZG41QUtEc29mcFh1ZThMdFBBNG5kOGtFQXVfRmFpTm41U3gzV3JET2lGVW5nOHZxRjhvS2ZENUJWdkFYbXpJMFZyOXliUzdRZG1GUHZxc3lQZXpZNw?oc=5",
+   "fonte": "Banda B",
+   "publicado": "2026-10-04T14:11:00Z",
+   "coletado": "2026-10-04T21:34:49Z",
+   "rodada": "2026-10-04T21:34:49Z"
+  },
+  {
+   "cand": "juliana-brizola",
+   "titulo": "‘Soberana mesmo é a urna’, diz Juliana Brizola sobre pesquisas no RS",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNVkFMRDY2ZGo4bXlpdllJWlVCOTA0RkhyZlpqM1gwUkJmVzZFTHJ3WlZQLW5VQ2xydExKbkFDaGM3X0FRU3JGby1VclJoNS1lU3dkZ1FkMGNHano2Z2JfVGVtT3NOZkxIV0tIWlpaTDktaTlIZFBRVzRqZ0hHekI0S1RrUFZKaWtMT3c4cmpZWHkwemdtRmdNWUxEbHlmcGN5MGNsbFJaR01jZFF2NGtrWEpaRDZtMEN1bHZNek1qc2NlMUR5X0VDYWpNVWpuaU1wc1dJT2ppTDl6N3VQaUVR0gHfAUFVX3lxTE1WQUxENjZkajhteWl2WUlaVUI5MDRGSHJmWmozWDBSQmZXNkVMcndaVlAtblVDbHJ0TEpuQUNoYzdfQVFTckZvLVVyUmg1LWVTd2RnUWQwY0dqejZnYl9UZW1Pc05mTEhXS0haWlpMOS1pOUhkUFFXNGpnSEd6QjRLVGtQVkppa0xPdzhyallYeTB6Z21GZ01ZTERseWZwY3kwY2xsUlpHTWNkUXY0a2tYSlpENm0wQ3Vsdk16TWpzY2UxRHlfRUNhak1Vam5pTXBzV0lPamlMOXo3dVBpRVE?oc=5",
+   "fonte": "Valor Econômico",
+   "publicado": "2026-10-04T17:38:10Z",
+   "coletado": "2026-10-04T21:34:49Z",
+   "rodada": "2026-10-04T21:34:49Z"
   }
  ]
 }
