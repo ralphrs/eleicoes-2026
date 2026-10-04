@@ -1,7 +1,7 @@
 {
  "meta": {
-  "ultimaRodada": "2026-10-04T17:42:18Z",
-  "novosNaUltima": 18
+  "ultimaRodada": "2026-10-04T19:24:07Z",
+  "novosNaUltima": 19
  },
  "itens": [
   {
@@ -6245,6 +6245,177 @@
    "publicado": "2026-10-03T20:29:16Z",
    "coletado": "2026-10-04T17:42:18Z",
    "rodada": "2026-10-04T17:42:18Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Lula diz estar confiante em vitória e volta a falar em escolha entre democracia e barbárie",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOY3ppcWFCRlROYnV2NVU0Zm5ORWNNb21Kd1VYZGRTYkx3S01XWXpzQlo4YzdkZDlwUDhrOEgwdkhFRlNONEtrMUUzVGNxQ050dk5FVU4tM1pqbm5KTzEzQnhFR0dnRmFjbUt1RkxEMTRJd0Q3ZDVHTkJ5bEVBaldMYmZmaS0yT0tmU1FVcGtOdS01VTEwUl95cVA2Y2tKblo3bXljektTVWl5dFY2X0xQTGhWNGo3ZXhqLWJfQV9BYXBJWERmX1FzQkpDZVRzSWJjLWpkVVMxanZTUWJfY044WmR0TQ?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "publicado": "2026-10-04T12:38:00Z",
+   "coletado": "2026-10-04T19:24:07Z",
+   "rodada": "2026-10-04T19:24:07Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Lula vence em 17 países e Flávio em oito; veja como brasileiros estão votando no exterior",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxObHNtcnJYdkQ4c2NSQ2ZwTWRBZUVLSmVJMkpCM2tpR1F0dUxlYVVsTklBR0pmTS1GdHM4cmZrQmtWYVdmN1l3TXAtNDFFXzRtYzJDd2xMNl9UUXM3OW5OOEtZd2N1V1JMU0RPdkVQZ0FWYlU1aFNZN01DY0kxbl9ERXEyQkFWai1LMHYwbng5N0pjLU5EVE5vbDdsZkUyRUttT3ptaWs1ZlI4eVdrTVVuVnRZRmhxQnp2WndGdS0wS2ttTVk3S1poMFYzMzNLVHhGdUhCOFRkNmVEOUJDeW9qR1VB0gHwAUFVX3lxTFBweld0YnI3eWxUUkNzT21RUGFick94WWZKQzFOVko1a3dHMHJUaFJGOVF2cHFFRmFIaGI5ZUhuZU51bjN5RVdPdUQ1QWd1NjdmU2ZISlMzdTFwUUZJWHBxZVlhUjdFWFhqVGVUZktENUlKZmFTNzUxeml5REJpQTBac2lDclFJNG9PVV9RZVprTXZMRm5Ed2gxMUpiRDRyQzF5OWQ0X0pkQ0otSHRXZnV2OXNMMWs5SmlYcHFQU2NaTGxIXzJ0TFUteld3RTkwQThuTjgyTnJBMjJEWEJJaVFfbnFiV0pxMWtScHJZRExtYQ?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-04T18:33:30Z",
+   "coletado": "2026-10-04T19:24:07Z",
+   "rodada": "2026-10-04T19:24:07Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Lula vence na China continental com 62% dos votos - 04/10/2026 - Política",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUWh2dHcwVFg3OXFCS2IzVjBaMEFqOVYtalZoOEpOd09QeDNtd0NHYWg1X0JjR1hjOE1mUHNrT1E5SXYtYWtMeEVTZVFjVWU4MzRSZFdjTUYzejlIQ2lYYXlVUm5lU0dSb2I4ZXlCMmdHZTZPaTBXT1RYQXdDQW90cC1NVC1MeUxEbGtzaFJRVnFOalhOcmRCWV9XOFIzZGc?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "publicado": "2026-10-04T17:47:00Z",
+   "coletado": "2026-10-04T19:24:07Z",
+   "rodada": "2026-10-04T19:24:07Z"
+  },
+  {
+   "cand": "flavio-bolsonaro",
+   "titulo": "Flávio Bolsonaro fala em 'voto de revolta'; Lula aposta em 'dia glorioso'; veja como foi a manhã dos candidatos",
+   "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQRWVjTUIzamhqZUN0bGJKQ3QwVjB5ZnExbW1Ja0YzaHdSQ1FITEQ4OEhQZVpnZDI0TnJ0aDJmak1rOFBOcUFpVkNZRGc0M1V4YVRyeWFUUEhNQkdzUm9sbVBLSnhlLVB2N0hnb25sTDJyY3RMNTJSOEVfYkJMMndWdjFzZ2hGR0gtdFAwNGRQUkZUd09WNnVYZ2NUZTk5cDZ5allNVHgxV2NsNHptSUpwMUJsVEVxMVdUcE9rc2NUczRDYm5CUHB5VERNdHRKLTlxZHNWLWd4aUs4cEk5b2d5U0cyNGNsUldLRU9JWnFERUhxRk1qaXd3bkd2b0tiempKOUpDV2J4eXpWd9IBmAJBVV95cUxNZE56OHE5UVBLaEJwRjlIb1RfY3dXbWozM0ZSVWdTbm9XdXZjQnA4WFpSR2JQa20wUlBySTMwRl9KTHRrWlR3d1JKalhwczE0Nm1CY0NDeC16MFRUNmxKUk1EZnNkeVhqOWVyUHZNMXJRQk4xQjJ2RVpJUzZyalpiU0xCSG1YelBNcUF6ajdoLVh5aUFmRkc3ZkZWVXd1V0ZXUDhsSHRiS0pic2lsVTlCOTZyOUpDc1RfY3RBRXZBeWhhaGJoLTZib2ZIaEJueEhLZTRETjJWdDFWSDNGVVdWc3VhZTBJS2ljTkdEcG81WkdSa3pPcXZBYUFhWTBhTDBteTQwNXVlSWh2X1I4RmlySmpWOWdLcUs1?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-04T14:30:24Z",
+   "coletado": "2026-10-04T19:24:07Z",
+   "rodada": "2026-10-04T19:24:07Z"
+  },
+  {
+   "cand": "flavio-bolsonaro",
+   "titulo": "Lula e Flávio Bolsonaro votam na manhã deste domingo",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTS1FZ2Y2aTJocWxCcjJOSzJibl8tNndLLWdINGFkX09wMnVFZm5VS0VKWUhmWXNaQkFMQ1JiZmRMMVNIb09kY0NPbW1QRFdkcEV3cm9GQzQ0OW1XUXdOLVNaMTdRS1FkLTNEbnNTaHozWU5mZnpnZUdkYkRIWU92YWItMmI4c2ZYVl9lQndZTlFQUXVsbi16MlN1TWZQRWZKeEd0Z1dQMC1jYjlZc3VsS0RQcUhtWXo5T0xlUEhoZkhHQktTa0E?oc=5",
+   "fonte": "Agência Brasil",
+   "publicado": "2026-10-04T13:00:00Z",
+   "coletado": "2026-10-04T19:24:07Z",
+   "rodada": "2026-10-04T19:24:07Z"
+  },
+  {
+   "cand": "flavio-bolsonaro",
+   "titulo": "'Quero libertar o povo brasileiro', diz Flávio Bolsonaro ao votar no Rio de Janeiro; veja vídeo",
+   "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNc1BaU25TY1ZrT2xteWVvQ1BmS1NGempRT3NpV2NnY3RadnJwRUMwUF9ibTFmdEpaTXdVbVUyNVBDbTVncWVSeDhReDNCb3hMalFVVXBFVTJCTndobENQV1dDNllKeVdIUDY5VWpKV21NRTl5WkNwLW5WekczU1p1ZzJRVDMwMjJNdzFfQVFCQVdLLUh1bjhONTI1M013Q0lZSFVIZHcwb2ViWmFEWXpTM25vYnVZRThRQnFxR1V3WVdScWRJT1E1SVhrRWVzM0paTmg4b0hub0d6YlNuc1JjWFJZUXRMSWFXeGdXZmxvaXh6TV83TXlmdNIBhwJBVV95cUxPSzFHcVd2dVVhMUJ6S3FKc2w0QU1HSUR1Vk0xQzlhT3pqT1RoX1M0eHdZQWtLMjdESWtqcjJ2THVpOGU3MTdPcWpzY0JyRm9QMURtSnUyQnhqMS1CMW5ud3JZdmNvdnVvRFZWWVg5YTBrUVN4bWE4azM3WTBVSk1waF9BemNfaDNEQU9xUkRGYW1paUItYmdLeDVvT0lyNWd4NUR1aG5obWMwTkR6dWhWOXhwaFJQZkQ2Tk9QVFR5VGdBb3pUczFWc0Etb1JZa21ZTnJJTXU2VEI2aHpFZHhFUTJDY1RPZnVISFoyVDdsd2hZYU5ScG1QcnF2Zmx5VUFjaWNYMkVkQQ?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-04T15:35:53Z",
+   "coletado": "2026-10-04T19:24:07Z",
+   "rodada": "2026-10-04T19:24:07Z"
+  },
+  {
+   "cand": "augusto-cury",
+   "titulo": "Augusto Cury vota no interior de SP e diz que tem projeto mais robusto da história e critica polarização",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMmtvVTl4ZFh1bXJmM2ZOMzItdzVBQmdpMnlYSFRnUU9kbGFsNGplSEVhblQ2NHhGR043YllhSnlMTE0xRmoxRWZUN3NPQTlfU21hQ0swQzR0MXpPNUtHWTBIVGZWekptTXh2OHU3SERBX0lETzZ5a3ctVV94bGZJa01SSGs4MllvLUxUSjBFNTMtTEphVGlCcjdaUmhncWRHVGU2R0tYbTB0dTNpcC1xQm91aFdEUFhaamlkLdIBywFBVV95cUxOTndLczhpanpaS3owT3JtVURWN2lSM1NmaXhyVm15bEpXM243Wk5STlJQRHdSNVB4SkZFanBDNURkVUw1d0xvaFFLSUNiT2lNMVdCem1kYmZ2aXZ3aUdLV0hqMnEzdXlacDlZOFg3Y202RmVYTnJLZ0ZoRlkyNEVKWFUtWDQyMzhiYVMxRkVrN3pYUXBfQmR2R3lsY01UcGlLRUl2N0lZMVctbG8wOVBJSG1rWU93VlJRRWlFMlFGcUIxU1JKNzd6OUgwUQ?oc=5",
+   "fonte": "G1",
+   "publicado": "2026-10-04T14:02:59Z",
+   "coletado": "2026-10-04T19:24:07Z",
+   "rodada": "2026-10-04T19:24:07Z"
+  },
+  {
+   "cand": "augusto-cury",
+   "titulo": "Augusto Cury vota no interior de SP e diz esperar ‘surpresa positiva’ na eleição",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQOS1zNjFPcjBVNXdMY3NfWWlpWTBsS3hFZWdRSWVkNTF3ekx0ckJlaVFhSEExMTBPV2FPaXBib211eXpaMDZhSzRHNDc2U2hSS3diSzBlWHp0YWFpMUJKRVJHMGVrZGt5bVdfblJPZGNJODdUUnQySW54dFNpOGVJcGlTaldacGNUZFAxdkZKbklEUDZBb0IxUkZxdndSMkFSYW9WWHh0S2JxN1hGUDBQYmpEQWQ4SF92UGJpbF9pYW81d9IBxwFBVV95cUxPVEN5bmdONG5kcnBHT3dJbUtSV3FiM2RXRUp0ZU9teVJ2N2RGdzlzY3dNSDZDVF85SW1hY3VlQ0VtRVdsLU1reVdTeVI4RjhVVFBuVXFrODM1ckZFUnBTb2E5MEhRNVU4VExDVFZQT3BmRGlBTTBPQ0tHRWZTeEJxLVFvUkJIWkZwUlY4Wm96NGR0OVNROEtiX2IxM2tneXN4ak9ObTNpXzlxSElNNGt0UktGRXMxV09iVG9IM0dqN20yYmFMQXBZ?oc=5",
+   "fonte": "estadao.com.br",
+   "publicado": "2026-10-04T17:10:11Z",
+   "coletado": "2026-10-04T19:24:07Z",
+   "rodada": "2026-10-04T19:24:07Z"
+  },
+  {
+   "cand": "ronaldo-caiado",
+   "titulo": "Caiado sai na frente na batalha pelo apoio dos bispos",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNX1JlQ1pJNGlUSkRwZDlxRFY5SEpBRUJrMTA1aHRJUEFMMzhuOGtWS1lSS3RIMkNab25iVFVqUkdoYktUdWg5d3BCU0MwYjQ2M3NYdEFNb3plSEtHa1Z0U0VVUDJmM3RQOUhHcV9aWG1USUdtbXZRbUZEZFZaTzNtMjhER2drQnhGbENZY05VUFNpazl1cXFUUHh1cWFLcXFBMy1MTVNkVDB3RGUzcHc?oc=5",
+   "fonte": "Gazeta do Povo",
+   "publicado": "2026-10-04T11:53:00Z",
+   "coletado": "2026-10-04T19:24:07Z",
+   "rodada": "2026-10-04T19:24:07Z"
+  },
+  {
+   "cand": "ronaldo-caiado",
+   "titulo": "Ronaldo Caiado, candidato à Presidência pelo PSD, cumpre agenda em Goiás",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcTJ3MjMwVDRtWC1YVjdxbWtFRDU5UkNMNDJyUXZ0M0pRNWpsNURsaVMwQ1kwUEdjdGYzQTZDNDkzNXAxZTNnLUg2MUtRQjRNczlUMDd6akxhelRBdERMXy10N0VMTXFzTmFJdmFoR1ktUU9teXB5NXlpWWczWXZQWmFYSUFNVWxwdHZ2XzlWV293VTYxWVlBVUZkdHFwbk9fcC1oa0xvTGJ1dThFMy14MTFMUTJ3ekZabElzc1V1ZVZMQ3RndVBySmtCUVM?oc=5",
+   "fonte": "G1",
+   "publicado": "2026-10-04T00:08:52Z",
+   "coletado": "2026-10-04T19:24:07Z",
+   "rodada": "2026-10-04T19:24:07Z"
+  },
+  {
+   "cand": "ronaldo-caiado",
+   "titulo": "Kassab alfineta Flávio Bolsonaro e o compara com Caiado: “experiência é fundamental”",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZE15WnRRT3lCbFhEMUNQeTc1MmtVVlllNjVCS3ZLd2o2NnhadVBiWFBjNHZiT3ZlWDJKdkZPZkE2aGtSbjY5VE15SDFiUmg0MlRFVVpPNjg4ZENfRHh5TVFlellocGVqVkdJOWNEOFdJWjEzRXpmbHBoM093SGhoMGhPS21NcWlmaGxMMlpPM3Y0TEhpc3luUThRbmVRNDVQMldWRldn?oc=5",
+   "fonte": "Gazeta do Povo",
+   "publicado": "2026-10-03T14:06:45Z",
+   "coletado": "2026-10-04T19:24:07Z",
+   "rodada": "2026-10-04T19:24:07Z"
+  },
+  {
+   "cand": "renan-santos",
+   "titulo": "Renan Santos vota em São Paulo e ataca Flávio: \"desqualificado, covarde e burro\"",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMmx6RmFsdVdDeVVJTzQ4OHRMd1lZaXg0aWtRamJiOHZZcU9veTlNb0hIN2FSQm1BeFdRd3A4UkQzQmpoS3FvUlpTeXo1MnJnRDQ2TlhiQ0NYbFZmQ1EzVWk2NDF6a2dXbW9zclo4WmJITG1NR2E2MTAxVmdqOVJkLS0xbWQyVHh5TkJJTjlXMzYzQW9vZ2ljSThWSUlPNnV0MF9RTUpWdVN6aFREbkgzWTZzVGZrWUdBdmpXQmhBS3Q?oc=5",
+   "fonte": "Gazeta do Povo",
+   "publicado": "2026-10-04T14:28:00Z",
+   "coletado": "2026-10-04T19:24:07Z",
+   "rodada": "2026-10-04T19:24:07Z"
+  },
+  {
+   "cand": "renan-santos",
+   "titulo": "“Eleição mais estranha desde a redemocratização”, diz Renan Santos após votar",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQX21CdjdDM2FTaTBJWW5XTGo3RWtxd3BLbDIxcFZ4Ni02ckZCQjc3empMUzlKLUY4QVdYMnNvcXJjdjhXaGpUYUJDZDE2alRLcEt5MjdETHNFYjhjcjZ6bEc0dl94VkZQTWVrRWNaamtqdXY2Mlc3MnJ4SEI4RjhwVmc5aFVUSmg2UDI5UVZDcjBfemVxOFU0UzVQdnZCd2Q0MGthTWN1NzdoOXMxZVFFbU9DWdIBuAFBVV95cUxQcjdtblVGalJDWWFMZ0RrTDVCb3ROMkJCeDlFTmVwQzUzMVBQSEJzeFNNWUlrWUVZcF9qamlNbEVVM0Y2a2dGQVJjVzlTNHh3U1BEXzBobEFJWjFCNWpoci1BeFh5TUxVTGJldDhCZDJnYWRuanEtWjgzdUhZbTdsVEstTHVDQXdVeEJtSkpPczAzRDBiOWllQUU3cnZidWlqNGJnQXptZEYyc3FCckIxTzJiV05OaU9C?oc=5",
+   "fonte": "InfoMoney",
+   "publicado": "2026-10-04T14:29:34Z",
+   "coletado": "2026-10-04T19:24:07Z",
+   "rodada": "2026-10-04T19:24:07Z"
+  },
+  {
+   "cand": "renan-santos",
+   "titulo": "Estratégia de voto útil em Flávio é ‘mentira’ do bolsonarismo, afirma Renan Santos",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQejRIbnhNcHoybTVjbDZpZmRBeElJNUMwNEpOUlNrV1hzd2haUW1vcVhsaDZ5QXhuRi1sUkNOVkgwZVFGbU5SMGFTVF9ZVXRCRlJzQ3RQSXl4ZFF3TXV1eEE1VkkxdFU4V1lPNXBZaW0tWTkyaVJQRzBYc2JGREhJc0s0cnZRZThINHFnZS1uSjh1UkVud0VlQTRyNzJmNS1TVHJPSFZJYm5Vd2xFZEZhbXNNVXJ3RjdkM2ZYNGpuek5mXzhfNDF3WG5ka2NvUXpnMndfdzgxYzRtUGpfNndV0gHuAUFVX3lxTE4tUjc4MmZfajkzSENrcWdnRS1WWlJVSkRDd016dXp5bUFFZktiUC0zR0NpaUo4d0Vxa3ZOUUM4MzhUbk43cW9ISnhUS001T3hrdWQzNXIyTDdzYVdxazZ1ZUd0YVZEN3I1S291SUNFMl9JMFVOdWdKV2k2Sm9XUXVCNVctakhmRUlHUGIzN3JKQjBkbjlJQ1hLN25Gb0FSNjZRWTlHS2hFaEh5R1JpMUFWY1l6RkRRQ3ZqV3ZnakxJaVNqN0hYVTAwWE9zbE5YaXFCZzJZTXllY0c1dWk1VGpVX2QtQ2RKYmxwMjdjWVE?oc=5",
+   "fonte": "Valor Econômico",
+   "publicado": "2026-10-04T14:17:41Z",
+   "coletado": "2026-10-04T19:24:07Z",
+   "rodada": "2026-10-04T19:24:07Z"
+  },
+  {
+   "cand": "zema",
+   "titulo": "TRE-MG diz que vai apurar uso de celular por Romeu Zema dentro da cabine de votação: 'Valem as regras'",
+   "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNTlhqM2ZXQ09XNnEzRWlZZ2o3eXVEeFFNSXdYNlpXcVFJckxhVWVLWnM2NC01OEx5a1RoM1VVUUMxRTNTQ1Axa0YzZlBWRDBvclFNU21WMnIwVmk0cEI0UHNWQjJrOU5oNEZhWWl5cExrU1ZiN0VHNHhBM0lvSUtLZnVSV0JHTjVxYXZ5MGNoeU9GT0QwU2Nxd0hhcUpFa2JMU1pJbmZHNUtVRXRTUmhhMkFRR1dtMFZDN1puaklEZHUwa0FGSWpDYzNyZDgyeFc0U2NXZXZiSDlTbDBlNXpFMGkxQ1FTTnZwUGJjMnJDdkhoVDhvLWFYOUNoWlBIbFhJTEHSAZACQVVfeXFMTU1LakVTblpxUE05enpueFh4TUFuTy16RUw4blFjN3Q2UTIyRmlPLWlvZTRTRE0wR3M0MWR4SU5ldFpkZC01MEMtQzJIRi1lbmhmaXNubDM1eWZ2M0lMZm9zdkFFLTdlanRodUlLRS12ai14eFVCLVBCbHhMRWVvelFoVXh3VGhWMDhhc3JWMjNUajFlT205WFZsVmNBaXRfbV8yTWFzai1aREJocFRpazJ2eW1odEpUYWVtVWFRNUEwWVh6UmdDZ0JkYkNLTHM4SnFjcm1ycm9YTmZwRDlrN192ZGZVV2FnX3R3bDN6aHFfelBRcllxd2hTY1dUQ25FcWVDb0RsSWhOMEF1enlBVVg?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-04T14:38:57Z",
+   "coletado": "2026-10-04T19:24:07Z",
+   "rodada": "2026-10-04T19:24:07Z"
+  },
+  {
+   "cand": "zema",
+   "titulo": "\"Ninguém me alertou\", diz Zema após entrar com celular na cabine de votação",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbGdVRGVOaFp3VjNLRHhzTFR5b1Z3SDVLZGpGRTNnYW9Ud2g4T3k1VHRybEVPbVByZ09FeHhtYWpTQmhzSzhfYWRsbHFSbWRzRjEzRG12a2J0RzhXZUY0d3VYbEgxUFNZSjhsdC1Bdm1sRmNTUmozdF8tV1hoSnAtR2Jway1oY29rSU1UQmU0X29yWV9yakF6Q1JVaHB2alIySnd0MDBiSlJZS3NvRnVBeg?oc=5",
+   "fonte": "CNN Brasil",
+   "publicado": "2026-10-04T15:50:42Z",
+   "coletado": "2026-10-04T19:24:07Z",
+   "rodada": "2026-10-04T19:24:07Z"
+  },
+  {
+   "cand": "zema",
+   "titulo": "TRE/MG vai apurar uso de celular no voto por Romeu Zema (Novo)",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeXlsTFFNQjIxaEo5X3ZNTzlsQkhCeFlxSHU5RFZDX3liY2F3Q0k2NWEwTE5lYVkyREpjYlBWdHM0eVFOazhHemxwQnVaQmhTWWE1UzdxOERjNTBPMnBzcXhoNGtrT182R2FndnEwa0NaUTU1NzdsQm5qeHduanhiOFEyaTVTSDJmck9RZGJrNl94SzZzSXNJNHhuNUhxdTQ4UHFrbkFqU2tSQdIBqgFBVV95cUxOeXlsTFFNQjIxaEo5X3ZNTzlsQkhCeFlxSHU5RFZDX3liY2F3Q0k2NWEwTE5lYVkyREpjYlBWdHM0eVFOazhHemxwQnVaQmhTWWE1UzdxOERjNTBPMnBzcXhoNGtrT182R2FndnEwa0NaUTU1NzdsQm5qeHduanhiOFEyaTVTSDJmck9RZGJrNl94SzZzSXNJNHhuNUhxdTQ4UHFrbkFqU2tSQQ?oc=5",
+   "fonte": "Folha PE",
+   "publicado": "2026-10-04T15:50:00Z",
+   "coletado": "2026-10-04T19:24:07Z",
+   "rodada": "2026-10-04T19:24:07Z"
+  },
+  {
+   "cand": "clariana-barao",
+   "titulo": "Barão (RS) vai às urnas escolher presidente; siga resultado da apuração",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZFdwUmNFNi1Ua0dmTmcxdGFoNkdtQUdkTjJvU0VBNnJnLU9FN2NNQ3JTX09GRHBaRlBYaVE1MF9UVDNUbXUydUtUd0NoQ1k2bGc0VmJ2ZWZOOWxvZWRTV2ktb3U2VWVMaE1SOXpWNmUteVNwUjdVdXlvdk5rd2dDYkozVXpzWE0?oc=5",
+   "fonte": "UOL Notícias",
+   "publicado": "2026-10-04T06:05:23Z",
+   "coletado": "2026-10-04T19:24:07Z",
+   "rodada": "2026-10-04T19:24:07Z"
+  },
+  {
+   "cand": "gabriel-souza",
+   "titulo": "Candidato ao Piratini, Gabriel Souza avalia trajetória eleitoral: \"Feliz com a campanha que fizemos\"",
+   "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxOR0RKODhTNEQ4QjMyWHpXX3JLNXIxYVBuVUtiQnktLXE3WkVfWmdxZS0tRTlHcGUwYmp5U3YtRXI2VHdtWS1tVE5QTEM5OXFoMHB2WHRiRjFTeW9iay1qZUs1dGhhdFRTUEwzMVlTeFRxWklGaE5MckNNNlpDWTlUNVVaZjJvRDM0czU5bExSeWpHcWJBZm5Wa1pHUEQwdjhJYkhiT0h3aWlnYmZmay1RY3h6dU5YdWgwNzZoZDVfSXdzdUo0SXVtU09TdG5udUFvMGhkaUxUT3RFWnZXazdWQUF0b1N3NzM0aTRMUVBJYWNGNm5HYUlxRG5RMlpIZE1kMmN0SVdWLWdaRTZhdmN4WmhpeHVIa25WVUtSZm1B?oc=5",
+   "fonte": "GZH",
+   "publicado": "2026-10-04T12:46:15Z",
+   "coletado": "2026-10-04T19:24:07Z",
+   "rodada": "2026-10-04T19:24:07Z"
   }
  ]
 }
