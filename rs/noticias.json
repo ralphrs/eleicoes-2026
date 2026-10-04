@@ -1,7 +1,7 @@
 {
  "meta": {
-  "ultimaRodada": "2026-10-04T07:10:45Z",
-  "novosNaUltima": 11
+  "ultimaRodada": "2026-10-04T09:25:01Z",
+  "novosNaUltima": 10
  },
  "itens": [
   {
@@ -5768,6 +5768,96 @@
    "publicado": "2026-10-04T04:00:00Z",
    "coletado": "2026-10-04T07:10:45Z",
    "rodada": "2026-10-04T07:10:45Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Lula tem 47,0% dos votos válidos ante 44,1% de Flávio, diz AtlasIntel",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeFFzRFpDdGI1UXNTT1pDSHhOaG9pMS1fUHdBT3Iza2dJMk9VUlRiWHdnSEhLVTNxamdCbzQxU2M2S3h6VVhGSmszSXFFZzhFV1ZpdkNHWS1iTVFqMlZYakdXWlJHM1FqTVdrWDVsZ3l5U0pjS2FiaEhHTy16a1RfUUdMbG9NR0RDUUdHMTZPRmJIRnRVbmUwRkpfTXF5c2JuTVFKVWFwSnQyRzZjTURjN29PYw?oc=5",
+   "fonte": "Poder360",
+   "publicado": "2026-10-04T08:48:06Z",
+   "coletado": "2026-10-04T09:25:01Z",
+   "rodada": "2026-10-04T09:25:01Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Datafolha no segundo turno: Lula tem 47% dos votos, enquanto Flávio marca 46% nas eleições 2026 para presidente",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNX2VYUU90V1V3TXpDRTJ4SG94bWJUSTdWVjlLVkpDNXQ0YmV1dkZuWDR6MXFzX3FuZFBTMlJ4YlpmeW9LTEdoM1Vpck5MY2dNVzlWcDZLM2FZeEdDT3h0Q2Q2b2xFcHhMTHA3NTVxU3JpdllxYjZDcWplV1NtR2xWaTBPc2NKcjc1LUZLTnM5cUxfcjBndEhsSHdDU2xCc01QNEZDbk9uN1ZVdjZESm9mLUduSUdpRG9oTU8ySlc0dTBWRTk3WU9CZUFR0gHYAUFVX3lxTFBwdzRCNUJSdzRMYWkxMTdlVW0wTUxlamNFTGl0N2lmTkhmRXdOWGM4NHUyMjc1YTFQMVJSa0k2eW5LX1lhLVdKQS1obVFsZWt4TkVaVmJ1TWp5bl8wc2s2UHNKa2x0Z1BPcVNpd1RjRFFqWkJ0T2R4Z2V3MGFmSTluNFNvaW5mRjF6b09qVGgtTnJFUklGU3hKSmFFT2dkTEVWUGYzRnROLW9oYkxULUU5Smh3eUZ1LXBCOXFXQmlYNTkyRzREMkp1Mmg2ZE9JcldTUFF5Mk00ZQ?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-03T21:35:26Z",
+   "coletado": "2026-10-04T09:25:01Z",
+   "rodada": "2026-10-04T09:25:01Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Datafolha: Lula lidera entre mais jovens e mais velhos no 1º turno, e Flávio Bolsonaro, entre os mais ricos",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQS0VmN1ptRjdiMjBkWjVibzdrRldUWjUyRUIyRUp0dXprcnpVVjYzUzNIYnltejhXdGFuTTFwRjBtQUxfQWJQMHZLMkVCMkhOWDBsaVR6ZTNLNENFS3F6aHF1cVZ5cVpMX0hWcmI2NGZxcV9lWnF5aGtDYXEyLUZCMjVfOXFyV2xzc1NjX09uc3FNWm4zY0pLR3JqUVRkdFB6SUMwbXhfOW45eDE4STE1WnhBb1BodlBRY1VUdzFoOW8xV0RRSFlCOUVsTmVNYXFpNW1CVUg4SFdjYXZuOXUySlhYMF9IQjFyaHc?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "publicado": "2026-10-04T02:34:00Z",
+   "coletado": "2026-10-04T09:25:01Z",
+   "rodada": "2026-10-04T09:25:01Z"
+  },
+  {
+   "cand": "flavio-bolsonaro",
+   "titulo": "Quaest e Datafolha apontam disputa acirrada entre Lula e Flávio Bolsonaro na véspera do 1º turno; veja números",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTHZfbWtoZmU0ZkhiNlRoeDRSeU5YMkJ1cHBhTUFWdmpxTEhXU25QdUg0U3dfV0toTklIQndFMzlnNVpMQmdqcXdmcnhTeGhiaFlST0x0VW9kLWJZUHc5V25RcGlrTXhpTEV0bS1DZE9seExwWF9SNE0tc2VfbGhzTEQwV1Eza05oWDRsSy1PbHdaRTRDTUtpdUFYcVhhY3ExVHhxeGFfcXI5QjVBZEZIVThBSF9Pb1NCcG9wYldUcGZaM05N0gHTAUFVX3lxTE8zeEoyZUtkRjA4Y2ZEVkdxX2F1eDdkYUpMSlBYRFNFZjU3eUIwbWctQm10RWhLNWw5WG9IMTRTZG9nZXJJazhpZFprMG95bkRSeE1MTGV4T21kVFFndTAzcUoxQ20wNVlrT19XR3dxdXZTaS1RdGhaZTI1dzYxbHU2aEcxMzlyd2dwdWNTckdkeUptdDFkQVIyQnowRUxzRzBMM3Z4YXg5MEJReWFHYl9uZFRDNlFkWkFqSmdMcjNpcFd1REhfWXlVNVhjSjlSQjlNNnM?oc=5",
+   "fonte": "G1",
+   "publicado": "2026-10-04T00:29:25Z",
+   "coletado": "2026-10-04T09:25:01Z",
+   "rodada": "2026-10-04T09:25:01Z"
+  },
+  {
+   "cand": "flavio-bolsonaro",
+   "titulo": "Datafolha, 1º turno - votos válidos: Na véspera da eleição, Flávio Bolsonaro lidera em SP, RJ e DF; Lula, em PE; os dois empatam em MG",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNMGdRcEQ2T1FlSERZeDhuZmM1Y2xPR25oU29CSXZQQU9taUhVbUswUGgwNV9uU0o5R1NxYzFGTDd5THQ5UmhPRGVyR3E5dmY4c2t3RzFId1pseXpZWW5UWVVFVlpGbWN4Ql9semVGTkZ0V0V1X2N6ZC1pdkdkRlNMc3FYSGhUUTdDOERZenNLRDFGcWFPaG1YRXM0ZHd6QW5LY0ZqdnhrNEE2N3JIQ0V3N2V0LU4xSV9GcXFCaWh0Y3MzeXZaZUNYbVRjcC1pT0VoRnd4MnlweW9JVUXSAeoBQVVfeXFMT3NrNU1pMC1JOTdZcDJ1YnJiMUZOSGYyU1hRNDFYNFdaNExKVEdPU1k5QWpsMVVMZGpiTHZTV1pPS2hpR2ZoSVJROWFwZ3RmQ0ZnZWs1dkkxSWJ3UXpaSzVhUFduYlY3cU1ZS2dPSkFBa1BIVWdHd3BxTkxLSXcxcWxzNnFIQ05xTDBWRGdfdUhDUFJobll6MldlYWJEQUl2WkxydEM0cm5yaHd5YlZpSXhpaTRxWjYySE5ybzAtVE9UM2pYZHQ0LWYzT2FzcFpwTFlWTmlaQmR5TGhFWHhqdU5uY240cDNIcVhB?oc=5",
+   "fonte": "G1",
+   "publicado": "2026-10-03T23:29:35Z",
+   "coletado": "2026-10-04T09:25:01Z",
+   "rodada": "2026-10-04T09:25:01Z"
+  },
+  {
+   "cand": "flavio-bolsonaro",
+   "titulo": "\"Não votarei nele\", diz Pedro Parente sobre Flávio Bolsonaro",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOX1N6SHM5NGNYejluekVkNEE5NlBUeFVCNnQ1MEJNQjNmYzBaNlFlWmpMTnFnUzhTek5kRHNOY2ZiQ0l0ZE8yVWpqNzh2azEyYW5yZllGRmhPTE1xTmVNYThBcnFlejNlVFJoZEhJbURkb0E2NXp3cjl2bTdWblplc3Rhd2Z0UUNXdk1xVF9FMFlCYU5hUE9ON0kzSmw4Y0pPa3B4X19KNzNpdw?oc=5",
+   "fonte": "Poder360",
+   "publicado": "2026-10-04T06:57:34Z",
+   "coletado": "2026-10-04T09:25:01Z",
+   "rodada": "2026-10-04T09:25:01Z"
+  },
+  {
+   "cand": "ronaldo-caiado",
+   "titulo": "Com passagens por Câmara, Senado e pelo governo de Goiás, Ronaldo Caiado tenta pela segunda vez chegar à Presidência",
+   "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOR2VZZUZHNmxPWVIwaEFfU0RwUElqQTl2bElJMUN0a0xtMVdkbFhoQzdjN095MnlMQ2JtSUlOMlJibzRpV1NnQkluQi10VzdTclNlVy1xNUNHOTJRb1JsR2lmUFhUNWNIelpTcFpybU5BbWVnbnRYWWFQRlJheGgzaDlzX25pMXJabVlTZlRUWnN2aERQV3BCVno2b0VmWG41cm1KUDF3d3g5ajNUblZzTVdHcVNKYUpqOTJ6d3pRQWJhSDFFS0dIVTRlemQ3aE5rTTRLSVdGUmNpVFcxSG5qMWVYUW0xNFR0T1dIUjN5aXY0Rl9nb1ZZT3ZEMzNGY2JmY1dYaWp4T2NaSXVPY3VkcdIBnwJBVV95cUxOa3p6SjU4dXlGM2t1SGRDcWp3cW1DamFmbjZlVWxtYUMwQXlZRmFidXUzeG93N19WbW0zWDJUb0FoQ1FrWVNxckJ1cXo4VF9LVDh4SXJWYndjaklsVktCVFdWM09YVFNvZXoyaVkyalNQVXVYUjZPd0t3d3QyMDhKWnhCd2J5SGZsQTM3cFdTZlVPZ3hxUktrU2h1cUZUUzJSQTJJblNGdFVmLWo2ZkFqdGp1a3JGQThpUjFKT2hZUFpjMXhFTW1yZEFfVWpHSGNfdjN1VGFUdnNPMXRjU2Z5VDc5aTZmVXdub3NnMVhBYlQ4Wk40cjBnY19lOWN4dm1weHRhR0NOQVFUSVRkbGRTWnFzWHNOdGdzOTBTeV9TZw?oc=5",
+   "fonte": "G1",
+   "publicado": "2026-10-04T03:00:00Z",
+   "coletado": "2026-10-04T09:25:01Z",
+   "rodada": "2026-10-04T09:25:01Z"
+  },
+  {
+   "cand": "renan-santos",
+   "titulo": "Em estreia do Missão, Renan Santos fez campanha marcada por ataques e discurso radical",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQTRmd2FZX0NoMElub29xX1Z2c25QTHQ0by1lWmFwSXZLeDVmWWNnWnNtQmgydEJyZVE4SE5JUEI4NWQxRFFJOFl2VzZkQmFpTXRCRkNIQnozZGIwRmdUekktVElMV0JlWWdIWE00Y0lId0xuNUVmWTljSHo2X0R6cm1yY3RNNTFmYVY1V1JBZ3BIYWlQMTlEWi11dVg5VGd2Yl8tczFFNkZPOEdXcWtOd2lWakM2c3Q3NVNGTmpldUw0NlhGYjdDQ1kxRS16bWNZ?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "publicado": "2026-10-04T02:00:00Z",
+   "coletado": "2026-10-04T09:25:01Z",
+   "rodada": "2026-10-04T09:25:01Z"
+  },
+  {
+   "cand": "clariana-barao",
+   "titulo": "Barão de Melgaço (MT) vai às urnas escolher presidente; siga resultado da apuração",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORVBGTmxheW9sVmNONjBFMjZ2bGlfbGhPamJVZGtrQ3RDZlhfQ1ZFUFVtOUxhNzlRUGZsN25tMEQtMjExOHFiMk1SQTM2WUhFYmRxSUx5TG1lTlNKOFdXU2pCU1FFZUtBalBSZmh0N2ZtblgtdHVtME1pNEFDdV9iMnEzXzZZNFdDM1FjOEZ2RE5oSDRYNnc?oc=5",
+   "fonte": "noticias.uol.com.br",
+   "publicado": "2026-10-04T06:18:58Z",
+   "coletado": "2026-10-04T09:25:01Z",
+   "rodada": "2026-10-04T09:25:01Z"
+  },
+  {
+   "cand": "wilson-grassi",
+   "titulo": "Wilson Grassi | O projeto que é preciso construir pelo voto consciente",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWTVMVl93LUxIYU5GNVIwZml5QTc5ZEdsVnA5YkdIYml2QUUzZWFmcHJkN0xLa2c3VXdvSkRWSEJkNTFZb2NxZXNTMm1FWjFqblptb1pZbnNaWUExMndjZ2lnaWlTQXVqOEwyaGVSWmRpVGVlLW5PWlFuRnpQajhFa0FqZ29yUTJNYkpaUW9zaUs5dDh4QThDcU13SGtZNWV0Umk5ag?oc=5",
+   "fonte": "Poder360",
+   "publicado": "2026-10-04T08:59:00Z",
+   "coletado": "2026-10-04T09:25:01Z",
+   "rodada": "2026-10-04T09:25:01Z"
   }
  ]
 }
