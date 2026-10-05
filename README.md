@@ -6,11 +6,16 @@ Guia do eleitor das eleições de 2026, agora voltado ao segundo turno para pres
 
 Em **Settings → Pages**, escolha **Deploy from a branch**, branch `main`, pasta `/ (root)`. O site fica em `https://ralphrs.github.io/eleicoes-2026/`.
 
-## Cloudflare (opcional)
+## Cloudflare
 
-O repositório também está pronto para rodar no Cloudflare Workers, com os mesmos arquivos. `wrangler.jsonc` publica a raiz como site estático (o que está em `.assetsignore` fica de fora) e `worker/index.js` acrescenta a rota `/api/apuracao`, que consulta o TSE na hora e guarda a resposta por um minuto. No dia do 2º turno, a partir das 17h, as páginas dos estados chamam essa rota; no GitHub Pages ela não existe e vale o `segundo-turno.json`.
+O endereço `eleicoes-2026.ralph-renato.workers.dev` roda no Cloudflare Workers, no plano gratuito, e cada push na `main` publica de novo. `wrangler.jsonc` publica a raiz como site estático (o que está em `.assetsignore` fica de fora) e `worker/index.js` cuida do que muda sozinho:
 
-Para ligar: no painel do Cloudflare, **Workers & Pages → Create → Import a repository**, escolha este repositório e mantenha o comando de deploy `npx wrangler deploy`. Cada push na `main` publica de novo.
+- **Notícias**: o cron do Worker roda a coleta de hora em hora e grava no KV `eleicoes-2026`. As páginas leem `/api/noticias/rs` e `/api/noticias/sc` e juntam com o `noticias.json` do repositório. `/api/noticias/atualizar` roda a coleta na hora, se a última tiver mais de 50 minutos.
+- **Apuração do 2º turno**: `/api/apuracao` consulta o TSE na hora e guarda a resposta por um minuto. No dia 25, a partir das 17h, as páginas dos estados chamam essa rota a cada minuto. Para ensaiar a tela, abra `/rs/?simular`.
+
+No GitHub Pages essas rotas não existem: as notícias ficam paradas no que está no repositório e a apuração depende do workflow `resultados.yml`.
+
+O que falta fazer está em `ROADMAP.md`.
 
 ## Estrutura
 
@@ -43,7 +48,7 @@ No dia 25, o workflow **Apuração do 2º turno** roda sozinho de 10 em 10 minut
 
 ## Notícias
 
-A rotina guarda até três notícias novas por candidato a cada rodada, só de veículos da lista `FONTES` do script e publicadas nas últimas 48 horas. Tudo sai depois de sete dias, menos a seleção do semestre. Para rodar na mão: aba **Actions → Atualizar notícias → Run workflow**, ou `python scripts/coletar_noticias.py` na sua máquina.
+A coleta guarda até três notícias novas por candidato a cada rodada, só de veículos da lista `FONTES` e publicadas nas últimas 48 horas. Tudo sai depois de sete dias, menos a seleção do semestre, que fica no `noticias.json` de cada estado. A coleta oficial é a do Worker; `scripts/coletar_noticias.py` e o workflow **Atualizar notícias** continuam no repositório para rodar na mão, se for preciso.
 
 ## Fontes
 

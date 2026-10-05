@@ -1,8 +1,8 @@
 name: Atualizar notícias
 
 on:
-  schedule:
-    - cron: "17 * * * *"
+  # A coleta de hora em hora passou para o Cloudflare (worker/index.js, cron do Worker).
+  # Este workflow ficou só para rodar na mão, se for preciso atualizar os arquivos do repositório.
   workflow_dispatch:
 
 permissions:

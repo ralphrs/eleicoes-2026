@@ -269,7 +269,11 @@ let D, R, T2;
 try { [D, R, T2] = await Promise.all([pega("dados.json"), pega("resultados.json", true), pega("../segundo-turno.json", true)]); }
 catch (e) { document.getElementById("main").textContent = "Não foi possível carregar os dados agora. Recarregue a página em alguns minutos."; return; }
 // No Cloudflare existe a rota /api/apuracao, que consulta o TSE na hora. No GitHub Pages ela não existe e nada muda.
-if (T2 && !T2.resultado && new Date() >= new Date(T2.data + "T17:00:00-03:00")) { try { const r = await fetch("/api/apuracao"); if (r.ok && (r.headers.get("content-type") || "").includes("json")) { const j = await r.json(); if (j && j.resultado) T2.resultado = j.resultado; } } catch (e) {} }
+// Com ?simular no endereço, a rota devolve números inventados, só para ensaiar a tela.
+const SIMULAR = /[?&]simular\b/.test(location.search);
+const naJanela = () => T2 && (SIMULAR || (Date.now() >= new Date(T2.data + "T17:00:00-03:00").getTime() && Date.now() <= new Date(T2.data + "T17:00:00-03:00").getTime() + 3 * 864e5));
+const buscaApuracao = async () => { if (!naJanela()) return false; try { const r = await fetch("/api/apuracao" + (SIMULAR ? "?teste=1" : ""), { cache: "no-store" }); if (r.ok && (r.headers.get("content-type") || "").includes("json")) { const j = await r.json(); if (j && j.resultado && (!T2.resultado || j.resultado.atualizado !== T2.resultado.atualizado)) { T2.resultado = j.resultado; return true; } } } catch (e) {} return false; };
+await buscaApuracao();
 const nauf = () => (D.cfg.uf === "RS" ? "no " : "em ") + D.cfg.uf;
 const resDe = (c) => !R ? null : c.cargo === "presidente" ? R.presidente.br[c.num] : (R[c.cargo] || {})[c.num];
 const num = (p) => parseFloat(String(p).replace(",", "."));
@@ -645,8 +649,8 @@ function aplicarAparencia() {
   }
 }
 aplicarAparencia();
-(() => {
-  const f = $("faixa");
+function renderFaixa() {
+  const f = $("faixa"); f.replaceChildren();
   $("ir-resultados").href = "../resultados/#" + D.cfg.uf.toLowerCase();
   if (R && T2) {
     const fin = T2.finalistas.map((id) => CAND[id]).filter(Boolean), d = diasAte(T2.data), pesq = (T2.pesquisas || [])[0], apr = T2.resultado, ap = apr ? { secoes: apr.secoes, atualizado: apr.atualizado, br: apr.br || {}, uf: apr[D.cfg.uf.toLowerCase()] } : null;
@@ -656,11 +660,13 @@ aplicarAparencia();
     f.append(
       el("div", { class: "t2-topo" }, el("span", { class: "t2-rot" }, "2º turno · presidente"), el("span", { class: "t2-data" }, T2.dataTexto, ap ? "" : d > 1 ? ` · faltam ${d} dias` : d === 1 ? " · é amanhã" : d === 0 ? " · é hoje" : "")),
       el("div", { class: "t2-duelo" }, fin.map((c) => { const r = resDe(c), u = R.presidente.uf[c.num]; return el("a", { class: "t2-cand", href: "#" + c.id }, foto(c), el("div", { class: "t2-info" }, el("strong", {}, c.nome), el("span", { class: "sub" }, urna(c.num), el("span", {}, c.partido)), el("span", { class: "t2-num" }, el("b", {}, r.p + "%"), " no país"), el("span", { class: "t2-num" }, el("b", {}, u.p + "%"), " " + nauf()), ap && ap.br[c.num] ? el("span", { class: "t2-num t2-ap" }, el("b", {}, ap.br[c.num].p + "%"), " no 2º turno", ap.uf && ap.uf[c.num] ? ` (${ap.uf[c.num].p}% ${nauf()})` : "", ap.br[c.num].st === "Eleito" ? [" ", seloRes("Eleito")] : null) : pesq && pesq.r[c.id] != null ? el("span", { class: "t2-num" }, el("b", {}, pct(pesq.r[c.id])), " na pesquisa " + pesq.inst) : null)); })),
-      el("div", { class: "t2-pe" }, el("span", {}, ap ? `Apuração do 2º turno pelo TSE: ${ap.secoes}% das seções, atualizado em ${ap.atualizado}. Percentuais sobre votos válidos.` : pesq ? `Percentuais do 1º turno sobre votos válidos. Pesquisa ${pesq.inst} divulgada em ${fmtDia(pesq.div)}, registro ${pesq.reg}.` : "Percentuais do 1º turno, sobre votos válidos. Ainda não há pesquisa de 2º turno cadastrada aqui."), ir2));
+      el("div", { class: "t2-pe" }, el("span", {}, apr && apr.simulado ? "SIMULAÇÃO para testar a tela: os números do 2º turno aqui são inventados. " : "", ap ? `Apuração do 2º turno pelo TSE: ${ap.secoes}% das seções, atualizado em ${ap.atualizado}. Percentuais sobre votos válidos.` : pesq ? `Percentuais do 1º turno sobre votos válidos. Pesquisa ${pesq.inst} divulgada em ${fmtDia(pesq.div)}, registro ${pesq.reg}.` : "Percentuais do 1º turno, sobre votos válidos. Ainda não há pesquisa de 2º turno cadastrada aqui."), ir2));
     return;
   }
   for (const k of ["presidente", "governador", "senador"]) { const tops = ordenados(k, R ? -1 : 0).slice(0, k === "senador" ? 4 : 3).map((x) => x.c); f.append(el("div", { class: "grupo" }, el("span", {}, CARGOS.find((c) => c.id === k).nome), el("div", { class: "fotos" }, tops.map((c) => el("img", { src: c.foto, alt: c.nome, title: c.nome }))))); }
-})();
+}
+renderFaixa();
+if (naJanela()) setInterval(async () => { if (await buscaApuracao()) renderFaixa(); }, 60000);
 rota();
 
 (async () => {
@@ -669,7 +675,11 @@ rota();
       const r = await fetch("noticias.json?t=" + Math.floor(Date.now() / 300000), { cache: "no-store" });
       if (!r.ok) throw new Error(r.status);
       const j = await r.json();
-      noticias = Array.isArray(j.itens) ? j.itens : []; meta = j.meta || null; feedOk = true;
+      let itens = Array.isArray(j.itens) ? j.itens : [], m = j.meta || null;
+      // No Cloudflare as notícias novas vêm de /api/noticias (coleta de hora em hora no próprio Worker)
+      try { const a = await fetch("/api/noticias/" + D.cfg.uf.toLowerCase(), { cache: "no-store" }); if (a.ok && (a.headers.get("content-type") || "").includes("json")) { const k = await a.json(); if (Array.isArray(k.itens)) { const tem = new Set(itens.map((n) => n.url)); itens = itens.concat(k.itens.filter((n) => !tem.has(n.url))); } if (k.meta && (!m || k.meta.ultimaRodada > m.ultimaRodada)) m = k.meta; } } catch (e) {}
+      const corte = new Date(Date.now() - 7 * 864e5).toISOString();
+      noticias = itens.filter((n) => n.destaque || String(n.coletado || "") >= corte); meta = m; feedOk = true;
     } catch (e) { if (feedOk === null) feedOk = false; }
     if (aberto) { const n = $("noticias"); if (n) n.replaceWith(noticiasEl(CAND[aberto])); renderStatus(); } else render();
   };

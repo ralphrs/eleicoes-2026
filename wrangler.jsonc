@@ -8,5 +8,7 @@
     "binding": "ASSETS",
     "run_worker_first": ["/api/*"]
   },
+  "kv_namespaces": [{ "binding": "DADOS", "id": "8827c974ae6c4dcd93478f09adfa3f7c" }],
+  "triggers": { "crons": ["17 * * * *"] },
   "observability": { "enabled": true }
 }
