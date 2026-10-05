@@ -2,151 +2,26 @@
  {
   "id": "lula",
   "nome": "Lula",
-  "busca": "\"Lula\" presidente"
+  "busca": "\"Lula\" segundo turno"
  },
  {
   "id": "flavio-bolsonaro",
   "nome": "Flávio Bolsonaro",
-  "busca": "\"Flávio Bolsonaro\" presidente"
- },
- {
-  "id": "augusto-cury",
-  "nome": "Augusto Cury",
-  "busca": "\"Augusto Cury\" presidente"
- },
- {
-  "id": "ronaldo-caiado",
-  "nome": "Ronaldo Caiado",
-  "busca": "\"Ronaldo Caiado\" presidente"
- },
- {
-  "id": "renan-santos",
-  "nome": "Renan Santos",
-  "busca": "\"Renan Santos\" presidente"
- },
- {
-  "id": "zema",
-  "nome": "Romeu Zema",
-  "busca": "\"Romeu Zema\" presidente"
- },
- {
-  "id": "samara",
-  "nome": "Samara Martins",
-  "busca": "\"Samara Martins\" presidente"
- },
- {
-  "id": "clariana-barao",
-  "nome": "Clariana Barão",
-  "busca": "\"Clariana Barão\" presidente"
- },
- {
-  "id": "edmilson-costa",
-  "nome": "Edmilson Costa",
-  "busca": "\"Edmilson Costa\" presidente"
- },
- {
-  "id": "hertz-dias",
-  "nome": "Hertz Dias",
-  "busca": "\"Hertz Dias\" presidente"
- },
- {
-  "id": "rui-costa-pimenta",
-  "nome": "Rui Costa Pimenta",
-  "busca": "\"Rui Costa Pimenta\" presidente"
- },
- {
-  "id": "wilson-grassi",
-  "nome": "Wilson Grassi",
-  "busca": "\"Wilson Grassi\" presidente"
+  "busca": "\"Flávio Bolsonaro\" segundo turno"
  },
  {
   "id": "jorginho-mello",
   "nome": "Jorginho Mello",
-  "busca": "\"Jorginho Mello\" governador SC"
- },
- {
-  "id": "joao-rodrigues",
-  "nome": "João Rodrigues",
-  "busca": "\"João Rodrigues\" governador SC"
- },
- {
-  "id": "gelson-merisio",
-  "nome": "Gelson Merísio",
-  "busca": "\"Gelson Merísio\" governador SC"
- },
- {
-  "id": "marcelo-brigadeiro",
-  "nome": "Marcelo Brigadeiro",
-  "busca": "\"Marcelo Brigadeiro\" governador SC"
- },
- {
-  "id": "ralf-zimmer",
-  "nome": "Ralf Zimmer",
-  "busca": "\"Ralf Zimmer\" governador SC"
- },
- {
-  "id": "lais-chaud",
-  "nome": "Laís Chaud",
-  "busca": "\"Laís Chaud\" governador SC"
- },
- {
-  "id": "marcus-sodre",
-  "nome": "Marcus Sodré",
-  "busca": "\"Marcus Sodré\" governador SC"
- },
- {
-  "id": "bruno-pedreiro",
-  "nome": "Bruno Pedreiro",
-  "busca": "\"Bruno Pedreiro\" governador SC"
+  "busca": "\"Jorginho Mello\" governador"
  },
  {
   "id": "carol-de-toni",
   "nome": "Carol de Toni",
-  "busca": "\"Carol de Toni\" senador SC"
+  "busca": "\"Carol de Toni\" senadora eleita"
  },
  {
   "id": "carlos-bolsonaro",
   "nome": "Carlos Bolsonaro",
-  "busca": "\"Carlos Bolsonaro\" senador SC"
- },
- {
-  "id": "esperidiao-amin",
-  "nome": "Esperidião Amin",
-  "busca": "\"Esperidião Amin\" senador SC"
- },
- {
-  "id": "decio-lima",
-  "nome": "Décio Lima",
-  "busca": "\"Décio Lima\" senador SC"
- },
- {
-  "id": "afranio-boppre",
-  "nome": "Afrânio Boppré",
-  "busca": "\"Afrânio Boppré\" senador SC"
- },
- {
-  "id": "lunelli",
-  "nome": "Antídio Lunelli",
-  "busca": "\"Antídio Lunelli\" senador SC"
- },
- {
-  "id": "carol-pco",
-  "nome": "Carol (PCO)",
-  "busca": "\"Carol\" senador SC"
- },
- {
-  "id": "tulio-pfuetzenreiter",
-  "nome": "Túlio Pfuetzenreiter",
-  "busca": "\"Túlio Pfuetzenreiter\" senador SC"
- },
- {
-  "id": "ana-lucia-machado",
-  "nome": "Ana Lucia Machado",
-  "busca": "\"Ana Lucia Machado\" senador SC"
- },
- {
-  "id": "marcos-dorval",
-  "nome": "Marcos Dorval",
-  "busca": "\"Marcos Dorval\" senador SC"
+  "busca": "\"Carlos Bolsonaro\" senador eleito SC"
  }
 ]

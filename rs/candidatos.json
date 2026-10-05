@@ -2,146 +2,26 @@
  {
   "id": "lula",
   "nome": "Lula",
-  "busca": "\"Lula\" presidente"
+  "busca": "\"Lula\" segundo turno"
  },
  {
   "id": "flavio-bolsonaro",
   "nome": "Flávio Bolsonaro",
-  "busca": "\"Flávio Bolsonaro\" presidente"
- },
- {
-  "id": "augusto-cury",
-  "nome": "Augusto Cury",
-  "busca": "\"Augusto Cury\" presidente"
- },
- {
-  "id": "ronaldo-caiado",
-  "nome": "Ronaldo Caiado",
-  "busca": "\"Ronaldo Caiado\" presidente"
- },
- {
-  "id": "renan-santos",
-  "nome": "Renan Santos",
-  "busca": "\"Renan Santos\" presidente"
- },
- {
-  "id": "zema",
-  "nome": "Romeu Zema",
-  "busca": "\"Romeu Zema\" presidente"
- },
- {
-  "id": "samara",
-  "nome": "Samara Martins",
-  "busca": "\"Samara Martins\" presidente"
- },
- {
-  "id": "clariana-barao",
-  "nome": "Clariana Barão",
-  "busca": "\"Clariana Barão\" presidente"
- },
- {
-  "id": "edmilson-costa",
-  "nome": "Edmilson Costa",
-  "busca": "\"Edmilson Costa\" presidente"
- },
- {
-  "id": "hertz-dias",
-  "nome": "Hertz Dias",
-  "busca": "\"Hertz Dias\" presidente"
- },
- {
-  "id": "rui-costa-pimenta",
-  "nome": "Rui Costa Pimenta",
-  "busca": "\"Rui Costa Pimenta\" presidente"
- },
- {
-  "id": "wilson-grassi",
-  "nome": "Wilson Grassi",
-  "busca": "\"Wilson Grassi\" presidente"
+  "busca": "\"Flávio Bolsonaro\" segundo turno"
  },
  {
   "id": "zucco",
   "nome": "Zucco",
-  "busca": "\"Zucco\" governador RS"
- },
- {
-  "id": "juliana-brizola",
-  "nome": "Juliana Brizola",
-  "busca": "\"Juliana Brizola\" governador RS"
- },
- {
-  "id": "gabriel-souza",
-  "nome": "Gabriel Souza",
-  "busca": "\"Gabriel Souza\" governador RS"
- },
- {
-  "id": "marcelo-maranata",
-  "nome": "Marcelo Maranata",
-  "busca": "\"Marcelo Maranata\" governador RS"
- },
- {
-  "id": "priscila-voigt",
-  "nome": "Priscila Voigt",
-  "busca": "\"Priscila Voigt\" governador RS"
- },
- {
-  "id": "cesar-pontes",
-  "nome": "Cesar Pontes",
-  "busca": "\"Cesar Pontes\" governador RS"
- },
- {
-  "id": "rejane-de-oliveira",
-  "nome": "Rejane de Oliveira",
-  "busca": "\"Rejane de Oliveira\" governador RS"
- },
- {
-  "id": "marcel-van-hattem",
-  "nome": "Marcel van Hattem",
-  "busca": "\"Marcel van Hattem\" senador RS"
+  "busca": "\"Zucco\" governador eleito"
  },
  {
   "id": "sanderson",
   "nome": "Sanderson",
-  "busca": "\"Sanderson\" senador RS"
+  "busca": "\"Sanderson\" senador eleito RS"
  },
  {
-  "id": "manuela-davila",
-  "nome": "Manuela D'Ávila",
-  "busca": "\"Manuela D'Ávila\" senador RS"
- },
- {
-  "id": "pimenta",
-  "nome": "Paulo Pimenta",
-  "busca": "\"Paulo Pimenta\" senador RS"
- },
- {
-  "id": "rigotto",
-  "nome": "Germano Rigotto",
-  "busca": "\"Germano Rigotto\" senador RS"
- },
- {
-  "id": "frederico-antunes",
-  "nome": "Frederico Antunes",
-  "busca": "\"Frederico Antunes\" senador RS"
- },
- {
-  "id": "daniela",
-  "nome": "Daniela Maidana",
-  "busca": "\"Daniela Maidana\" senador RS"
- },
- {
-  "id": "renato-jaguarao",
-  "nome": "Renato Jaguarão",
-  "busca": "\"Renato Jaguarão\" senador RS"
- },
- {
-  "id": "ric-jones",
-  "nome": "Ric Jones",
-  "busca": "\"Ric Jones\" senador RS"
- },
- {
-  "id": "milton-cardoso",
-  "nome": "Milton Cardoso",
-  "busca": "\"Milton Cardoso\" senador RS"
+  "id": "marcel-van-hattem",
+  "nome": "Marcel van Hattem",
+  "busca": "\"Marcel van Hattem\" senador eleito"
  }
 ]
