@@ -12,6 +12,7 @@ Em **Settings → Pages**, escolha **Deploy from a branch**, branch `main`, past
 - `src/pagina.html` e `src/partes.json`: o modelo das páginas dos estados e o pouco que muda de um para o outro. Depois de mexer neles, rode `python3 scripts/montar.py` para gerar `rs/index.html` e `sc/index.html`. Não edite os dois `index.html` dos estados na mão.
 - `rs/dados.json` e `sc/dados.json`: candidatos, pesquisas, perfis, propostas e fotos.
 - `rs/resultados.json` e `sc/resultados.json`: resultado oficial do 1º turno (TSE), por cargo e número de urna.
+- `resultados/`: página de resultados de todos os estados, com mapa, do país até a cidade. `br.json` traz o país e os estados, cada `<uf>.json` as cidades do estado, `geo/` os mapas e `cidades.json` a lista usada na busca. Tudo é gerado por `python3 scripts/gerar_resultados.py` a partir de `fontes/` (votos por cidade do TSE em 2026, votos para presidente em 2022 e bancada atual da Câmara) e do modelo `src/resultados.html`. Não edite `resultados/index.html` na mão.
 - `segundo-turno.json`: data, finalistas, pesquisas e apoios do 2º turno. Vale para os dois estados.
 - `rs/noticias.json` e `sc/noticias.json`: as notícias que cada página carrega. Itens com `"destaque": true` são a seleção fixa do semestre.
 - `rs/candidatos.json` e `sc/candidatos.json`: quem a coleta de notícias acompanha e com que busca. Hoje são os dois finalistas e os eleitos para governo e Senado.

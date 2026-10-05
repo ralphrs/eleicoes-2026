@@ -2,13 +2,13 @@
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Candidatos 2026</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Resultados 2026</title>
+<meta name="description" content="Resultado do 1º turno de 2026 por estado e por cidade: presidente, governador e Senado, com mapa, esquerda e direita e a comparação com 2022.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;700&family=Raleway:wght@700;800&display=swap">
 <style>
-/* Design system Candidatos 2026 (tokens claro/escuro). Mesmo layout de antes: cabeçalho com status; barra fixa com os cargos; grade de cards por colocação na pesquisa; página do candidato com perfil, fatos e notícias. */
 :root {
   --papel: #f6f7f3; --papel-elevado: #ffffff; --papel-fundo: #eaede4; --linha: #d6dbcf; --linha-forte: #7b8476; --tinta: #0f1a2e; --tinta-suave: #4d5868; --verde: #009c3b; --on-verde: #ffffff; --verde-texto: #00702b; --amarelo: #ffdf00; --on-amarelo: #002776; --amarelo-suave: #fff5b8; --azul: #002776; --on-azul: #ffffff; --azul-suave: #e2e8f6; --voto-sim: #1f5f9e; --voto-nao: #a84a00; --voto-abstencao: #7d838a; --checagem-verdadeiro: #1f5f9e; --checagem-verdadeiro-suave: #dde9f5; --checagem-impreciso: #7a5200; --checagem-impreciso-suave: #f6e9c9; --checagem-falso: #a52a22; --checagem-falso-suave: #f7dedb; --espectro-esquerda: #a63d2a; --espectro-centro: #6e5a10; --espectro-direita: #5a3e8c; --fato-positivo: var(--voto-sim); --fato-negativo: var(--voto-nao); --foco: #002776; --sombra-sm: 0 1px 2px rgba(15, 26, 46, 0.06); --sombra-md: 0 6px 18px rgba(15, 26, 46, 0.10);
   --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px; --space-6: 24px; --space-8: 32px; --space-12: 48px;
@@ -29,64 +29,362 @@
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --aq-papel: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20240%20240%22%20width%3D%22240%22%20height%3D%22240%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3C/defs%3E%3Cfilter%20id%3D%22p%22%3E%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%22.75%22%20numOctaves%3D%223%22%20seed%3D%2211%22/%3E%3CfeColorMatrix%20values%3D%220%200%200%200%200.9%200%200%200%200%200.95%200%200%200%200%201%200%200%200%200.12%200%22/%3E%3C/filter%3E%3Crect%20width%3D%22240%22%20height%3D%22240%22%20filter%3D%22url%28%23p%29%22/%3E%3C/svg%3E'); --aq-faixa: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%201200%2024%22%20width%3D%221200%22%20height%3D%2224%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cfilter%20id%3D%22f%22%20x%3D%22-25%25%22%20y%3D%22-25%25%22%20width%3D%22150%25%22%20height%3D%22150%25%22%20color-interpolation-filters%3D%22sRGB%22%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.03%22%20numOctaves%3D%223%22%20seed%3D%225%22%20result%3D%22n%22/%3E%0A%3CfeDisplacementMap%20in%3D%22SourceGraphic%22%20in2%3D%22n%22%20scale%3D%227%22%20xChannelSelector%3D%22R%22%20yChannelSelector%3D%22G%22%20result%3D%22s0%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.18%22%20numOctaves%3D%222%22%20seed%3D%226%22%20result%3D%22n2%22/%3E%0A%3CfeDisplacementMap%20in%3D%22s0%22%20in2%3D%22n2%22%20scale%3D%222%22%20xChannelSelector%3D%22R%22%20yChannelSelector%3D%22G%22%20result%3D%22s1%22/%3E%0A%3CfeGaussianBlur%20in%3D%22s1%22%20stdDeviation%3D%220.7%22%20result%3D%22s%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.04%22%20numOctaves%3D%222%22%20seed%3D%227%22%20result%3D%22bl%22/%3E%0A%3CfeColorMatrix%20in%3D%22bl%22%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%201.3%200.1%22%20result%3D%22bla%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.9%22%20numOctaves%3D%222%22%20seed%3D%229%22%20result%3D%22g%22/%3E%0A%3CfeColorMatrix%20in%3D%22g%22%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%20-0.6%201.1%22%20result%3D%22ga%22/%3E%0A%3CfeComposite%20in%3D%22s%22%20in2%3D%22bla%22%20operator%3D%22in%22%20result%3D%22t1%22/%3E%0A%3CfeComposite%20in%3D%22t1%22%20in2%3D%22ga%22%20operator%3D%22in%22%20result%3D%22t%22/%3E%0A%3CfeMorphology%20in%3D%22s%22%20operator%3D%22erode%22%20radius%3D%221%22%20result%3D%22i%22/%3E%0A%3CfeComposite%20in%3D%22s%22%20in2%3D%22i%22%20operator%3D%22out%22%20result%3D%22e0%22/%3E%0A%3CfeGaussianBlur%20in%3D%22e0%22%20stdDeviation%3D%220.5%22%20result%3D%22e%22/%3E%0A%3CfeMerge%3E%3CfeMergeNode%20in%3D%22t%22/%3E%3CfeMergeNode%20in%3D%22t%22/%3E%3CfeMergeNode%20in%3D%22e%22/%3E%3C/feMerge%3E%3C/filter%3E%3C/defs%3E%3Cg%20filter%3D%22url%28%23f%29%22%20fill-opacity%3D%220.85%22%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22760%22%20height%3D%2212%22%20fill%3D%22%232fbf68%22/%3E%3Crect%20x%3D%22720%22%20y%3D%225%22%20width%3D%22260%22%20height%3D%2213%22%20fill%3D%22%23ffdf00%22/%3E%3Crect%20x%3D%22950%22%20y%3D%226%22%20width%3D%22244%22%20height%3D%2212%22%20fill%3D%22%238fb0ff%22/%3E%3C/g%3E%3C/svg%3E'); --aq-marca: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20240%2040%22%20width%3D%22240%22%20height%3D%2240%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cfilter%20id%3D%22m%22%20x%3D%22-25%25%22%20y%3D%22-25%25%22%20width%3D%22150%25%22%20height%3D%22150%25%22%20color-interpolation-filters%3D%22sRGB%22%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.03%22%20numOctaves%3D%223%22%20seed%3D%229%22%20result%3D%22n%22/%3E%0A%3CfeDisplacementMap%20in%3D%22SourceGraphic%22%20in2%3D%22n%22%20scale%3D%226%22%20xChannelSelector%3D%22R%22%20yChannelSelector%3D%22G%22%20result%3D%22s0%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.18%22%20numOctaves%3D%222%22%20seed%3D%2210%22%20result%3D%22n2%22/%3E%0A%3CfeDisplacementMap%20in%3D%22s0%22%20in2%3D%22n2%22%20scale%3D%222%22%20xChannelSelector%3D%22R%22%20yChannelSelector%3D%22G%22%20result%3D%22s1%22/%3E%0A%3CfeGaussianBlur%20in%3D%22s1%22%20stdDeviation%3D%220.7%22%20result%3D%22s%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.05%22%20numOctaves%3D%222%22%20seed%3D%2211%22%20result%3D%22bl%22/%3E%0A%3CfeColorMatrix%20in%3D%22bl%22%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%201.3%200.1%22%20result%3D%22bla%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.9%22%20numOctaves%3D%222%22%20seed%3D%2213%22%20result%3D%22g%22/%3E%0A%3CfeColorMatrix%20in%3D%22g%22%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%20-0.6%201.1%22%20result%3D%22ga%22/%3E%0A%3CfeComposite%20in%3D%22s%22%20in2%3D%22bla%22%20operator%3D%22in%22%20result%3D%22t1%22/%3E%0A%3CfeComposite%20in%3D%22t1%22%20in2%3D%22ga%22%20operator%3D%22in%22%20result%3D%22t%22/%3E%0A%3CfeMorphology%20in%3D%22s%22%20operator%3D%22erode%22%20radius%3D%221%22%20result%3D%22i%22/%3E%0A%3CfeComposite%20in%3D%22s%22%20in2%3D%22i%22%20operator%3D%22out%22%20result%3D%22e0%22/%3E%0A%3CfeGaussianBlur%20in%3D%22e0%22%20stdDeviation%3D%220.5%22%20result%3D%22e%22/%3E%0A%3CfeMerge%3E%3CfeMergeNode%20in%3D%22t%22/%3E%3CfeMergeNode%20in%3D%22t%22/%3E%3CfeMergeNode%20in%3D%22e%22/%3E%3C/feMerge%3E%3C/filter%3E%3C/defs%3E%3Cpath%20filter%3D%22url%28%23m%29%22%20fill%3D%22%232fbf68%22%20fill-opacity%3D%220.45%22%20d%3D%22M8%2014%20Q60%206%20120%2010%20T232%2012%20L228%2032%20Q140%2036%2070%2030%20T10%2030%20Z%22/%3E%3C/svg%3E'); --aq-mancha: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cfilter%20id%3D%22w%22%20x%3D%22-25%25%22%20y%3D%22-25%25%22%20width%3D%22150%25%22%20height%3D%22150%25%22%20color-interpolation-filters%3D%22sRGB%22%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.012%22%20numOctaves%3D%223%22%20seed%3D%222%22%20result%3D%22n%22/%3E%0A%3CfeDisplacementMap%20in%3D%22SourceGraphic%22%20in2%3D%22n%22%20scale%3D%2224%22%20xChannelSelector%3D%22R%22%20yChannelSelector%3D%22G%22%20result%3D%22s0%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.07200000000000001%22%20numOctaves%3D%222%22%20seed%3D%223%22%20result%3D%22n2%22/%3E%0A%3CfeDisplacementMap%20in%3D%22s0%22%20in2%3D%22n2%22%20scale%3D%224.8%22%20xChannelSelector%3D%22R%22%20yChannelSelector%3D%22G%22%20result%3D%22s1%22/%3E%0A%3CfeGaussianBlur%20in%3D%22s1%22%20stdDeviation%3D%220.7%22%20result%3D%22s%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.018%22%20numOctaves%3D%222%22%20seed%3D%224%22%20result%3D%22bl%22/%3E%0A%3CfeColorMatrix%20in%3D%22bl%22%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%201.3%200.1%22%20result%3D%22bla%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.9%22%20numOctaves%3D%222%22%20seed%3D%226%22%20result%3D%22g%22/%3E%0A%3CfeColorMatrix%20in%3D%22g%22%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%20-0.6%201.1%22%20result%3D%22ga%22/%3E%0A%3CfeComposite%20in%3D%22s%22%20in2%3D%22bla%22%20operator%3D%22in%22%20result%3D%22t1%22/%3E%0A%3CfeComposite%20in%3D%22t1%22%20in2%3D%22ga%22%20operator%3D%22in%22%20result%3D%22t%22/%3E%0A%3CfeMorphology%20in%3D%22s%22%20operator%3D%22erode%22%20radius%3D%221.8%22%20result%3D%22i%22/%3E%0A%3CfeComposite%20in%3D%22s%22%20in2%3D%22i%22%20operator%3D%22out%22%20result%3D%22e0%22/%3E%0A%3CfeGaussianBlur%20in%3D%22e0%22%20stdDeviation%3D%220.5%22%20result%3D%22e%22/%3E%0A%3CfeMerge%3E%3CfeMergeNode%20in%3D%22t%22/%3E%3CfeMergeNode%20in%3D%22t%22/%3E%3CfeMergeNode%20in%3D%22e%22/%3E%3C/feMerge%3E%3C/filter%3E%3C/defs%3E%3Cellipse%20filter%3D%22url%28%23w%29%22%20cx%3D%22100%22%20cy%3D%22100%22%20rx%3D%2278%22%20ry%3D%2270%22%20fill%3D%22%232fbf68%22%20fill-opacity%3D%220.4%22/%3E%3C/svg%3E'); --aq-bandeira: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20680%20300%22%20width%3D%22680%22%20height%3D%22300%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cfilter%20id%3D%22h1%22%20x%3D%22-25%25%22%20y%3D%22-25%25%22%20width%3D%22150%25%22%20height%3D%22150%25%22%20color-interpolation-filters%3D%22sRGB%22%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.006%22%20numOctaves%3D%223%22%20seed%3D%223%22%20result%3D%22n%22/%3E%0A%3CfeDisplacementMap%20in%3D%22SourceGraphic%22%20in2%3D%22n%22%20scale%3D%2240%22%20xChannelSelector%3D%22R%22%20yChannelSelector%3D%22G%22%20result%3D%22s0%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.036000000000000004%22%20numOctaves%3D%222%22%20seed%3D%224%22%20result%3D%22n2%22/%3E%0A%3CfeDisplacementMap%20in%3D%22s0%22%20in2%3D%22n2%22%20scale%3D%228.0%22%20xChannelSelector%3D%22R%22%20yChannelSelector%3D%22G%22%20result%3D%22s1%22/%3E%0A%3CfeGaussianBlur%20in%3D%22s1%22%20stdDeviation%3D%220.7%22%20result%3D%22s%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.008%22%20numOctaves%3D%222%22%20seed%3D%225%22%20result%3D%22bl%22/%3E%0A%3CfeColorMatrix%20in%3D%22bl%22%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%201.3%200.1%22%20result%3D%22bla%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.9%22%20numOctaves%3D%222%22%20seed%3D%227%22%20result%3D%22g%22/%3E%0A%3CfeColorMatrix%20in%3D%22g%22%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%20-0.6%201.1%22%20result%3D%22ga%22/%3E%0A%3CfeComposite%20in%3D%22s%22%20in2%3D%22bla%22%20operator%3D%22in%22%20result%3D%22t1%22/%3E%0A%3CfeComposite%20in%3D%22t1%22%20in2%3D%22ga%22%20operator%3D%22in%22%20result%3D%22t%22/%3E%0A%3CfeMorphology%20in%3D%22s%22%20operator%3D%22erode%22%20radius%3D%222.4%22%20result%3D%22i%22/%3E%0A%3CfeComposite%20in%3D%22s%22%20in2%3D%22i%22%20operator%3D%22out%22%20result%3D%22e0%22/%3E%0A%3CfeGaussianBlur%20in%3D%22e0%22%20stdDeviation%3D%220.5%22%20result%3D%22e%22/%3E%0A%3CfeMerge%3E%3CfeMergeNode%20in%3D%22t%22/%3E%3CfeMergeNode%20in%3D%22t%22/%3E%3CfeMergeNode%20in%3D%22e%22/%3E%3C/feMerge%3E%3C/filter%3E%3Cfilter%20id%3D%22h2%22%20x%3D%22-25%25%22%20y%3D%22-25%25%22%20width%3D%22150%25%22%20height%3D%22150%25%22%20color-interpolation-filters%3D%22sRGB%22%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.008%22%20numOctaves%3D%223%22%20seed%3D%228%22%20result%3D%22n%22/%3E%0A%3CfeDisplacementMap%20in%3D%22SourceGraphic%22%20in2%3D%22n%22%20scale%3D%2230%22%20xChannelSelector%3D%22R%22%20yChannelSelector%3D%22G%22%20result%3D%22s0%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.048%22%20numOctaves%3D%222%22%20seed%3D%229%22%20result%3D%22n2%22/%3E%0A%3CfeDisplacementMap%20in%3D%22s0%22%20in2%3D%22n2%22%20scale%3D%226.0%22%20xChannelSelector%3D%22R%22%20yChannelSelector%3D%22G%22%20result%3D%22s1%22/%3E%0A%3CfeGaussianBlur%20in%3D%22s1%22%20stdDeviation%3D%220.7%22%20result%3D%22s%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.012%22%20numOctaves%3D%222%22%20seed%3D%2210%22%20result%3D%22bl%22/%3E%0A%3CfeColorMatrix%20in%3D%22bl%22%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%201.3%200.1%22%20result%3D%22bla%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.9%22%20numOctaves%3D%222%22%20seed%3D%2212%22%20result%3D%22g%22/%3E%0A%3CfeColorMatrix%20in%3D%22g%22%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%20-0.6%201.1%22%20result%3D%22ga%22/%3E%0A%3CfeComposite%20in%3D%22s%22%20in2%3D%22bla%22%20operator%3D%22in%22%20result%3D%22t1%22/%3E%0A%3CfeComposite%20in%3D%22t1%22%20in2%3D%22ga%22%20operator%3D%22in%22%20result%3D%22t%22/%3E%0A%3CfeMorphology%20in%3D%22s%22%20operator%3D%22erode%22%20radius%3D%222%22%20result%3D%22i%22/%3E%0A%3CfeComposite%20in%3D%22s%22%20in2%3D%22i%22%20operator%3D%22out%22%20result%3D%22e0%22/%3E%0A%3CfeGaussianBlur%20in%3D%22e0%22%20stdDeviation%3D%220.5%22%20result%3D%22e%22/%3E%0A%3CfeMerge%3E%3CfeMergeNode%20in%3D%22t%22/%3E%3CfeMergeNode%20in%3D%22t%22/%3E%3CfeMergeNode%20in%3D%22e%22/%3E%3C/feMerge%3E%3C/filter%3E%3Cfilter%20id%3D%22h3%22%20x%3D%22-25%25%22%20y%3D%22-25%25%22%20width%3D%22150%25%22%20height%3D%22150%25%22%20color-interpolation-filters%3D%22sRGB%22%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.01%22%20numOctaves%3D%223%22%20seed%3D%2213%22%20result%3D%22n%22/%3E%0A%3CfeDisplacementMap%20in%3D%22SourceGraphic%22%20in2%3D%22n%22%20scale%3D%2222%22%20xChannelSelector%3D%22R%22%20yChannelSelector%3D%22G%22%20result%3D%22s0%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.06%22%20numOctaves%3D%222%22%20seed%3D%2214%22%20result%3D%22n2%22/%3E%0A%3CfeDisplacementMap%20in%3D%22s0%22%20in2%3D%22n2%22%20scale%3D%224.4%22%20xChannelSelector%3D%22R%22%20yChannelSelector%3D%22G%22%20result%3D%22s1%22/%3E%0A%3CfeGaussianBlur%20in%3D%22s1%22%20stdDeviation%3D%220.7%22%20result%3D%22s%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.015%22%20numOctaves%3D%222%22%20seed%3D%2215%22%20result%3D%22bl%22/%3E%0A%3CfeColorMatrix%20in%3D%22bl%22%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%201.3%200.1%22%20result%3D%22bla%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.9%22%20numOctaves%3D%222%22%20seed%3D%2217%22%20result%3D%22g%22/%3E%0A%3CfeColorMatrix%20in%3D%22g%22%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%20-0.6%201.1%22%20result%3D%22ga%22/%3E%0A%3CfeComposite%20in%3D%22s%22%20in2%3D%22bla%22%20operator%3D%22in%22%20result%3D%22t1%22/%3E%0A%3CfeComposite%20in%3D%22t1%22%20in2%3D%22ga%22%20operator%3D%22in%22%20result%3D%22t%22/%3E%0A%3CfeMorphology%20in%3D%22s%22%20operator%3D%22erode%22%20radius%3D%222%22%20result%3D%22i%22/%3E%0A%3CfeComposite%20in%3D%22s%22%20in2%3D%22i%22%20operator%3D%22out%22%20result%3D%22e0%22/%3E%0A%3CfeGaussianBlur%20in%3D%22e0%22%20stdDeviation%3D%220.5%22%20result%3D%22e%22/%3E%0A%3CfeMerge%3E%3CfeMergeNode%20in%3D%22t%22/%3E%3CfeMergeNode%20in%3D%22t%22/%3E%3CfeMergeNode%20in%3D%22e%22/%3E%3C/feMerge%3E%3C/filter%3E%3C/defs%3E%3Cpath%20filter%3D%22url%28%23h1%29%22%20fill%3D%22%23009c3b%22%20fill-opacity%3D%22.7%22%20d%3D%22M40%2040%20Q300%200%20640%2030%20Q700%20160%20640%20260%20Q320%20300%2030%20250%20Q-10%20140%2040%2040Z%22/%3E%3Cpolygon%20filter%3D%22url%28%23h2%29%22%20fill%3D%22%23ffdf00%22%20fill-opacity%3D%22.85%22%20points%3D%2290%2C150%20340%2C40%20590%2C150%20340%2C262%22/%3E%3Ccircle%20filter%3D%22url%28%23h3%29%22%20cx%3D%22340%22%20cy%3D%22150%22%20r%3D%2278%22%20fill%3D%22%23002776%22%20fill-opacity%3D%22.85%22/%3E%3Cpath%20filter%3D%22url%28%23h3%29%22%20d%3D%22M266%20138%20Q340%20116%20414%20160%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%22.85%22%20stroke-width%3D%2210%22%20stroke-linecap%3D%22round%22/%3E%3C/svg%3E'); } }
 :root[data-theme="dark"] { --aq-papel: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20240%20240%22%20width%3D%22240%22%20height%3D%22240%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3C/defs%3E%3Cfilter%20id%3D%22p%22%3E%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%22.75%22%20numOctaves%3D%223%22%20seed%3D%2211%22/%3E%3CfeColorMatrix%20values%3D%220%200%200%200%200.9%200%200%200%200%200.95%200%200%200%200%201%200%200%200%200.12%200%22/%3E%3C/filter%3E%3Crect%20width%3D%22240%22%20height%3D%22240%22%20filter%3D%22url%28%23p%29%22/%3E%3C/svg%3E'); --aq-faixa: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%201200%2024%22%20width%3D%221200%22%20height%3D%2224%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cfilter%20id%3D%22f%22%20x%3D%22-25%25%22%20y%3D%22-25%25%22%20width%3D%22150%25%22%20height%3D%22150%25%22%20color-interpolation-filters%3D%22sRGB%22%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.03%22%20numOctaves%3D%223%22%20seed%3D%225%22%20result%3D%22n%22/%3E%0A%3CfeDisplacementMap%20in%3D%22SourceGraphic%22%20in2%3D%22n%22%20scale%3D%227%22%20xChannelSelector%3D%22R%22%20yChannelSelector%3D%22G%22%20result%3D%22s0%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.18%22%20numOctaves%3D%222%22%20seed%3D%226%22%20result%3D%22n2%22/%3E%0A%3CfeDisplacementMap%20in%3D%22s0%22%20in2%3D%22n2%22%20scale%3D%222%22%20xChannelSelector%3D%22R%22%20yChannelSelector%3D%22G%22%20result%3D%22s1%22/%3E%0A%3CfeGaussianBlur%20in%3D%22s1%22%20stdDeviation%3D%220.7%22%20result%3D%22s%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.04%22%20numOctaves%3D%222%22%20seed%3D%227%22%20result%3D%22bl%22/%3E%0A%3CfeColorMatrix%20in%3D%22bl%22%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%201.3%200.1%22%20result%3D%22bla%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.9%22%20numOctaves%3D%222%22%20seed%3D%229%22%20result%3D%22g%22/%3E%0A%3CfeColorMatrix%20in%3D%22g%22%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%20-0.6%201.1%22%20result%3D%22ga%22/%3E%0A%3CfeComposite%20in%3D%22s%22%20in2%3D%22bla%22%20operator%3D%22in%22%20result%3D%22t1%22/%3E%0A%3CfeComposite%20in%3D%22t1%22%20in2%3D%22ga%22%20operator%3D%22in%22%20result%3D%22t%22/%3E%0A%3CfeMorphology%20in%3D%22s%22%20operator%3D%22erode%22%20radius%3D%221%22%20result%3D%22i%22/%3E%0A%3CfeComposite%20in%3D%22s%22%20in2%3D%22i%22%20operator%3D%22out%22%20result%3D%22e0%22/%3E%0A%3CfeGaussianBlur%20in%3D%22e0%22%20stdDeviation%3D%220.5%22%20result%3D%22e%22/%3E%0A%3CfeMerge%3E%3CfeMergeNode%20in%3D%22t%22/%3E%3CfeMergeNode%20in%3D%22t%22/%3E%3CfeMergeNode%20in%3D%22e%22/%3E%3C/feMerge%3E%3C/filter%3E%3C/defs%3E%3Cg%20filter%3D%22url%28%23f%29%22%20fill-opacity%3D%220.85%22%3E%3Crect%20x%3D%226%22%20y%3D%226%22%20width%3D%22760%22%20height%3D%2212%22%20fill%3D%22%232fbf68%22/%3E%3Crect%20x%3D%22720%22%20y%3D%225%22%20width%3D%22260%22%20height%3D%2213%22%20fill%3D%22%23ffdf00%22/%3E%3Crect%20x%3D%22950%22%20y%3D%226%22%20width%3D%22244%22%20height%3D%2212%22%20fill%3D%22%238fb0ff%22/%3E%3C/g%3E%3C/svg%3E'); --aq-marca: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20240%2040%22%20width%3D%22240%22%20height%3D%2240%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cfilter%20id%3D%22m%22%20x%3D%22-25%25%22%20y%3D%22-25%25%22%20width%3D%22150%25%22%20height%3D%22150%25%22%20color-interpolation-filters%3D%22sRGB%22%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.03%22%20numOctaves%3D%223%22%20seed%3D%229%22%20result%3D%22n%22/%3E%0A%3CfeDisplacementMap%20in%3D%22SourceGraphic%22%20in2%3D%22n%22%20scale%3D%226%22%20xChannelSelector%3D%22R%22%20yChannelSelector%3D%22G%22%20result%3D%22s0%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.18%22%20numOctaves%3D%222%22%20seed%3D%2210%22%20result%3D%22n2%22/%3E%0A%3CfeDisplacementMap%20in%3D%22s0%22%20in2%3D%22n2%22%20scale%3D%222%22%20xChannelSelector%3D%22R%22%20yChannelSelector%3D%22G%22%20result%3D%22s1%22/%3E%0A%3CfeGaussianBlur%20in%3D%22s1%22%20stdDeviation%3D%220.7%22%20result%3D%22s%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.05%22%20numOctaves%3D%222%22%20seed%3D%2211%22%20result%3D%22bl%22/%3E%0A%3CfeColorMatrix%20in%3D%22bl%22%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%201.3%200.1%22%20result%3D%22bla%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.9%22%20numOctaves%3D%222%22%20seed%3D%2213%22%20result%3D%22g%22/%3E%0A%3CfeColorMatrix%20in%3D%22g%22%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%20-0.6%201.1%22%20result%3D%22ga%22/%3E%0A%3CfeComposite%20in%3D%22s%22%20in2%3D%22bla%22%20operator%3D%22in%22%20result%3D%22t1%22/%3E%0A%3CfeComposite%20in%3D%22t1%22%20in2%3D%22ga%22%20operator%3D%22in%22%20result%3D%22t%22/%3E%0A%3CfeMorphology%20in%3D%22s%22%20operator%3D%22erode%22%20radius%3D%221%22%20result%3D%22i%22/%3E%0A%3CfeComposite%20in%3D%22s%22%20in2%3D%22i%22%20operator%3D%22out%22%20result%3D%22e0%22/%3E%0A%3CfeGaussianBlur%20in%3D%22e0%22%20stdDeviation%3D%220.5%22%20result%3D%22e%22/%3E%0A%3CfeMerge%3E%3CfeMergeNode%20in%3D%22t%22/%3E%3CfeMergeNode%20in%3D%22t%22/%3E%3CfeMergeNode%20in%3D%22e%22/%3E%3C/feMerge%3E%3C/filter%3E%3C/defs%3E%3Cpath%20filter%3D%22url%28%23m%29%22%20fill%3D%22%232fbf68%22%20fill-opacity%3D%220.45%22%20d%3D%22M8%2014%20Q60%206%20120%2010%20T232%2012%20L228%2032%20Q140%2036%2070%2030%20T10%2030%20Z%22/%3E%3C/svg%3E'); --aq-mancha: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cfilter%20id%3D%22w%22%20x%3D%22-25%25%22%20y%3D%22-25%25%22%20width%3D%22150%25%22%20height%3D%22150%25%22%20color-interpolation-filters%3D%22sRGB%22%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.012%22%20numOctaves%3D%223%22%20seed%3D%222%22%20result%3D%22n%22/%3E%0A%3CfeDisplacementMap%20in%3D%22SourceGraphic%22%20in2%3D%22n%22%20scale%3D%2224%22%20xChannelSelector%3D%22R%22%20yChannelSelector%3D%22G%22%20result%3D%22s0%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.07200000000000001%22%20numOctaves%3D%222%22%20seed%3D%223%22%20result%3D%22n2%22/%3E%0A%3CfeDisplacementMap%20in%3D%22s0%22%20in2%3D%22n2%22%20scale%3D%224.8%22%20xChannelSelector%3D%22R%22%20yChannelSelector%3D%22G%22%20result%3D%22s1%22/%3E%0A%3CfeGaussianBlur%20in%3D%22s1%22%20stdDeviation%3D%220.7%22%20result%3D%22s%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.018%22%20numOctaves%3D%222%22%20seed%3D%224%22%20result%3D%22bl%22/%3E%0A%3CfeColorMatrix%20in%3D%22bl%22%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%201.3%200.1%22%20result%3D%22bla%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.9%22%20numOctaves%3D%222%22%20seed%3D%226%22%20result%3D%22g%22/%3E%0A%3CfeColorMatrix%20in%3D%22g%22%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%20-0.6%201.1%22%20result%3D%22ga%22/%3E%0A%3CfeComposite%20in%3D%22s%22%20in2%3D%22bla%22%20operator%3D%22in%22%20result%3D%22t1%22/%3E%0A%3CfeComposite%20in%3D%22t1%22%20in2%3D%22ga%22%20operator%3D%22in%22%20result%3D%22t%22/%3E%0A%3CfeMorphology%20in%3D%22s%22%20operator%3D%22erode%22%20radius%3D%221.8%22%20result%3D%22i%22/%3E%0A%3CfeComposite%20in%3D%22s%22%20in2%3D%22i%22%20operator%3D%22out%22%20result%3D%22e0%22/%3E%0A%3CfeGaussianBlur%20in%3D%22e0%22%20stdDeviation%3D%220.5%22%20result%3D%22e%22/%3E%0A%3CfeMerge%3E%3CfeMergeNode%20in%3D%22t%22/%3E%3CfeMergeNode%20in%3D%22t%22/%3E%3CfeMergeNode%20in%3D%22e%22/%3E%3C/feMerge%3E%3C/filter%3E%3C/defs%3E%3Cellipse%20filter%3D%22url%28%23w%29%22%20cx%3D%22100%22%20cy%3D%22100%22%20rx%3D%2278%22%20ry%3D%2270%22%20fill%3D%22%232fbf68%22%20fill-opacity%3D%220.4%22/%3E%3C/svg%3E'); --aq-bandeira: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20680%20300%22%20width%3D%22680%22%20height%3D%22300%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cfilter%20id%3D%22h1%22%20x%3D%22-25%25%22%20y%3D%22-25%25%22%20width%3D%22150%25%22%20height%3D%22150%25%22%20color-interpolation-filters%3D%22sRGB%22%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.006%22%20numOctaves%3D%223%22%20seed%3D%223%22%20result%3D%22n%22/%3E%0A%3CfeDisplacementMap%20in%3D%22SourceGraphic%22%20in2%3D%22n%22%20scale%3D%2240%22%20xChannelSelector%3D%22R%22%20yChannelSelector%3D%22G%22%20result%3D%22s0%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.036000000000000004%22%20numOctaves%3D%222%22%20seed%3D%224%22%20result%3D%22n2%22/%3E%0A%3CfeDisplacementMap%20in%3D%22s0%22%20in2%3D%22n2%22%20scale%3D%228.0%22%20xChannelSelector%3D%22R%22%20yChannelSelector%3D%22G%22%20result%3D%22s1%22/%3E%0A%3CfeGaussianBlur%20in%3D%22s1%22%20stdDeviation%3D%220.7%22%20result%3D%22s%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.008%22%20numOctaves%3D%222%22%20seed%3D%225%22%20result%3D%22bl%22/%3E%0A%3CfeColorMatrix%20in%3D%22bl%22%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%201.3%200.1%22%20result%3D%22bla%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.9%22%20numOctaves%3D%222%22%20seed%3D%227%22%20result%3D%22g%22/%3E%0A%3CfeColorMatrix%20in%3D%22g%22%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%20-0.6%201.1%22%20result%3D%22ga%22/%3E%0A%3CfeComposite%20in%3D%22s%22%20in2%3D%22bla%22%20operator%3D%22in%22%20result%3D%22t1%22/%3E%0A%3CfeComposite%20in%3D%22t1%22%20in2%3D%22ga%22%20operator%3D%22in%22%20result%3D%22t%22/%3E%0A%3CfeMorphology%20in%3D%22s%22%20operator%3D%22erode%22%20radius%3D%222.4%22%20result%3D%22i%22/%3E%0A%3CfeComposite%20in%3D%22s%22%20in2%3D%22i%22%20operator%3D%22out%22%20result%3D%22e0%22/%3E%0A%3CfeGaussianBlur%20in%3D%22e0%22%20stdDeviation%3D%220.5%22%20result%3D%22e%22/%3E%0A%3CfeMerge%3E%3CfeMergeNode%20in%3D%22t%22/%3E%3CfeMergeNode%20in%3D%22t%22/%3E%3CfeMergeNode%20in%3D%22e%22/%3E%3C/feMerge%3E%3C/filter%3E%3Cfilter%20id%3D%22h2%22%20x%3D%22-25%25%22%20y%3D%22-25%25%22%20width%3D%22150%25%22%20height%3D%22150%25%22%20color-interpolation-filters%3D%22sRGB%22%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.008%22%20numOctaves%3D%223%22%20seed%3D%228%22%20result%3D%22n%22/%3E%0A%3CfeDisplacementMap%20in%3D%22SourceGraphic%22%20in2%3D%22n%22%20scale%3D%2230%22%20xChannelSelector%3D%22R%22%20yChannelSelector%3D%22G%22%20result%3D%22s0%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.048%22%20numOctaves%3D%222%22%20seed%3D%229%22%20result%3D%22n2%22/%3E%0A%3CfeDisplacementMap%20in%3D%22s0%22%20in2%3D%22n2%22%20scale%3D%226.0%22%20xChannelSelector%3D%22R%22%20yChannelSelector%3D%22G%22%20result%3D%22s1%22/%3E%0A%3CfeGaussianBlur%20in%3D%22s1%22%20stdDeviation%3D%220.7%22%20result%3D%22s%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.012%22%20numOctaves%3D%222%22%20seed%3D%2210%22%20result%3D%22bl%22/%3E%0A%3CfeColorMatrix%20in%3D%22bl%22%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%201.3%200.1%22%20result%3D%22bla%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.9%22%20numOctaves%3D%222%22%20seed%3D%2212%22%20result%3D%22g%22/%3E%0A%3CfeColorMatrix%20in%3D%22g%22%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%20-0.6%201.1%22%20result%3D%22ga%22/%3E%0A%3CfeComposite%20in%3D%22s%22%20in2%3D%22bla%22%20operator%3D%22in%22%20result%3D%22t1%22/%3E%0A%3CfeComposite%20in%3D%22t1%22%20in2%3D%22ga%22%20operator%3D%22in%22%20result%3D%22t%22/%3E%0A%3CfeMorphology%20in%3D%22s%22%20operator%3D%22erode%22%20radius%3D%222%22%20result%3D%22i%22/%3E%0A%3CfeComposite%20in%3D%22s%22%20in2%3D%22i%22%20operator%3D%22out%22%20result%3D%22e0%22/%3E%0A%3CfeGaussianBlur%20in%3D%22e0%22%20stdDeviation%3D%220.5%22%20result%3D%22e%22/%3E%0A%3CfeMerge%3E%3CfeMergeNode%20in%3D%22t%22/%3E%3CfeMergeNode%20in%3D%22t%22/%3E%3CfeMergeNode%20in%3D%22e%22/%3E%3C/feMerge%3E%3C/filter%3E%3Cfilter%20id%3D%22h3%22%20x%3D%22-25%25%22%20y%3D%22-25%25%22%20width%3D%22150%25%22%20height%3D%22150%25%22%20color-interpolation-filters%3D%22sRGB%22%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.01%22%20numOctaves%3D%223%22%20seed%3D%2213%22%20result%3D%22n%22/%3E%0A%3CfeDisplacementMap%20in%3D%22SourceGraphic%22%20in2%3D%22n%22%20scale%3D%2222%22%20xChannelSelector%3D%22R%22%20yChannelSelector%3D%22G%22%20result%3D%22s0%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.06%22%20numOctaves%3D%222%22%20seed%3D%2214%22%20result%3D%22n2%22/%3E%0A%3CfeDisplacementMap%20in%3D%22s0%22%20in2%3D%22n2%22%20scale%3D%224.4%22%20xChannelSelector%3D%22R%22%20yChannelSelector%3D%22G%22%20result%3D%22s1%22/%3E%0A%3CfeGaussianBlur%20in%3D%22s1%22%20stdDeviation%3D%220.7%22%20result%3D%22s%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.015%22%20numOctaves%3D%222%22%20seed%3D%2215%22%20result%3D%22bl%22/%3E%0A%3CfeColorMatrix%20in%3D%22bl%22%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%201.3%200.1%22%20result%3D%22bla%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.9%22%20numOctaves%3D%222%22%20seed%3D%2217%22%20result%3D%22g%22/%3E%0A%3CfeColorMatrix%20in%3D%22g%22%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%20-0.6%201.1%22%20result%3D%22ga%22/%3E%0A%3CfeComposite%20in%3D%22s%22%20in2%3D%22bla%22%20operator%3D%22in%22%20result%3D%22t1%22/%3E%0A%3CfeComposite%20in%3D%22t1%22%20in2%3D%22ga%22%20operator%3D%22in%22%20result%3D%22t%22/%3E%0A%3CfeMorphology%20in%3D%22s%22%20operator%3D%22erode%22%20radius%3D%222%22%20result%3D%22i%22/%3E%0A%3CfeComposite%20in%3D%22s%22%20in2%3D%22i%22%20operator%3D%22out%22%20result%3D%22e0%22/%3E%0A%3CfeGaussianBlur%20in%3D%22e0%22%20stdDeviation%3D%220.5%22%20result%3D%22e%22/%3E%0A%3CfeMerge%3E%3CfeMergeNode%20in%3D%22t%22/%3E%3CfeMergeNode%20in%3D%22t%22/%3E%3CfeMergeNode%20in%3D%22e%22/%3E%3C/feMerge%3E%3C/filter%3E%3C/defs%3E%3Cpath%20filter%3D%22url%28%23h1%29%22%20fill%3D%22%23009c3b%22%20fill-opacity%3D%22.7%22%20d%3D%22M40%2040%20Q300%200%20640%2030%20Q700%20160%20640%20260%20Q320%20300%2030%20250%20Q-10%20140%2040%2040Z%22/%3E%3Cpolygon%20filter%3D%22url%28%23h2%29%22%20fill%3D%22%23ffdf00%22%20fill-opacity%3D%22.85%22%20points%3D%2290%2C150%20340%2C40%20590%2C150%20340%2C262%22/%3E%3Ccircle%20filter%3D%22url%28%23h3%29%22%20cx%3D%22340%22%20cy%3D%22150%22%20r%3D%2278%22%20fill%3D%22%23002776%22%20fill-opacity%3D%22.85%22/%3E%3Cpath%20filter%3D%22url%28%23h3%29%22%20d%3D%22M266%20138%20Q340%20116%20414%20160%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%22.85%22%20stroke-width%3D%2210%22%20stroke-linecap%3D%22round%22/%3E%3C/svg%3E'); }
 
-.wrap { max-width: 760px; margin: 0 auto; padding-inline: var(--space-4); padding-block: 48px 64px; display: flex; flex-direction: column; gap: var(--space-6); }
-.marca { display: flex; align-items: center; gap: var(--space-3); }
-.marca .logo { width: 44px; height: 44px; }
-h1 { font: 800 clamp(34px, 7vw, 48px)/1.02 var(--font-display); letter-spacing: -0.03em; margin: 0; font-variant-numeric: lining-nums; }
-p { margin: 0; color: var(--tinta-suave); max-width: 60ch; font-size: 16px; line-height: 26px; }
-.estados { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: var(--space-3); }
-a.estado { position: relative; overflow: hidden; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: var(--space-4); align-items: center; padding: 20px 20px 26px; border-radius: var(--radius-xl); border: 1px solid var(--linha); background: var(--papel-elevado); box-shadow: var(--sombra-sm); color: var(--tinta); text-decoration: none; }
-a.estado::after { content: ""; position: absolute; inset: auto -4px -3px -4px; height: 14px; background: var(--faixa-uf) center / 100% 100% no-repeat; }
-a.estado:hover { border-color: var(--azul); box-shadow: var(--sombra-md); }
-a.estado:focus-visible { outline: 2px solid var(--foco); outline-offset: 2px; }
-a.estado .flag { width: 66px; height: 44px; border-radius: 2px; display: block; }
-a.estado .txt { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
-a.estado small { font: 500 11px/16px var(--font-mono); text-transform: uppercase; letter-spacing: .06em; color: var(--tinta-suave); }
-a.estado b { font: 800 25px/1.15 var(--font-display); letter-spacing: -0.02em; }
-a.estado .sub { font: 400 12px/16px var(--font-mono); color: var(--tinta-suave); }
-.t2h { display: flex; flex-direction: column; gap: 8px; padding: 18px 20px; border-radius: var(--radius-xl); border: 1px solid var(--linha-forte); background: var(--papel-elevado); box-shadow: var(--sombra-sm); color: var(--tinta); }
-.t2h-rot { font: 500 11px/16px var(--font-mono); text-transform: uppercase; letter-spacing: .06em; color: var(--tinta-suave); }
-.t2h-duelo { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
-.t2h-duelo b { font: 800 22px/28px var(--font-display); letter-spacing: -0.01em; }
-.t2h-duelo i { font: 500 12.5px/18px var(--font-mono); font-style: normal; color: var(--tinta-suave); }
-.t2h-duelo em { font: 500 13px/18px var(--font-mono); font-style: normal; color: var(--tinta-suave); padding-inline: 6px; }
-.t2h-pe { font-size: 12.5px; color: var(--tinta-suave); }
-footer { font-size: 12.5px; color: var(--tinta-suave); border-top: 1px solid var(--linha); padding-top: 14px; }
-.hero { display: grid; grid-template-columns: minmax(0, 1fr) 300px; align-items: center; gap: var(--space-4); min-height: 190px; }
-.hero-texto { display: flex; flex-direction: column; gap: var(--space-2); }
-.hero-sub { font: 500 12px/16px var(--font-mono); text-transform: uppercase; letter-spacing: .06em; color: var(--tinta-suave); }
-.hero-arte { height: 190px; background: var(--aq-bandeira) center / contain no-repeat; }
-@media (max-width: 640px) { .hero { grid-template-columns: 1fr; } .hero-arte { order: -1; height: 130px; } }
-.preview-aviso { font: 500 12px/16px var(--font-mono); background: var(--amarelo); color: var(--on-amarelo); text-align: center; padding: 6px var(--space-4); }
-.bandeirola { height: 16px; margin-top: 4px; background: var(--aq-faixa) center / 100% 100% no-repeat; }
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 body { margin: 0; background: var(--papel) var(--aq-papel) fixed; color: var(--tinta); font: 400 15px/1.6 var(--font-sans); -webkit-font-smoothing: antialiased; }
+a { color: var(--azul); }
+:root[data-theme="dark"] a { color: var(--tinta); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) a { color: var(--tinta); } }
+.bandeirola { height: 16px; margin-top: 4px; background: var(--aq-faixa) center / 100% 100% no-repeat; }
+.wrap { max-width: 1080px; margin: 0 auto; padding-inline: var(--space-4); padding-block: 28px 64px; display: flex; flex-direction: column; gap: var(--space-6); }
+header { display: flex; flex-direction: column; gap: var(--space-3); }
+.topo { display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); flex-wrap: wrap; }
+h1 { font: 800 clamp(28px, 6vw, 40px)/1.05 var(--font-display); letter-spacing: -0.03em; margin: 0; font-variant-numeric: lining-nums; }
+h1 em { font-style: normal; color: var(--verde-texto); }
+h2 { font: 800 22px/1.2 var(--font-display); letter-spacing: -0.02em; margin: 0; }
+h3 { font: 700 15px/1.3 var(--font-sans); margin: 0; }
+.lede { margin: 0; color: var(--tinta-suave); max-width: 72ch; font-size: 14px; line-height: 22px; }
+.mono { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+.rot { font: 500 11px/16px var(--font-mono); color: var(--tinta-suave); text-transform: uppercase; letter-spacing: .06em; }
+nav.links { display: flex; gap: var(--space-2); flex-wrap: wrap; }
+.btn { display: inline-flex; align-items: center; height: var(--control-h-sm); padding: 0 var(--space-3); border-radius: var(--radius-md); border: 1px solid var(--linha-forte); background: var(--papel-elevado); color: var(--tinta); font: 500 13px/1 var(--font-sans); text-decoration: none; cursor: pointer; }
+.btn:hover { border-color: var(--azul); }
+.btn:focus-visible, .seg button:focus-visible, input:focus-visible, select:focus-visible, .tab tr:focus-visible, svg path:focus-visible { outline: 2px solid var(--foco); outline-offset: 2px; }
+.trilha { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: 14px; }
+.trilha button { background: none; border: 0; padding: 0; font: inherit; color: var(--azul); cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+:root[data-theme="dark"] .trilha button { color: var(--tinta); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .trilha button { color: var(--tinta); } }
+.trilha b { font-weight: 700; }
+.ctrl { display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-3); align-items: center; position: sticky; top: 0; z-index: 3; background: var(--papel); padding-block: var(--space-2); border-bottom: 1px solid var(--linha); }
+.seg { display: inline-flex; gap: 2px; padding: 3px; background: var(--papel-fundo); border: 1px solid var(--linha); border-radius: var(--radius-md); max-width: 100%; overflow-x: auto; }
+.seg button { flex: none; font: 500 13px/1 var(--font-sans); color: var(--tinta-suave); background: transparent; border: 0; border-radius: 6px; height: 28px; padding: 0 var(--space-3); cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--azul); color: var(--on-azul); }
+.seg button:disabled { opacity: .45; cursor: not-allowed; }
+input.cx, select.cx { height: var(--control-h); border-radius: var(--radius-md); border: 1px solid var(--linha-forte); background: var(--papel-elevado); color: var(--tinta); padding: 4px var(--space-3); font: 400 14px/20px var(--font-sans); min-width: 0; }
+input.cx { flex: 1 1 220px; }
+.busca { position: relative; flex: 1 1 240px; display: flex; }
+.sug { position: absolute; inset: calc(100% + 4px) 0 auto 0; background: var(--papel-elevado); border: 1px solid var(--linha-forte); border-radius: var(--radius-md); box-shadow: var(--sombra-md); list-style: none; margin: 0; padding: 4px; z-index: 5; max-height: 300px; overflow: auto; }
+.sug li { padding: 6px 10px; border-radius: 6px; cursor: pointer; display: flex; justify-content: space-between; gap: 8px; font-size: 14px; }
+.sug li:hover, .sug li[aria-selected="true"] { background: var(--azul-suave); color: #0f1a2e; }
+.sug small { color: inherit; opacity: .7; font-family: var(--font-mono); }
+
+.painel { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: var(--space-4); align-items: start; }
+@media (max-width: 820px) { .painel { grid-template-columns: minmax(0, 1fr); } }
+.cartao { background: var(--papel-elevado); border: 1px solid var(--linha); border-radius: var(--radius-xl); box-shadow: var(--sombra-sm); padding: var(--space-4); display: flex; flex-direction: column; gap: var(--space-3); min-width: 0; }
+.mapa svg { width: 100%; height: auto; max-height: 72vh; display: block; }
+.mapa path { stroke: var(--papel-elevado); stroke-width: .6; vector-effect: non-scaling-stroke; cursor: pointer; fill: var(--papel-fundo); }
+.mapa path:hover, .mapa path.sel { stroke: var(--tinta); stroke-width: 1.6; }
+.mapa path.sem { cursor: default; }
+.dica { position: fixed; pointer-events: none; z-index: 9; background: var(--tinta); color: var(--papel); border-radius: var(--radius-md); padding: 6px 10px; font-size: 12.5px; line-height: 17px; max-width: 260px; box-shadow: var(--sombra-md); }
+.leg { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 12.5px; color: var(--tinta-suave); align-items: center; }
+.leg i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 5px; vertical-align: -1px; border: 1px solid var(--linha); }
+.leg .grad { width: 120px; height: 10px; border-radius: 5px; border: 1px solid var(--linha); display: inline-block; vertical-align: -1px; margin-inline: 6px; }
+.nums { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: var(--space-2) var(--space-4); margin: 0; }
+.nums dt { font: 500 10.5px/14px var(--font-mono); color: var(--tinta-suave); text-transform: uppercase; letter-spacing: .06em; }
+.nums dd { margin: 0; font: 700 17px/22px var(--font-mono); font-variant-numeric: tabular-nums; }
+.lin { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 10px; align-items: baseline; padding-block: 7px; border-top: 1px solid var(--linha); }
+.lin:first-of-type { border-top: 0; }
+.lin .nm { font-weight: 600; overflow-wrap: anywhere; }
+.lin .nm small { font-weight: 400; color: var(--tinta-suave); font-size: 12.5px; margin-left: 6px; }
+.lin .vl { font: 700 13.5px var(--font-mono); font-variant-numeric: tabular-nums; }
+.lin .vl small { font-weight: 400; color: var(--tinta-suave); margin-left: 8px; }
+.lin .tr { grid-column: 1 / -1; height: 7px; border-radius: 4px; background: var(--papel-fundo); overflow: hidden; }
+.lin .tr span { display: block; height: 100%; border-radius: 4px; }
+.selo { display: inline-block; font: 600 10.5px/15px var(--font-sans); padding: 0 6px; border-radius: 4px; background: var(--tinta); color: var(--papel); margin-left: 6px; vertical-align: 1px; }
+.selo--campo { background: transparent; color: var(--c); border: 1px solid color-mix(in srgb, var(--c) 55%, transparent); }
+.emp { display: flex; height: 26px; border-radius: 6px; overflow: hidden; border: 1px solid var(--linha); background: var(--papel-fundo); }
+.emp span { display: flex; align-items: center; justify-content: center; color: #fff; font: 700 11.5px var(--font-mono); min-width: 0; overflow: hidden; white-space: nowrap; }
+.par { display: grid; grid-template-columns: 54px minmax(0, 1fr); gap: 6px 10px; align-items: center; }
+.par .ano { font: 500 12px var(--font-mono); color: var(--tinta-suave); }
+.grade2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: var(--space-4); }
+.delta { font: 700 13px var(--font-mono); font-variant-numeric: tabular-nums; }
+.cmp { display: grid; grid-template-columns: minmax(0, 1fr) auto auto auto; gap: 4px 14px; align-items: baseline; font-size: 14px; }
+.cmp .cab { font: 500 10.5px/14px var(--font-mono); color: var(--tinta-suave); text-transform: uppercase; letter-spacing: .06em; }
+.cmp .n { text-align: right; font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+.rank { display: grid; grid-template-columns: minmax(0, 150px) minmax(0, 1fr) 54px; gap: 5px 10px; align-items: center; font-size: 13.5px; }
+.rank button { background: none; border: 0; padding: 0; font: inherit; color: inherit; text-align: left; cursor: pointer; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.rank button:hover { text-decoration: underline; }
+.rank .n { text-align: right; font: 500 12.5px var(--font-mono); }
+.tabw { overflow-x: auto; border: 1px solid var(--linha); border-radius: var(--radius-lg); background: var(--papel-elevado); max-height: 560px; overflow-y: auto; }
+table.tab { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+.tab th, .tab td { text-align: left; padding: 8px 12px; border-top: 1px solid var(--linha); white-space: nowrap; }
+.tab thead th { position: sticky; top: 0; background: var(--papel-elevado); border-top: 0; font: 500 10.5px/14px var(--font-mono); color: var(--tinta-suave); text-transform: uppercase; letter-spacing: .06em; cursor: pointer; user-select: none; }
+.tab td.n, .tab th.n { text-align: right; font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+.tab tbody tr { cursor: pointer; }
+.tab tbody tr:hover { background: var(--papel-fundo); }
+.nota { font-size: 12.5px; line-height: 19px; color: var(--tinta-suave); margin: 0; max-width: 80ch; }
+footer { font-size: 12.5px; color: var(--tinta-suave); border-top: 1px solid var(--linha); padding-top: 14px; display: flex; flex-direction: column; gap: 6px; }
+.sec { display: flex; flex-direction: column; gap: var(--space-3); }
 </style>
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48' width='48' height='48'><rect width='48' height='48' rx='11' fill='%23009c3b'/><polygon points='4.5,24 24,8.5 43.5,24 24,39.5' fill='%23ffdf00'/><circle cx='24' cy='24' r='11' fill='%23002776'/><circle cx='20.0' cy='29.5' r='1.35' fill='%23ffffff'/><circle cx='24.0' cy='25.5' r='1.35' fill='%23ffffff'/><circle cx='28.0' cy='29.5' r='1.35' fill='%23ffffff'/><circle cx='16.6' cy='29.5' r='1.35' fill='%23ffffff'/><circle cx='18.77' cy='24.27' r='1.35' fill='%23ffffff'/><circle cx='24.0' cy='22.1' r='1.35' fill='%23ffdf00'/><circle cx='29.23' cy='24.27' r='1.35' fill='%23ffffff'/><circle cx='31.4' cy='29.5' r='1.35' fill='%23ffffff'/><rect x='15.5' y='31.8' width='17' height='1.4' rx='.7' fill='%23ffffff'/></svg>">
 </head>
 <body>
 <div class="bandeirola" aria-hidden="true"></div>
 <div class="wrap">
-  <div class="hero"><div class="hero-texto"><div class="marca"><svg class="logo" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="11" fill="#009c3b"/><polygon points="4.5,24 24,8.5 43.5,24 24,39.5" fill="#ffdf00"/><circle cx="24" cy="24" r="11" fill="#002776"/><circle cx="20.0" cy="29.5" r="1.35" fill="#ffffff"/><circle cx="24.0" cy="25.5" r="1.35" fill="#ffffff"/><circle cx="28.0" cy="29.5" r="1.35" fill="#ffffff"/><circle cx="16.6" cy="29.5" r="1.35" fill="#ffffff"/><circle cx="18.77" cy="24.27" r="1.35" fill="#ffffff"/><circle cx="24.0" cy="22.1" r="1.35" fill="#ffdf00"/><circle cx="29.23" cy="24.27" r="1.35" fill="#ffffff"/><circle cx="31.4" cy="29.5" r="1.35" fill="#ffffff"/><rect x="15.5" y="31.8" width="17" height="1.4" rx=".7" fill="#ffffff"/></svg><h1>Candidatos 2026</h1></div><span class="hero-sub">Eleições gerais · 2º turno em 25 de outubro</span></div><div class="hero-arte" aria-hidden="true"></div></div>
-  <p>O primeiro turno, em 4 de outubro, definiu governadores, senadores e deputados no RS e em SC. Para presidente, a decisão ficou para o segundo turno. Escolha onde você vota para ver o resultado completo, os perfis e as notícias.</p>
-  <div class="t2h">
-    <span class="t2h-rot">2º turno · presidente · <span id="t2h-quando">domingo, 25 de outubro</span></span>
-    <span class="t2h-duelo"><b>Flávio Bolsonaro</b> <i>22 · PL · 47,03%</i><em>x</em><b>Lula</b> <i>13 · PT · 45,16%</i></span>
-    <span class="t2h-pe">Percentuais do 1º turno no país, sobre votos válidos. Fonte: TSE.</span>
+  <header>
+    <div class="topo">
+      <h1>Resultados <em>2026</em></h1>
+      <nav class="links" aria-label="Outras páginas"><a class="btn" href="../">Início</a><a class="btn" href="../rs/">Candidatos RS</a><a class="btn" href="../sc/">Candidatos SC</a></nav>
+    </div>
+    <p class="lede" id="intro">Resultado oficial do 1º turno, do país até a cidade. Clique no mapa, na tabela ou busque pelo nome.</p>
+  </header>
+
+  <div class="ctrl">
+    <div class="seg" id="cargo" role="group" aria-label="Cargo"></div>
+    <div class="seg" id="modo" role="group" aria-label="O que o mapa mostra"></div>
+    <select class="cx" id="cand" aria-label="Candidato no mapa" hidden></select>
+    <div class="busca"><input class="cx" id="busca" type="search" placeholder="Buscar estado ou cidade" aria-label="Buscar estado ou cidade" autocomplete="off"><ul class="sug" id="sug" role="listbox" hidden></ul></div>
   </div>
-  <a class="t2h" href="resultados/" style="text-decoration:none"><span class="t2h-rot">Resultado do 1º turno · todos os estados</span><span class="t2h-duelo"><b>Mapa e gráficos, do país até a cidade</b></span><span class="t2h-pe">Presidente, governador e Senado em cada município, esquerda e direita, e a comparação com 2022.</span></a>
-  <div class="estados">
-    <a class="estado" href="rs/" style="--faixa-uf: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%201200%2022%22%20width%3D%221200%22%20height%3D%2222%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cfilter%20id%3D%22u%22%20x%3D%22-25%25%22%20y%3D%22-25%25%22%20width%3D%22150%25%22%20height%3D%22150%25%22%20color-interpolation-filters%3D%22sRGB%22%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.03%22%20numOctaves%3D%223%22%20seed%3D%2221%22%20result%3D%22n%22/%3E%0A%3CfeDisplacementMap%20in%3D%22SourceGraphic%22%20in2%3D%22n%22%20scale%3D%227%22%20xChannelSelector%3D%22R%22%20yChannelSelector%3D%22G%22%20result%3D%22s0%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.18%22%20numOctaves%3D%222%22%20seed%3D%2222%22%20result%3D%22n2%22/%3E%0A%3CfeDisplacementMap%20in%3D%22s0%22%20in2%3D%22n2%22%20scale%3D%222%22%20xChannelSelector%3D%22R%22%20yChannelSelector%3D%22G%22%20result%3D%22s1%22/%3E%0A%3CfeGaussianBlur%20in%3D%22s1%22%20stdDeviation%3D%220.7%22%20result%3D%22s%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.04%22%20numOctaves%3D%222%22%20seed%3D%2223%22%20result%3D%22bl%22/%3E%0A%3CfeColorMatrix%20in%3D%22bl%22%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%201.3%200.1%22%20result%3D%22bla%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.9%22%20numOctaves%3D%222%22%20seed%3D%2225%22%20result%3D%22g%22/%3E%0A%3CfeColorMatrix%20in%3D%22g%22%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%20-0.6%201.1%22%20result%3D%22ga%22/%3E%0A%3CfeComposite%20in%3D%22s%22%20in2%3D%22bla%22%20operator%3D%22in%22%20result%3D%22t1%22/%3E%0A%3CfeComposite%20in%3D%22t1%22%20in2%3D%22ga%22%20operator%3D%22in%22%20result%3D%22t%22/%3E%0A%3CfeMorphology%20in%3D%22s%22%20operator%3D%22erode%22%20radius%3D%221%22%20result%3D%22i%22/%3E%0A%3CfeComposite%20in%3D%22s%22%20in2%3D%22i%22%20operator%3D%22out%22%20result%3D%22e0%22/%3E%0A%3CfeGaussianBlur%20in%3D%22e0%22%20stdDeviation%3D%220.5%22%20result%3D%22e%22/%3E%0A%3CfeMerge%3E%3CfeMergeNode%20in%3D%22t%22/%3E%3CfeMergeNode%20in%3D%22t%22/%3E%3CfeMergeNode%20in%3D%22e%22/%3E%3C/feMerge%3E%3C/filter%3E%3C/defs%3E%3Cg%20filter%3D%22url%28%23u%29%22%20fill-opacity%3D%220.8%22%3E%3Crect%20x%3D%224%22%20y%3D%225%22%20width%3D%22424%22%20height%3D%2212%22%20fill%3D%22%2300843d%22/%3E%3Crect%20x%3D%22386%22%20y%3D%225%22%20width%3D%22424%22%20height%3D%2212%22%20fill%3D%22%23d52b1e%22/%3E%3Crect%20x%3D%22786%22%20y%3D%225%22%20width%3D%22424%22%20height%3D%2212%22%20fill%3D%22%23fcd116%22/%3E%3C/g%3E%3C/svg%3E')"><svg class="flag" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 40" role="img" aria-label="Bandeira de Rio Grande do Sul (estilizada)"><title>Bandeira de Rio Grande do Sul (estilizada)</title><polygon points="0,0 40,0 0,26.67" fill="#00843d"/><polygon points="40,0 60,0 60,13.33 20,40 0,40 0,26.67" fill="#d52b1e"/><polygon points="60,13.33 60,40 20,40" fill="#fcd116"/><circle cx="30" cy="20" r="5.5" fill="#ffffff" stroke="#c9a227" stroke-width="1.6"/><rect x="0.5" y="0.5" width="59" height="39" fill="none" stroke="#000" stroke-opacity=".18"/></svg><div class="txt"><small>Região Sul · RS</small><b>Rio Grande do Sul</b><span class="sub">presidente · governador · senado · deputados</span></div></a>
-    <a class="estado" href="sc/" style="--faixa-uf: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%201200%2022%22%20width%3D%221200%22%20height%3D%2222%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cfilter%20id%3D%22u%22%20x%3D%22-25%25%22%20y%3D%22-25%25%22%20width%3D%22150%25%22%20height%3D%22150%25%22%20color-interpolation-filters%3D%22sRGB%22%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.03%22%20numOctaves%3D%223%22%20seed%3D%2221%22%20result%3D%22n%22/%3E%0A%3CfeDisplacementMap%20in%3D%22SourceGraphic%22%20in2%3D%22n%22%20scale%3D%227%22%20xChannelSelector%3D%22R%22%20yChannelSelector%3D%22G%22%20result%3D%22s0%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.18%22%20numOctaves%3D%222%22%20seed%3D%2222%22%20result%3D%22n2%22/%3E%0A%3CfeDisplacementMap%20in%3D%22s0%22%20in2%3D%22n2%22%20scale%3D%222%22%20xChannelSelector%3D%22R%22%20yChannelSelector%3D%22G%22%20result%3D%22s1%22/%3E%0A%3CfeGaussianBlur%20in%3D%22s1%22%20stdDeviation%3D%220.7%22%20result%3D%22s%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.04%22%20numOctaves%3D%222%22%20seed%3D%2223%22%20result%3D%22bl%22/%3E%0A%3CfeColorMatrix%20in%3D%22bl%22%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%201.3%200.1%22%20result%3D%22bla%22/%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.9%22%20numOctaves%3D%222%22%20seed%3D%2225%22%20result%3D%22g%22/%3E%0A%3CfeColorMatrix%20in%3D%22g%22%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%20-0.6%201.1%22%20result%3D%22ga%22/%3E%0A%3CfeComposite%20in%3D%22s%22%20in2%3D%22bla%22%20operator%3D%22in%22%20result%3D%22t1%22/%3E%0A%3CfeComposite%20in%3D%22t1%22%20in2%3D%22ga%22%20operator%3D%22in%22%20result%3D%22t%22/%3E%0A%3CfeMorphology%20in%3D%22s%22%20operator%3D%22erode%22%20radius%3D%221%22%20result%3D%22i%22/%3E%0A%3CfeComposite%20in%3D%22s%22%20in2%3D%22i%22%20operator%3D%22out%22%20result%3D%22e0%22/%3E%0A%3CfeGaussianBlur%20in%3D%22e0%22%20stdDeviation%3D%220.5%22%20result%3D%22e%22/%3E%0A%3CfeMerge%3E%3CfeMergeNode%20in%3D%22t%22/%3E%3CfeMergeNode%20in%3D%22t%22/%3E%3CfeMergeNode%20in%3D%22e%22/%3E%3C/feMerge%3E%3C/filter%3E%3C/defs%3E%3Cg%20filter%3D%22url%28%23u%29%22%20fill-opacity%3D%220.8%22%3E%3Crect%20x%3D%224%22%20y%3D%225%22%20width%3D%22624%22%20height%3D%2212%22%20fill%3D%22%23d52b1e%22/%3E%3Crect%20x%3D%22586%22%20y%3D%225%22%20width%3D%22624%22%20height%3D%2212%22%20fill%3D%22%2300843d%22/%3E%3C/g%3E%3C/svg%3E')"><svg class="flag" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 40" role="img" aria-label="Bandeira de Santa Catarina (estilizada)"><title>Bandeira de Santa Catarina (estilizada)</title><rect x="0" y="0.0" width="60" height="13.353" fill="#d52b1e"/><rect x="0" y="13.333" width="60" height="13.353" fill="#ffffff"/><rect x="0" y="26.667" width="60" height="13.353" fill="#d52b1e"/><polygon points="16,20 30,8 44,20 30,32" fill="#00843d"/><circle cx="30" cy="20" r="3.5" fill="#ffffff" /><rect x="0.5" y="0.5" width="59" height="39" fill="none" stroke="#000" stroke-opacity=".18"/></svg><div class="txt"><small>Região Sul · SC</small><b>Santa Catarina</b><span class="sub">presidente · governador · senado · deputados</span></div></a>
-  </div>
-  <footer>Página informativa, sem vínculo com partido ou campanha. Números de urna, registros e resultados vêm do TSE.</footer>
+
+  <div class="trilha" id="trilha" aria-label="Onde você está"></div>
+  <main id="main"><p class="lede">Carregando os resultados…</p></main>
+
+  <footer>
+    <span id="fonte"></span>
+    <span>Página informativa, sem vínculo com partido ou campanha. Confira sempre a fonte oficial.</span>
+  </footer>
 </div>
+<div class="dica" id="dica" hidden></div>
+
 <script>
-fetch("segundo-turno.json").then((r) => r.json()).then((t) => {
-  const [a, m, d] = t.data.split("-").map(Number), hoje = new Date(); hoje.setHours(0, 0, 0, 0);
-  const n = Math.round((new Date(a, m - 1, d) - hoje) / 864e5);
-  document.getElementById("t2h-quando").textContent = t.dataTexto + (n > 1 ? " · faltam " + n + " dias" : n === 1 ? " · é amanhã" : n === 0 ? " · é hoje" : "");
-}).catch(() => {});
+(async () => {
+const $ = (id) => document.getElementById(id);
+const el = (t, a = {}, ...k) => { const e = document.createElementNS(a.xmlns || "http://www.w3.org/1999/xhtml", t); for (const [n, v] of Object.entries(a)) { if (n === "xmlns" || v == null || v === false) continue; if (n.startsWith("on")) e.addEventListener(n.slice(2), v); else e.setAttribute(n, v === true ? "" : v); } const poe = (x) => { if (x == null || x === false) return; if (Array.isArray(x)) x.forEach(poe); else e.append(x.nodeType ? x : String(x)); }; k.forEach(poe); return e; };
+const SVG = "http://www.w3.org/2000/svg";
+const pega = async (u) => { const r = await fetch(u + "?v=20261005"); if (!r.ok) throw new Error(u + " " + r.status); return r.json(); };
+const mil = (n) => Math.round(n).toLocaleString("pt-BR");
+const pc = (x, d = 1) => (isFinite(x) ? x.toLocaleString("pt-BR", { minimumFractionDigits: d, maximumFractionDigits: d }) : "–") + "%";
+const pp = (x) => (x > 0 ? "+" : x < 0 ? "−" : "") + Math.abs(x).toLocaleString("pt-BR", { minimumFractionDigits: 1, maximumFractionDigits: 1 }) + " pp";
+const sem = (s) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+const titulo = (s) => s.toLowerCase().replace(/(^|[\s\-'’(])([a-zà-ú])/g, (m, a, b) => a + b.toUpperCase()).replace(/\b(D[aeo]s?|E)\b/g, (m) => m.toLowerCase());
+
+let BR;
+try { BR = await pega("br.json"); } catch (e) { $("main").textContent = "Não foi possível carregar os resultados agora. Recarregue a página em alguns minutos."; return; }
+const UFS = {}, GEO = {};
+const CARGOS = [["p", "Presidente"], ["g", "Governador"], ["s", "Senado"]];
+const BLOCOS = [["esq", "Esquerda", "var(--espectro-esquerda)"], ["cen", "Centro", "var(--espectro-centro)"], ["dir", "Direita", "var(--espectro-direita)"], ["nc", "Sem classificação", "var(--linha-forte)"]];
+const COR = Object.fromEntries(BLOCOS.map((b) => [b[0], b[2]]));
+const NOMEB = Object.fromEntries(BLOCOS.map((b) => [b[0], b[1]]));
+const blocoDe = (campo) => !campo ? "nc" : campo.includes("esquerda") ? "esq" : campo.includes("direita") ? "dir" : campo === "centro" ? "cen" : "nc";
+const chaveP = (s) => sem(String(s || "")).replace(/[^a-z]/g, "");
+const campoPartido = (sg) => BR.campo[chaveP(sg)] || null;
+// listas de candidatos: [num, nome, partido, votos, pct, situacao, campo]
+const candsDe = (uf, cargo) => cargo === "p" ? BR.pres : (uf && UFS[uf] ? UFS[uf][cargo] : uf ? BR.uf[uf][cargo] : []);
+const blocoCand = (c) => blocoDe(c[6] || campoPartido(c[2]));
+
+let uf = null, mun = null, cargo = "p", modo = "lider", candSel = null, ordem = { k: "nome", d: 1 }, filtro = "";
+
+// ---------- dados de uma área ----------
+// devolve { nome, e, cp, vv, v: [votos alinhados com a lista de candidatos], t22: { vv, v } }
+function area(u, m, c) {
+  if (!u) { const b = BR.br; return { nome: "Brasil", e: b.e, cp: b.cp, vv: b.vv, v: b.p, t22: b.t22 }; }
+  if (!m) { const x = BR.uf[u]; const lista = candsDe(u, c); return { nome: x.nome, e: x.e, cp: x.cp, vv: c === "p" ? x.vv : x[c + "vv"], v: c === "p" ? x.p : lista.map((k) => k[3]), t22: x.t22 }; }
+  const r = UFS[u].idx[m]; const i = c === "p" ? 4 : c === "g" ? 6 : 8;
+  return { nome: r[1], e: r[2], cp: r[3], vv: r[i], v: r[i + 1], t22: r[10] ? { vv: r[10], v: r[11] } : null };
+}
+function blocos(lista, v, vv) { const o = { esq: 0, cen: 0, dir: 0, nc: 0 }; lista.forEach((c, i) => { o[blocoCand(c)] += v[i] || 0; }); const t = vv || 1; return { esq: o.esq / t * 100, cen: o.cen / t * 100, dir: o.dir / t * 100, nc: o.nc / t * 100 }; }
+function blocos22(t) { if (!t) return null; const o = { esq: 0, cen: 0, dir: 0, nc: 0 }; BR.c22.forEach((c, i) => { o[blocoDe(c[3])] += t.v[i] || 0; }); const tt = t.vv || 1; return { esq: o.esq / tt * 100, cen: o.cen / tt * 100, dir: o.dir / tt * 100, nc: o.nc / tt * 100 }; }
+const lider = (v) => { let k = -1, b = -1; v.forEach((x, i) => { if (x > b) { b = x; k = i; } }); return k; };
+const I13 = () => BR.pres.findIndex((c) => c[0] === "13"), I22 = () => BR.pres.findIndex((c) => c[0] === "22");
+const J13 = BR.c22.findIndex((c) => c[0] === "13"), J22 = BR.c22.findIndex((c) => c[0] === "22");
+
+// ---------- cores do mapa ----------
+const mix = (cor, k) => `color-mix(in srgb, ${cor} ${Math.max(8, Math.min(100, Math.round(k)))}%, var(--papel-elevado))`;
+function corArea(a, lista) {
+  if (!a || !a.vv) return null;
+  if (modo === "lider") { const k = lider(a.v); if (k < 0) return null; const p = a.v[k] / a.vv * 100; const base = cargo === "s" ? 12 : 25, topo = cargo === "s" ? 45 : 75; return mix(COR[blocoCand(lista[k])], 25 + (p - base) / (topo - base) * 75); }
+  if (modo === "blocos") { const b = blocos(lista, a.v, a.vv); const d = b.dir - b.esq; return mix(d >= 0 ? COR.dir : COR.esq, 12 + Math.min(1, Math.abs(d) / 60) * 88); }
+  if (modo === "cand") { const k = lista.findIndex((c) => c[0] === candSel); if (k < 0) return null; const p = a.v[k] / a.vv * 100; return mix("var(--tinta)", p / (cargo === "s" ? 45 : 75) * 100); }
+  if (modo === "v13" || modo === "v22") { if (!a.t22) return null; const d = modo === "v13" ? a.v[I13()] / a.vv * 100 - a.t22.v[J13] / a.t22.vv * 100 : a.v[I22()] / a.vv * 100 - a.t22.v[J22] / a.t22.vv * 100; return mix(d >= 0 ? "var(--checagem-verdadeiro)" : "var(--checagem-impreciso)", 10 + Math.min(1, Math.abs(d) / 12) * 90); }
+  return null;
+}
+function legenda() {
+  const g = (a, b, ta, tb) => el("span", {}, ta, el("span", { class: "grad", style: `background: linear-gradient(90deg, ${a}, var(--papel-elevado), ${b})` }), tb);
+  if (modo === "lider") return el("div", { class: "leg" }, el("span", {}, "Cor pelo campo de quem teve mais votos; mais forte onde a votação foi maior."), BLOCOS.slice(0, cargo === "p" ? 3 : 4).map((b) => el("span", {}, el("i", { style: "background:" + b[2] }), b[1])));
+  if (modo === "blocos") return el("div", { class: "leg" }, g(COR.esq, COR.dir, "Esquerda à frente", "Direita à frente"), el("span", {}, "pela soma dos votos de cada campo"));
+  if (modo === "cand") return el("div", { class: "leg" }, el("span", {}, "Menos votos", el("span", { class: "grad", style: "background: linear-gradient(90deg, var(--papel-elevado), var(--tinta))" }), "Mais votos"));
+  return el("div", { class: "leg" }, g("var(--checagem-impreciso)", "var(--checagem-verdadeiro)", "Caiu", "Subiu"), el("span", {}, modo === "v13" ? "votação de Lula (PT), 1º turno de 2022 para 2026" : "votação do candidato do PL: Jair Bolsonaro em 2022, Flávio Bolsonaro em 2026"));
+}
+
+// ---------- navegação ----------
+async function carregaUF(u) {
+  if (!UFS[u]) { const d = await pega(u + ".json"); d.idx = {}; d.mun.forEach((r) => { d.idx[r[0]] = r; }); UFS[u] = d; }
+  if (!GEO[u]) GEO[u] = await pega("geo/" + u + ".json");
+}
+async function ir(u, m, semHash) {
+  if (u && !BR.uf[u]) u = null;
+  if (u) { $("main").setAttribute("aria-busy", "true"); try { await carregaUF(u); } catch (e) { u = null; m = null; } $("main").removeAttribute("aria-busy"); }
+  if (m && !(u && UFS[u].idx[m])) m = null;
+  uf = u; mun = m; filtro = "";
+  if (!uf && cargo !== "p") cargo = "p";
+  if (cargo !== "p" && (modo === "v13" || modo === "v22")) modo = "lider";
+  if (!semHash) { const h = "#" + [uf, mun].filter(Boolean).join("/") + (cargo !== "p" ? "?" + cargo : ""); if (location.hash !== h) history.pushState(null, "", h === "#" ? location.pathname : h); }
+  render();
+}
+function lerHash() { const [cam, c] = location.hash.slice(1).split("?"); const [u, m] = cam.split("/"); if (c && "gs".includes(c)) cargo = c; else cargo = "p"; ir(u || null, m || null, true); }
+addEventListener("popstate", lerHash);
+
+// ---------- peças ----------
+function barras(lista, a, max = 8) {
+  const ord = lista.map((c, i) => [c, a.v[i] || 0]).sort((x, y) => y[1] - x[1]);
+  const mostra = ord.slice(0, max), resto = ord.slice(max);
+  const box = el("div", {});
+  for (const [c, v] of mostra) { const b = blocoCand(c); const p = a.vv ? v / a.vv * 100 : 0;
+    box.append(el("div", { class: "lin" }, el("span", { class: "nm" }, c[1], el("small", {}, c[2] + " · " + c[0]), el("span", { class: "selo selo--campo", style: "--c:" + COR[b] }, NOMEB[b]), !mun && c[5] && c[5] !== "Não eleito" ? el("span", { class: "selo" }, c[5]) : null), el("span", { class: "vl" }, pc(p, 2), el("small", {}, mil(v))), el("span", { class: "tr" }, el("span", { style: `width:${Math.min(100, p)}%;background:${COR[b]}` })))); }
+  if (resto.length) box.append(el("p", { class: "nota" }, `Outros ${resto.length} candidatos somam ${pc(resto.reduce((s, x) => s + x[1], 0) / (a.vv || 1) * 100, 2)}.`));
+  return box;
+}
+function empilha(b, rot) { return el("div", { class: "emp", role: "img", "aria-label": rot + ": " + BLOCOS.map((x) => `${x[1]} ${pc(b[x[0]])}`).join(", ") }, BLOCOS.map((x) => b[x[0]] > 0.05 ? el("span", { style: `width:${b[x[0]]}%;background:${x[2]}`, title: `${x[1]}: ${pc(b[x[0]])}` }, b[x[0]] >= 9 ? pc(b[x[0]]) : "") : null)); }
+function legBlocos() { return el("div", { class: "leg" }, BLOCOS.map((b) => el("span", {}, el("i", { style: "background:" + b[2] }), b[1]))); }
+
+function mapaEl() {
+  const g = uf ? GEO[uf] : BR.geo; const lista = candsDe(uf, cargo);
+  const svg = el("svg", { xmlns: SVG, viewBox: `-4 -4 ${g.w + 8} ${g.h + 8}`, role: "group", "aria-label": uf ? "Mapa das cidades de " + BR.uf[uf].nome : "Mapa do Brasil por estado" });
+  const dica = $("dica");
+  for (const [id, d] of Object.entries(g.p)) {
+    const tem = uf ? !!UFS[uf].idx[id] : !!BR.uf[id];
+    const a = tem ? (uf ? area(uf, id, cargo) : area(id, null, "p")) : null;
+    const p = el("path", { xmlns: SVG, d, tabindex: tem ? 0 : null, class: (tem ? "" : "sem") + (mun === id ? " sel" : ""), role: tem ? "button" : null, "aria-label": a ? a.nome : null });
+    const cor = corArea(a, lista); if (cor) p.style.fill = cor;
+    if (tem) {
+      const vai = () => uf ? ir(uf, id) : ir(id, null);
+      p.addEventListener("click", vai); p.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); vai(); } });
+      p.addEventListener("mousemove", (e) => { const k = lider(a.v); const b = cargo === "p" || uf ? blocos(lista, a.v, a.vv) : null; dica.hidden = false; dica.replaceChildren(el("b", {}, uf ? titulo(a.nome) : a.nome), el("br"), k >= 0 ? `${lista[k][1]}: ${pc(a.v[k] / a.vv * 100)}` : "", b ? el("br") : null, b ? `Esquerda ${pc(b.esq)} · Direita ${pc(b.dir)}` : ""); dica.style.left = Math.min(innerWidth - 270, e.clientX + 14) + "px"; dica.style.top = e.clientY + 14 + "px"; });
+      p.addEventListener("mouseleave", () => { dica.hidden = true; });
+    }
+    svg.append(p);
+  }
+  if (mun) { const s = svg.querySelector(".sel"); if (s) svg.append(s); }
+  return svg;
+}
+
+function resumoEl() {
+  const a = area(uf, mun, cargo), lista = candsDe(uf, cargo);
+  const nomeCargo = cargo === "p" ? "Presidente" : cargo === "g" ? "Governador" : "Senado";
+  return el("div", { class: "cartao" },
+    el("div", {}, el("div", { class: "rot" }, nomeCargo + " · 1º turno"), el("h2", {}, mun ? titulo(a.nome) + " (" + uf.toUpperCase() + ")" : a.nome)),
+    el("dl", { class: "nums" }, el("div", {}, el("dt", {}, "Eleitores"), el("dd", {}, mil(a.e))), el("div", {}, el("dt", {}, "Comparecimento"), el("dd", {}, pc(a.cp / a.e * 100))), el("div", {}, el("dt", {}, cargo === "s" ? "Votos válidos (2 por eleitor)" : "Votos válidos"), el("dd", {}, mil(a.vv)))),
+    barras(lista, a, mun ? 8 : 6),
+    cargo === "s" ? el("p", { class: "nota" }, "No Senado cada eleitor votou em dois nomes, então os percentuais são sobre o total de votos válidos dados aos candidatos.") : null);
+}
+
+function espectroEl() {
+  const a = area(uf, mun, cargo), lista = candsDe(uf, cargo);
+  const b = blocos(lista, a.v, a.vv);
+  const box = el("section", { class: "sec" }, el("h2", {}, "Esquerda, centro e direita"),
+    el("p", { class: "lede" }, cargo === "p" ? "Soma dos votos para presidente por campo político, usando a mesma classificação dos perfis do guia." : "Soma dos votos por campo político, pelo partido de cada candidato."));
+  const cart = el("div", { class: "cartao" }, el("h3", {}, (mun ? titulo(a.nome) : a.nome) + ": " + (cargo === "p" ? "presidente" : cargo === "g" ? "governador" : "Senado") + ", 2026"), empilha(b, "2026"), legBlocos());
+  const g2 = el("div", { class: "grade2" }, cart);
+  // ranking dos filhos
+  if (!mun) {
+    const filhos = uf ? UFS[uf].mun.map((r) => [r[0], titulo(r[1]), area(uf, r[0], cargo)]) : Object.keys(BR.uf).map((k) => [k, BR.uf[k].nome, area(k, null, "p")]);
+    const calc = filhos.filter((f) => f[2].vv).map((f) => { const x = blocos(uf ? lista : BR.pres, f[2].v, f[2].vv); return [f[0], f[1], x.dir - x.esq, f[2].e]; });
+    const grandes = uf ? calc.filter((f) => f[3] >= 20000) : calc;
+    const base = (grandes.length >= 12 ? grandes : calc).sort((x, y) => y[2] - x[2]);
+    const faz = (t, arr) => { const r = el("div", { class: "rank" }); for (const f of arr) { const w = Math.min(100, Math.abs(f[2])); r.append(el("button", { type: "button", onclick: () => uf ? ir(uf, f[0]) : ir(f[0], null), title: f[1] }, f[1]), el("span", { class: "emp", style: "height:12px" }, el("span", { style: `width:${w}%;background:${f[2] >= 0 ? COR.dir : COR.esq}` })), el("span", { class: "n" }, (f[2] >= 0 ? "D +" : "E +") + Math.abs(f[2]).toFixed(1).replace(".", ","))); } return el("div", { class: "cartao" }, el("h3", {}, t), r); };
+    const n = uf ? 8 : 9;
+    g2.append(faz("Onde a direita abriu mais vantagem", base.slice(0, n)), faz("Onde a esquerda abriu mais vantagem", base.slice(-n).reverse()));
+    box.append(g2, el("p", { class: "nota" }, "A vantagem é a diferença, em pontos percentuais, entre a soma dos votos da direita e a da esquerda." + (uf && grandes.length >= 12 ? " Entram só cidades com 20 mil eleitores ou mais; as demais estão na tabela." : "")));
+  } else box.append(g2);
+  return box;
+}
+
+function antesDepoisEl() {
+  const a = area(uf, mun, "p");
+  const box = el("section", { class: "sec" }, el("h2", {}, "Como estava e como ficou"));
+  const g2 = el("div", { class: "grade2" });
+  if (a.t22) {
+    const b26 = blocos(BR.pres, a.v, a.vv), b22 = blocos22(a.t22);
+    const l22 = a.t22.v[J13] / a.t22.vv * 100, l26 = a.v[I13()] / a.vv * 100, p22 = a.t22.v[J22] / a.t22.vv * 100, p26 = a.v[I22()] / a.vv * 100;
+    const linha = (rot, x, y) => [el("span", {}, rot), el("span", { class: "n" }, pc(x)), el("span", { class: "n" }, pc(y)), el("span", { class: "n delta" }, pp(y - x))];
+    g2.append(el("div", { class: "cartao" }, el("h3", {}, "Presidente: 1º turno de 2022 e de 2026"),
+      el("div", { class: "par" }, el("span", { class: "ano" }, "2022"), empilha(b22, "2022"), el("span", { class: "ano" }, "2026"), empilha(b26, "2026")), legBlocos(),
+      el("div", { class: "cmp" }, el("span", { class: "cab" }, ""), el("span", { class: "cab n" }, "2022"), el("span", { class: "cab n" }, "2026"), el("span", { class: "cab n" }, "Mudou"),
+        linha("Lula (PT)", l22, l26), linha("PL: Jair Bolsonaro → Flávio Bolsonaro", p22, p26), linha("Esquerda, somada", b22.esq, b26.esq), linha("Centro", b22.cen, b26.cen), linha("Direita, somada", b22.dir, b26.dir)),
+      el("p", { class: "nota" }, "Percentuais sobre votos válidos do 1º turno de cada ano. Em 2022, Simone Tebet (MDB) entra na direita pelo critério de partido usado aqui; ela teve 4,16% no país.")));
+  }
+  if (!mun) {
+    const antes = uf ? BR.camara[uf] || {} : Object.values(BR.camara).reduce((o, x) => { for (const [p, n] of Object.entries(x)) o[p] = (o[p] || 0) + n; return o; }, {});
+    const depois = uf ? BR.uf[uf].fed || {} : Object.values(BR.uf).reduce((o, x) => { for (const [p, n] of Object.entries(x.fed || {})) o[p] = (o[p] || 0) + n; return o; }, {});
+    const soma = (o) => { const r = { esq: 0, cen: 0, dir: 0, nc: 0 }; let t = 0; for (const [p, n] of Object.entries(o)) { r[blocoDe(campoPartido(p))] += n; t += n; } return { n: r, t, pct: { esq: r.esq / t * 100, cen: r.cen / t * 100, dir: r.dir / t * 100, nc: r.nc / t * 100 } }; };
+    const A = soma(antes), D = soma(depois);
+    if (A.t && D.t) {
+      const nomes = {}; for (const p of [...Object.keys(antes), ...Object.keys(depois)]) nomes[chaveP(p)] = nomes[chaveP(p)] || p;
+      const junta = (o) => { const r = {}; for (const [p, n] of Object.entries(o)) r[chaveP(p)] = (r[chaveP(p)] || 0) + n; return r; };
+      const ja = junta(antes), jd = junta(depois);
+      const linhas = Object.keys(nomes).map((k) => [nomes[k], ja[k] || 0, jd[k] || 0]).sort((x, y) => y[2] - x[2] || y[1] - x[1]);
+      const cmp = el("div", { class: "cmp" }, el("span", { class: "cab" }, "Partido"), el("span", { class: "cab n" }, "Hoje"), el("span", { class: "cab n" }, "Eleitos"), el("span", { class: "cab n" }, "Mudou"));
+      for (const [p, x, y] of linhas) { const b = blocoDe(campoPartido(p)); cmp.append(el("span", {}, p, el("span", { class: "selo selo--campo", style: "--c:" + COR[b] }, NOMEB[b])), el("span", { class: "n" }, x), el("span", { class: "n" }, y), el("span", { class: "n delta" }, y === x ? "=" : (y > x ? "+" : "−") + Math.abs(y - x))); }
+      g2.append(el("div", { class: "cartao" }, el("h3", {}, "Câmara dos Deputados: bancada " + (uf ? "de " + BR.uf[uf].nome : "do país")),
+        el("div", { class: "par" }, el("span", { class: "ano" }, "Hoje"), empilha(A.pct, "Hoje"), el("span", { class: "ano" }, "Eleitos"), empilha(D.pct, "Eleitos")), legBlocos(),
+        el("div", { class: "cmp" }, el("span", { class: "cab" }, "Campo"), el("span", { class: "cab n" }, "Hoje"), el("span", { class: "cab n" }, "Eleitos"), el("span", { class: "cab n" }, "Mudou"),
+          BLOCOS.filter((b) => A.n[b[0]] || D.n[b[0]]).map((b) => [el("span", {}, b[1]), el("span", { class: "n" }, A.n[b[0]]), el("span", { class: "n" }, D.n[b[0]]), el("span", { class: "n delta" }, D.n[b[0]] === A.n[b[0]] ? "=" : (D.n[b[0]] > A.n[b[0]] ? "+" : "−") + Math.abs(D.n[b[0]] - A.n[b[0]]))])),
+        el("details", {}, el("summary", {}, "Ver por partido"), cmp),
+        el("p", { class: "nota" }, `"Hoje" é a bancada em exercício na Câmara em ${BR.camaraData}, com as trocas de partido do mandato. "Eleitos" são os ${D.t} nomes com situação de eleito no TSE.`)));
+    }
+  }
+  if (!uf && BR.pesq && BR.pesq.length) {
+    const tab = el("div", { class: "cmp" }, el("span", { class: "cab" }, "Instituto, divulgação"), el("span", { class: "cab n" }, "Flávio"), el("span", { class: "cab n" }, "Lula"), el("span", { class: "cab n" }, "Diferença"));
+    for (const q of BR.pesq) tab.append(el("span", {}, q.inst + ", " + q.div.split("-").reverse().slice(0, 2).join("/")), el("span", { class: "n" }, pc(q.r["22"])), el("span", { class: "n" }, pc(q.r["13"])), el("span", { class: "n delta" }, pp(q.r["22"] - q.r["13"])));
+    const r22 = BR.pres[I22()][3] / BR.br.vv * 100, r13 = BR.pres[I13()][3] / BR.br.vv * 100;
+    tab.append(el("b", {}, "Urnas, 4/10"), el("b", { class: "n" }, pc(r22)), el("b", { class: "n" }, pc(r13)), el("b", { class: "n delta" }, pp(r22 - r13)));
+    g2.append(el("div", { class: "cartao" }, el("h3", {}, "Presidente: últimas pesquisas e as urnas"), tab, el("p", { class: "nota" }, "Para comparar com o resultado, os números das pesquisas foram convertidos em votos válidos: tirei brancos, nulos e indecisos e refiz a conta sobre o que sobrou. Quando o instituto já divulgou em válidos, vale o número dele.")));
+  }
+  if (!g2.children.length) return null;
+  box.append(g2); return box;
+}
+
+function tabelaEl() {
+  if (mun) return null;
+  const lista = candsDe(uf, cargo);
+  const linhas = (uf ? UFS[uf].mun.map((r) => [r[0], titulo(r[1]), area(uf, r[0], cargo)]) : Object.keys(BR.uf).map((k) => [k, BR.uf[k].nome, area(k, null, "p")])).filter((f) => f[2].vv).map((f) => { const a = f[2], k = lider(a.v), b = blocos(uf ? lista : BR.pres, a.v, a.vv); return { id: f[0], nome: f[1], lid: (uf ? lista : BR.pres)[k][1], pl: a.v[k] / a.vv * 100, esq: b.esq, dir: b.dir, e: a.e, cp: a.cp / a.e * 100 }; });
+  const cols = [["nome", uf ? "Cidade" : "Estado"], ["lid", "Mais votado"], ["pl", "%", 1], ["esq", "Esquerda", 1], ["dir", "Direita", 1], ["e", "Eleitores", 1], ["cp", "Comparec.", 1]];
+  const corpo = el("tbody");
+  const pinta = () => { const f = sem(filtro); const arr = linhas.filter((l) => !f || sem(l.nome).includes(f)).sort((x, y) => (typeof x[ordem.k] === "string" ? x[ordem.k].localeCompare(y[ordem.k], "pt") : x[ordem.k] - y[ordem.k]) * ordem.d);
+    corpo.replaceChildren(...arr.map((l) => el("tr", { tabindex: 0, onclick: () => uf ? ir(uf, l.id) : ir(l.id, null), onkeydown: (e) => { if (e.key === "Enter") uf ? ir(uf, l.id) : ir(l.id, null); } }, el("td", {}, l.nome), el("td", {}, l.lid), el("td", { class: "n" }, pc(l.pl)), el("td", { class: "n" }, pc(l.esq)), el("td", { class: "n" }, pc(l.dir)), el("td", { class: "n" }, mil(l.e)), el("td", { class: "n" }, pc(l.cp)))));
+    cont.textContent = arr.length + (uf ? " cidades" : " estados"); };
+  const cont = el("span", { class: "rot" });
+  const cab = el("tr", {}, cols.map((c) => el("th", { class: c[2] ? "n" : null, onclick: () => { ordem = { k: c[0], d: ordem.k === c[0] ? -ordem.d : c[2] ? -1 : 1 }; pinta(); } }, c[1])));
+  const inp = el("input", { class: "cx", type: "search", placeholder: uf ? "Filtrar cidade pelo nome" : "Filtrar estado pelo nome", "aria-label": "Filtrar a tabela pelo nome", value: filtro, oninput: (e) => { filtro = e.target.value; pinta(); } });
+  pinta();
+  return el("section", { class: "sec" }, el("h2", {}, uf ? "Todas as cidades" : "Todos os estados"), el("div", { style: "display:flex;gap:12px;align-items:center;flex-wrap:wrap" }, inp, cont), el("div", { class: "tabw" }, el("table", { class: "tab" }, el("thead", {}, cab), corpo)), el("p", { class: "nota" }, "Clique no título de uma coluna para ordenar e numa linha para abrir."));
+}
+
+function render() {
+  // controles
+  $("cargo").replaceChildren(...CARGOS.map(([id, n]) => el("button", { type: "button", "aria-pressed": String(cargo === id), disabled: !uf && id !== "p", title: !uf && id !== "p" ? "Escolha um estado primeiro" : null, onclick: () => { cargo = id; candSel = null; if (modo === "cand") modo = "lider"; ir(uf, mun); } }, n)));
+  const modos = [["lider", "Mais votado"], ["blocos", "Esquerda x direita"], ["cand", "Um candidato"]]; if (cargo === "p") modos.push(["v13", "Lula: 2022 → 2026"], ["v22", "PL: 2022 → 2026"]);
+  $("modo").replaceChildren(...modos.map(([id, n]) => el("button", { type: "button", "aria-pressed": String(modo === id), onclick: () => { modo = id; render(); } }, n)));
+  const lista = candsDe(uf, cargo); const sc = $("cand"); sc.hidden = modo !== "cand";
+  if (modo === "cand") { if (!lista.some((c) => c[0] === candSel)) candSel = lista.slice().sort((x, y) => y[3] - x[3])[0][0]; sc.replaceChildren(...lista.slice().sort((x, y) => y[3] - x[3]).map((c) => el("option", { value: c[0], selected: c[0] === candSel }, `${c[1]} (${c[2]})`))); sc.onchange = () => { candSel = sc.value; render(); }; }
+  // trilha
+  const t = $("trilha"); t.replaceChildren(uf ? el("button", { type: "button", onclick: () => ir(null, null) }, "Brasil") : el("b", {}, "Brasil"));
+  if (uf) t.append("›", mun ? el("button", { type: "button", onclick: () => ir(uf, null) }, BR.uf[uf].nome) : el("b", {}, BR.uf[uf].nome));
+  if (mun) t.append("›", el("b", {}, titulo(UFS[uf].idx[mun][1])));
+  document.title = (mun ? titulo(UFS[uf].idx[mun][1]) + " (" + uf.toUpperCase() + ")" : uf ? BR.uf[uf].nome : "Brasil") + " · Resultados 2026";
+  const semMapa = uf && mun && !GEO[uf].p[mun];
+  $("main").replaceChildren(el("div", { style: "display:flex;flex-direction:column;gap:var(--space-8)" },
+    el("div", { class: "painel" }, el("div", { class: "cartao mapa" }, mapaEl(), legenda(), semMapa ? el("p", { class: "nota" }, "Esta cidade foi criada depois da malha de mapa usada aqui e por isso não aparece desenhada. Os números estão completos.") : null, !uf ? el("p", { class: "nota" }, "Clique num estado para ver as cidades.") : !mun ? el("p", { class: "nota" }, "Clique numa cidade para ver o detalhe.") : null), resumoEl()),
+    espectroEl(), antesDepoisEl(), tabelaEl()));
+}
+
+// ---------- busca ----------
+let CID = null, sel = -1, achados = [];
+const busca = $("busca"), sug = $("sug");
+const fecha = () => { sug.hidden = true; sel = -1; };
+const escolhe = (a) => { fecha(); busca.value = ""; ir(a[1], a[2] || null); scrollTo({ top: 0, behavior: "smooth" }); };
+busca.addEventListener("focus", async () => { if (!CID) { try { CID = await pega("cidades.json"); } catch (e) { CID = []; } } });
+busca.addEventListener("input", () => { const q = sem(busca.value.trim()); if (q.length < 2) return fecha();
+  const ufs = Object.keys(BR.uf).filter((k) => sem(BR.uf[k].nome).includes(q) || k === q).map((k) => [BR.uf[k].nome, k, null]);
+  const cs = (CID || []).filter((c) => sem(c[0]).includes(q)).sort((x, y) => (sem(x[0]).startsWith(q) ? 0 : 1) - (sem(y[0]).startsWith(q) ? 0 : 1) || y[3] - x[3]).slice(0, 12).map((c) => [titulo(c[0]), c[1], c[2]]);
+  achados = [...ufs, ...cs].slice(0, 14); sel = -1;
+  sug.replaceChildren(...achados.map((a, i) => el("li", { role: "option", onmousedown: (e) => { e.preventDefault(); escolhe(a); } }, a[0], el("small", {}, a[2] ? a[1].toUpperCase() : "estado"))));
+  sug.hidden = !achados.length; });
+busca.addEventListener("keydown", (e) => { if (sug.hidden) return; if (e.key === "ArrowDown" || e.key === "ArrowUp") { e.preventDefault(); sel = (sel + (e.key === "ArrowDown" ? 1 : -1) + achados.length) % achados.length; [...sug.children].forEach((li, i) => li.setAttribute("aria-selected", String(i === sel))); } else if (e.key === "Enter") { e.preventDefault(); escolhe(achados[Math.max(0, sel)]); } else if (e.key === "Escape") fecha(); });
+busca.addEventListener("blur", () => setTimeout(fecha, 120));
+
+$("fonte").replaceChildren("Votos: ", el("a", { href: "https://resultados.tse.jus.br/oficial/app/index.html", rel: "noopener" }, "TSE, resultado oficial do 1º turno"), ` (${BR.secoes}% das seções, dados de ${BR.atualizado}). 2022: `, el("a", { href: "https://dadosabertos.tse.jus.br/dataset/resultados-2022", rel: "noopener" }, "dados abertos do TSE"), ". Bancada atual: ", el("a", { href: "https://dadosabertos.camara.leg.br/", rel: "noopener" }, "Câmara dos Deputados"), ". Campo dos partidos: ", el("a", { href: "https://www.scielo.br/j/dados/a/zzyM3gzHD4P45WWdytXjZWg/?lang=pt", rel: "noopener" }, "Bolognesi, Ribeiro e Codato (2023)"), ", que ouviram cientistas políticos; partidos criados por fusão seguem os de origem, e UP e Missão seguem a classificação dos seus candidatos no guia. Aqui, centro-esquerda conta como esquerda e centro-direita como direita. Mapas: malha municipal do IBGE.");
+lerHash();
+})();
 </script>
 </body>
 </html>

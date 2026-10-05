@@ -242,6 +242,7 @@ h2 { width: fit-content; padding-inline: 6px; margin-inline: -6px; background: v
     </div>
     <div class="status" id="status"></div>
     <div class="faixa" id="faixa" aria-label="Líderes nas pesquisas"></div>
+    <a class="dd-btn dd-btn--outline" id="ir-resultados" style="align-self:flex-start" href="../resultados/">Resultado por cidade, com mapa e gráficos</a>
   </header>
 
   <div class="tools" id="tools">
@@ -644,6 +645,7 @@ function aplicarAparencia() {
 aplicarAparencia();
 (() => {
   const f = $("faixa");
+  $("ir-resultados").href = "../resultados/#" + D.cfg.uf.toLowerCase();
   if (R && T2) {
     const fin = T2.finalistas.map((id) => CAND[id]).filter(Boolean), d = diasAte(T2.data), pesq = (T2.pesquisas || [])[0], apr = T2.resultado, ap = apr ? { secoes: apr.secoes, atualizado: apr.atualizado, br: apr.br || {}, uf: apr[D.cfg.uf.toLowerCase()] } : null;
     const ir2 = el("button", { class: "dd-btn dd-btn--primary", type: "button", id: "comparar-finalistas" }, "Comparar os dois");
