@@ -2,7 +2,8 @@
 // Rotas com código:
 //   /api/apuracao             apuração do 2º turno para presidente (país, RS e SC), lida no TSE e guardada por 1 minuto
 //   /api/apuracao?teste=1     números inventados, para ensaiar a tela
-//   /api/noticias/<uf>        notícias coletadas pelo próprio Worker (KV), guardadas por 5 minutos
+//   /api/noticias/<uf>        notícias do banco D1 (seleção do semestre e últimos 7 dias), guardadas por 5 minutos
+//   /api/segundo-turno        data, finalistas, pesquisas e apoios do 2º turno, lidos do banco (tabela config)
 //   /api/noticias/atualizar   roda a coleta na hora, se a última tiver mais de 50 minutos
 // O cron do Worker roda a coleta de notícias de hora em hora.
 
@@ -84,26 +85,23 @@ async function rss(consulta) {
   }
 }
 
+// ---------- banco (D1) ----------
+const cfgGet = async (env, chave) => { const r = await env.DB.prepare("SELECT valor FROM config WHERE chave = ?").bind(chave).first(); return r ? JSON.parse(r.valor) : null; };
+const cfgSet = (env, chave, valor) => env.DB.prepare("INSERT INTO config (chave, valor, atualizado) VALUES (?1, ?2, ?3) ON CONFLICT(chave) DO UPDATE SET valor = ?2, atualizado = ?3").bind(chave, JSON.stringify(valor), iso(new Date())).run();
+const INSERE = "INSERT OR IGNORE INTO noticias (uf, cand, titulo, url, fonte, resumo, publicado, coletado, rodada, destaque) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+
 async function coletar(env, origem) {
   const agora = new Date(), rodada = iso(agora), limite = new Date(agora - JANELA_HORAS * 36e5), corte = iso(new Date(agora - DIAS_NO_FEED * 864e5));
-  const buscas = new Map(), resumo = {};
-  const listas = {};
+  const buscas = new Map(), resumo = {}, listas = {};
   for (const uf of UFS) listas[uf] = await (await env.ASSETS.fetch(new Request(origem + "/" + uf + "/candidatos.json"))).json();
   const unicas = [...new Set(UFS.flatMap((uf) => listas[uf].map((c) => c.busca)))];
   await Promise.all(unicas.map(async (b) => { try { buscas.set(b, await rss(b)); } catch (e) { buscas.set(b, e); } }));
   for (const uf of UFS) {
-    const arq = async (nome) => (await env.ASSETS.fetch(new Request(origem + "/" + uf + "/" + nome))).json();
-    const cands = listas[uf];
-    const guardado = (await env.DADOS.get("noticias:" + uf, "json")) || { itens: [] };
-    // o arquivo do repositório entra só para não repetir o que já está publicado nele
-    let base = []; try { base = (await arq("noticias.json")).itens || []; } catch (e) {}
-    const urls = new Set([...base, ...guardado.itens].map((i) => i.url));
-    const titulos = new Set([...base, ...guardado.itens].map((i) => i.cand + "|" + i.titulo.toLowerCase()));
-    const itens = guardado.itens.filter((i) => String(i.coletado || "") >= corte);
-    let novos = 0; const falhas = [];
-    for (const c of cands) {
-      let lista;
-      lista = buscas.get(c.busca);
+    const ja = (await env.DB.prepare("SELECT url, cand, titulo FROM noticias WHERE uf = ?").bind(uf).all()).results;
+    const urls = new Set(ja.map((i) => i.url)), titulos = new Set(ja.map((i) => i.cand + "|" + i.titulo.toLowerCase()));
+    const novas = [], falhas = [];
+    for (const c of listas[uf]) {
+      const lista = buscas.get(c.busca);
       if (!Array.isArray(lista)) { falhas.push(c.id + ": " + String((lista && lista.message) || lista)); continue; }
       const nome = c.nome.toLowerCase(), sobrenome = nome.split(/\s+/).pop();
       let n = 0;
@@ -114,17 +112,26 @@ async function coletar(env, origem) {
         if (!FONTES.some((f) => it.fonte.toLowerCase().includes(f))) continue;
         if (!it.pub || it.pub < limite) continue;
         if (!t.includes(sobrenome) && !t.includes(nome)) continue; // o título precisa citar o candidato
-        itens.push({ cand: c.id, titulo: it.titulo, url: it.link, fonte: it.fonte, publicado: iso(it.pub), coletado: rodada, rodada });
-        urls.add(it.link); titulos.add(c.id + "|" + t); n++; novos++;
+        novas.push(env.DB.prepare(INSERE).bind(uf, c.id, it.titulo, it.link, it.fonte, null, iso(it.pub), rodada, rodada, 0));
+        urls.add(it.link); titulos.add(c.id + "|" + t); n++;
       }
     }
-    await env.DADOS.put("noticias:" + uf, JSON.stringify({ meta: { ultimaRodada: rodada, novosNaUltima: novos }, itens }));
-    resumo[uf] = { novos, guardados: itens.length, falhas };
+    if (novas.length) await env.DB.batch(novas);
+    await env.DB.prepare("DELETE FROM noticias WHERE uf = ? AND destaque = 0 AND coletado < ?").bind(uf, corte).run();
+    await cfgSet(env, "noticias:" + uf, { ultimaRodada: rodada, novosNaUltima: novas.length });
+    resumo[uf] = { novos: novas.length, falhas };
   }
-  // se todas as buscas falharam, não trava a próxima tentativa manual
-  if (UFS.some((uf) => resumo[uf].falhas.length === 0 || resumo[uf].novos > 0)) await env.DADOS.put("noticias:ultima2", rodada);
-  else await env.DADOS.put("noticias:ultima2", iso(new Date(agora - 49 * 60000)));
+  const tudoFalhou = UFS.every((uf) => resumo[uf].falhas.length && !resumo[uf].novos);
+  await cfgSet(env, "noticias:ultima", tudoFalhou ? iso(new Date(agora - 49 * 60000)) : rodada);
   return { rodada, ...resumo };
+}
+
+// Carga inicial: copia para o banco, em fatias, o noticias.json que está no repositório.
+async function semear(env, origem, uf, de) {
+  const itens = (await (await env.ASSETS.fetch(new Request(origem + "/" + uf + "/noticias.json"))).json()).itens || [];
+  const fatia = itens.slice(de, de + 250);
+  for (let i = 0; i < fatia.length; i += 50) await env.DB.batch(fatia.slice(i, i + 50).map((n) => env.DB.prepare(INSERE).bind(uf, n.cand, n.titulo, n.url, n.fonte || null, n.resumo || null, n.publicado || null, n.coletado || iso(new Date()), n.rodada || null, n.destaque ? 1 : 0)));
+  return { uf, total: itens.length, de, ate: de + fatia.length, proximo: de + fatia.length < itens.length ? de + fatia.length : null };
 }
 
 const json = (corpo, maxAge = 0, status = 200) => new Response(JSON.stringify(corpo), { status, headers: { "content-type": "application/json; charset=utf-8", "cache-control": maxAge ? "public, max-age=" + maxAge : "no-store" } });
@@ -156,18 +163,39 @@ export default {
       return resp;
     }
     if (url.pathname === "/api/noticias/atualizar") {
-      const ultima = await env.DADOS.get("noticias:ultima2");
+      const ultima = await cfgGet(env, "noticias:ultima");
       if (ultima && Date.now() - new Date(ultima).getTime() < 50 * 60000) return json({ feito: false, motivo: "a última coleta foi há menos de 50 minutos", ultima });
       try { return json({ feito: true, ...(await coletar(env, url.origin)) }); } catch (e) { return json({ feito: false, motivo: String(e) }, 0, 500); }
+    }
+    if (url.pathname === "/api/admin/semear") {
+      // só funciona enquanto a carga inicial não terminou; depois disso a rota se fecha sozinha
+      if (await cfgGet(env, "semeado")) return json({ feito: false, motivo: "a carga inicial já foi concluída" });
+      const uf = url.searchParams.get("uf"), de = Math.max(0, parseInt(url.searchParams.get("de") || "0", 10) || 0);
+      if (!UFS.includes(uf)) return json({ erro: "informe uf=rs ou uf=sc" }, 0, 400);
+      const r = await semear(env, url.origin, uf, de);
+      if (r.proximo === null && uf === UFS[UFS.length - 1]) await cfgSet(env, "semeado", iso(new Date()));
+      return json({ feito: true, ...r });
     }
     const m = url.pathname.match(/^\/api\/noticias\/([a-z]{2})$/);
     if (m && UFS.includes(m[1])) {
       const chave = new Request(url.origin + url.pathname);
       let resp = await cache.match(chave);
       if (!resp) {
-        const dados = (await env.DADOS.get("noticias:" + m[1], "json")) || { meta: null, itens: [] };
-        dados.itens = dados.itens.map((i) => ({ ...i, titulo: texto(i.titulo), fonte: texto(i.fonte) }));
-        resp = json(dados, 300);
+        const corte = iso(new Date(Date.now() - DIAS_NO_FEED * 864e5));
+        const linhas = (await env.DB.prepare("SELECT cand, titulo, url, fonte, resumo, publicado, coletado, rodada, destaque FROM noticias WHERE uf = ?1 AND (destaque = 1 OR coletado >= ?2)").bind(m[1], corte).all()).results;
+        const itens = linhas.map((n) => { const o = { cand: n.cand, titulo: texto(n.titulo), url: n.url, fonte: texto(n.fonte), publicado: n.publicado, coletado: n.coletado, rodada: n.rodada }; if (n.resumo) o.resumo = n.resumo; if (n.destaque) o.destaque = true; return o; });
+        resp = json({ meta: await cfgGet(env, "noticias:" + m[1]), completo: !!(await cfgGet(env, "semeado")), itens }, 300);
+        ctx.waitUntil(cache.put(chave, resp.clone()));
+      }
+      return resp;
+    }
+    if (url.pathname === "/api/segundo-turno") {
+      const chave = new Request(url.origin + url.pathname);
+      let resp = await cache.match(chave);
+      if (!resp) {
+        const t2 = await cfgGet(env, "segundo-turno");
+        if (!t2) return env.ASSETS.fetch(new Request(url.origin + "/segundo-turno.json"));
+        resp = json(t2, 120);
         ctx.waitUntil(cache.put(chave, resp.clone()));
       }
       return resp;

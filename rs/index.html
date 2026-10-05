@@ -267,6 +267,8 @@ h2 { width: fit-content; padding-inline: 6px; margin-inline: -6px; background: v
 const pega = async (u, opcional) => { try { const r = await fetch(u + "?v=" + Math.floor(Date.now() / 300000)); if (!r.ok) throw new Error(u + " " + r.status); return await r.json(); } catch (e) { if (opcional) return null; throw e; } };
 let D, R, T2;
 try { [D, R, T2] = await Promise.all([pega("dados.json"), pega("resultados.json", true), pega("../segundo-turno.json", true)]); }
+// No Cloudflare os dados do 2º turno (pesquisas, apoios) vêm do banco e podem mudar sem nova publicação
+try { const r = await fetch("/api/segundo-turno", { cache: "no-store" }); if (r.ok && (r.headers.get("content-type") || "").includes("json")) { const j = await r.json(); if (j && j.finalistas) T2 = j; } } catch (e) {}
 catch (e) { document.getElementById("main").textContent = "Não foi possível carregar os dados agora. Recarregue a página em alguns minutos."; return; }
 // No Cloudflare existe a rota /api/apuracao, que consulta o TSE na hora. No GitHub Pages ela não existe e nada muda.
 // Com ?simular no endereço, a rota devolve números inventados, só para ensaiar a tela.
@@ -672,12 +674,10 @@ rota();
 (async () => {
   const carregar = async () => {
     try {
-      const r = await fetch("noticias.json?t=" + Math.floor(Date.now() / 300000), { cache: "no-store" });
-      if (!r.ok) throw new Error(r.status);
-      const j = await r.json();
-      let itens = Array.isArray(j.itens) ? j.itens : [], m = j.meta || null;
-      // No Cloudflare as notícias novas vêm de /api/noticias (coleta de hora em hora no próprio Worker)
-      try { const a = await fetch("/api/noticias/" + D.cfg.uf.toLowerCase(), { cache: "no-store" }); if (a.ok && (a.headers.get("content-type") || "").includes("json")) { const k = await a.json(); if (Array.isArray(k.itens)) { const tem = new Set(itens.map((n) => n.url)); itens = itens.concat(k.itens.filter((n) => !tem.has(n.url))); } if (k.meta && (!m || k.meta.ultimaRodada > m.ultimaRodada)) m = k.meta; } } catch (e) {}
+      // No Cloudflare as notícias vêm do banco, por /api/noticias. Sem a rota (GitHub Pages) ou antes da carga inicial, vale o arquivo do repositório.
+      let itens = null, m = null;
+      try { const a = await fetch("/api/noticias/" + D.cfg.uf.toLowerCase(), { cache: "no-store" }); if (a.ok && (a.headers.get("content-type") || "").includes("json")) { const k = await a.json(); if (k.completo && Array.isArray(k.itens)) { itens = k.itens; m = k.meta; } } } catch (e) {}
+      if (!itens) { const r = await fetch("noticias.json?t=" + Math.floor(Date.now() / 300000), { cache: "no-store" }); if (!r.ok) throw new Error(r.status); const j = await r.json(); itens = Array.isArray(j.itens) ? j.itens : []; m = j.meta || null; }
       const corte = new Date(Date.now() - 7 * 864e5).toISOString();
       noticias = itens.filter((n) => n.destaque || String(n.coletado || "") >= corte); meta = m; feedOk = true;
     } catch (e) { if (feedOk === null) feedOk = false; }
