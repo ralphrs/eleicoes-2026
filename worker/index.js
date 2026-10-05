@@ -118,8 +118,8 @@ async function coletar(env, origem) {
     resumo[uf] = { novos, guardados: itens.length, falhas };
   }
   // se todas as buscas falharam, não trava a próxima tentativa manual
-  if (UFS.some((uf) => resumo[uf].falhas.length === 0 || resumo[uf].novos > 0)) await env.DADOS.put("noticias:rodada", rodada);
-  else await env.DADOS.put("noticias:rodada", iso(new Date(agora - 49 * 60000)));
+  if (UFS.some((uf) => resumo[uf].falhas.length === 0 || resumo[uf].novos > 0)) await env.DADOS.put("noticias:ultima", rodada);
+  else await env.DADOS.put("noticias:ultima", iso(new Date(agora - 49 * 60000)));
   return { rodada, ...resumo };
 }
 
@@ -152,7 +152,7 @@ export default {
       return resp;
     }
     if (url.pathname === "/api/noticias/atualizar") {
-      const ultima = await env.DADOS.get("noticias:rodada");
+      const ultima = await env.DADOS.get("noticias:ultima");
       if (ultima && Date.now() - new Date(ultima).getTime() < 50 * 60000) return json({ feito: false, motivo: "a última coleta foi há menos de 50 minutos", ultima });
       try { return json({ feito: true, ...(await coletar(env, url.origin)) }); } catch (e) { return json({ feito: false, motivo: String(e) }, 0, 500); }
     }
