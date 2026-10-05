@@ -234,7 +234,10 @@ export default {
         // RS e SC têm o conjunto completo; os outros estados recebem as notícias dos seus finalistas e as dos dois finalistas a presidente (guardadas no RS)
         const linhas = UFS.includes(m[1])
           ? (await env.DB.prepare("SELECT cand, titulo, url, fonte, resumo, publicado, coletado, rodada, destaque FROM noticias WHERE uf = ?1 AND (destaque = 1 OR coletado >= ?2)").bind(m[1], corte).all()).results
-          : (await env.DB.prepare("SELECT cand, titulo, url, fonte, resumo, publicado, coletado, rodada, 0 AS destaque FROM noticias WHERE destaque = 0 AND coletado >= ?2 AND (uf = ?1 OR (uf = 'rs' AND cand IN ('lula', 'flavio-bolsonaro'))) ORDER BY coletado DESC LIMIT 120").bind(m[1], corte).all()).results;
+          : [
+            ...(await env.DB.prepare("SELECT cand, titulo, url, fonte, resumo, publicado, coletado, rodada, 0 AS destaque FROM noticias WHERE uf = ?1 AND destaque = 0 AND coletado >= ?2 ORDER BY coletado DESC LIMIT 60").bind(m[1], corte).all()).results,
+            ...(await env.DB.prepare("SELECT cand, titulo, url, fonte, resumo, publicado, coletado, rodada, 0 AS destaque FROM noticias WHERE uf = 'rs' AND cand IN ('lula', 'flavio-bolsonaro') AND destaque = 0 AND coletado >= ?1 ORDER BY coletado DESC LIMIT 40").bind(corte).all()).results,
+          ];
         const itens = linhas.map((n) => { const o = { cand: n.cand, titulo: texto(n.titulo), url: n.url, fonte: texto(n.fonte), publicado: n.publicado, coletado: n.coletado, rodada: n.rodada }; if (n.resumo) o.resumo = n.resumo; if (n.destaque) o.destaque = true; return o; });
         resp = json({ meta: (await cfgGet(env, "noticias:" + m[1])) || (await cfgGet(env, "noticias:rs")), completo: !!(await cfgGet(env, "semeado")), itens }, 300);
         ctx.waitUntil(cache.put(chave, resp.clone()));
