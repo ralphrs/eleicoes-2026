@@ -10,7 +10,7 @@ const BASE = "https://resultados.tse.jus.br/oficial";
 const DATA_2T = "25/10/2026";
 
 const baixar = async (url) => {
-  const r = await fetch(url, { headers: { "User-Agent": "Mozilla/5.0 (eleicoes-2026)" } });
+  const r = await fetch(url, { headers: { "User-Agent": "Mozilla/5.0 (compatible; eleicoes-2026; +https://github.com/ralphrs/eleicoes-2026)", "Accept": "application/rss+xml, application/xml, text/xml, application/json, */*", "Accept-Language": "pt-BR,pt;q=0.9" }, signal: AbortSignal.timeout(8000) });
   if (!r.ok) throw new Error(url + " " + r.status);
   return r.text();
 };
@@ -67,15 +67,21 @@ const iso = (d) => d.toISOString().replace(/\.\d+Z$/, "Z");
 const texto = (s) => (s || "").replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'").replace(/&amp;/g, "&").trim();
 const campo = (bloco, tag) => { const m = bloco.match(new RegExp("<" + tag + "[^>]*>([\\s\\S]*?)</" + tag + ">")); return m ? texto(m[1]) : ""; };
 
+const itensRss = (xml, tagFonte) => [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].map((m) => {
+  const fonte = campo(m[1], tagFonte); let titulo = campo(m[1], "title");
+  if (fonte && titulo.endsWith(" - " + fonte)) titulo = titulo.slice(0, -(fonte.length + 3));
+  const pub = new Date(campo(m[1], "pubDate"));
+  let link = campo(m[1], "link");
+  try { const u = new URL(link); if (u.hostname.endsWith("bing.com") && u.searchParams.get("url")) link = u.searchParams.get("url"); } catch (e) {}
+  return { titulo, link, fonte, pub: isNaN(pub) ? null : pub };
+});
+// Google Notícias primeiro; se não responder ao Worker, Bing Notícias.
 async function rss(consulta) {
-  const url = "https://news.google.com/rss/search?" + new URLSearchParams({ q: consulta + " when:2d", hl: "pt-BR", gl: "BR", ceid: "BR:pt-419" });
-  const xml = await baixar(url);
-  return [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].map((m) => {
-    const fonte = campo(m[1], "source"); let titulo = campo(m[1], "title");
-    if (fonte && titulo.endsWith(" - " + fonte)) titulo = titulo.slice(0, -(fonte.length + 3));
-    const pub = new Date(campo(m[1], "pubDate"));
-    return { titulo, link: campo(m[1], "link"), fonte, pub: isNaN(pub) ? null : pub };
-  });
+  try { return itensRss(await baixar("https://news.google.com/rss/search?" + new URLSearchParams({ q: consulta + " when:2d", hl: "pt-BR", gl: "BR", ceid: "BR:pt-419" })), "source"); }
+  catch (e1) {
+    try { return itensRss(await baixar("https://www.bing.com/news/search?" + new URLSearchParams({ q: consulta, format: "rss", setlang: "pt-br", cc: "BR", qft: 'interval="7"' })), "News:Source"); }
+    catch (e2) { throw new Error("google: " + String(e1).slice(0, 60) + " / bing: " + String(e2).slice(0, 60)); }
+  }
 }
 
 async function coletar(env, origem) {
@@ -94,7 +100,7 @@ async function coletar(env, origem) {
     for (const c of cands) {
       let lista;
       try { if (!buscas.has(c.busca)) buscas.set(c.busca, await rss(c.busca)); lista = buscas.get(c.busca); }
-      catch (e) { falhas.push(c.id); continue; }
+      catch (e) { falhas.push(c.id + ": " + String(e.message || e)); continue; }
       const nome = c.nome.toLowerCase(), sobrenome = nome.split(/\s+/).pop();
       let n = 0;
       for (const it of lista) {
@@ -111,7 +117,9 @@ async function coletar(env, origem) {
     await env.DADOS.put("noticias:" + uf, JSON.stringify({ meta: { ultimaRodada: rodada, novosNaUltima: novos }, itens }));
     resumo[uf] = { novos, guardados: itens.length, falhas };
   }
-  await env.DADOS.put("noticias:rodada", rodada);
+  // se todas as buscas falharam, não trava a próxima tentativa manual
+  if (UFS.some((uf) => resumo[uf].falhas.length === 0 || resumo[uf].novos > 0)) await env.DADOS.put("noticias:rodada", rodada);
+  else await env.DADOS.put("noticias:rodada", iso(new Date(agora - 49 * 60000)));
   return { rodada, ...resumo };
 }
 
