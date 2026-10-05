@@ -10,10 +10,12 @@ Em **Settings → Pages**, escolha **Deploy from a branch**, branch `main`, past
 
 O endereço `eleicoes-2026.ralph-renato.workers.dev` roda no Cloudflare Workers, no plano gratuito, e cada push na `main` publica de novo. `wrangler.jsonc` publica a raiz como site estático (o que está em `.assetsignore` fica de fora) e `worker/index.js` cuida do que muda sozinho:
 
-- **Notícias**: o cron do Worker roda a coleta de hora em hora e grava no KV `eleicoes-2026`. As páginas leem `/api/noticias/rs` e `/api/noticias/sc` e juntam com o `noticias.json` do repositório. `/api/noticias/atualizar` roda a coleta na hora, se a última tiver mais de 50 minutos.
+- **Banco**: um D1 chamado `eleicoes-2026`, com a tabela `noticias` e a tabela `config` (chave e valor em JSON).
+- **Notícias**: o cron do Worker roda a coleta de hora em hora e grava no banco. As páginas leem `/api/noticias/rs` e `/api/noticias/sc`, que devolvem a seleção do semestre e os últimos sete dias. `/api/noticias/atualizar` roda a coleta na hora, se a última tiver mais de 50 minutos.
+- **2º turno**: data, finalistas, pesquisas e apoios ficam na linha `segundo-turno` da tabela `config` e saem por `/api/segundo-turno`. Para cadastrar uma pesquisa ou um apoio basta alterar essa linha no painel do D1; não precisa publicar de novo. O `segundo-turno.json` do repositório fica como reserva.
 - **Apuração do 2º turno**: `/api/apuracao` consulta o TSE na hora e guarda a resposta por um minuto. No dia 25, a partir das 17h, as páginas dos estados chamam essa rota a cada minuto. Para ensaiar a tela, abra `/rs/?simular`.
 
-No GitHub Pages essas rotas não existem: as notícias ficam paradas no que está no repositório e a apuração depende do workflow `resultados.yml`.
+No GitHub Pages essas rotas não existem: as notícias e os dados do 2º turno ficam parados no que está no repositório e a apuração depende do workflow `resultados.yml`.
 
 O que falta fazer está em `ROADMAP.md`.
 

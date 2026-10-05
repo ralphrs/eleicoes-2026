@@ -2,7 +2,7 @@
 
 O que falta fazer no site, em ordem de prioridade dentro de cada bloco. Marque com `[x]` o que for concluído e anote a data.
 
-As atualizações automáticas rodam em serviços gratuitos do Cloudflare: o Worker serve o site, o cron do Worker faz as coletas e o KV guarda o que muda de hora em hora. O repositório fica só com código e dados que mudam pouco.
+As atualizações automáticas rodam em serviços gratuitos do Cloudflare: o Worker serve o site, o cron do Worker faz as coletas e o banco D1 guarda o que muda sem publicação (notícias, pesquisas e apoios do 2º turno). O repositório fica só com código e dados que mudam pouco.
 
 ## Antes de 25 de outubro
 
@@ -14,12 +14,16 @@ As atualizações automáticas rodam em serviços gratuitos do Cloudflare: o Wor
 
 ## Estrutura
 
-- [x] **Notícias fora do Git.** A coleta de hora em hora passou para o cron do Worker e grava no KV; as páginas juntam `/api/noticias/<uf>` com o arquivo do repositório. O workflow do GitHub ficou só para rodar na mão. (5/10)
+- [x] **Notícias fora do Git.** A coleta de hora em hora passou para o cron do Worker e grava no banco D1; as páginas leem `/api/noticias/<uf>`. O workflow do GitHub ficou só para rodar na mão. (5/10)
+- [x] **Dados do 2º turno no banco.** Pesquisas e apoios saem de `/api/segundo-turno` e mudam sem nova publicação. (5/10)
+- [ ] **Tela de edição.** Uma página protegida por senha para cadastrar pesquisa e apoio sem abrir o painel do Cloudflare.
+- [ ] **Notícias por candidato.** `/api/noticias/<uf>` ainda devolve tudo de uma vez; buscar só as do perfil aberto.
+- [ ] **Apagar o KV `eleicoes-2026`**, que ficou sem uso depois da ida para o D1.
 - [ ] **Coleta por cidade sem navegador.** Levar para o Worker (ou para um script) a coleta dos votos por município no TSE, que hoje foi feita à mão. Atenção ao limite de 50 requisições por execução no plano gratuito: são mais de 16 mil arquivos, então a coleta precisa ser fatiada.
 - [ ] **Páginas mais leves.** Tirar as fotos em base64 de `dados.json` (quase 700 KB por estado) e carregar notícias só do candidato aberto.
 - [ ] **Um arquivo só para os presidenciáveis.** Hoje os 12 estão copiados em `rs/dados.json` e `sc/dados.json`.
 - [ ] **Escolher o endereço principal.** Desligar o GitHub Pages ou o Cloudflare, e desligar as duas tarefas agendadas dos artifacts do Claude.
-- [ ] **Limpar os arquivos de notícias do repositório.** Depois de sete dias de coleta no KV, deixar em `noticias.json` só a seleção do semestre.
+- [ ] **Limpar os arquivos de notícias do repositório.** Deixar em `noticias.json` só a seleção do semestre, como reserva.
 
 ## Conteúdo
 
