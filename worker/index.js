@@ -64,7 +64,7 @@ async function apuracao(forcado) {
 const FONTES = ["g1", "folha", "estadão", "estadao", "uol", "cnn brasil", "o globo", "valor", "agência brasil", "agencia brasil", "poder360", "gazeta do povo", "metrópoles", "metropoles", "cartacapital", "bbc", "jota", "infomoney", "veja", "band", "gzh", "zero hora", "correio do povo", "jornal do comércio", "sul21", "matinal", "nsc total", "nd mais", "ndmais", "agência senado", "câmara dos deputados", "tse"];
 const POR_CANDIDATO = 3, JANELA_HORAS = 48, DIAS_NO_FEED = 7, UFS = ["rs", "sc"];
 const iso = (d) => d.toISOString().replace(/\.\d+Z$/, "Z");
-const texto = (s) => (s || "").replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'").replace(/&amp;/g, "&").trim();
+const texto = (s) => (s || "").replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'").replace(/&amp;/g, "&").replace(/&#x([0-9a-f]+);/gi, (m, h) => String.fromCodePoint(parseInt(h, 16))).replace(/&#(\d+);/g, (m, d) => String.fromCodePoint(+d)).trim();
 const campo = (bloco, tag) => { const m = bloco.match(new RegExp("<" + tag + "[^>]*>([\\s\\S]*?)</" + tag + ">")); return m ? texto(m[1]) : ""; };
 
 const itensRss = (xml, tagFonte) => [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].map((m) => {
@@ -75,21 +75,25 @@ const itensRss = (xml, tagFonte) => [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g
   try { const u = new URL(link); if (u.hostname.endsWith("bing.com") && u.searchParams.get("url")) link = u.searchParams.get("url"); } catch (e) {}
   return { titulo, link, fonte, pub: isNaN(pub) ? null : pub };
 });
-// Google Notícias primeiro; se não responder ao Worker, Bing Notícias.
+// Bing Notícias primeiro, porque o Google Notícias não responde a chamadas vindas do Worker; o Google fica de reserva.
 async function rss(consulta) {
-  try { return itensRss(await baixar("https://news.google.com/rss/search?" + new URLSearchParams({ q: consulta + " when:2d", hl: "pt-BR", gl: "BR", ceid: "BR:pt-419" })), "source"); }
+  try { return itensRss(await baixar("https://www.bing.com/news/search?" + new URLSearchParams({ q: consulta, format: "rss", setlang: "pt-br", cc: "BR", qft: 'interval="7"' })), "News:Source"); }
   catch (e1) {
-    try { return itensRss(await baixar("https://www.bing.com/news/search?" + new URLSearchParams({ q: consulta, format: "rss", setlang: "pt-br", cc: "BR", qft: 'interval="7"' })), "News:Source"); }
-    catch (e2) { throw new Error("google: " + String(e1).slice(0, 60) + " / bing: " + String(e2).slice(0, 60)); }
+    try { return itensRss(await baixar("https://news.google.com/rss/search?" + new URLSearchParams({ q: consulta + " when:2d", hl: "pt-BR", gl: "BR", ceid: "BR:pt-419" })), "source"); }
+    catch (e2) { throw new Error("bing: " + String(e1).slice(0, 60) + " / google: " + String(e2).slice(0, 60)); }
   }
 }
 
 async function coletar(env, origem) {
   const agora = new Date(), rodada = iso(agora), limite = new Date(agora - JANELA_HORAS * 36e5), corte = iso(new Date(agora - DIAS_NO_FEED * 864e5));
   const buscas = new Map(), resumo = {};
+  const listas = {};
+  for (const uf of UFS) listas[uf] = await (await env.ASSETS.fetch(new Request(origem + "/" + uf + "/candidatos.json"))).json();
+  const unicas = [...new Set(UFS.flatMap((uf) => listas[uf].map((c) => c.busca)))];
+  await Promise.all(unicas.map(async (b) => { try { buscas.set(b, await rss(b)); } catch (e) { buscas.set(b, e); } }));
   for (const uf of UFS) {
     const arq = async (nome) => (await env.ASSETS.fetch(new Request(origem + "/" + uf + "/" + nome))).json();
-    const cands = await arq("candidatos.json");
+    const cands = listas[uf];
     const guardado = (await env.DADOS.get("noticias:" + uf, "json")) || { itens: [] };
     // o arquivo do repositório entra só para não repetir o que já está publicado nele
     let base = []; try { base = (await arq("noticias.json")).itens || []; } catch (e) {}
@@ -99,8 +103,8 @@ async function coletar(env, origem) {
     let novos = 0; const falhas = [];
     for (const c of cands) {
       let lista;
-      try { if (!buscas.has(c.busca)) buscas.set(c.busca, await rss(c.busca)); lista = buscas.get(c.busca); }
-      catch (e) { falhas.push(c.id + ": " + String(e.message || e)); continue; }
+      lista = buscas.get(c.busca);
+      if (!Array.isArray(lista)) { falhas.push(c.id + ": " + String((lista && lista.message) || lista)); continue; }
       const nome = c.nome.toLowerCase(), sobrenome = nome.split(/\s+/).pop();
       let n = 0;
       for (const it of lista) {
@@ -118,8 +122,8 @@ async function coletar(env, origem) {
     resumo[uf] = { novos, guardados: itens.length, falhas };
   }
   // se todas as buscas falharam, não trava a próxima tentativa manual
-  if (UFS.some((uf) => resumo[uf].falhas.length === 0 || resumo[uf].novos > 0)) await env.DADOS.put("noticias:ultima", rodada);
-  else await env.DADOS.put("noticias:ultima", iso(new Date(agora - 49 * 60000)));
+  if (UFS.some((uf) => resumo[uf].falhas.length === 0 || resumo[uf].novos > 0)) await env.DADOS.put("noticias:ultima2", rodada);
+  else await env.DADOS.put("noticias:ultima2", iso(new Date(agora - 49 * 60000)));
   return { rodada, ...resumo };
 }
 
@@ -152,7 +156,7 @@ export default {
       return resp;
     }
     if (url.pathname === "/api/noticias/atualizar") {
-      const ultima = await env.DADOS.get("noticias:ultima");
+      const ultima = await env.DADOS.get("noticias:ultima2");
       if (ultima && Date.now() - new Date(ultima).getTime() < 50 * 60000) return json({ feito: false, motivo: "a última coleta foi há menos de 50 minutos", ultima });
       try { return json({ feito: true, ...(await coletar(env, url.origin)) }); } catch (e) { return json({ feito: false, motivo: String(e) }, 0, 500); }
     }
@@ -161,7 +165,9 @@ export default {
       const chave = new Request(url.origin + url.pathname);
       let resp = await cache.match(chave);
       if (!resp) {
-        resp = json((await env.DADOS.get("noticias:" + m[1], "json")) || { meta: null, itens: [] }, 300);
+        const dados = (await env.DADOS.get("noticias:" + m[1], "json")) || { meta: null, itens: [] };
+        dados.itens = dados.itens.map((i) => ({ ...i, titulo: texto(i.titulo), fonte: texto(i.fonte) }));
+        resp = json(dados, 300);
         ctx.waitUntil(cache.put(chave, resp.clone()));
       }
       return resp;
