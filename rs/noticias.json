@@ -1,7 +1,7 @@
 {
  "meta": {
-  "ultimaRodada": "2026-10-04T23:25:26Z",
-  "novosNaUltima": 18
+  "ultimaRodada": "2026-10-05T01:10:08Z",
+  "novosNaUltima": 29
  },
  "itens": [
   {
@@ -6992,6 +6992,267 @@
    "publicado": "2026-10-04T13:33:03Z",
    "coletado": "2026-10-04T23:25:26Z",
    "rodada": "2026-10-04T23:25:26Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Lula e Flávio vão disputar 2º turno para presidente da República",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNc3NraDc0N2lacWc1WENaeWZFdmFVSmZEaFg4LXFMSDBiclpYRkNUTzFkQ1ZlRjVwRWd0VlAtUXRRNWRob08yMWxlVUI4RUQwLUtfNUplU0F1Q3RrcDN5NFJJY3Jlc29weHlEUDlfcmhzWG96NUJ6Z0s3MnJpamZpWVlBRHpDZkZ4UUw0VEF4dXFRT1NIVDRyR1NlVU5JUS1WaHUtSHZHN1BjOUY1U21aLU5rRzZWd1NfY2tlSw?oc=5",
+   "fonte": "Agência Brasil",
+   "publicado": "2026-10-05T00:02:00Z",
+   "coletado": "2026-10-05T01:10:08Z",
+   "rodada": "2026-10-05T01:10:08Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "AO VIVO Resultado das eleições 2026 - Flávio Bolsonaro e Lula disputarão segundo turno da eleição presidencial",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQQlVZZEdNZHpaTF9qVDY4N09UYTdtbkxtN2R3bF85LWdPRjZkcG9EanNvQnByMlR2T2hMSmRfN21GY09sUUFlU09la2hzZjdYMU1VUWdMVHByckxERndhMW1JVUp2UVBZcnRYSUhEa3BVcTJabmRJVkRYUFRVajdsRS13akE5Mjg5S21SNTZFRHYweU1XdXFKNDg1b2FxMllwOVlOMmNzYXFtdWVtZ1liQThQTjZOeUFaMEVHaFBPWS13cjdJcHN5dnV2dmtXenduZEE?oc=5",
+   "fonte": "JOTA Jornalismo",
+   "publicado": "2026-10-05T00:47:29Z",
+   "coletado": "2026-10-05T01:10:08Z",
+   "rodada": "2026-10-05T01:10:08Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "'O desenho se torna muito difícil para o presidente Lula no 2º turno', diz Creomar de Souza",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9Wd0RvLWdaNHAwRXlKZ04zWFhOLXJDS0lFTEVlak9rY0pTamZYanA0TkpjRFFkQ3hpUW1rY1UzdTEycXVmbjREMTAzSTluazV2NzFwWEdaMzZiUXE0MWNtdU83c9IBaEFVX3lxTE1kM1pTSjVlX0hnUUprMFhjeE9zM2g5blVnejB4VG1weVJQTXprNkQ0clhmMlM4enJUU3pjOUVTTEQ0czFwZmc2eDExUVhLS3JtSVlPRm5kWkpmVUp4V1N1dHBSMmxTekxZ?oc=5",
+   "fonte": "BBC",
+   "publicado": "2026-10-05T00:11:15Z",
+   "coletado": "2026-10-05T01:10:08Z",
+   "rodada": "2026-10-05T01:10:08Z"
+  },
+  {
+   "cand": "flavio-bolsonaro",
+   "titulo": "Flávio Bolsonaro mira apoio de campeões de votos e crescimento em MG no segundo turno",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOTFDX2RoRUV6enc1ZTd0Y1BJM2Rrd0dMN2dTWHVaNVNLalN0V25wNXFVRlU1RUFwMXJRc3NHbXR6SkdNYktadC0wNXZBT1JWOUNIUHpfTXhYaFkzYVU5bnZBR19jNDlSWTBCLXJNMXc2WF9UZ193X09YM2ZqY1hseW1Ob01ucWZ2UUlmbVd1azdIQU5wSEpraTlSbEM3SHZYUWRqY1dIYlI3VnA2dUROWG1RczNSVmRzNVh6bHZhQV9YOGItQmhZUXFUTmlBdWhf?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "publicado": "2026-10-04T23:19:00Z",
+   "coletado": "2026-10-05T01:10:08Z",
+   "rodada": "2026-10-05T01:10:08Z"
+  },
+  {
+   "cand": "flavio-bolsonaro",
+   "titulo": "Flávio Bolsonaro e Lula disputarão segundo turno da eleição presidencial",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMTlJeTkxMnhwSGxLS3htM0hKaThKRUFBd3RWYUg4YVduck5EcGQ1WEdfRkIxYXh2RDhxSWN2OXlyZUludGJxdWltNHF1Sm10MnhXSU1wLWVfNkFnOUtySlBtVzFEVnp4SThhNHFjeHhBLWdzb21rLXFyMXU5TUlfT3huTWFUMm1oU1k2Sy1RUFRxTk5mRDNfc21aQUQycXdTSmppb0txNGsxNUVEQzEwWVZucXpmNkVv?oc=5",
+   "fonte": "JOTA Jornalismo",
+   "publicado": "2026-10-05T00:01:36Z",
+   "coletado": "2026-10-05T01:10:08Z",
+   "rodada": "2026-10-05T01:10:08Z"
+  },
+  {
+   "cand": "flavio-bolsonaro",
+   "titulo": "Flávio Bolsonaro fala em garantir liberdade de imprensa caso eleito",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZUhJZEF4UHdHUTMzVHpvTWY0bU5laWl5a0tCWWV4SGVwUHBlbFNOTmV0d1RQV2xwNUlJS2xIR0R6X0VfSDB4X052LTR6WXVTMDJIR0hYRlJ5QlN6dHV2cG5MUjZmVXdtTDNMMFBuOC1scGhtdjlEeV9TR1NqRW94ZFUtQUNESWNJRkRrWXF0d0dZYjRqWWxUZ21GUGJuUXJGc3p6MWdfZTNxWnM4aENmdUZ5N3M2TEZSc0NFcmd3?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "publicado": "2026-10-04T23:07:00Z",
+   "coletado": "2026-10-05T01:10:08Z",
+   "rodada": "2026-10-05T01:10:08Z"
+  },
+  {
+   "cand": "augusto-cury",
+   "titulo": "Augusto Cury, candidato do Avante à Presidência, faz campanha em Colina, em São Paulo",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxORV9xRlh0cmZfYjdRX0tuZDVjZjB0QUxEUWZ1eVZHdW9kVlZUZG43ZTlza3J4UTdYUDRhbWw4ejJJQ1o5OXBFS005RmZ3ZWFKYm9NOU1NWl9HZHRyMlhVX2Q1bmlQczM5ZkhZR0JPV3BlaXNwa3l5LUctSEhJdmFWS2VWclpVbVZCQ3N0VEdYT29LclkyNW5paUJrUDBKbHBoX2Q0dGRCYXhleGhGX2tHb08zdV9ycVhQWVBwZVFtbl9US1Q2UllSaGozbExIeHdBS1I1MkoxMDJxS1pa0gHrAUFVX3lxTE9KLUpTdWhJdU53X1pYZm5fMkczbm5vd20zd2xpS19LdElMNml2cEYyTFNJaWxneEIyOHlWSi1qY24yLWpxOHhHNzZEdVgyLVdPVEZHd2toUDVZZTBuc2tjYmdQNnpRQnliTkxrTi1JZ3l2bThUOWNKOHJUSEUyR2YtYmFNeXF6UEJJbGU4RFp1YXpFSEN6dWFNcV9JMnlENC1RZVJIY1hsU0ZEYXZLV0JWU0JTR0RINHUxRndHX21Ock9ldjRGTVl1bk1TVDNweTVQZWZKcTYwQjdmVV9yMEgzS25uZ2NaU2tFcVU?oc=5",
+   "fonte": "G1",
+   "publicado": "2026-10-04T00:11:44Z",
+   "coletado": "2026-10-05T01:10:08Z",
+   "rodada": "2026-10-05T01:10:08Z"
+  },
+  {
+   "cand": "renan-santos",
+   "titulo": "Renan Santos cancela entrevista em São Paulo neste domingo",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPM3NoLUhSREFYYVpaU2NJd01iazVMdkJtRHlrWGNSemFCZ0tKZnNlSk5tZW9KWjNXWk41SHFkOW5PV2NpRmxVbFJVVFhPM0FTZHZuLTJmT2RyUUhMRTFVZ0tDMUdOb2NOWU8wTWRmZ0JaMWJrbVozXzVsdWFlaDRQdHd2ZzVhNnJpb3pZVDBfU3IyVDNmWDktSUdldEMxNFRPd3d3WVcwLVAxTTIw?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "publicado": "2026-10-04T20:50:00Z",
+   "coletado": "2026-10-05T01:10:08Z",
+   "rodada": "2026-10-05T01:10:08Z"
+  },
+  {
+   "cand": "zema",
+   "titulo": "Zema derrete e sai menor que Amoêdo, candidato a presidente do Novo em 2018",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQV3RsNUFmdjRtdWd6UFprVV96a05feDFJbnJnTkt1UW0ySk5uRTVwaG14eWgxVUhnZnRYSFk3N0hZUjdmcEN3WG1YREtROEZvYjJxSVlNS2I4dm41anBWelNsUnR4TTZBLXNKV1dic2FwNHNjRWo3bWMyWkVyTEhOTVFrRm45azhCR01YdUZHVmUtR1BIcjJnT0RuOTQ1VmdGcXFoQTg3eFZEeFRERmxhdmtKcUE4MTVfZTZvaHl5QzVWVTBodDhzdtIBzgFBVV95cUxOTWZOdU81c0NEYURQUUNZWXN3NVZGTTNfMVFHaHZnUkx1VE9VZzNvT3hDTE9ld1JQSS1EbDhrd1N1dmVidE1YVTBPbXNKWmJXRF9UU3FiRzBNTDFSNk1zU05xUGl0UlZhZEw0ZEJoN1BBMVRGbkNfUDNWQ1NXbkRJekE4UnhkelJBMXNGNDYweXg1WjUzQ3h6OE55a3JndG90M1FrMFh1UGowV0xJZ00tVW5OZjZKT1g5TVFsSXVFOGxnMkViWUxta01VRmlFdw?oc=5",
+   "fonte": "Estadão",
+   "publicado": "2026-10-05T00:31:36Z",
+   "coletado": "2026-10-05T01:10:08Z",
+   "rodada": "2026-10-05T01:10:08Z"
+  },
+  {
+   "cand": "zema",
+   "titulo": "TRE-MG vai apurar uso de celular por Romeu Zema na cabine de votação",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNclI5aUhuTTBNZzd0VjJiTXg2VTlzMl83YTZTWk1kVVpGNWRFWDJTV0tVejlQTGtORjJsZEkwd2gtdE9tOFVnNkt3VjM3Z0NBRkFnSDRwd3hCbjNLeFI4ZXlmTTZuLV80SWVXa01zQzhjd2Q4eWllcGZDSWZRby1qOUc0djJ4UlpycXFwR211Slg0dlVQOVdYbzJIcnV0NDN4enRualphV0VWRjZQY2VF?oc=5",
+   "fonte": "band.com.br",
+   "publicado": "2026-10-04T15:26:00Z",
+   "coletado": "2026-10-05T01:10:08Z",
+   "rodada": "2026-10-05T01:10:08Z"
+  },
+  {
+   "cand": "edmilson-costa",
+   "titulo": "Resende Costa (MG) vai às urnas escolher presidente; siga resultado da apuração",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUGlCN3lBcHYwaWYwWjhsVm95RkRMdm0tN0N2T1d4QlFjWENCN2NYVVA5ajZlb01BQ0dCckZyRUp0bmU5Rmt5TmU4OUJoUVo5Q21Nd3FXRHpEOWNhbUZHRlREcWJIOENQYWxTdnpzeG1tSmlQWWF4clM0SDc2OEFlMGx4MndJZHZGcTA4SnFNNXpIZw?oc=5",
+   "fonte": "UOL Notícias",
+   "publicado": "2026-10-04T04:50:27Z",
+   "coletado": "2026-10-05T01:10:08Z",
+   "rodada": "2026-10-05T01:10:08Z"
+  },
+  {
+   "cand": "edmilson-costa",
+   "titulo": "João Costa (PI) vai às urnas escolher presidente; siga resultado da apuração",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPN0doVDJGbE5wV00zb3Brd3NQZ2hjRzhSSDRlaS1BdUJtcjRDcjVIcksxdEJ4MGg0b01MYWJWSkZMb0FqWUFId0ZRX29UQXNmV2Y4UlBhWkRSQ05qd3hrMXdkZ0pJVmFfWmhma0FYSHpRUURBT3Zra0dBeHdiR0psQ3RSbFhaRGdIWloybjNR?oc=5",
+   "fonte": "UOL Notícias",
+   "publicado": "2026-10-04T04:26:16Z",
+   "coletado": "2026-10-05T01:10:08Z",
+   "rodada": "2026-10-05T01:10:08Z"
+  },
+  {
+   "cand": "hertz-dias",
+   "titulo": "Dias d'Ávila (BA) vai às urnas escolher presidente; siga resultado da apuração",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVGRXcHduRmNLTU9sdWxwWmRsME85anlOeE05M045NUJ6NFIwZlhacGpMOEFwM1V5QlJqWW5mb2dpanBiMUhZbXpXZzFIUTB4SUdMeG5RTDIxeEVwelduRnRaNXBXdjhKZ0RnS1FKdFdseFpzZWs2OFY0SVVSdWxia1FTQzdkeHlQZGp4UFV6SQ?oc=5",
+   "fonte": "UOL Notícias",
+   "publicado": "2026-10-04T04:38:51Z",
+   "coletado": "2026-10-05T01:10:08Z",
+   "rodada": "2026-10-05T01:10:08Z"
+  },
+  {
+   "cand": "zucco",
+   "titulo": "No Rio Grande do Sul, Luciano Zucco é eleito governador em 1º turno",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeDUzeXl6SXJYUGtMNGhvTXpXTm1Jb2ZuOVFJY0paM092S3FmYWcxeUNNek1uWEYtZUxLcmJaN1JOOVJubmtXSTJfM183MlhHZWdQSkxuQ3R5OHFRNGpOdnBTWVNxLVk1eW9jT2hGN2w3MmlLeC10eGhTalhjSEFTSHNPT09VOUJYR0lPaXBDLXpwb2VXUHBaaFB2Q2lRZVpsS0o3T0MzSHo4V3ZVemtfQnJ5V2ltSlc1UThyY0JlXzY?oc=5",
+   "fonte": "Agência Brasil",
+   "publicado": "2026-10-04T22:22:00Z",
+   "coletado": "2026-10-05T01:10:08Z",
+   "rodada": "2026-10-05T01:10:08Z"
+  },
+  {
+   "cand": "zucco",
+   "titulo": "No RS, Zucco (PL) está matematicamente eleito no 1° turno",
+   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOVFo3aGt1YVRsSGt1WlB5M1lNOWV0NFJhaVZUMjNUVTZwbmh3RVhsZFg3STFKOTZiWk5uMFQzdS1wZUJVdDlxeFhBSmI0VWVaazIwaFhTMzEyTnlfbVRmM1FNTmwyVTRQNUZndG85NGE5WklIN1c3Y29jN1p0aFRkZG1VY2lqT3dzWWRBdUNaNDNaSl9JMC1vRkx4YTdYalRXZU82cTZnOHNUaThMbElSUU51RjBOTUhnYnVFS3FkLWhEZzRxajBHWWY0ZzV0MW1GTnhXR3dlcDVFazlZMEs0dG9LMEk5ZWd5UVhSTlk1ajhEaWh3V1ctcTZ4d1NFLVHSAY4CQVVfeXFMUHg5OHFJUFk5NjA5WGpXVHdjOGp3NmtTOVZSRnNLS1RadXk0a0ZvWG0xUnZ5ODNuVWY3Mmp2V1dHYlFlbWFYUTJseHpoZ3NuQjhaalVrUkZBblBNOEQxNzdpUmZRRDZiSHlKQWQtSzh1dUMtMjVtOTRJVlU5UGtMeHFOX2xEaDhIQkdpdzlMLUMtODI2YVcxMzRBR29xNEVhNG5FbXlGbGcycnpYejBmcXFVdjczY0kzUmF4ajVNWkNEeUhEX1JPcHk4dzc3RVpfQ1VrbTRBTTEtWTA4ZUk2Sl9XemliUUt1Q0llaGlHSUlxSHFpN2E2cllOOWduUVJXZy11akxZVHRrYXktT0pB?oc=5",
+   "fonte": "Valor Econômico",
+   "publicado": "2026-10-04T21:29:05Z",
+   "coletado": "2026-10-05T01:10:08Z",
+   "rodada": "2026-10-05T01:10:08Z"
+  },
+  {
+   "cand": "zucco",
+   "titulo": "Zucco é governador mais votado do Rio Grande do Sul desde a redemocratização",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTU83eWpDazBFVHdfM2RpOE1MT3IwdDZnajdFM0QtVWNvc1Y1eDBJamJXdHhjUWZaM0ZSQm0wVzh4Ukg0b2REcFZldTlYT3UzTW5PbWtudHROR2U3Q2lUWE1MZWp2RnNwcU9GVnlJVkY2RVVlejNZQUNKTjZaUU91dGxweFE1N3N1UlY4ZlZrV2ltSTRHS2dua3lKbmN3NnpOSFJPRDhXN21DZnA1S0kweWpGTnkzWGNFa3lKWFR2OEZ1Y3lf?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "publicado": "2026-10-04T22:55:00Z",
+   "coletado": "2026-10-05T01:10:08Z",
+   "rodada": "2026-10-05T01:10:08Z"
+  },
+  {
+   "cand": "gabriel-souza",
+   "titulo": "\"O eleitor decidiu migrar em massa para Zucco\": por que a candidatura de Gabriel Souza ao governo do RS não deslanchou",
+   "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxQc2x0QVRzRzNxSWFQSnl3cWJYZUN3Smdra0x1bjd0X3lnSWg4V2V2U0NjM2xEalpVWTFMMF9ZQUl6YWVsemdQWlJjQ0pWbjU4R1RnYUEtR2ZqalRrc1ZwMUdIZnhKYW9zN3ZjaGNsVEt4bjlTUWdQeHRDcDFZbXJtbVBocUp1VDdlTzg5WWRwWl9qalo4eUVlaHJ4dERvOHVJeDhiRWU5cHdoeUJsZHZ1Tk02QXFlUjFNWkVIWkM5VG41M2J4bEE5VS1HaFo1aWpUMlhNRGR5S3RDOWN6aW5jSWNVcUd1T0dwbEZSVjlXUk1PREE4Y0ZtSVJ1MjliZXhKYjJEWV85RzVqN0lwQnYweTc5dWJLbnBkZEpGZHpISU96b1ZUUlA3ZzQ4RURmbzJ5R3Raa3gwMA?oc=5",
+   "fonte": "GZH",
+   "publicado": "2026-10-05T00:10:59Z",
+   "coletado": "2026-10-05T01:10:08Z",
+   "rodada": "2026-10-05T01:10:08Z"
+  },
+  {
+   "cand": "gabriel-souza",
+   "titulo": "\"A nossa expectativa é muito grande de conseguir ir para o segundo turno\", afirma Gabriel Souza",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOYXpjZ3dfNm9wTmdlVEh0YXJ2My1oVWs3Xzh2THpRYzZoWHlCeWJzQTBZNVN3NG9tb21VX1RlQmRnTjdCMl9sT3hQWi1sYm1QMlBfaE1QS0htc01uU0NZYkludS1ZUEV2Ym9laHU4VDRsX3pYS2RJVzI4Nkx1WWtaSlpBak12V1FKcmZ3X3MwcmxTRldsRE0yY2Zhd2ZWdzBMeEpNX1lIR3lqQWNGWFNPQVJIOTNOejBHb2dmbzAxOWFURmxERlFfQzI2YXYzaXA0TkRnVHd1djFvbGFLMllvMXJHVFdRby1hRERB?oc=5",
+   "fonte": "Jornal do Comércio",
+   "publicado": "2026-10-04T18:58:32Z",
+   "coletado": "2026-10-05T01:10:08Z",
+   "rodada": "2026-10-05T01:10:08Z"
+  },
+  {
+   "cand": "marcelo-maranata",
+   "titulo": "Candidato ao governo do RS, Marcelo Maranata comenta sua campanha: \"A gente pôde apresentar um projeto\"",
+   "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQZ0l5aWpNaU9fR0V0dDBQNEQ1aWlzb0tFaTRZanViMkwtZ2VmWkI1U1R3OWxRY0ZMbHh3MTExZmxXb0N5UHRmdkg1eGN5V0xNc3Vnb0VYcnlOMDN2ODRWdkxETV9oQkdtek9fTW45UDBWVkMzNUZfTU5Hd1NCdkMzSmR6T00wZEJFZ1Y0RzY2QWwwOWcyaTQzT1N2SHZHZXNIYVIxaWVpanJxcWM1NHBiZllUNklKbmFQTFdDYkJEbXhKdmVDVWhBMGY0d015bnJBX1pseEprUGJKRFhfemxBTHR3Z0p4SVlqaTBnWHBudHhZYk44MGZtYW4tRk9ib0p3STRvUlVvOE1zVldhTmx1d1FHMnVPTWpVVjFiTWxJUWpUQQ?oc=5",
+   "fonte": "GZH",
+   "publicado": "2026-10-04T18:49:57Z",
+   "coletado": "2026-10-05T01:10:08Z",
+   "rodada": "2026-10-05T01:10:08Z"
+  },
+  {
+   "cand": "marcelo-maranata",
+   "titulo": "Marcelo Maranata (PSDB) vota em Guaíba",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWS1neUx4M2QtbUoyR2hQRzBYalVqMTE2VUFsZkdsQTBKZEc2UFZvMjF5TDBwZ0FXOU9CX21LTEVZemN2aVFYalluLTlWU1hJQUNKaHBSRk1PODBSMDU4TGVKRk9QcWJoWU5EOC16NGp6c0EzX1ZyZFVMXzFtdDhDZXdZalBVbHo4NjQ1X0JzT2w1S2RUb3NXWnBhbkt3cVF5N1pzdXZVbWtPcEXSAboBQVVfeXFMT01fRkZOVEh6dDhWRjZET1ZrTVhEVXhKM1JrVDdBZThOcUpkMkQzcjlYdGswWXVPbXNQSzRFN1ZZU0tDWHU0ZVo3UGt3VDVaLWNXZEpjWkN6S1RxSTQza2pPWndLUVViczAxZExrUC02OGNDTU42Rm9TUVh3WHZxRUVXLVVncWlSMkxhSmxRUkp1NkNiekJrYzhFMGRicmxmODF5ZzNGeEVfdGc3U004YXpFNndNdEh5Tnln?oc=5",
+   "fonte": "G1",
+   "publicado": "2026-10-04T18:48:48Z",
+   "coletado": "2026-10-05T01:10:08Z",
+   "rodada": "2026-10-05T01:10:08Z"
+  },
+  {
+   "cand": "marcel-van-hattem",
+   "titulo": "Marcel Van Hattem e Sanderson são eleitos senadores pelo Rio Grande do Sul",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaXZ3Vkl5cnZ1TG0zQmttREI3V19xVTh4WmpaQnNxc052bTd4S1hXUFJTT1NndTFUNk9NVl8xQUlIWndWR0szT2k3RFZzM0xxY3JhRkh4aHlCeWN6MUhOM0VRUlhIYXllbmM1SG1Cb0pGTE1lS2w0clh0UUtBdFBjOV92eHVoWGVFSXUxdFJtRWROVG1vMGg3M25xTVk2WEtYOFljajIxbEFqOEhiQjVQSWhyNkVLOG41eUI1LXh6SF9Rdw?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "publicado": "2026-10-04T23:25:00Z",
+   "coletado": "2026-10-05T01:10:08Z",
+   "rodada": "2026-10-05T01:10:08Z"
+  },
+  {
+   "cand": "marcel-van-hattem",
+   "titulo": "Marcel van Hattem e Sanderson são eleitos para o Senado pelo RS",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOQnVncEpDMkllWW1GSW04bXhESkdXUVcxMnl2b25FMmNYQ2p5M2JKdTJGOGNlcGhYcWR3SEZSb3U0azZDNlYxWVhDemJXd01tU3BCekRGeTR2OERId1A0RlptNVN1aDRzdkE1MVBlWTQ4VWx3cWY1bEJEOU54dWo1Z2NjRFQwLXhhT3E1eTI5cmM4SWloTDVyVFd3UmdfakpSREwyTS0xVjVBZHlnMnNwOVlvbTNOMERseHBJLWt3MlBqSTVjdkFIMDEwQTFGeGUtRV9xTHpwanhiVUV3UHBGS3JxaUkxOXFp?oc=5",
+   "fonte": "Correio do Povo",
+   "publicado": "2026-10-04T22:36:25Z",
+   "coletado": "2026-10-05T01:10:08Z",
+   "rodada": "2026-10-05T01:10:08Z"
+  },
+  {
+   "cand": "marcel-van-hattem",
+   "titulo": "Sanderson e Van Hattem são eleitos para o Senado no RS",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTFh4cGtKWVZrYXpTMXh0b2NxMFB3aDVfTlhXaVJsMGdFWVBYcFBfZDZlNFZaY2R6WUdtMjFDZEMzcDM2RmtWQ2g2VTY4TnBDS1dqV0FLZVZWV216Z0F2ODF6MmpWajFpa0paVzhHSU1Cd2MwWThYSDlZUmYtXzdsbDlVYU54TGRYU0ItV3MwUy1BczQ5M01mdw?oc=5",
+   "fonte": "CNN Brasil",
+   "publicado": "2026-10-04T23:22:34Z",
+   "coletado": "2026-10-05T01:10:08Z",
+   "rodada": "2026-10-05T01:10:08Z"
+  },
+  {
+   "cand": "sanderson",
+   "titulo": "\"Vamos reestabelecer a ordem constitucional\", afirma Ubiratan Sanderson, senador mais votado no RS",
+   "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxORVpWUnhUU2Z3bXNOdFNVYl9iOTFmcFZVQlJtOTBOS05KY3hPUjRrVGRRT1lINjg5ZUtRcXJjQ041YlZWNHZXcHR2Y3NfUThFVk41UkhURUR4dXRGRWF2ejBFY3lCakU3THhIQXpJSkVpNFExN1UydmtOcE5QaG5vamlaZXNQc2VfVGNFNVM4SUY4dUpJdDIzZzhrT2xTd0hHb0lpTFkySG54amRsNlBTbEZ2YS1fZGNBTFE5bVZwWVY2RmpsOXR3dW9lRFl5cjFGQXdyZmNoR3FPdFZCSzRfUDJ2SFRfaEJyM2F2MjRCV1l6cHY2RVNheEJLMmtFVnd1SkVTSWp5UVF1S2lDcGcwcDBXc1pHMmJ0WnRn?oc=5",
+   "fonte": "GZH",
+   "publicado": "2026-10-04T23:58:46Z",
+   "coletado": "2026-10-05T01:10:08Z",
+   "rodada": "2026-10-05T01:10:08Z"
+  },
+  {
+   "cand": "sanderson",
+   "titulo": "Disputa acirrada leva Sanderson e Marcel Van Hattem ao Senado pelo RS",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOQTZmaU5vYmlwYkkxSmhNZkN1bHVYc3l1Y25ZQXlRcG9IMldUQkRTRnB0UUczOE1fQVFWREdLclZnRFFYVUJGYTltSmlKdURERzBYQnJiSHo2U1Q1RHNtTzR3eXowQzZNMm1WQW1Db1JTQmVPcVpJY0ZLN2Y0TkJmUHZESzk2dTQzejNCNl8xblRveTZyZE8xQWpDeWJhNUk4bFlibTFvaTVZZnBEekdPR1VPdjU2TWZUTV9mbWVMZkpOWm5jcEVxYlk2UV83NXVUd0YwVHRfSk5mZ3JXSkNUM1NaaFpjSXF60gHoAUFVX3lxTE5BNmZpTm9iaXBiSTFKaE1mQ3VsdVhzeXVjbllBeVFwb0gyV1RCRFNGcHRRRzM4TV9BUVZER0tyVmdEUVhVQkZhOW1KaUp1RERHMFhCcmJIejZTVDVEc21PNHd5ejBDNk0ybVZBbUNvUlNCZU9xWkljRks3ZjROQmZQdkRLOTZ1NDN6M0I2XzFuVG95NnJkTzFBakN5YmE1SThsWWJtMW9pNVlmcER6R09HVU92NTZNZlRNX2ZtZUxmSk5abmNwRXFiWTZRXzc1dVR3RjBUdF9KTmZncldKQ1QzU1poWmNJcXo?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-04T22:11:11Z",
+   "coletado": "2026-10-05T01:10:08Z",
+   "rodada": "2026-10-05T01:10:08Z"
+  },
+  {
+   "cand": "sanderson",
+   "titulo": "Sanderson (PL) eleito senador pelo RS",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVWFMZlQ5dEtXNFZQRFUwVlBlR0pHVmtBTG5WWm90UWNEclU5andhNV8zTkNDcmJKNTVzWlU0T0duMzVXUWJLN2pQLU5ucUd2dmI3NU5TbjBZTDRtTzRmT1ZtejVoRGdjWTdmM1dJVVBNR1ZWbU0tMFNITnVpUjIyQkhhZ1hxOXp2ak1sXzZ6Mm1uVVB3bER1a1d5N05nbzFwQkpWcXZLTQ?oc=5",
+   "fonte": "GZH",
+   "publicado": "2026-10-04T22:40:42Z",
+   "coletado": "2026-10-05T01:10:08Z",
+   "rodada": "2026-10-05T01:10:08Z"
+  },
+  {
+   "cand": "rigotto",
+   "titulo": "Germano Rigotto faz menos de 5% dos votos válidos nas Eleições 2026 e fica de fora do Senado",
+   "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQZElVbmhZTndqX1lCTkg5SVVHem9JZ045MzBXRzQ5SVhlalRFcm91Z21scFFUenNMMjhBT2Y1UE01WFhCTTdvbjVWc1RCZDVVMmFfVEM3NFpFZ1dURlJHaWczRDY5NDNCRE1WckdhM3JsRWwzWTdvLTgyRVR1Ny12a0VVcjVPUnVNTWY5RmM1d3VwUk9ZZFI4VklHX2hwOVYwTnhpcmtSMGpRRjRQU19vOGJZWlFMRVR2cHZyQS1Pd2dBRTN1bnp4cks0TjhVN3VHalU2M3VHcjBzRHgwY2h5VWo4UjlMV3VPZ3h5NlkxdGIzRHZraDdlNG40YXlwZWlTSTQ5Qm9WV1JWOVg0YjEzTnJXbUowZXc?oc=5",
+   "fonte": "GZH",
+   "publicado": "2026-10-05T00:00:40Z",
+   "coletado": "2026-10-05T01:10:08Z",
+   "rodada": "2026-10-05T01:10:08Z"
+  },
+  {
+   "cand": "frederico-antunes",
+   "titulo": "Frederico Antunes, candidato ao senado pelo PSD, vota em Uruguaiana",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNOW51M3VwVzdtNlBZSGxZVll1VzBlWXVOd3hDNV9CNGNwdGJTQXhwZ3hxX0NIMFlNT2k2YU9PTGhDTUNTcFE0SDFOOU8tOTl1OWx4aWM0UFBIc0pvQ21tVjdJQlN6TTVhUVBwc0VzcDMyc2dLbldCejlCdjBxOWRMakFyOHdqeDdvWDlydFR3dmFINlg3QmNiTmRVWHNOTE54UkR5YTlJSG5GN1lqek55RkxxamdXT3g1Q0lHa3o2aGkyQ09MbTE4?oc=5",
+   "fonte": "Jornal do Comércio",
+   "publicado": "2026-10-04T13:38:32Z",
+   "coletado": "2026-10-05T01:10:08Z",
+   "rodada": "2026-10-05T01:10:08Z"
+  },
+  {
+   "cand": "milton-cardoso",
+   "titulo": "Doutor Maurício Cardoso (RS): veja resultado da apuração da votação para senador na cidade",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOb1dUM0pNbm1EUHpGcmxMelhlR2xJOXVua2RIcENCNDJkX09rRGpPQWF3c3NQN2xxbGdZOUU4QTJSeVkxU2MxR0s1ZDhnZjBWN1loOXh3c2pDMi16Y1ZBWndzbFE0ejZpUkRXUUl4SjNBcWl1c0lUcTRjZmJnLXhTa0d3SGp0T29INGhxakdTdWpaY0ZnRE9fYWQyNkEzZw?oc=5",
+   "fonte": "UOL Notícias",
+   "publicado": "2026-10-04T22:26:19Z",
+   "coletado": "2026-10-05T01:10:08Z",
+   "rodada": "2026-10-05T01:10:08Z"
   }
  ]
 }
