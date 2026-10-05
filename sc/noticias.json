@@ -1,7 +1,7 @@
 {
  "meta": {
-  "ultimaRodada": "2026-10-05T03:44:53Z",
-  "novosNaUltima": 0
+  "ultimaRodada": "2026-10-05T04:45:09Z",
+  "novosNaUltima": 31
  },
  "itens": [
   {
@@ -7682,6 +7682,285 @@
    "publicado": "2026-10-04T22:33:36Z",
    "coletado": "2026-10-05T02:48:43Z",
    "rodada": "2026-10-05T02:48:43Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Lula tem pior percentual de votos em 1º turno desde 1998 - 04/10/2026 - Política",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVlZfOXV5MDZGaVBZVWxLb09CXzdQVmY3eVBhZElEME9jVVJoSTNBZDlpc1A4bUlIUnk2RTd5c1YwdjBSelhnaHpCWkpGZ1RLWTBhaGtBS3FwTzk2OU9IYU92djZWd1p5eHNjMUJwQVRJOEVDZi1IeXJhdXBrYnJXQWtQbU5CU3VNa1NtOEJkOXdSVHVhRmFsLWFIWE9tOFBWUUpuQ295SlVGZw?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "publicado": "2026-10-05T01:20:00Z",
+   "coletado": "2026-10-05T04:45:09Z",
+   "rodada": "2026-10-05T04:45:09Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Flávio e Lula vão disputar 2º turno para presidente da República",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdTVNblBWbUV5NHBzRWlNUllGczdtR09LTktPaXptN0RnU1I5aGxHN3dyQXRfdl96TWZyc3JfMmNIMGFYUHI3dXA5NG1jd3dmeVU4eEdVMW5fSi1DR3hhTWJyUmdlWnc3eFZkTE1lQmVlNnpueDIzYklBRzVQNjI2SU1Ud3gyN1h1VHRya2lTWkd6UkYtVFdGQmNBUVN2MkdwWnk1cG1jUUd6MEJ1d1d3VXduWjJGaV95bUhJOC1Bbw?oc=5",
+   "fonte": "Agência Brasil",
+   "publicado": "2026-10-05T00:02:00Z",
+   "coletado": "2026-10-05T04:45:09Z",
+   "rodada": "2026-10-05T04:45:09Z"
+  },
+  {
+   "cand": "lula",
+   "titulo": "Propostas de Flávio Bolsonaro x Lula para o 2º turno: os contrastes de seus projetos de Brasil",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE96N3g5a0pYQUc0cXFabkF3bWFoZm8yWUhNd0xaTUVxN3FXSlB3Q1V5NERkYkhFYkhxU0pjdVg0bHNUUF9xdGpoQUE3ZUNKNGlSV2d1bTZBUnZYY1QtWjAzSGNmONIBaEFVX3lxTE9OSmNYbXprMnhLQ0JjUl9MbGFBNDI5eFFDWTZ3M1JlVWNxbXM2dy13bDN6QTVpUzhVVXlYWnkzWVlNNnpESUc1T1lzbEx5eTZxdU84akNuTXZKai1USm1BUGJTREVPaEhO?oc=5",
+   "fonte": "BBC",
+   "publicado": "2026-10-05T02:47:05Z",
+   "coletado": "2026-10-05T04:45:09Z",
+   "rodada": "2026-10-05T04:45:09Z"
+  },
+  {
+   "cand": "flavio-bolsonaro",
+   "titulo": "Veja se sua cidade ou estado votou mais em Lula ou em Flávio Bolsonaro",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbk52Vm9rYjBkYzd1T1pXaDl2ZmV4eHBwQms1R3JSalNobGw2S09RRHREemFVbFh2TVhKM19rZXVpaTI4dHQ1QXZKVGZWczdhTFB6Q2JqSTJDNHdYaUNnWGZ3dVp5WFQtaGVadnFDRGEzZ3k3czIydTBkQ1NKa3U0bW1rZ19GaXJtdFJvdFNfLTZjQndBbUJzZUNPRldWc2FHOXlNYjRUYS1FSmxBOVJtdGNqWU5oanNXeUp5Yw?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "publicado": "2026-10-05T02:32:00Z",
+   "coletado": "2026-10-05T04:45:09Z",
+   "rodada": "2026-10-05T04:45:09Z"
+  },
+  {
+   "cand": "flavio-bolsonaro",
+   "titulo": "Flávio Bolsonaro diz após ir ao segundo turno à frente de Lula que Brasil quer 'mudança' e critica 'interferências' do STF",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQmZVcWkyTzNhZHlIMFRHVWVseVZ5UVNKTjBsbUdlV2tlNkZnT3NjdHFQX1V0Vy0xUTUtY2o2UWNqVEFWYjZ0LXF5VXNGMVNKcEItM05Rd2tmeHpSZ005bFFUQ1MwN2lSVXE5Q2RBX2lJeENYOUJNeGtLa3FUdlBuR01INXc0T2wtY2J3NnQteV9td9IBoAFBVV95cUxQQXJOcE5HRWlKWVNzeS1kTThwQUIxNHE2TnA4Rkg4aHNMUUc5aTNjRFRBeXFEdG1IT2liLUE5VklxTnczdDZtSmJfUmhmLUItZ0F4REVqR29WODhxaEVRTDdFT0xqTDdWX3A0RlBKV1ZzNV9XQ2hON2hlZE94S3VtLWM0MlhzRjhabWZtbXhiajdfaEdjU2RsMnFobC1XYkxL?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-05T00:37:29Z",
+   "coletado": "2026-10-05T04:45:09Z",
+   "rodada": "2026-10-05T04:45:09Z"
+  },
+  {
+   "cand": "flavio-bolsonaro",
+   "titulo": "Flávio Bolsonaro ganha nos EUA com o dobro de votos de Lula",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQkUwXzFVMDg1M2dLOGlFN3g5QUtPa2tyMzQ3bGtsdGFSRC1rNEtIWURydVdoYWIwM2MtUzZBa0Z1M3ZvdGJmTkFuUUphT211Vk9fbWM2VU42azRIZk15NWtoZzYwQzNJYm5sZy1ZMHpxaHNGS2VranJtYmNWN05qcHJXOWRGWXdORFpfay1WemxpQ21XODFEM19vUjNRTUZyazRhc0ROcjZxOVFINlE?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "publicado": "2026-10-05T00:47:00Z",
+   "coletado": "2026-10-05T04:45:09Z",
+   "rodada": "2026-10-05T04:45:09Z"
+  },
+  {
+   "cand": "augusto-cury",
+   "titulo": "Augusto Cury é de direita ou de esquerda? Veja o que ele já falou sobre o tema e quantos votos teve",
+   "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQSHBhcmY3djN4aEZKTWR1TDZJR0UyYjNrcEY3OGx0d3NENUx4UDlxcF9yYUdYbHpFQzFGOW5sWU9zVzB4c0pXRjQ3c0t3b1llRnFqcXd0eUg2aktjUDZVUUtoTTE0WHZ5bW5vc2hKcDdmRWVMT0gyNV9LVmd3bUhySDBSMDQtc2NrV3RxT3Vic2luc3cwTkdCd0ZRTWczekMxZ056Ynk1dTBQVmNfSVNiQzdtbnhuMWpxTFZjQk9TUjVmcmxFNG94bDdWOFNOYnRTZ3ZIM2ZyMk9SdGtFTjFpSXVHVVFPTXhhY1llRjhla1Vmc0lHQldJZUlZelp5R01t0gGPAkFVX3lxTFBjaFVDR0piNExTYmdtZnNfWTFlYUV2VGFZZ3RhOEFvNHdlTWFwNElPc0dXdnBRcGRjS1RDTFlKN2ozazVQVEpnbVpKR0tFOTc4UnBWVWZNTHlWNGVBWUNURExRQ204eFNqRXRXaExoVmRTVzBPcHhoMGNJN0RCRTJtRlctNEtac05pZ2NnSmFQN1JHRGstVGx5SXVIMGlPSEdkVkxlX3ByNy1Ib1ZiN1RKXzU0NlRFNDZxelBBN2ZWcnB1LVh3ZWMwbWtUbnNVWTkyLUZjVThOeGhibzN6TmNmeTJEcmVWVDl6QjFDaFp2cmxzY1E1Q3A2VGNVTEdrLXBhVDRyTGtJdzR2bnRpSkE?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-05T00:45:06Z",
+   "coletado": "2026-10-05T04:45:09Z",
+   "rodada": "2026-10-05T04:45:09Z"
+  },
+  {
+   "cand": "augusto-cury",
+   "titulo": "Augusto Cury não apoia Lula nem Flávio e defende fim da polarização após eleição",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYXZ3dUV3LXhlNUtwbFFXdnNVOVQ0UTV5OUIwWjBfTEgybmJqeHlQNVNUSmxXdEdMX2xudkpYR3RKOU1wQ285TDZaTmN0RjNCa0liYkY3TEo0d1FnZHc0YnpGWW9xNzhLSElQYXRKRWpYRWhEU0RNNUxCZVphYjNxVEFqMEJydkNZT0N5c3A2QldocDVOSm82S05FbW5ZVWxTSmgwd3FkRGZNNmk2c3VHQjdMMGltR1hjRllF0gHAAUFVX3lxTE5SZklsYTBITHkwNldaandIOW43TU1VNVJrV0ozNU5xTDlSTWJ0MjJjaVhVWlFseVB0QTA4RjBJYzhONHFHUE9mSXp1UXBNdnlkUjFCS2REZm11M0NaVjhSaDlHcjY2aUItbDdrbHczRjMxa211TEltUUlJbWgxQzRacGUwNnRZNTcxdXJQcWx5aWtiaTdDaVEydm4zZDZoOGlleV94UlUwbUx1Q1N2TGNyVlNoczZaZjMtTE1fZm12Ng?oc=5",
+   "fonte": "InfoMoney",
+   "publicado": "2026-10-05T01:07:03Z",
+   "coletado": "2026-10-05T04:45:09Z",
+   "rodada": "2026-10-05T04:45:09Z"
+  },
+  {
+   "cand": "augusto-cury",
+   "titulo": "Cury não declara apoio no 2º turno e diz que nação 'precisa continuar sonhando’",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNdjA5UjhPRFI5TU9VbElrVGtWOTM5blVWVGpYRXUzLVBNTGhmek5IZ0VMeG9CeGlJT1lmWFg5TGRIMXVOVVYzX0NEN1MxcnNGRFBmVGNWZTR3ZHdyZ0tfb3pSWExhVUoxc25vRmN6OXo1QW9ET29TSDJyQTVLUUFMRmVFWEctRTNCNTRhWUw4RGNzTjhoOXBGQ21IT1pCM1hCSFl6Q2NRSHVVRHNvMTUyMnJNYmZJUHhSMlZiaDRDNGpTWGdzRW42cDRZMWlJVVJ6Q2J6UjVpTGo2VlJOT3Q5NTVDNWHSAfMBQVVfeXFMUC0zeldnTTdKYWItZ2RObFJTTGNTLWhaS2tQNlBuYk9MQXZSN1FZVWI4aUk1VnpJY2RiTFNUVjhfOGRUUnNMQjBySkRLUDl6Sno1aU5qaXVhWmo1UkhMZDNBcTRMRkRaX3JGY0pyeUx2bHdRSjVDUXpFakljRGc4bE9kZWh5SkkxOFA0cmdsQXRDV3VpSlBWclNIZlBJcGpXeWtmS1JrdXNxRDR1c1Znd0wyUlgtcmFlVVZmMDU5VGVIX283d1ZOYl91eVRNaWpzZG94cXNqWEFRTG1VaWs3Nk9OYk9Cc3ZBazd4Wk1TemZ4ZnhJ?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-05T00:29:25Z",
+   "coletado": "2026-10-05T04:45:09Z",
+   "rodada": "2026-10-05T04:45:09Z"
+  },
+  {
+   "cand": "ronaldo-caiado",
+   "titulo": "PSD decide manter neutralidade no 2º turno, e Caiado fala que 'caiu de pé'",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNUhDT2JjM1RrNWtPNVd4NWlKUWNaMjBnR19Ta0VMSjZfODZvd0JxX1cwdmM0X2RGaTNfMElfNVBzV3BuS2VNVVYtNDN2bkdIZ1RtMGV2cUpHY2Nnd19ieUIxRm5rd0RueEgwRjR0RHRiVTVGTmxaaU9IbkdCSkl3YS12Ui1FYnJ5U1pvck8tQkcxSFRyTDkyMzE4QU8wQlZwcVZwdW5DdjZkckFnYTZsdWQtYkJEbTdRRVpZYW5R?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "publicado": "2026-10-05T02:52:00Z",
+   "coletado": "2026-10-05T04:45:09Z",
+   "rodada": "2026-10-05T04:45:09Z"
+  },
+  {
+   "cand": "ronaldo-caiado",
+   "titulo": "PSD de Caiado libera apoio de filiados no 2º turno da disputa à Presidência",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVENYUVlyeVNoVzZZVlFPa2NtNzJhOHZaeXBXcm85YW1NNV91RVlhUnltdGxHeGxrZlBHQ003dkNWMFl0ZEJobVBSY3lxUV84RHFsQ3E5Um5HWl9qNTZScnZDUjV5M094MjJrd210SmZOUzBZd0FzMVFPeFpWb19LclRld3lsVzg5R052ZVppalN0bUVZYTZKUzR0OVdfVkVPeHNqMTFpZDdkUnl2MnlUbg?oc=5",
+   "fonte": "VEJA",
+   "publicado": "2026-10-05T01:34:10Z",
+   "coletado": "2026-10-05T04:45:09Z",
+   "rodada": "2026-10-05T04:45:09Z"
+  },
+  {
+   "cand": "ronaldo-caiado",
+   "titulo": "Caiado diz que discutirá com o partido o apoio no 2º turno das Eleições: 'Não venci, mas caí de pé'",
+   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPQk1ETjF6UFhFWVkxQWFjaUFpdHYzVjVONkdPTzFyaGJsRG40WFFlOGZuTEVUa0toN1dLa2huZTRNN21TdEtrOHdpRW85QVZMX3dnUTJYRVkzSTRuM05ZSlhBYXpHTTlSZ1lmVlh6TFR5OE1Ub1YzcjAxTEQ2Tkk4UGJZa1RGTXdXRmh0Ukpldk9aZlU0QkZoX0ZuNHJmZEFta1EySmhfdXA0TkpQNURFcVJCZmtld1otZ0xFUHZhMXctemRMTnVfTWhSREpFM0xZeW5yLTFYc252dHRfa0ZZWU1CZFZkQUlKQ1VlQkQ3Tnk5dzJYQ3ZV0gGGAkFVX3lxTE9kcTlrMHZuRU1DTGZBcGhXS0k5RmswVlB5ZDNrMkxzUDc1cW9yNUZFSVloN095NDFCRlQ2REl1bTVZbXhNSXNyTXdSSmU4bXBZV0tadGRmd3dzS1pjR0JVOHQzRlp0MWtVODdkVVVhNHpWMVZBOUFIN2drbWFUZ2ExRkp5RU5ZWDBqUExKN3Q1a1BDdGRtVi0xMWg1NjVMMGxnLThtRnJ0eXdNaU1relVrUTJSSHh5b2JFeVM2Vmtrb2liWC1mclZLTWhCUlZMeDlkSUlWb25nM1FzZzNIMTc4cUkxZXFVMGdQNENGdjFZOGFtRVZQc3ZSQlNKYnJlTkVlVzBocGc?oc=5",
+   "fonte": "G1",
+   "publicado": "2026-10-05T00:22:16Z",
+   "coletado": "2026-10-05T04:45:09Z",
+   "rodada": "2026-10-05T04:45:09Z"
+  },
+  {
+   "cand": "renan-santos",
+   "titulo": "Renan Santos, do Missão, diz que esta foi a 'pior eleição desde a redemocratização do país'",
+   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNRGRQYjNlNWpOUmRJZjRZaHRZUVQtTUVyUEJ3YzZEQVRqZ1BRM3lna2tXakh5c2VFZjN1QXVfZUZBWFY5QWFDb19JLTI5N2g4UENhQzFSdzQ4azBPZFdJekNuQkJkX1lJdEdkU2pISy1mOU56MFRTYjRRWFBQdE1wYjVFU3QtZzZpZnpZVGNiUV9zN09PeWhyQ2UwdVF1N1VWZjI4MnRYVGE5dG5KUXl4cExNLV9vdDJKN0V5RHppWktRbEY1X3hXcW9YSnl2dGtPVXhnV1FSTWEzRVRLbDRyNll6QWZqRFRwT3prRmU2amx2d9IBgAJBVV95cUxPLUdid3ViVC1MeTNPeVlmc0MzaXc2TWQ1Qmo1N2pZT2dTT2xtUU5kX3lrWjVIQ0lzaVVqNXFLbDBtMnJtRldCMXJ3RVBrakg0cFctU2FDY3M0YjBIS19tVHJ5WnhaVENWTEdQcEM3NTUxdXh1NUhMTzJzSEdtREFkek9KakpmOC12dzlIRnhiYlZkUlVPeWJYZlZIb1dmcFhjeXhpSUdHMkhMTzVrblZnZEVhcEdxcGM2ZHBMVUxnLXRKUzBxeWRreWF4elVQdF9teG82Qmk2TjRQTlVGbFViTTFwazNoMkJ2elh4SnFCbGZJdk40aS1pdmktUmVtd2Ff?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-04T15:24:28Z",
+   "coletado": "2026-10-05T04:45:09Z",
+   "rodada": "2026-10-05T04:45:09Z"
+  },
+  {
+   "cand": "renan-santos",
+   "titulo": "Renan Santos afirma que Missão só elegerá Kim Kataguiri para a Câmara",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSzBjTW1iMGNTT0xtOGpvbFNOWDBFQzI2Q2pUdDdVQm8wZDdkRVREYVQ2YUdhRWY5STFWV2F5MC1RTlZuZEtHYW5URHN2ZE5VRG4tVDN6UlIwRzFzRXhiMDRXcFJjYm1QN1pWNzJsV1pvUFVnTlhuTmJNSWV1UWxWV0hWSFBHVFlRd1NVaGRaZXhkZFIyTkUwaHZfNnR3ZE1Hd1phdTNKM1FhcVEydXNsakZwNThHVEtWM1gzaE11YXpCWnJ0N0xVRmMzQ0ZQNTjSAc8BQVVfeXFMUEswY01tYjBjU09MbThqb2xTTlgwRUMyNkNqVHQ3VUJvMGQ3ZEVURGFUNmFHYUVmOUkxVldheTAtUU5WbmRLR2FuVERzdmROVURuLVQzelJSMEcxc0V4YjA0V3BSY2JtUDdaVjcybFdab1BVZ05Ybk5iTUlldVFsVldIVkhQR1RZUXdTVWhkWmV4ZGRSMk5FMGh2XzZ0d2RNR3daYXUzSjNRYXFRMnVzbGpGcDU4R1RLVjNYM2hNdWF6QlpydDdMVUZjM0NGUDU4?oc=5",
+   "fonte": "Valor Econômico",
+   "publicado": "2026-10-05T01:54:37Z",
+   "coletado": "2026-10-05T04:45:09Z",
+   "rodada": "2026-10-05T04:45:09Z"
+  },
+  {
+   "cand": "renan-santos",
+   "titulo": "Renan Santos vota em SP e diz que a eleição de 2026 é a ‘mais bizarra de todas’",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVzVZRkdjZ2R4SGdIdDlDZEY3QXA4ZEM4bmFoSmx5M2Q3VHVHQm8ya19EMjBOVnZKd1RCWTRueUxvNVBOVEFtQW9QR1FDZmdKN1d3ZGlocmE3eHFxR2l0ckJqemdadGVEMGpFM3lPdnFtZGZFalk4OERTalJJRFItODMzXzdGLWlHSUxNamdad2NCWjVIalhwTDFPX0JBSzhmS0hkTUtQOFhBaE1qLXBVdUlLYkIzc0dQdGVqbXFpSWfSAcYBQVVfeXFMTWxZTzNjLTFwakZmVEY5aXpSTTQ2YWdONXhPWnRQa2t0cFVBN3h5MmViaXNaZHhpZjlXLVJlQXB5dGo5Ty1tc1VoX0hWQ0R2R2U1VWp5M3JUdnlhSklwZ3d6Zng3NEpCU2xOdVJ4Ym1USzJSY2UxVGExdGstcDlKVWF6Wm1nb0s0OTItMFRycnh0WlpqMDVQMDE0WF9OTDZaY3Fva3p0cHJ2V2hEeXJOT2VfZGpKM2ZHaGpHQUk5aHN2ZXNlWDJ3?oc=5",
+   "fonte": "Estadão",
+   "publicado": "2026-10-04T14:21:44Z",
+   "coletado": "2026-10-05T04:45:09Z",
+   "rodada": "2026-10-05T04:45:09Z"
+  },
+  {
+   "cand": "zema",
+   "titulo": "Zema se diz ‘satisfeito’ com os resultados da eleição",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdWtMT0g1emRFQmJEWlB1T19aa0RKYVlVZmJsYUZCZERhQ3plTmdEODROazFCeEV2QVBTRW4zcjlIZWMzSlVNZGJIc3NxbXRibElFRDRCRFJZdld6aFYxZTNmdDl6NU1XOUJiZ1VpUXFaX0llMDF2eXFYaktBYTkxUF9FZjNmREtQaVRMVWVYdVR1YTBMRXdvMHo4dzQ2Y2ZuOURhNzZuQ3NKS1JJMEVXZWJaMm5tUEs2X25BekpRLXrSAc8BQVVfeXFMTkwyUHl3YnFTMjhnTkFNcFFnU0xDazMyZDNFdVh5N2xYcHVzS3dmLTZxbTRyT1B2T2pWQkNFY0FoUlkydDQzcWVpVTNsRThRbi1SaTQza0Q2cTFnOXJXTHNOTEZFSlZ0am5LdlBtSFpiZlZWdExrTHhaY0RkeVBGOVh2SmhwQlNHY1JZaXVpQVg0YXk2LUYtcmtOVjlycm5xRER5eTVsVFJpamJLbUJJa19aY0UtQnphN1BaNkoxOTIzTGczeWFTRW0ybG1pbkVR?oc=5",
+   "fonte": "Valor Econômico",
+   "publicado": "2026-10-05T01:08:46Z",
+   "coletado": "2026-10-05T04:45:09Z",
+   "rodada": "2026-10-05T04:45:09Z"
+  },
+  {
+   "cand": "zema",
+   "titulo": "Zema deve formalizar apoio a Flávio logo após encerramento de apuração dos votos",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRWFkc3FtSE9UT0duVUItN2d2cWRXeDZvUjd6dk1lTWtTaVVjMF9xTlE1ZFNoY0R3Z2xDQjl1MDJ1NkVTOGxuNzBnMFR6WGJDWlZWQWlyZDJfcFFneEctSS1qSHB6UW9kZU1FaUxKQ1l3Y2pZN3M2ejkzYkNOVkxXR3QwNU9BYzFiZWxfUFRHcWsteFBFTFhRa0xBcTRvQnlFdmh4UHI4SUp2UjB6M1FuZlQzV3QyeGM?oc=5",
+   "fonte": "VEJA",
+   "publicado": "2026-10-04T20:32:27Z",
+   "coletado": "2026-10-05T04:45:09Z",
+   "rodada": "2026-10-05T04:45:09Z"
+  },
+  {
+   "cand": "zema",
+   "titulo": "Zema comemora desempenho da direita e anuncia que estará contra o PT no segundo turno: 'Missão concluída'",
+   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQV254ZjVNNWJBcFdRNTJjNGtLWTdHeHN0R1dUUXotSUxrY2FHYmFzSkNYb3lhWnl1S21yenUzWmdNT2JGR3Uta3RWUXJXY2pqa1BiSWxiby0tUU5SQjI4MmEwUk5rc1NPNlF1WUVISkEybkhLSzZtcF9sWURvOEw2RnBRSXI0UUlXOU54ZWxnWnBkREVJMHk2eEV0a1ZoaGx5bW91OHJYRmFQRFRJN0kxbldLc1VoRjJEdXBrMUVGcEFFQ3U5cUw1QVdDRk5iVTBQMGlSbEExX01aMkg0cE1rY0dEXzNFZHA0d016V1VnNlVUdTU2eWFJYVFlSVFNcnd0Z0VPT2JR0gGUAkFVX3lxTE1lY1RkTE1YMk1qR1hNNDczX1VBSDFCaFNYOEpWR2xBOVRyWGdpWXdiZkRsazFvSmpDU191azVHTlE5TFdaWGwxalR1c2pRejMzSmdQbzFmc1RwbFVIQlFoek9BRGQyOXQydmVaRGpQNDJzSU8xQUdpX1IyZWl3S1g3UU5PZWprNlpWZzhIaTRqV0lvOVhTa2dic2hKM3lHVzByNGU5elhWb2k2NGdtcm9GMlRHa2JCU2RiTTJndnVoNmtLWWFVblZibUEyeE9qZ1JCa2NQdV8zTUhZNnUxWG00U1VPV3FjcV91dXIxeVJxZkx1SV94a3YxWHl2dnFELUw4SVYtaEthTGZEd0tDUVFGQVlkdA?oc=5",
+   "fonte": "O GLOBO",
+   "publicado": "2026-10-05T00:15:18Z",
+   "coletado": "2026-10-05T04:45:09Z",
+   "rodada": "2026-10-05T04:45:09Z"
+  },
+  {
+   "cand": "clariana-barao",
+   "titulo": "Clariana Barão apresenta propostas para seis áreas de governo",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9tTEpXWk5XMUVtS0luTVF2RGJzRW1KTzBkU3o0R0VKUEk0azhYamNfTEtTZHNZa2cyMGphZlZKeEJVWUVmQmJzQ2pHLTgxTFdWQTBwV1N2SFlQNGFL?oc=5",
+   "fonte": "Agência Brasil",
+   "publicado": "2026-10-04T16:37:00Z",
+   "coletado": "2026-10-05T04:45:09Z",
+   "rodada": "2026-10-05T04:45:09Z"
+  },
+  {
+   "cand": "clariana-barao",
+   "titulo": "Barão de Grajaú (MA): veja resultado da apuração da votação para presidente na cidade",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcTRkSUFNOVlqbUdUMTR2U2xVTHk1UlpWaHkzc1lNYThQcVgwYzQ4N3AxVG9URVNXZVlrdkVkMjJSb3B4cl9XQ29zTl9KYUNRUWxtZXk4b0k1R282MjlxQ0RWV1lQd2hHckNXTXFFZ2taclFmeU5Rb2p0eVUzUEtOYUxQSU52ZHRmeWhpTFQ5RENXZnVFNGRB?oc=5",
+   "fonte": "UOL Notícias",
+   "publicado": "2026-10-05T01:13:56Z",
+   "coletado": "2026-10-05T04:45:09Z",
+   "rodada": "2026-10-05T04:45:09Z"
+  },
+  {
+   "cand": "hertz-dias",
+   "titulo": "Antônio Dias (MG): veja resultado da apuração da votação para presidente na cidade",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQejdtaHd4N0hhaHhqb1o5RWM0bFhUcEtYNmkxSkpJdXhlX1paeVl4RXFZZnM0SGhHXzkzLU1JSl9YSXEtWUJIRzlWRFB0MUZRTUZRZko2ZXJORHk1b1ZLWDZpb0F1S1U2OHFSY1pPMUtRWkF1ZENHZFpQYXNQdkNid2hPR05HOHhueG9TZEtveHpQYXc?oc=5",
+   "fonte": "UOL Notícias",
+   "publicado": "2026-10-05T01:48:30Z",
+   "coletado": "2026-10-05T04:45:09Z",
+   "rodada": "2026-10-05T04:45:09Z"
+  },
+  {
+   "cand": "rui-costa-pimenta",
+   "titulo": "Pimenta (MG): veja resultado da apuração da votação para presidente na cidade",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZUtfVGlSajRrVWZhb0F6cE9tMkRvUlgtcEJQcVBPQkY2NDU4SDZoRXVBYUZZTm1tUGpFU3A0U1l6UkVMMjF3YkJscXA2cnU1d1NQakVZazd3Z3F5UTVsbkY5Q0UwMC1GZzc1YTVUN01IQVBacl9pblgwTlNaSE41VTZkUXlfWEFDYUJKNw?oc=5",
+   "fonte": "UOL Notícias",
+   "publicado": "2026-10-05T00:27:48Z",
+   "coletado": "2026-10-05T04:45:09Z",
+   "rodada": "2026-10-05T04:45:09Z"
+  },
+  {
+   "cand": "rui-costa-pimenta",
+   "titulo": "Pimenta Bueno (RO): veja resultado da apuração da votação para presidente na cidade",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMEtwMF9qMlIxdXp5OWp6Z0N6VVdFVS03amN5UjdwVnFiM0U4QXBGZjdlZGY4T2NRZk8zanEwR3Z4dUt2QnZFLUtMMGdvZXJOSVkwVmZRRUY5TmdGRmlWTzhhbXhvUzcwdGI2M3phd1dwOVdBUHY5Y0s1azNKWTVyU2NtcGk5S0d1VFdIS1pvdTYwRG11?oc=5",
+   "fonte": "UOL Notícias",
+   "publicado": "2026-10-05T00:30:09Z",
+   "coletado": "2026-10-05T04:45:09Z",
+   "rodada": "2026-10-05T04:45:09Z"
+  },
+  {
+   "cand": "jorginho-mello",
+   "titulo": "Santa Catarina: Jorginho Mello é reeleito governador",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPcGhTQmFyY0w1czJkYUUxVVE3N2k1Y3FZN2lRaXdwTjIyakJRb1dCXzBIVkRpMlRKRXRsTjFFSktiVjBib1Vvc1NmSHVzMGxlNTlyUnlrWVZHb09zMjJmazJMSFQ2cDNKUEhtenFmUTl3SzJBdHFIU2lCeUlPcl9xbWdsdWdRTThCaDhaN0VfMnhsTlg2bWJaR2k4Wkd3OUt3U1EyVjZEaU5lWkVOeGNNS1hkby1JZnBZR09fcFFJaDl1X1lnQXA0VDl1Y084VjJ2dk81Zm9kaEM?oc=5",
+   "fonte": "Correio do Povo",
+   "publicado": "2026-10-05T01:55:38Z",
+   "coletado": "2026-10-05T04:45:09Z",
+   "rodada": "2026-10-05T04:45:09Z"
+  },
+  {
+   "cand": "jorginho-mello",
+   "titulo": "Jorginho Mello é eleito governador de Santa Catarina",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSnNKYzBzNzdCNmc4bnZPRDAxZExPS1A0WFVaWmZLd05ycU5QN3lUVDNNV3NvQmtOMlZveDRINmoxZjFXZTdPellNU1o2emVSVzJHZzdKSFd6ZXZONlhpeldKZWVwSFl3Y05fQ1l0TUhJYUhQMEJFS0ZwNFRNOWFfcUJiUzlXaWJrUzdnb2hBenZmaFh3YTFpYmVjSGxGVERKSXc?oc=5",
+   "fonte": "band.com.br",
+   "publicado": "2026-10-04T22:21:12Z",
+   "coletado": "2026-10-05T04:45:09Z",
+   "rodada": "2026-10-05T04:45:09Z"
+  },
+  {
+   "cand": "jorginho-mello",
+   "titulo": "Jorginho Mello é reeleito governador de SC no 1º turno",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdjlWbGZwTTd1SkZjVkdHcFY5a1RDc2VrZkdhcjNhTWtyWExnNzFkS0xMTFcwM0NsQjZ0RTBmYWZfM2pnZC0yVzZ6MzZ0MnY5amJ2VmM0Zng0dGRvWWxEZkxkb3pSNlVNeWREbjFkbUFGeFRtTGg2N1BYVGttRTlIdNIBgAFBVV95cUxOdjlWbGZwTTd1SkZjVkdHcFY5a1RDc2VrZkdhcjNhTWtyWExnNzFkS0xMTFcwM0NsQjZ0RTBmYWZfM2pnZC0yVzZ6MzZ0MnY5amJ2VmM0Zng0dGRvWWxEZkxkb3pSNlVNeWREbjFkbUFGeFRtTGg2N1BYVGttRTlIdA?oc=5",
+   "fonte": "InfoMoney",
+   "publicado": "2026-10-04T22:18:24Z",
+   "coletado": "2026-10-05T04:45:09Z",
+   "rodada": "2026-10-05T04:45:09Z"
+  },
+  {
+   "cand": "carol-de-toni",
+   "titulo": "PL elege Carol de Toni e Carlos Bolsonaro em SC",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUjNIMElCUlV0bnV6TmhZV0tfQ0Y3R3I1ZmNjRnNBNGo4R19MbnNrWjQ0OTlLdC01ZHl6MHU1dzY5WWdVU2ZrZmpPRkZFTWpmVU9fMFRyZGtEeWh2dGNLNmpjYVBNNmpHR0JfNmV3dlVpR1phZVZnR2lkc3VUVjlpdHJXSXZsMU04OUV4bGREM3J1cHNzOVFQSC00X0txMUZPNXZaWTFsMkhxVC1CTE5V?oc=5",
+   "fonte": "Jornal do Comércio",
+   "publicado": "2026-10-05T04:28:32Z",
+   "coletado": "2026-10-05T04:45:09Z",
+   "rodada": "2026-10-05T04:45:09Z"
+  },
+  {
+   "cand": "carol-de-toni",
+   "titulo": "Carol de Toni faz história e é eleita senadora mais votada da história de Santa Catarina",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObUppUzZfYV9QSy1mYm5RNmZFRVpzWW1Sck5sc3BnM2tlT2NwcUVyV1AyRndNR0tTS1Rtc3VMRFpwZVZVUlFFYS1IU09JdXRsTDJ1Ny1Ud3JzQ3VJSWxFNzF0WGlacWl3VWxlQ2V4dmtKMm5ONTA5UzNOTlFibV9XX1o1V3ZNTVJHWDhkNzZLZ0Iwa3I2ZkthTklVYVFxMzVUbnJSbkJCVGJ1VGIyd21Xb09RS0FZY2txYXFyYg?oc=5",
+   "fonte": "ND Mais",
+   "publicado": "2026-10-04T23:49:27Z",
+   "coletado": "2026-10-05T04:45:09Z",
+   "rodada": "2026-10-05T04:45:09Z"
+  },
+  {
+   "cand": "carlos-bolsonaro",
+   "titulo": "Antigo aliado é desbancado por filho de Bolsonaro e fica fora do Senado por Santa Catarina",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVmhyZ0ZVQXBFRVhOOW1PWlQxdE1DNkJXbEpPb08wUTJuN2RNcW1UaVNaQTZGTWkyM0R1ZDNaeE9vNWtKU0tKT3Q2Q0hBaXB0ZEFYV21lOWFhYk5peDJiZVJXQklpLW9uS2lGVmpBNXY3ZDdGUzZ6YmViS28yTFh5TmFXLWN5MEFGYVI1OXhWazNyWWk1emJUUGU4ZVhTVHQwNkl0VGdjTk82Wjk1RXo4cmN2TjhjY0pnTXF2UWdMckdqVFlKZkxDRkNiRjFCWndseVHSAdcBQVVfeXFMT18tOFpUc2ZvOGFzRHRxeFhGMkp2aFV1dGJJdGExaDhkR1BSdm4yYVV0VTNyWmd0STk0LWtwcmVCdEwzQkItYXNDTmtFTm11Y1U3ME5OUm9RcHBwbzh0VkRTTlRmY1VPc3AtdC1ibVI2Nno4SEJhWXFaMWJObFNpbWJzc043RDUzVXFhMGZCTGlxbmtMTEtVWE4yQlpwS3c5SzlrTEI5MWRKRWNoZDd2cS1ZZWtqUkxReC1YVTJPSUtOX21fZnVMVGIwMFJUVHJYbXF3V2s0Nms?oc=5",
+   "fonte": "Estadão",
+   "publicado": "2026-10-05T01:00:00Z",
+   "coletado": "2026-10-05T04:45:09Z",
+   "rodada": "2026-10-05T04:45:09Z"
+  },
+  {
+   "cand": "carlos-bolsonaro",
+   "titulo": "Carlos Bolsonaro conquista Senado por SC e afasta rótulo de forasteiro: 'Sempre estive por perto'",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPY2N3N0YyYXhsR3pXa2FfWmZXQzJlNUxHNDF3QlJYWUNrT1ZhNkJueFlQTTg0U2kzcnhzT0N3dXVUY0RfZGtidGFYaXl1LXI4NzRrLWItQnk4bVAyRUFvV1JxeDFId1pVdVdRR25RMFRjdnhzbWJPVnBZWVhiQTZHRnNwZjZEV2RzbFd3ODlTYnpVblJ3c1M1ai1mOFdURGEtODRjWU10MXRKaWlZSDczVVN5Sk10Y2tKVHZvU0pVVTBQY0QxNzhfd29XcTDSAdsBQVVfeXFMTVFSaFVmUnBBSm5HU3VSYnlSTnhPUE5mNnYzNlJ0TGhmWlpya2h1MHBWQ2JpRnBCMlIyUUhrN185eGZwSFRQbGo2SUR1OVJnMU44QlpFNW45NVA5ZXktSm1RRDktalVfUXgtajB2Q2V1Q2JzRFBKYXNVTlRROFBjT3NWZDMwUTA3dnF4bmx6cnNtTWUtUjFDTlR3TjdWdjhsUUtnb2d5Mm54U2pvWGNCVEFTRkh2WnRaLWRRa1hOdUhVNXUwQWNzcnctRHFwUzJvc21YRVhEODZXU084?oc=5",
+   "fonte": "G1",
+   "publicado": "2026-10-05T02:46:18Z",
+   "coletado": "2026-10-05T04:45:09Z",
+   "rodada": "2026-10-05T04:45:09Z"
+  },
+  {
+   "cand": "carlos-bolsonaro",
+   "titulo": "Família Bolsonaro elege Michelle, Carlos, Jair Renan e irmão de Jair em DF, SC e SP",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNLWZSaXZQQlVzT2w0dlNZWVBmNGhzaERSRmVCQU5ENTZLWURaekxiYkJNX3hscDJWVmhhY3czQWI4Vy1EdjVSZ1g1SDljWUI5LWktSEtCYlVZU3RoNlFwUzhIMFJ0cktKRklQUGFzSy0tMU05NXRnQXdmUE9iQzJZeUhtVWN1ejRyYlNySmp2V0lXdjV3N0U4dkZXMW1NR3BKTkFxbHV3MExOQW1mZjBvZngyLUh6U01FZ0FlbkhnMjltYzFZU3J3WVZR?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "publicado": "2026-10-05T01:29:00Z",
+   "coletado": "2026-10-05T04:45:09Z",
+   "rodada": "2026-10-05T04:45:09Z"
   }
  ]
 }
