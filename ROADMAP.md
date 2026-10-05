@@ -19,6 +19,9 @@ As atualizações automáticas rodam em serviços gratuitos do Cloudflare: o Wor
 - [ ] **Tela de edição.** Uma página protegida por senha para cadastrar pesquisa e apoio sem abrir o painel do Cloudflare.
 - [ ] **Notícias por candidato.** `/api/noticias/<uf>` ainda devolve tudo de uma vez; buscar só as do perfil aberto.
 - [ ] **Apagar o KV `eleicoes-2026`**, que ficou sem uso depois da ida para o D1.
+- [x] **Página para todos os estados.** Os 25 estados além de RS e SC têm página com resultado do TSE, 2º turno de governador onde houver, apuração ao vivo e notícias dos finalistas. (5/10)
+- [ ] **Fotos e perfis nos outros estados.** As páginas novas não têm foto, biografia nem propostas; RS e SC continuam sendo os únicos com guia completo.
+- [ ] **Deputados eleitos com mais detalhe.** Hoje a lista dos outros estados traz só os eleitos; faltam suplentes e votação por partido.
 - [ ] **Coleta por cidade sem navegador.** Levar para o Worker (ou para um script) a coleta dos votos por município no TSE, que hoje foi feita à mão. Atenção ao limite de 50 requisições por execução no plano gratuito: são mais de 16 mil arquivos, então a coleta precisa ser fatiada.
 - [ ] **Páginas mais leves.** Tirar as fotos em base64 de `dados.json` (quase 700 KB por estado) e carregar notícias só do candidato aberto.
 - [ ] **Um arquivo só para os presidenciáveis.** Hoje os 12 estão copiados em `rs/dados.json` e `sc/dados.json`.

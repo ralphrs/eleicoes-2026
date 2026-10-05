@@ -1,0 +1,154 @@
+{
+ "rs": [
+  {
+   "id": "lula",
+   "nome": "Lula",
+   "busca": "\"Lula\" segundo turno"
+  },
+  {
+   "id": "flavio-bolsonaro",
+   "nome": "Flávio Bolsonaro",
+   "busca": "\"Flávio Bolsonaro\" segundo turno"
+  },
+  {
+   "id": "zucco",
+   "nome": "Zucco",
+   "busca": "\"Zucco\" governador eleito"
+  },
+  {
+   "id": "sanderson",
+   "nome": "Sanderson",
+   "busca": "\"Sanderson\" senador eleito RS"
+  },
+  {
+   "id": "marcel-van-hattem",
+   "nome": "Marcel van Hattem",
+   "busca": "\"Marcel van Hattem\" senador eleito"
+  }
+ ],
+ "sc": [
+  {
+   "id": "lula",
+   "nome": "Lula",
+   "busca": "\"Lula\" segundo turno"
+  },
+  {
+   "id": "flavio-bolsonaro",
+   "nome": "Flávio Bolsonaro",
+   "busca": "\"Flávio Bolsonaro\" segundo turno"
+  },
+  {
+   "id": "jorginho-mello",
+   "nome": "Jorginho Mello",
+   "busca": "\"Jorginho Mello\" governador"
+  },
+  {
+   "id": "carol-de-toni",
+   "nome": "Carol de Toni",
+   "busca": "\"Carol de Toni\" senadora eleita"
+  },
+  {
+   "id": "carlos-bolsonaro",
+   "nome": "Carlos Bolsonaro",
+   "busca": "\"Carlos Bolsonaro\" senador eleito SC"
+  }
+ ],
+ "ac": [
+  {
+   "id": "mailza-assis",
+   "nome": "Mailza Assis",
+   "busca": "\"Mailza\" governador Acre",
+   "termo": "mailza"
+  },
+  {
+   "id": "alan-rick",
+   "nome": "Alan Rick",
+   "busca": "\"Alan Rick\" governador Acre",
+   "termo": "alan rick"
+  }
+ ],
+ "am": [
+  {
+   "id": "omar-aziz",
+   "nome": "Omar Aziz",
+   "busca": "\"Omar Aziz\" governador Amazonas",
+   "termo": "omar aziz"
+  },
+  {
+   "id": "professora-maria-do-carmo",
+   "nome": "Professora Maria do Carmo",
+   "busca": "\"Maria do Carmo\" governador Amazonas",
+   "termo": "maria do carmo"
+  }
+ ],
+ "df": [
+  {
+   "id": "celina-leao",
+   "nome": "Celina Leão",
+   "busca": "\"Celina\" governador Distrito Federal",
+   "termo": "celina"
+  },
+  {
+   "id": "leandro-grass",
+   "nome": "Leandro Grass",
+   "busca": "\"Grass\" governador Distrito Federal",
+   "termo": "grass"
+  }
+ ],
+ "es": [
+  {
+   "id": "lorenzo-pazolini",
+   "nome": "Lorenzo Pazolini",
+   "busca": "\"Pazolini\" governador Espírito Santo",
+   "termo": "pazolini"
+  },
+  {
+   "id": "ricardo-ferraco",
+   "nome": "Ricardo Ferraço",
+   "busca": "\"Ferraço\" governador Espírito Santo",
+   "termo": "ferraço"
+  }
+ ],
+ "rn": [
+  {
+   "id": "allyson",
+   "nome": "Allyson",
+   "busca": "\"Allyson\" governador Rio Grande do Norte",
+   "termo": "allyson"
+  },
+  {
+   "id": "cadu-de-lula",
+   "nome": "Cadu de Lula",
+   "busca": "\"Cadu\" governador Rio Grande do Norte",
+   "termo": "cadu"
+  }
+ ],
+ "rj": [
+  {
+   "id": "douglas-ruas",
+   "nome": "Douglas Ruas",
+   "busca": "\"Douglas Ruas\" governador Rio de Janeiro",
+   "termo": "douglas ruas"
+  },
+  {
+   "id": "eduardo-paes",
+   "nome": "Eduardo Paes",
+   "busca": "\"Paes\" governador Rio de Janeiro",
+   "termo": "paes"
+  }
+ ],
+ "to": [
+  {
+   "id": "professora-dorinha",
+   "nome": "Professora Dorinha",
+   "busca": "\"Dorinha\" governador Tocantins",
+   "termo": "dorinha"
+  },
+  {
+   "id": "vicentinho-junior",
+   "nome": "Vicentinho Júnior",
+   "busca": "\"Vicentinho\" governador Tocantins",
+   "termo": "vicentinho"
+  }
+ ]
+}

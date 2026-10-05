@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{NOME}} · Eleições 2026</title>
+<meta name="description" content="{{NOME}} nas eleições de 2026: resultado para governador, Senado, presidente e deputados eleitos, com o 2º turno e as últimas notícias.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;700&family=Raleway:wght@700;800&display=swap">
+<style>
+/*TOKENS*/
+/*BASE*/
+.t2 { display: flex; flex-direction: column; gap: var(--space-3); }
+.t2 .topo2 { display: flex; justify-content: space-between; align-items: baseline; gap: 8px 16px; flex-wrap: wrap; }
+.t2 .quando { font: 800 18px/1.2 var(--font-display); letter-spacing: -0.01em; }
+.duelo { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: var(--space-3); }
+.fin { border: 1px solid var(--linha); border-radius: var(--radius-lg); padding: var(--space-3); background: var(--papel); display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+.fin strong { font: 800 19px/24px var(--font-display); letter-spacing: -0.01em; overflow-wrap: anywhere; }
+.fin .sub { font-size: 12.5px; color: var(--tinta-suave); }
+.fin .num { font-size: 13px; color: var(--tinta-suave); }
+.fin .num b { font: 700 14px var(--font-mono); color: var(--tinta); font-variant-numeric: tabular-nums; }
+.fin .vivo b { font-size: 20px; }
+.deps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 0 var(--space-6); }
+.deps li { display: grid; grid-template-columns: 24px minmax(0, 1fr) auto; gap: 8px; align-items: baseline; padding-block: 7px; border-top: 1px solid var(--linha); font-size: 14px; }
+.deps .r { font: 400 11px var(--font-mono); color: var(--tinta-suave); text-align: right; }
+.deps small { color: var(--tinta-suave); margin-left: 6px; }
+.deps .v { font: 500 12.5px var(--font-mono); font-variant-numeric: tabular-nums; }
+.item { padding-block: 10px; border-top: 1px solid var(--linha); display: flex; flex-direction: column; gap: 3px; }
+.item:first-child { border-top: 0; }
+.item a { font-weight: 600; color: var(--tinta); text-decoration: none; overflow-wrap: anywhere; }
+.item a:hover { text-decoration: underline; }
+.item .meta { font: 400 12px/16px var(--font-mono); color: var(--tinta-suave); }
+select.cx { max-width: 100%; }
+</style>
+</head>
+<body>
+<div class="bandeirola" aria-hidden="true"></div>
+<div class="wrap">
+  <header>
+    <div class="topo">
+      <h1>{{NOME}} <em>2026</em></h1>
+      <nav class="links" aria-label="Outras páginas"><a class="btn" href="../">Início</a><a class="btn" href="../resultados/#{{UF}}">Mapa por cidade</a><select class="cx" id="troca" aria-label="Trocar de estado"></select></nav>
+    </div>
+    <p class="lede" id="intro"></p>
+  </header>
+  <main id="main"><p class="lede">Carregando…</p></main>
+  <footer>
+    <span>Votos e situação dos candidatos: <a href="https://resultados.tse.jus.br/oficial/app/index.html" rel="noopener">TSE, resultado oficial do 1º turno</a>. Campo político pelo partido, segundo <a href="https://www.scielo.br/j/dados/a/zzyM3gzHD4P45WWdytXjZWg/?lang=pt" rel="noopener">Bolognesi, Ribeiro e Codato (2023)</a>; os critérios estão na <a href="../resultados/">página de resultados</a>.</span>
+    <span>Página informativa, sem vínculo com partido ou campanha. Confira sempre a fonte oficial.</span>
+  </footer>
+</div>
+<script>
+(async () => {
+const $ = (id) => document.getElementById(id);
+const el = (t, a = {}, ...k) => { const e = document.createElement(t); for (const [n, v] of Object.entries(a)) { if (v == null || v === false) continue; if (n.startsWith("on")) e.addEventListener(n.slice(2), v); else e.setAttribute(n, v === true ? "" : v); } const poe = (x) => { if (x == null || x === false) return; if (Array.isArray(x)) x.forEach(poe); else e.append(x.nodeType ? x : String(x)); }; k.forEach(poe); return e; };
+const mil = (n) => Math.round(n).toLocaleString("pt-BR");
+const pc = (x, d = 2) => (isFinite(x) ? x.toLocaleString("pt-BR", { minimumFractionDigits: d, maximumFractionDigits: d }) : "–") + "%";
+const UF = "{{UF}}";
+let E;
+try { const r = await fetch("estado.json?v=/*VER*/"); if (!r.ok) throw 0; E = await r.json(); } catch (e) { $("main").textContent = "Não foi possível carregar os dados agora. Recarregue a página em alguns minutos."; return; }
+const BLOCOS = { esq: ["Esquerda", "var(--espectro-esquerda)"], cen: ["Centro", "var(--espectro-centro)"], dir: ["Direita", "var(--espectro-direita)"], nc: ["Sem classificação", "var(--linha-forte)"] };
+const chaveP = (s) => String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z]/g, "");
+const bloco = (campo) => !campo ? "nc" : campo.includes("esquerda") ? "esq" : campo.includes("direita") ? "dir" : campo === "centro" ? "cen" : "nc";
+const blocoP = (sg) => bloco(E.campo[chaveP(sg)]);
+const selo = (b) => el("span", { class: "selo selo--campo", style: "--c:" + BLOCOS[b][1] }, BLOCOS[b][0]);
+const SIMULAR = /[?&]simular\b/.test(location.search);
+const T2 = E.t2; // { data, dataTexto }
+const dias = () => { const [a, m, d] = T2.data.split("-").map(Number), h = new Date(); h.setHours(0, 0, 0, 0); return Math.round((new Date(a, m - 1, d) - h) / 864e5); };
+const quando = () => { const d = dias(); return T2.dataTexto + (d > 1 ? ` · faltam ${d} dias` : d === 1 ? " · é amanhã" : d === 0 ? " · é hoje" : ""); };
+let AP = null; // apuração do 2º turno
+const naJanela = () => SIMULAR || (Date.now() >= new Date(T2.data + "T17:00:00-03:00").getTime() && Date.now() <= new Date(T2.data + "T17:00:00-03:00").getTime() + 3 * 864e5);
+const buscaAp = async () => { if (!naJanela()) return false; try { const r = await fetch("/api/apuracao/" + UF + (SIMULAR ? "?teste=1" : ""), { cache: "no-store" }); if (r.ok && (r.headers.get("content-type") || "").includes("json")) { const j = await r.json(); if (j && j.resultado && JSON.stringify(j.resultado) !== JSON.stringify(AP)) { AP = j.resultado; return true; } } } catch (e) {} return false; };
+
+// troca de estado
+const troca = $("troca"); troca.replaceChildren(...E.ufs.map(([sg, nome]) => el("option", { value: sg, selected: sg === UF }, nome))); troca.onchange = () => { location.href = "../" + troca.value + "/"; };
+$("intro").textContent = `Resultado oficial do 1º turno em ${E.nome}, com ${E.secoes}% das seções totalizadas. ${mil(E.e)} eleitores, comparecimento de ${pc(E.cp / E.e * 100, 1)}.`;
+
+function barras(lista, vv, max, campoDe) {
+  const box = el("div", {});
+  lista.slice(0, max).forEach((c) => { const b = campoDe(c), p = vv ? c[3] / vv * 100 : 0;
+    box.append(el("div", { class: "lin" }, el("span", { class: "nm" }, c[1], el("small", {}, c[2] + " · " + c[0]), selo(b), c[5] && c[5] !== "Não eleito" ? el("span", { class: "selo" }, c[5]) : null), el("span", { class: "vl" }, pc(p), el("small", {}, mil(c[3]))), el("span", { class: "tr" }, el("span", { style: `width:${Math.min(100, p)}%;background:${BLOCOS[b][1]}` })))); });
+  if (lista.length > max) box.append(el("p", { class: "nota" }, `Outros ${lista.length - max} candidatos somam ${pc(lista.slice(max).reduce((s, c) => s + c[3], 0) / (vv || 1) * 100)}.`));
+  return box;
+}
+function quadroPres() {
+  const fin = ["22", "13"].map((n) => E.pres.l.find((c) => c[0] === n));
+  const ap = AP && AP.pres;
+  return el("div", { class: "cartao t2" },
+    el("div", { class: "topo2" }, el("span", { class: "rot" }, "2º turno · presidente"), el("span", { class: "quando" }, ap ? "Apuração: " + ap.secoes + "% das seções" : quando())),
+    el("div", { class: "duelo" }, fin.map((c) => el("div", { class: "fin" }, el("strong", {}, c[1]), el("span", { class: "sub" }, c[2] + " · " + c[0]),
+      ap && ap.br[c[0]] ? el("span", { class: "num vivo" }, el("b", {}, ap.br[c[0]].p + "%"), " no país", ap.uf && ap.uf[c[0]] ? ` · ${ap.uf[c[0]].p}% aqui` : "") : null,
+      el("span", { class: "num" }, el("b", {}, pc(c[3] / E.pres.vv * 100)), " no estado, 1º turno"), el("span", { class: "num" }, el("b", {}, c[4] + "%"), " no país, 1º turno")))),
+    el("p", { class: "nota" }, AP && AP.simulado ? "SIMULAÇÃO para testar a tela: os números do 2º turno aqui são inventados. " : "", ap ? `Apuração do TSE atualizada em ${ap.atualizado}. Percentuais sobre votos válidos.` : "Percentuais do 1º turno, sobre votos válidos."));
+}
+function quadroGov() {
+  const g = E.g.l, fin = g.filter((c) => c[5] === "2º turno");
+  if (fin.length !== 2) { const v = g.find((c) => c[5] === "Eleito"); return v ? el("div", { class: "cartao t2" }, el("div", { class: "topo2" }, el("span", { class: "rot" }, "Governador · decidido no 1º turno"), el("span", { class: "quando" }, `${v[1]} (${v[2]}) eleito com ${v[4]}%`))) : null; }
+  const ap = AP && AP.gov;
+  const vivo = (c, i) => ap ? (ap.cands && ap.cands[c[0]] ? ap.cands[c[0]].p : ap.ordem ? ap.ordem[i] : null) : null;
+  return el("div", { class: "cartao t2" },
+    el("div", { class: "topo2" }, el("span", { class: "rot" }, "2º turno · governador"), el("span", { class: "quando" }, ap ? "Apuração: " + ap.secoes + "% das seções" : quando())),
+    el("div", { class: "duelo" }, fin.map((c, i) => el("div", { class: "fin" }, el("strong", {}, c[1]), el("span", { class: "sub" }, c[2] + " · " + c[0], " ", selo(blocoP(c[2]))),
+      vivo(c, i) ? el("span", { class: "num vivo" }, el("b", {}, vivo(c, i) + "%"), " no 2º turno", ap.cands && ap.cands[c[0]] && ap.cands[c[0]].st === "Eleito" ? el("span", { class: "selo" }, "Eleito") : null) : null,
+      el("span", { class: "num" }, el("b", {}, c[4] + "%"), " no 1º turno")))),
+    el("p", { class: "nota" }, AP && AP.simulado ? "SIMULAÇÃO para testar a tela: os números do 2º turno aqui são inventados. " : "", ap ? `Apuração do TSE atualizada em ${ap.atualizado}.` : "Os dois mais votados do 1º turno disputam o governo no mesmo dia do 2º turno para presidente."));
+}
+function deps(titulo, lista, vagas) {
+  return el("section", { class: "sec" }, el("h2", {}, titulo), el("p", { class: "lede" }, `Os ${lista.length} eleitos, em ordem de votos.` + (vagas && vagas !== lista.length ? ` São ${vagas} vagas.` : "")),
+    el("ol", { class: "deps" }, lista.map((c, i) => el("li", {}, el("span", { class: "r" }, i + 1), el("span", {}, c[1], el("small", {}, c[2] + " · " + c[0])), el("span", { class: "v" }, mil(c[3]))))));
+}
+let NOT = null;
+function noticiasEl() {
+  if (!NOT || !NOT.length) return null;
+  const nomes = { lula: "Lula", "flavio-bolsonaro": "Flávio Bolsonaro" }; (E.finalistasGov || []).forEach((f) => { nomes[f.id] = f.nome; });
+  const rel = (iso) => { const m = Math.max(1, Math.round((Date.now() - new Date(iso).getTime()) / 60000)); return m < 60 ? `há ${m} min` : m < 1440 ? `há ${Math.round(m / 60)} h` : `há ${Math.round(m / 1440)} d`; };
+  const ord = NOT.slice().sort((a, b) => String(b.publicado || b.coletado).localeCompare(String(a.publicado || a.coletado)));
+  const locais = ord.filter((n) => !(n.cand in { lula: 1, "flavio-bolsonaro": 1 })), nac = ord.filter((n) => n.cand in { lula: 1, "flavio-bolsonaro": 1 });
+  const lista = (arr) => el("div", { class: "cartao" }, arr.map((n) => el("div", { class: "item" }, el("a", { href: n.url, rel: "noopener", target: "_blank" }, n.titulo), el("span", { class: "meta" }, [nomes[n.cand] || n.cand, n.fonte, rel(n.publicado || n.coletado)].filter(Boolean).join(" · ")))));
+  return el("section", { class: "sec" }, el("h2", {}, "Últimas notícias do 2º turno"), el("p", { class: "lede" }, "Coleta automática, de hora em hora, só de veículos conhecidos."),
+    el("div", { class: "grade2" }, locais.length ? el("div", { class: "sec" }, el("h3", {}, "Governo do estado"), lista(locais.slice(0, 10))) : null, nac.length ? el("div", { class: "sec" }, el("h3", {}, "Presidência"), lista(nac.slice(0, 10))) : null));
+}
+function render() {
+  $("main").replaceChildren(el("div", { style: "display:flex;flex-direction:column;gap:var(--space-8)" },
+    el("div", { class: "grade2" }, quadroGov(), quadroPres()),
+    el("div", { class: "grade2" },
+      el("div", { class: "cartao" }, el("div", {}, el("div", { class: "rot" }, "1º turno"), el("h2", {}, "Governador")), barras(E.g.l, E.g.vv, 6, (c) => blocoP(c[2]))),
+      el("div", { class: "cartao" }, el("div", {}, el("div", { class: "rot" }, "1º turno · duas vagas"), el("h2", {}, "Senado")), barras(E.s.l, E.s.vv, 6, (c) => blocoP(c[2])), el("p", { class: "nota" }, "Cada eleitor votou em dois nomes; os percentuais são sobre o total de votos válidos dados aos candidatos.")),
+      el("div", { class: "cartao" }, el("div", {}, el("div", { class: "rot" }, "1º turno · votos no estado"), el("h2", {}, "Presidente")), barras(E.pres.l.slice().sort((a, b) => b[3] - a[3]).map((c) => [c[0], c[1], c[2], c[3], null, c[5]]), E.pres.vv, 6, (c) => bloco(E.pres.l.find((x) => x[0] === c[0])[6])))),
+    noticiasEl(),
+    deps("Deputados federais eleitos", E.fed, E.fed.length),
+    deps(E.cargoEst + " eleitos", E.est, E.est.length)));
+}
+render();
+if (await buscaAp()) render();
+if (naJanela()) setInterval(async () => { if (await buscaAp()) render(); }, 60000);
+try { const r = await fetch("/api/noticias/" + UF, { cache: "no-store" }); if (r.ok && (r.headers.get("content-type") || "").includes("json")) { NOT = (await r.json()).itens || []; render(); } } catch (e) {}
+})();
+</script>
+</body>
+</html>

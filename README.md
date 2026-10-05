@@ -13,7 +13,7 @@ O endereço `eleicoes-2026.ralph-renato.workers.dev` roda no Cloudflare Workers,
 - **Banco**: um D1 chamado `eleicoes-2026`, com a tabela `noticias` e a tabela `config` (chave e valor em JSON).
 - **Notícias**: o cron do Worker roda a coleta de hora em hora e grava no banco. As páginas leem `/api/noticias/rs` e `/api/noticias/sc`, que devolvem a seleção do semestre e os últimos sete dias. `/api/noticias/atualizar` roda a coleta na hora, se a última tiver mais de 50 minutos.
 - **2º turno**: data, finalistas, pesquisas e apoios ficam na linha `segundo-turno` da tabela `config` e saem por `/api/segundo-turno`. Para cadastrar uma pesquisa ou um apoio basta alterar essa linha no painel do D1; não precisa publicar de novo. O `segundo-turno.json` do repositório fica como reserva.
-- **Apuração do 2º turno**: `/api/apuracao` consulta o TSE na hora e guarda a resposta por um minuto. No dia 25, a partir das 17h, as páginas dos estados chamam essa rota a cada minuto. Para ensaiar a tela, abra `/rs/?simular`.
+- **Apuração do 2º turno**: `/api/apuracao` (RS e SC) e `/api/apuracao/<uf>` (demais estados, com governador onde há 2º turno: AC, AM, DF, ES, RJ, RN e TO) consultam o TSE na hora e guarda a resposta por um minuto. No dia 25, a partir das 17h, as páginas dos estados chamam essa rota a cada minuto. Para ensaiar a tela, abra `/rs/?simular`.
 
 No GitHub Pages essas rotas não existem: as notícias e os dados do 2º turno ficam parados no que está no repositório e a apuração depende do workflow `resultados.yml`.
 
@@ -26,6 +26,7 @@ O que falta fazer está em `ROADMAP.md`.
 - `rs/dados.json` e `sc/dados.json`: candidatos, pesquisas, perfis, propostas e fotos.
 - `rs/resultados.json` e `sc/resultados.json`: resultado oficial do 1º turno (TSE), por cargo e número de urna.
 - `resultados/`: página de resultados de todos os estados, com mapa, do país até a cidade. `br.json` traz o país e os estados, cada `<uf>.json` as cidades do estado, `geo/` os mapas e `cidades.json` a lista usada na busca. Tudo é gerado por `python3 scripts/gerar_resultados.py` a partir de `fontes/` (votos por cidade do TSE em 2026, votos para presidente em 2022 e bancada atual da Câmara) e do modelo `src/resultados.html`. Não edite `resultados/index.html` na mão.
+- `<uf>/` (os 25 estados além de RS e SC): página do estado com governador, Senado, presidente e deputados eleitos, mais o 2º turno e as notícias. `index.html` e `estado.json` são gerados por `python3 scripts/gerar_estados.py` a partir de `fontes/` e do modelo `src/estado.html`; o mesmo script gera `estados.json` (lista da home) e `noticias-candidatos.json` (quem a coleta de notícias acompanha em cada estado).
 - `segundo-turno.json`: data, finalistas, pesquisas e apoios do 2º turno. Vale para os dois estados.
 - `rs/noticias.json` e `sc/noticias.json`: as notícias que cada página carrega. Itens com `"destaque": true` são a seleção fixa do semestre.
 - `rs/candidatos.json` e `sc/candidatos.json`: quem a coleta de notícias acompanha e com que busca. Hoje são os dois finalistas e os eleitos para governo e Senado.
