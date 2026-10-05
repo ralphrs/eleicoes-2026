@@ -1,7 +1,27 @@
 {
   "data": "2026-10-25",
   "dataTexto": "domingo, 25 de outubro",
-  "finalistas": ["flavio-bolsonaro", "lula"],
+  "finalistas": [
+    "flavio-bolsonaro",
+    "lula"
+  ],
   "pesquisas": [],
-  "apoios": {}
+  "apoios": {
+    "augusto-cury": {
+      "texto": "Disse em 4 de outubro que não vai apoiar nenhum dos dois finalistas.",
+      "fonte": "https://midiamax.com.br/brasil/2026/cury-caiado-renan-santos-nao-declaram-apoio-2-turno-zema-vai-contra-pt/"
+    },
+    "ronaldo-caiado": {
+      "texto": "Até 5 de outubro não tinha declarado apoio. Disse que só se posiciona depois de conversar com Gilberto Kassab, presidente do PSD.",
+      "fonte": "https://midiamax.com.br/brasil/2026/cury-caiado-renan-santos-nao-declaram-apoio-2-turno-zema-vai-contra-pt/"
+    },
+    "renan-santos": {
+      "texto": "Anunciou em 4 de outubro que não apoia nenhum dos dois e liberou os militantes do Missão para decidir.",
+      "fonte": "https://www.gazetadopovo.com.br/eleicoes/2026/renan-santos-preve-vitoria-de-flavio-e-diz-que-nao-apoiara-ninguem-no-2o-turno/"
+    },
+    "zema": {
+      "texto": "Na noite de 4 de outubro disse que ficará contra o PT, o que foi lido como indicação de apoio a Flávio Bolsonaro. Não houve declaração formal de apoio.",
+      "fonte": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/10/4/zema-indica-apoio-a-flavio-bolsonaro-no-segundo-turno-da-eleicao-presidencial"
+    }
+  }
 }
