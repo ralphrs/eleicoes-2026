@@ -268,6 +268,8 @@ const pega = async (u, opcional) => { try { const r = await fetch(u + "?v=" + Ma
 let D, R, T2;
 try { [D, R, T2] = await Promise.all([pega("dados.json"), pega("resultados.json", true), pega("../segundo-turno.json", true)]); }
 catch (e) { document.getElementById("main").textContent = "Não foi possível carregar os dados agora. Recarregue a página em alguns minutos."; return; }
+// No Cloudflare existe a rota /api/apuracao, que consulta o TSE na hora. No GitHub Pages ela não existe e nada muda.
+if (T2 && !T2.resultado && new Date() >= new Date(T2.data + "T17:00:00-03:00")) { try { const r = await fetch("/api/apuracao"); if (r.ok && (r.headers.get("content-type") || "").includes("json")) { const j = await r.json(); if (j && j.resultado) T2.resultado = j.resultado; } } catch (e) {} }
 const nauf = () => (D.cfg.uf === "RS" ? "no " : "em ") + D.cfg.uf;
 const resDe = (c) => !R ? null : c.cargo === "presidente" ? R.presidente.br[c.num] : (R[c.cargo] || {})[c.num];
 const num = (p) => parseFloat(String(p).replace(",", "."));

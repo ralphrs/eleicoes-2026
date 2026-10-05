@@ -1,0 +1,16 @@
+.git
+.github
+.gitignore
+.assetsignore
+.nojekyll
+.ultima-rodada
+fontes
+scripts
+src
+worker
+node_modules
+README.md
+wrangler.jsonc
+package.json
+package-lock.json
+.wrangler

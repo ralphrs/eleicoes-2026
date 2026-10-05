@@ -6,6 +6,12 @@ Guia do eleitor das eleições de 2026, agora voltado ao segundo turno para pres
 
 Em **Settings → Pages**, escolha **Deploy from a branch**, branch `main`, pasta `/ (root)`. O site fica em `https://ralphrs.github.io/eleicoes-2026/`.
 
+## Cloudflare (opcional)
+
+O repositório também está pronto para rodar no Cloudflare Workers, com os mesmos arquivos. `wrangler.jsonc` publica a raiz como site estático (o que está em `.assetsignore` fica de fora) e `worker/index.js` acrescenta a rota `/api/apuracao`, que consulta o TSE na hora e guarda a resposta por um minuto. No dia do 2º turno, a partir das 17h, as páginas dos estados chamam essa rota; no GitHub Pages ela não existe e vale o `segundo-turno.json`.
+
+Para ligar: no painel do Cloudflare, **Workers & Pages → Create → Import a repository**, escolha este repositório e mantenha o comando de deploy `npx wrangler deploy`. Cada push na `main` publica de novo.
+
 ## Estrutura
 
 - `index.html`: escolha do estado e quadro do 2º turno.
