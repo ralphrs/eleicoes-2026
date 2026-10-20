@@ -12,7 +12,7 @@ const BASE = "https://resultados.tse.jus.br/oficial";
 const DATA_2T = "25/10/2026";
 const ELE_PRES_2T = "6258", ELE_GOV_2T = "6260";
 // estados com 2º turno para governador
-const UFS_GOV_2T = ["ac", "am", "df", "es", "rj", "rn", "to"];
+const UFS_GOV_2T = ["ac", "am", "df", "es", "rn", "to"]; // RJ saiu: Douglas Ruas eleito após a retotalização de 10/10
 const TODAS_UFS = "ac al ap am ba ce df es go ma mt ms mg pa pb pr pe pi rj rn rs ro rr sc sp se to".split(" ");
 
 const baixar = async (url) => {

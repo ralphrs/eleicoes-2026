@@ -1,0 +1,10 @@
+{
+  "gov": {
+    "rj": {
+      "anulados": ["10"],
+      "situacao": {"22": "Eleito", "55": "Não eleito"},
+      "nota": "O TSE indeferiu a candidatura de Garotinho e anulou os 274.411 votos dele em 8 de outubro. O TRE-RJ refez a totalização e, em 15 de outubro, proclamou Douglas Ruas eleito no 1º turno, com 50,88% dos votos válidos. O PSD pediu ao STF a suspensão da decisão; até 19 de outubro o ministro Cristiano Zanin tinha pedido informações ao TSE, sem decidir o pedido.",
+      "fontes": ["https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/tre-rj-proclama-douglas-ruas-eleito-para-o-governo-do-rio-de-janeiro", "https://jovempan.com.br/politica/zanin-da-cinco-dias-para-tse-explicar-anulacao-de-votos-de-garotinho-no-rj"]
+    }
+  }
+}

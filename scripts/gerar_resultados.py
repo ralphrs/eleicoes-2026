@@ -12,6 +12,7 @@ from pathlib import Path
 
 R = Path(__file__).resolve().parent.parent
 bruto = json.loads((R / "fontes/tse-2026-cidades.json").read_text(encoding="utf-8"))
+import sys; sys.path.insert(0, str(R / "scripts")); import correcoes; correcoes.aplicar(bruto)
 b22 = json.loads((R / "fontes/tse-2022-presidente.json").read_text(encoding="utf-8"))
 guia = json.loads((R / "rs/dados.json").read_text(encoding="utf-8"))
 res_rs = json.loads((R / "rs/resultados.json").read_text(encoding="utf-8"))

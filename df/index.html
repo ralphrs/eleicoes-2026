@@ -150,6 +150,7 @@ select.cx { max-width: 100%; }
     </div>
     <p class="lede" id="intro"></p>
   </header>
+  <div id="t2-pesquisas"></div>
   <main id="main"><p class="lede">Carregando…</p></main>
   <footer>
     <span>Votos e situação dos candidatos: <a href="https://resultados.tse.jus.br/oficial/app/index.html" rel="noopener">TSE, resultado oficial do 1º turno</a>. Campo político pelo partido, segundo <a href="https://www.scielo.br/j/dados/a/zzyM3gzHD4P45WWdytXjZWg/?lang=pt" rel="noopener">Bolognesi, Ribeiro e Codato (2023)</a>; os critérios estão na <a href="../resultados/">página de resultados</a>.</span>
@@ -164,7 +165,7 @@ const mil = (n) => Math.round(n).toLocaleString("pt-BR");
 const pc = (x, d = 2) => (isFinite(x) ? x.toLocaleString("pt-BR", { minimumFractionDigits: d, maximumFractionDigits: d }) : "–") + "%";
 const UF = "df";
 let E;
-try { const r = await fetch("estado.json?v=20261005"); if (!r.ok) throw 0; E = await r.json(); } catch (e) { $("main").textContent = "Não foi possível carregar os dados agora. Recarregue a página em alguns minutos."; return; }
+try { const r = await fetch("estado.json?v=20261020"); if (!r.ok) throw 0; E = await r.json(); } catch (e) { $("main").textContent = "Não foi possível carregar os dados agora. Recarregue a página em alguns minutos."; return; }
 const BLOCOS = { esq: ["Esquerda", "var(--espectro-esquerda)"], cen: ["Centro", "var(--espectro-centro)"], dir: ["Direita", "var(--espectro-direita)"], nc: ["Sem classificação", "var(--linha-forte)"] };
 const chaveP = (s) => String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z]/g, "");
 const bloco = (campo) => !campo ? "nc" : campo.includes("esquerda") ? "esq" : campo.includes("direita") ? "dir" : campo === "centro" ? "cen" : "nc";
@@ -201,7 +202,7 @@ function quadroPres() {
 }
 function quadroGov() {
   const g = E.g.l, fin = g.filter((c) => c[5] === "2º turno");
-  if (fin.length !== 2) { const v = g.find((c) => c[5] === "Eleito"); return v ? el("div", { class: "cartao t2" }, el("div", { class: "topo2" }, el("span", { class: "rot" }, "Governador · decidido no 1º turno"), el("span", { class: "quando" }, `${v[1]} (${v[2]}) eleito com ${v[4]}%`))) : null; }
+  if (fin.length !== 2) { const v = g.find((c) => c[5] === "Eleito"); return v ? el("div", { class: "cartao t2" }, el("div", { class: "topo2" }, el("span", { class: "rot" }, "Governador · decidido no 1º turno"), el("span", { class: "quando" }, `${v[1]} (${v[2]}) eleito com ${v[4]}%`)), E.g.nota ? el("p", { class: "nota" }, E.g.nota, " ", (E.g.fontes || []).map((u, i) => [i ? " · " : "", el("a", { href: u, rel: "noopener", target: "_blank" }, "fonte " + (i + 1))])) : null) : null; }
   const ap = AP && AP.gov;
   const vivo = (c, i) => ap ? (ap.cands && ap.cands[c[0]] ? ap.cands[c[0]].p : ap.ordem ? ap.ordem[i] : null) : null;
   return el("div", { class: "cartao t2" },
@@ -226,9 +227,11 @@ function noticiasEl() {
   return el("section", { class: "sec" }, el("h2", {}, "Últimas notícias do 2º turno"), el("p", { class: "lede" }, "Coleta automática, de hora em hora, só de veículos conhecidos."),
     el("div", { class: "grade2" }, locais.length ? el("div", { class: "sec" }, el("h3", {}, "Governo do estado"), lista(locais.slice(0, 10))) : null, nac.length ? el("div", { class: "sec" }, el("h3", {}, "Presidência"), lista(nac.slice(0, 10))) : null));
 }
+const T2P = document.getElementById("t2-pesquisas");
 function render() {
   $("main").replaceChildren(el("div", { style: "display:flex;flex-direction:column;gap:var(--space-8)" },
     el("div", { class: "grade2" }, quadroGov(), quadroPres()),
+    T2P,
     el("div", { class: "grade2" },
       el("div", { class: "cartao" }, el("div", {}, el("div", { class: "rot" }, "1º turno"), el("h2", {}, "Governador")), barras(E.g.l, E.g.vv, 6, (c) => blocoP(c[2]))),
       el("div", { class: "cartao" }, el("div", {}, el("div", { class: "rot" }, "1º turno · duas vagas"), el("h2", {}, "Senado")), barras(E.s.l, E.s.vv, 6, (c) => blocoP(c[2])), el("p", { class: "nota" }, "Cada eleitor votou em dois nomes; os percentuais são sobre o total de votos válidos dados aos candidatos.")),
@@ -243,5 +246,6 @@ if (naJanela()) setInterval(async () => { if (await buscaAp()) render(); }, 6000
 try { const r = await fetch("/api/noticias/" + UF, { cache: "no-store" }); if (r.ok && (r.headers.get("content-type") || "").includes("json")) { NOT = (await r.json()).itens || []; render(); } } catch (e) {}
 })();
 </script>
+<script src="../t2.js"></script>
 </body>
 </html>

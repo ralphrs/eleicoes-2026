@@ -8,6 +8,9 @@ As atualizações automáticas rodam em serviços gratuitos do Cloudflare: o Wor
 
 - [x] **Ensaiar a apuração na tela.** `?simular` no endereço das páginas de RS e SC mostra o quadro do 2º turno com números inventados, vindos de `/api/apuracao?teste=1`. (5/10)
 - [x] **Atualizar a apuração sem recarregar.** No dia 25, a partir das 17h, o quadro busca a apuração de novo a cada minuto. (5/10)
+- [x] **Painel das pesquisas do 2º turno.** Média das últimas pesquisas de cada instituto, gráfico da série e tabela com as 17 pesquisas, na home e nas páginas dos estados. (20/10)
+- [x] **RJ sem 2º turno para governador.** Votos de Garotinho anulados e Douglas Ruas proclamado no 1º turno; a ação do PSD no STF segue pendente. (20/10)
+- [ ] **Pesquisas de 2º turno para governador** nos seis estados que ainda decidem (AC, AM, DF, ES, RN e TO).
 - [ ] **Teste real da apuração.** Abrir `/api/apuracao` quando o TSE publicar a eleição do 2º turno e conferir se o código é encontrado e os números batem com o site do TSE.
 - [ ] **Mapa do 2º turno na página de resultados.** Hoje ela só tem o 1º turno. Precisa da coleta por cidade rodando sozinha (item "Coleta por cidade sem navegador").
 - [ ] **Home sem números escritos à mão.** Os percentuais de Flávio e Lula devem vir de `resultados/br.json`.

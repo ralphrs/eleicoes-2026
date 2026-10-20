@@ -11,6 +11,7 @@ from pathlib import Path
 
 R = Path(__file__).resolve().parent.parent
 bruto = json.loads((R / "fontes/tse-2026-cidades.json").read_text(encoding="utf-8"))
+import sys; sys.path.insert(0, str(R / "scripts")); import correcoes; correcoes.aplicar(bruto)
 est = json.loads((R / "fontes/tse-2026-estaduais-eleitos.json").read_text(encoding="utf-8"))["est"]
 BR = json.loads((R / "resultados/br.json").read_text(encoding="utf-8"))
 T2 = json.loads((R / "segundo-turno.json").read_text(encoding="utf-8"))
@@ -28,7 +29,7 @@ def slug(s):
     return re.sub(r"[^a-z0-9]+", "-", "".join(c for c in s if unicodedata.category(c) != "Mn").lower()).strip("-")
 
 # palavra que o titulo da noticia precisa conter, para os finalistas a governador
-TERMO = {"ac": ["Mailza", "Alan Rick"], "am": ["Omar Aziz", "Maria do Carmo"], "df": ["Celina", "Grass"], "es": ["Pazolini", "Ferraço"], "rj": ["Douglas Ruas", "Paes"], "rn": ["Cadu", "Allyson"], "to": ["Vicentinho", "Dorinha"]}
+TERMO = {"ac": ["Mailza", "Alan Rick"], "am": ["Omar Aziz", "Maria do Carmo"], "df": ["Celina", "Grass"], "es": ["Pazolini", "Ferraço"], "rn": ["Cadu", "Allyson"], "to": ["Vicentinho", "Dorinha"]}
 
 ufs = [[uf, BR["uf"][uf]["nome"]] for uf in sorted(BR["uf"], key=lambda u: BR["uf"][u]["nome"])]
 html = (R / "src/estado.html").read_text(encoding="utf-8")
@@ -56,7 +57,7 @@ for uf, nm in ufs:
     if uf in GUIA: continue
     dados = {"uf": uf, "nome": nm, "secoes": m["g"]["pst"], "e": u["e"], "cp": u["cp"],
              "pres": {"vv": u["vv"], "l": [[c[0], c[1], c[2], u["p"][i], c[4], c[5], c[6]] for i, c in enumerate(BR["pres"])]},
-             "g": {"vv": m["g"]["vv"], "l": g}, "s": {"vv": m["s"]["vv"], "l": s},
+             "g": {"vv": m["g"]["vv"], "l": g, "nota": m["g"].get("nota"), "fontes": m["g"].get("fontesNota")}, "s": {"vv": m["s"]["vv"], "l": s},
              "fed": [[c[0], nome(c[1]), c[2], c[3]] for c in sorted(m["f"]["l"], key=lambda c: -c[3])],
              "est": [[c[0], nome(c[1]), c[2], c[3]] for c in sorted(est[uf], key=lambda c: -c[3])],
              "cargoEst": "Deputados distritais" if uf == "df" else "Deputados estaduais",

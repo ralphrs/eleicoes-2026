@@ -242,6 +242,7 @@ h2 { width: fit-content; padding-inline: 6px; margin-inline: -6px; background: v
     </div>
     <div class="status" id="status"></div>
     <div class="faixa" id="faixa" aria-label="Líderes nas pesquisas"></div>
+    <div id="t2-pesquisas"></div>
     <a class="dd-btn dd-btn--outline" id="ir-resultados" style="align-self:flex-start" href="../resultados/">Resultado por cidade, com mapa e gráficos</a>
   </header>
 
@@ -691,5 +692,6 @@ rota();
 </script>
 
 <script>document.querySelectorAll(".estados-nav a").forEach(function(a){a.addEventListener("click",function(e){var c=location.hash.slice(1);if(["presidente","governador","senador","federal","estadual","fontes"].indexOf(c)>=0){e.preventDefault();location.href=a.getAttribute("href")+"#"+c;}});});</script>
+<script src="../t2.js"></script>
 </body>
 </html>
