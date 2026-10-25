@@ -1,1 +1,357 @@
-{"data":"2026-10-25","dataTexto":"domingo, 25 de outubro","finalistas":["flavio-bolsonaro","lula"],"pesquisas":[{"inst":"Real Time Big Data","contr":"Real Time Big Data, com recursos próprios","campo":"2026-10-15 a 2026-10-19","div":"2026-10-20","reg":"BR-02952/2026","n":2000,"mg":2,"base":"votos totais","url":"https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-48-contra-45-de-lula-diz-real-time-big-data/","r":{"flavio-bolsonaro":48,"lula":45},"bn":5,"ind":2},{"inst":"Futura","contr":"Futura Consultoria e Assessoria, com recursos próprios (pesquisa divulgada como Futura/100% Cidades)","campo":"2026-10-16 a 2026-10-17","div":"2026-10-19","reg":"BR-06715/2026","n":2000,"mg":2.2,"base":"votos válidos","url":"https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-504-dos-votos-validos-contra-496-de-lula-diz-pesquisa/","r":{"flavio-bolsonaro":50.4,"lula":49.6}},{"inst":"PoderData","contr":"PoderData, com recursos próprios","campo":"2026-10-16 a 2026-10-18","div":"2026-10-19","reg":"BR-02586/2026","n":3000,"mg":1.8,"base":"votos válidos","url":"https://www.poder360.com.br/poder-eleicoes-2026/flavio-reage-e-vai-a-52-contra-48-de-lula-diz-poderdata-aya/","r":{"flavio-bolsonaro":52,"lula":48}},{"inst":"AtlasIntel","contr":"AtlasIntel, com recursos próprios (pesquisa divulgada como AtlasIntel/Bloomberg)","campo":"2026-10-13 a 2026-10-18","div":"2026-10-19","reg":"BR-02418/2026","n":4998,"mg":1,"base":"votos válidos","url":"https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-511-dos-votos-validos-contra-489-de-lula-diz-atlasintel/","r":{"flavio-bolsonaro":51.1,"lula":48.9}},{"inst":"Ipespe","contr":"não informado na fonte consultada (pesquisa divulgada como Ipespe/Abrapel)","campo":"2026-10-13 a 2026-10-15","div":"2026-10-17","reg":"BR-00223/2026","n":1500,"mg":2.6,"base":"votos válidos","url":"https://www.poder360.com.br/poder-eleicoes-2026/saiba-como-estao-lula-e-flavio-nas-pesquisas-a-7-dias-do-2o-turno/","r":{"flavio-bolsonaro":51.2,"lula":48.8}},{"inst":"Futura","contr":"100% Cidades","campo":"2026-10-14 a 2026-10-15","div":"2026-10-16","reg":"BR-03764/2026","n":2000,"mg":2.2,"base":"votos válidos","url":"https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-508-contra-492-de-lula-no-2o-turno-diz-futura/","r":{"flavio-bolsonaro":50.8,"lula":49.2}},{"inst":"PoderData","contr":"PoderData, com recursos próprios","campo":"2026-10-13 a 2026-10-15","div":"2026-10-16","reg":"BR-04258/2026","n":3000,"mg":1.8,"base":"votos válidos","url":"https://www.poder360.com.br/poderdata/flavio-e-lula-empatam-em-50-dos-votos-validos-diz-poderdata-aya/","r":{"flavio-bolsonaro":50,"lula":50}},{"inst":"MDA","contr":"Confederação Nacional do Transporte (CNT)","campo":"2026-10-13 a 2026-10-15","div":"2026-10-16","reg":"BR-00652/2026","n":2014,"mg":2.2,"base":"votos válidos","url":"https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/cnt-mda-presidente-outubro-2026-segundo-turno/","r":{"flavio-bolsonaro":50.5,"lula":49.5}},{"inst":"Datafolha","contr":"Folha de S.Paulo","campo":"2026-10-13 a 2026-10-14","div":"2026-10-15","reg":"BR-00466/2026","n":2520,"mg":2,"base":"votos válidos","url":"https://www.poder360.com.br/poder-eleicoes-2026/datafolha-confirma-poderdata-aya-e-da-flavio-com-51-e-lula-com-49/","r":{"flavio-bolsonaro":51,"lula":49}},{"inst":"Indexa","contr":"Agência Estado (Broadcast)","campo":"2026-10-13 a 2026-10-14","div":"2026-10-15","reg":"BR-04629/2026","n":2000,"mg":2.2,"base":"votos válidos","url":"https://www.cnnbrasil.com.br/eleicoes/indexa-broadcast-flavio-tem-51-dos-votos-validos-no-2o-turno-lula-49/","r":{"flavio-bolsonaro":51,"lula":49}},{"inst":"Quaest","contr":"TV Globo e jornal O Globo","campo":"2026-10-10 a 2026-10-13","div":"2026-10-14","reg":"BR-08729/2026","n":2154,"mg":2,"base":"votos totais","url":"https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-46-e-lula-tem-44-no-2o-turno-diz-quaest/","r":{"flavio-bolsonaro":46,"lula":44},"bn":9,"ind":1},{"inst":"Futura","contr":"100% Cidades","campo":"2026-10-07 a 2026-10-10","div":"2026-10-13","reg":"BR-00650/2026","n":2000,"mg":2.2,"base":"votos válidos","url":"https://exame.com/brasil/pesquisa-para-presidente-futura-flavio-bolsonaro-tem-518-e-lula-482-no-2o-turno/","r":{"flavio-bolsonaro":51.8,"lula":48.2}},{"inst":"PoderData","contr":"PoderData, com recursos próprios","campo":"2026-10-10 a 2026-10-12","div":"2026-10-13","reg":"BR-01209/2026","n":3000,"mg":1.8,"base":"votos válidos","url":"https://poder360.com.br/poder-governo/lula-reage-e-vai-a-49-contra-51-de-flavio-diz-poderdata-aya","r":{"flavio-bolsonaro":51,"lula":49}},{"inst":"Ipespe","contr":"não informado na fonte consultada (pesquisa divulgada como Ipespe/Abrapel)","campo":"2026-10-06 a 2026-10-08","div":"2026-10-10","reg":"BR-00933/2026","n":1500,"mg":2.6,"base":"votos válidos","url":"https://www.poder360.com.br/poder-eleicoes-2026/saiba-como-estao-lula-e-flavio-nas-pesquisas-a-14-dias-do-2o-turno/","r":{"flavio-bolsonaro":52.7,"lula":47.3}},{"inst":"AtlasIntel","contr":"não informado na fonte consultada (pesquisa divulgada como AtlasIntel/Bloomberg)","campo":"2026-10-03 a 2026-10-08","div":"2026-10-09","reg":"BR-03663/2026","n":5026,"mg":1,"base":"votos válidos","url":"https://www.metropoles.com/brasil/atlasintel-flavio-tem-528-e-lula-472-no-2o-turno-em-votos-validos","r":{"flavio-bolsonaro":52.8,"lula":47.2}},{"inst":"Datafolha","contr":"não informado na fonte consultada","campo":"2026-10-06 a 2026-10-08","div":"2026-10-08","reg":"BR-02949/2026","n":2520,"mg":2,"base":"votos válidos","url":"https://www.cnnbrasil.com.br/eleicoes/datafolha-flavio-tem-52-dos-votos-validos-lula-48/","r":{"flavio-bolsonaro":52,"lula":48}},{"inst":"PoderData","contr":"PoderData, com recursos próprios","campo":"2026-10-05 a 2026-10-07","div":"2026-10-08","reg":"BR-08134/2026","n":3000,"mg":1.8,"base":"votos válidos","url":"https://www.poder360.com.br/poderdata/flavio-tem-53-contra-47-de-lula-no-2o-turno-diz-poderdata-aya/","r":{"flavio-bolsonaro":53,"lula":47}}],"apoios":{"augusto-cury":{"texto":"Declarou apoio a Flávio Bolsonaro em 8 de outubro, depois de uma videochamada com o candidato. Os dois assinaram um termo de compromisso público, e Cury disse que o apoio não é um cheque em branco.","fonte":"https://www.poder360.com.br/poder-eleicoes-2026/augusto-cury-declara-apoio-a-flavio-bolsonaro-no-2o-turno/"},"ronaldo-caiado":{"texto":"Declarou apoio a Flávio Bolsonaro em 6 de outubro, em Goiânia. Disse que o candidato terá o apoio do estado de Goiás.","fonte":"https://www.poder360.com.br/poder-eleicoes-2026/ronaldo-caiado-anuncia-apoio-a-flavio-bolsonaro-no-2o-turno/"},"renan-santos":{"texto":"Anunciou em 4 de outubro que não apoia nenhum dos dois e liberou os militantes do Missão para decidir. Em 14 de outubro, em vídeo no X, disse que não vai se posicionar nem pedir voto nulo. Em 15 de outubro, em entrevista ao programa Alt Tabet, do UOL, descartou apoiar Lula, disse que não vai votar e afirmou que o risco de concentração de poder seria maior em um governo de Flávio Bolsonaro. Não houve declaração de apoio a nenhum dos dois.","fonte":"https://www.poder360.com.br/poder-eleicoes-2026/renan-santos-dispensa-apoio-a-lula-e-ve-risco-maior-com-flavio/"},"zema":{"texto":"Declarou apoio a Flávio Bolsonaro em 5 de outubro, em vídeo publicado nas redes sociais. Disse que vota contra o PT e em Flávio Bolsonaro.","fonte":"https://www.gazetadopovo.com.br/eleicoes/2026/zema-declara-apoio-a-flavio-bolsonaro-no-segundo-turno/"},"clariana-barao":{"texto":"Declarou apoio a Flávio Bolsonaro em 7 de outubro. Pediu que o candidato dê mais atenção às mulheres e às crianças.","fonte":"https://www.metropoles.com/brasil/ex-candidata-do-dc-clariana-barao-declara-apoio-a-flavio-no-2o-turno"},"hertz-dias":{"texto":"Anunciou em 7 de outubro, em publicação conjunta com o PSTU no Instagram, voto crítico em Lula. A publicação diz que não há apoio ao governo Lula.","fonte":"https://www.diariodepernambuco.com.br/politica/2026/10/11726124-pcb-e-pstu-farao-apoio-critico-a-lula-e-ao-pt-no-segundo-turno.html"},"edmilson-costa":{"texto":"Declarou apoio a Lula em publicação nas redes sociais depois do 1º turno, noticiada em 7 de outubro. Disse que o apoio não elimina as diferenças programáticas do PCB com o PT.","fonte":"https://www.diariodepernambuco.com.br/politica/2026/10/11726124-pcb-e-pstu-farao-apoio-critico-a-lula-e-ao-pt-no-segundo-turno.html"},"samara":{"texto":"A Executiva Nacional da UP decidiu em 8 de outubro apoiar Lula no 2º turno. Segundo a CNN Brasil, Samara declarou o apoio ao lado do presidente do partido, Leonardo Péricles.","fonte":"https://www.cnnbrasil.com.br/eleicoes/up-de-samara-martins-declara-apoio-a-lula-no-2o-turno-das-eleicoes/"},"rui-costa-pimenta":{"texto":"A Conferência Nacional do PCO aprovou em 11 de outubro, em São Paulo, a orientação de voto nulo no 2º turno. Rui Costa Pimenta não declarou apoio a nenhum dos dois candidatos.","fonte":"https://causaoperaria.org.br/2026/pco-aprova-nenhum-voto-aos-candidatos-do-capital/"},"wilson-grassi":{"texto":"Anunciou apoio a Flávio Bolsonaro em 14 de outubro, segundo o Metrópoles. Disse que não apoiará Lula e enviou ao candidato uma carta com cinco compromissos sobre a causa animal. Condicionou o apoio à adesão pública de Flávio Bolsonaro a esses compromissos.","fonte":"https://www.metropoles.com/brasil/eleicoes-2026-wilson-grassi-anuncia-apoio-a-flavio-bolsonaro-no-2o-turno"}}}
+{
+  "data": "2026-10-25",
+  "dataTexto": "domingo, 25 de outubro",
+  "finalistas": [
+    "flavio-bolsonaro",
+    "lula"
+  ],
+  "pesquisas": [
+    {
+      "inst": "Real Time Big Data",
+      "contr": "Real Time Big Data, com recursos próprios",
+      "campo": "2026-10-15 a 2026-10-19",
+      "div": "2026-10-20",
+      "reg": "BR-02952/2026",
+      "n": 2000,
+      "mg": 2,
+      "base": "votos totais",
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-48-contra-45-de-lula-diz-real-time-big-data/",
+      "r": {
+        "flavio-bolsonaro": 48,
+        "lula": 45
+      },
+      "bn": 5,
+      "ind": 2
+    },
+    {
+      "inst": "Futura",
+      "contr": "Futura Consultoria e Assessoria, com recursos próprios (pesquisa divulgada como Futura/100% Cidades)",
+      "campo": "2026-10-16 a 2026-10-17",
+      "div": "2026-10-19",
+      "reg": "BR-06715/2026",
+      "n": 2000,
+      "mg": 2.2,
+      "base": "votos válidos",
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-504-dos-votos-validos-contra-496-de-lula-diz-pesquisa/",
+      "r": {
+        "flavio-bolsonaro": 50.4,
+        "lula": 49.6
+      }
+    },
+    {
+      "inst": "PoderData",
+      "contr": "PoderData, com recursos próprios",
+      "campo": "2026-10-16 a 2026-10-18",
+      "div": "2026-10-19",
+      "reg": "BR-02586/2026",
+      "n": 3000,
+      "mg": 1.8,
+      "base": "votos válidos",
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-reage-e-vai-a-52-contra-48-de-lula-diz-poderdata-aya/",
+      "r": {
+        "flavio-bolsonaro": 52,
+        "lula": 48
+      }
+    },
+    {
+      "inst": "AtlasIntel",
+      "contr": "AtlasIntel, com recursos próprios (pesquisa divulgada como AtlasIntel/Bloomberg)",
+      "campo": "2026-10-13 a 2026-10-18",
+      "div": "2026-10-19",
+      "reg": "BR-02418/2026",
+      "n": 4998,
+      "mg": 1,
+      "base": "votos válidos",
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-511-dos-votos-validos-contra-489-de-lula-diz-atlasintel/",
+      "r": {
+        "flavio-bolsonaro": 51.1,
+        "lula": 48.9
+      }
+    },
+    {
+      "inst": "Ipespe",
+      "contr": "não informado na fonte consultada (pesquisa divulgada como Ipespe/Abrapel)",
+      "campo": "2026-10-13 a 2026-10-15",
+      "div": "2026-10-17",
+      "reg": "BR-00223/2026",
+      "n": 1500,
+      "mg": 2.6,
+      "base": "votos válidos",
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/saiba-como-estao-lula-e-flavio-nas-pesquisas-a-7-dias-do-2o-turno/",
+      "r": {
+        "flavio-bolsonaro": 51.2,
+        "lula": 48.8
+      }
+    },
+    {
+      "inst": "Futura",
+      "contr": "100% Cidades",
+      "campo": "2026-10-14 a 2026-10-15",
+      "div": "2026-10-16",
+      "reg": "BR-03764/2026",
+      "n": 2000,
+      "mg": 2.2,
+      "base": "votos válidos",
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-508-contra-492-de-lula-no-2o-turno-diz-futura/",
+      "r": {
+        "flavio-bolsonaro": 50.8,
+        "lula": 49.2
+      }
+    },
+    {
+      "inst": "PoderData",
+      "contr": "PoderData, com recursos próprios",
+      "campo": "2026-10-13 a 2026-10-15",
+      "div": "2026-10-16",
+      "reg": "BR-04258/2026",
+      "n": 3000,
+      "mg": 1.8,
+      "base": "votos válidos",
+      "url": "https://www.poder360.com.br/poderdata/flavio-e-lula-empatam-em-50-dos-votos-validos-diz-poderdata-aya/",
+      "r": {
+        "flavio-bolsonaro": 50,
+        "lula": 50
+      }
+    },
+    {
+      "inst": "MDA",
+      "contr": "Confederação Nacional do Transporte (CNT)",
+      "campo": "2026-10-13 a 2026-10-15",
+      "div": "2026-10-16",
+      "reg": "BR-00652/2026",
+      "n": 2014,
+      "mg": 2.2,
+      "base": "votos válidos",
+      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/cnt-mda-presidente-outubro-2026-segundo-turno/",
+      "r": {
+        "flavio-bolsonaro": 50.5,
+        "lula": 49.5
+      }
+    },
+    {
+      "inst": "Datafolha",
+      "contr": "Folha de S.Paulo",
+      "campo": "2026-10-13 a 2026-10-14",
+      "div": "2026-10-15",
+      "reg": "BR-00466/2026",
+      "n": 2520,
+      "mg": 2,
+      "base": "votos válidos",
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/datafolha-confirma-poderdata-aya-e-da-flavio-com-51-e-lula-com-49/",
+      "r": {
+        "flavio-bolsonaro": 51,
+        "lula": 49
+      }
+    },
+    {
+      "inst": "Indexa",
+      "contr": "Agência Estado (Broadcast)",
+      "campo": "2026-10-13 a 2026-10-14",
+      "div": "2026-10-15",
+      "reg": "BR-04629/2026",
+      "n": 2000,
+      "mg": 2.2,
+      "base": "votos válidos",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/indexa-broadcast-flavio-tem-51-dos-votos-validos-no-2o-turno-lula-49/",
+      "r": {
+        "flavio-bolsonaro": 51,
+        "lula": 49
+      }
+    },
+    {
+      "inst": "Quaest",
+      "contr": "TV Globo e jornal O Globo",
+      "campo": "2026-10-10 a 2026-10-13",
+      "div": "2026-10-14",
+      "reg": "BR-08729/2026",
+      "n": 2154,
+      "mg": 2,
+      "base": "votos totais",
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-46-e-lula-tem-44-no-2o-turno-diz-quaest/",
+      "r": {
+        "flavio-bolsonaro": 46,
+        "lula": 44
+      },
+      "bn": 9,
+      "ind": 1
+    },
+    {
+      "inst": "Futura",
+      "contr": "100% Cidades",
+      "campo": "2026-10-07 a 2026-10-10",
+      "div": "2026-10-13",
+      "reg": "BR-00650/2026",
+      "n": 2000,
+      "mg": 2.2,
+      "base": "votos válidos",
+      "url": "https://exame.com/brasil/pesquisa-para-presidente-futura-flavio-bolsonaro-tem-518-e-lula-482-no-2o-turno/",
+      "r": {
+        "flavio-bolsonaro": 51.8,
+        "lula": 48.2
+      }
+    },
+    {
+      "inst": "PoderData",
+      "contr": "PoderData, com recursos próprios",
+      "campo": "2026-10-10 a 2026-10-12",
+      "div": "2026-10-13",
+      "reg": "BR-01209/2026",
+      "n": 3000,
+      "mg": 1.8,
+      "base": "votos válidos",
+      "url": "https://poder360.com.br/poder-governo/lula-reage-e-vai-a-49-contra-51-de-flavio-diz-poderdata-aya",
+      "r": {
+        "flavio-bolsonaro": 51,
+        "lula": 49
+      }
+    },
+    {
+      "inst": "Ipespe",
+      "contr": "não informado na fonte consultada (pesquisa divulgada como Ipespe/Abrapel)",
+      "campo": "2026-10-06 a 2026-10-08",
+      "div": "2026-10-10",
+      "reg": "BR-00933/2026",
+      "n": 1500,
+      "mg": 2.6,
+      "base": "votos válidos",
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/saiba-como-estao-lula-e-flavio-nas-pesquisas-a-14-dias-do-2o-turno/",
+      "r": {
+        "flavio-bolsonaro": 52.7,
+        "lula": 47.3
+      }
+    },
+    {
+      "inst": "AtlasIntel",
+      "contr": "não informado na fonte consultada (pesquisa divulgada como AtlasIntel/Bloomberg)",
+      "campo": "2026-10-03 a 2026-10-08",
+      "div": "2026-10-09",
+      "reg": "BR-03663/2026",
+      "n": 5026,
+      "mg": 1,
+      "base": "votos válidos",
+      "url": "https://www.metropoles.com/brasil/atlasintel-flavio-tem-528-e-lula-472-no-2o-turno-em-votos-validos",
+      "r": {
+        "flavio-bolsonaro": 52.8,
+        "lula": 47.2
+      }
+    },
+    {
+      "inst": "Datafolha",
+      "contr": "não informado na fonte consultada",
+      "campo": "2026-10-06 a 2026-10-08",
+      "div": "2026-10-08",
+      "reg": "BR-02949/2026",
+      "n": 2520,
+      "mg": 2,
+      "base": "votos válidos",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/datafolha-flavio-tem-52-dos-votos-validos-lula-48/",
+      "r": {
+        "flavio-bolsonaro": 52,
+        "lula": 48
+      }
+    },
+    {
+      "inst": "PoderData",
+      "contr": "PoderData, com recursos próprios",
+      "campo": "2026-10-05 a 2026-10-07",
+      "div": "2026-10-08",
+      "reg": "BR-08134/2026",
+      "n": 3000,
+      "mg": 1.8,
+      "base": "votos válidos",
+      "url": "https://www.poder360.com.br/poderdata/flavio-tem-53-contra-47-de-lula-no-2o-turno-diz-poderdata-aya/",
+      "r": {
+        "flavio-bolsonaro": 53,
+        "lula": 47
+      }
+    }
+  ],
+  "apoios": {
+    "augusto-cury": {
+      "texto": "Declarou apoio a Flávio Bolsonaro em 8 de outubro, depois de uma videochamada com o candidato. Os dois assinaram um termo de compromisso público, e Cury disse que o apoio não é um cheque em branco.",
+      "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/augusto-cury-declara-apoio-a-flavio-bolsonaro-no-2o-turno/"
+    },
+    "ronaldo-caiado": {
+      "texto": "Declarou apoio a Flávio Bolsonaro em 6 de outubro, em Goiânia. Disse que o candidato terá o apoio do estado de Goiás.",
+      "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/ronaldo-caiado-anuncia-apoio-a-flavio-bolsonaro-no-2o-turno/"
+    },
+    "renan-santos": {
+      "texto": "Anunciou em 4 de outubro que não apoia nenhum dos dois e liberou os militantes do Missão para decidir. Em 14 de outubro, em vídeo no X, disse que não vai se posicionar nem pedir voto nulo. Em 15 de outubro, em entrevista ao programa Alt Tabet, do UOL, descartou apoiar Lula, disse que não vai votar e afirmou que o risco de concentração de poder seria maior em um governo de Flávio Bolsonaro. Não houve declaração de apoio a nenhum dos dois.",
+      "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/renan-santos-dispensa-apoio-a-lula-e-ve-risco-maior-com-flavio/"
+    },
+    "zema": {
+      "texto": "Declarou apoio a Flávio Bolsonaro em 5 de outubro, em vídeo publicado nas redes sociais. Disse que vota contra o PT e em Flávio Bolsonaro.",
+      "fonte": "https://www.gazetadopovo.com.br/eleicoes/2026/zema-declara-apoio-a-flavio-bolsonaro-no-segundo-turno/"
+    },
+    "clariana-barao": {
+      "texto": "Declarou apoio a Flávio Bolsonaro em 7 de outubro. Pediu que o candidato dê mais atenção às mulheres e às crianças.",
+      "fonte": "https://www.metropoles.com/brasil/ex-candidata-do-dc-clariana-barao-declara-apoio-a-flavio-no-2o-turno"
+    },
+    "hertz-dias": {
+      "texto": "Anunciou em 7 de outubro, em publicação conjunta com o PSTU no Instagram, voto crítico em Lula. A publicação diz que não há apoio ao governo Lula.",
+      "fonte": "https://www.diariodepernambuco.com.br/politica/2026/10/11726124-pcb-e-pstu-farao-apoio-critico-a-lula-e-ao-pt-no-segundo-turno.html"
+    },
+    "edmilson-costa": {
+      "texto": "Declarou apoio a Lula em publicação nas redes sociais depois do 1º turno, noticiada em 7 de outubro. Disse que o apoio não elimina as diferenças programáticas do PCB com o PT.",
+      "fonte": "https://www.diariodepernambuco.com.br/politica/2026/10/11726124-pcb-e-pstu-farao-apoio-critico-a-lula-e-ao-pt-no-segundo-turno.html"
+    },
+    "samara": {
+      "texto": "A Executiva Nacional da UP decidiu em 8 de outubro apoiar Lula no 2º turno. Segundo a CNN Brasil, Samara declarou o apoio ao lado do presidente do partido, Leonardo Péricles.",
+      "fonte": "https://www.cnnbrasil.com.br/eleicoes/up-de-samara-martins-declara-apoio-a-lula-no-2o-turno-das-eleicoes/"
+    },
+    "rui-costa-pimenta": {
+      "texto": "A Conferência Nacional do PCO aprovou em 11 de outubro, em São Paulo, a orientação de voto nulo no 2º turno. Rui Costa Pimenta não declarou apoio a nenhum dos dois candidatos.",
+      "fonte": "https://causaoperaria.org.br/2026/pco-aprova-nenhum-voto-aos-candidatos-do-capital/"
+    },
+    "wilson-grassi": {
+      "texto": "Anunciou apoio a Flávio Bolsonaro em 14 de outubro, segundo o Metrópoles. Disse que não apoiará Lula e enviou ao candidato uma carta com cinco compromissos sobre a causa animal. Condicionou o apoio à adesão pública de Flávio Bolsonaro a esses compromissos.",
+      "fonte": "https://www.metropoles.com/brasil/eleicoes-2026-wilson-grassi-anuncia-apoio-a-flavio-bolsonaro-no-2o-turno"
+    }
+  },
+  "resultado": {
+    "eleicao": "6258",
+    "atualizado": "25/10/2026 17:06:27",
+    "secoes": "0,25",
+    "br": {
+      "22": {
+        "v": 142169,
+        "p": "42,34",
+        "st": ""
+      },
+      "13": {
+        "v": 193574,
+        "p": "57,66",
+        "st": ""
+      }
+    },
+    "rs": {
+      "22": {
+        "v": 0,
+        "p": "0,00",
+        "st": ""
+      },
+      "13": {
+        "v": 0,
+        "p": "0,00",
+        "st": ""
+      }
+    },
+    "sc": {
+      "22": {
+        "v": 0,
+        "p": "0,00",
+        "st": ""
+      },
+      "13": {
+        "v": 0,
+        "p": "0,00",
+        "st": ""
+      }
+    },
+    "totais": {
+      "abstencao": "49,47",
+      "brancos": "1,21",
+      "nulos": "1,49"
+    }
+  }
+}
